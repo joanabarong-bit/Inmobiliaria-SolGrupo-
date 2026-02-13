@@ -1167,7 +1167,8 @@ Pago de administración: $85.000 pesos`,
              "Ref. C. 12/8.png",
              "Ref. C. 12/9.jpg",
              "Ref. C. 12/10.jpg",
-             "Ref. C. 12/11.png",],
+             "Ref. C. 12/11.png",
+             "Ref. C. 12/12.png",],
     precio: "$565.000.000",
     ubicacion: "Barbosa, Santander",
     area: "677 m² contruidos (677 m² en total)",
@@ -1206,6 +1207,58 @@ Te ofrecemos una casa de un piso en un condominio Campestre.
 ¡Se entrega totalmente terminada!
 Pago de administración: $90.000 pesos`,
     videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
+  },
+  {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 013",
+    imagenes: ["Ref. C. 13/1.jpg",
+             "Ref. C. 13/2.jpg",
+             "Ref. C. 13/3.jpg",
+             "Ref. C. 13/4.jpg",
+             "Ref. C. 13/5.jpg",
+             "Ref. C. 13/6.jpg",
+             "Ref. C. 13/7.jpg",
+             "Ref. C. 13/8.jpg",
+             "Ref. C. 13/9.jpg",
+             "Ref. C. 13/10.jpg",
+             "Ref. C. 13/11.jpg",
+             "Ref. C. 13/12.jpg",
+             "Ref. C. 13/13.jpg",
+             "Ref. C. 13/14.jpg",
+             "Ref. C. 13/15.jpg",],
+    precio: "$590.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "300 m² contruidos (300 m² en total)",
+    habitaciones: "8",
+    banos: "6",
+    descripcion: `🏚 VENTA DE CASA EN MONIQUIRÁ – BOYACÁ CUENTA CON 4 APARTAMENTOS
+
+📐 Área: 300 mt2
+⏳  Distancia: 5 minutos del parque principal
+👉 1 piso:
+✔ 2 habitaciones
+ ✔ Sala- comedor
+ ✔ Cocina 
+ ✔ 1 baño
+ ✔ Parqueadero con Baño
+ ✔ Patio de ropas
+👉 2 piso
+ ✔ 4 habitaciones
+ ✔ 2 baños
+ ✔ 2 Cocinas
+ ✔ Sala comedor
+ ✔ Patio de ropas
+👉 3 piso
+ ✔ 2 habitaciones
+ ✔ 2 baños
+ ✔ Cocina
+ ✔ Sala Comedor
+ ✔ Patio de Ropas.
+✔Amplio Balcón con excelente vista
+✔Cuenta con todos los servicios, agua, luz, gas, Internet
+Documentos al día.`,
+    videoYoutube: "https://youtu.be/MidyuuMe5ew",
   },
   /* ================= lote ================= */
    {
