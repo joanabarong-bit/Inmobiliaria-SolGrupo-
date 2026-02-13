@@ -1114,9 +1114,7 @@ Características Internas
              "Ref. C. 11/4.jpg",
              "Ref. C. 11/5.jpg",
              "Ref. C. 11/6.jpg",
-             "Ref. C. 11/7.jpg",
-             "Ref. C. 11/8.jpg",
-             "Ref. C. 11/9.jpg",],
+             "Ref. C. 11/7.jpg",],
     precio: "$560.000.000",
     ubicacion: "Barbosa, Santander",
     area: "200 m² contruidos (200 m² en total)",
@@ -1154,6 +1152,60 @@ Te ofrecemos una casa de dos pisos en un conjunto residencial
 
 Pago de administración: $85.000 pesos`,
     videoYoutube: "https://youtu.be/Ffkv9Ab024w",
+  },
+  {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 012",
+    imagenes: ["Ref. C. 12/1.jpg",
+             "Ref. C. 12/2.png",
+             "Ref. C. 12/3.png",
+             "Ref. C. 12/4.png",
+             "Ref. C. 12/5.png",
+             "Ref. C. 12/6.png",
+             "Ref. C. 12/7.png",
+             "Ref. C. 12/8.png",
+             "Ref. C. 12/9.jpg",
+             "Ref. C. 12/10.jpg",
+             "Ref. C. 12/11.png",],
+    precio: "$565.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "677 m² contruidos (677 m² en total)",
+    habitaciones: "3",
+    banos: "3",
+    descripcion: `📌 Venta de Casa campestre  en Barbosa – Santander 
+
+Te ofrecemos una casa de un piso en un condominio Campestre.
+
+📍 Lugar: Barbosa – Santander, a 1.5 Km del casco urbano
+
+📏 Área del lote: 677 metros cuadrados
+📏 Área Construida: 217 metros cuadrados
+
+👉 Características Casa
+🛌🏻 No. de Habitaciones: 3 con sus respectivos closets
+✔1  Cuarto de servicios
+🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
+✔ 2 Parqueaderos, cubiertos
+✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
+✔Sala – comedor
+✔ 1 Jacuzzi para 4 personas
+✔Sistema de bombeo con Hidro Flow
+✔Zona de verde con Jardín 
+✔Tanque subterráneo de 4.000 litros enchapado
+✔Tanque de agua aéreo de 500 litros
+✔Corredores externos y zonas verdes
+✔Calentador a gas natural
+✔1 Balcon
+✔Excelente vista
+✔ Todos los servicios: agua, luz, gas y internet.
+
+👉 Características Generales
+✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, y zonas verdes.
+✔el condominio cuenta con alcantarillado y acueducto propio. 
+¡Se entrega totalmente terminada!
+Pago de administración: $90.000 pesos`,
+    videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
   },
   /* ================= lote ================= */
    {
