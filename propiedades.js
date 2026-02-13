@@ -1104,6 +1104,57 @@ Características Internas
 ✅Zona de Lavandería`,
     videoYoutube: "https://youtu.be/qYjkwKScWNg",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 011",
+    imagenes: ["Ref. C. 11/1.jpg",
+             "Ref. C. 11/2.jpg",
+             "Ref. C. 11/3.jpg",
+             "Ref. C. 11/4.jpg",
+             "Ref. C. 11/5.jpg",
+             "Ref. C. 11/6.jpg",
+             "Ref. C. 11/7.jpg",
+             "Ref. C. 11/8.jpg",
+             "Ref. C. 11/9.jpg",],
+    precio: "$560.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "200 m² contruidos (200 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌 Venta de Casa en Barbosa – Santander 
+
+Te ofrecemos una casa de dos pisos en un conjunto residencial
+
+📍 Lugar: Barbosa – Santander
+📏 Área del lote: 128 metros cuadrados
+📏 Área Construida: 200 metros cuadrados
+👉 Características Casa
+🛌🏻 No. de Habitaciones: 4 con sus respectivos closets
+🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
+✔Parqueadero, cubierto
+✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
+✔Sala – comedor
+✔ 1 Jacuzzi para 4 personas
+✔Sistema de bombeo con Hidro Flow
+✔Zona de Patio y Jardín 
+✔Tanque subterráneo de 3.500 litros enchapado
+✔Tanque de agua aéreo de 500 litros
+✔Balcón amplio
+✔Cuarto de lavandería 
+✔Excelente vista
+✔ Todos los servicios: agua, luz, gas y internet.
+
+👉 Características Generales
+✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, parque infantil, y zonas verdes, 
+
+✔el condominio cuenta con alcantarillado y acueducto del municipio
+
+¡Se entrega totalmente terminada!
+
+Pago de administración: $85.000 pesos`,
+    videoYoutube: "https://youtu.be/Ffkv9Ab024w",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
