@@ -1260,6 +1260,54 @@ Pago de administración: $90.000 pesos`,
 Documentos al día.`,
     videoYoutube: "https://youtu.be/MidyuuMe5ew",
   },
+   {
+    tipo: "Casa",
+    nombre: "Casa",
+    referencia: "C. 014",
+    imagenes: ["Ref. C. 14/1.jpeg",
+             "Ref. C. 14/2.jpeg",
+             "Ref. C. 14/3.jpeg",
+             "Ref. C. 14/4.jpeg",
+             "Ref. C. 14/5.jpeg",
+             "Ref. C. 14/6.jpeg",
+             "Ref. C. 14/7.jpeg",
+             "Ref. C. 14/8.jpeg",
+             "Ref. C. 14/9.jpeg",
+             "Ref. C. 14/10.jpeg",],
+    precio: "$590.000.000",
+    ubicacion: "Tunja, Boyacá",
+    area: "208 m² contruidos (940 m² en total)",
+    habitaciones: "3",
+    banos: "3",
+    descripcion: `🏡 SE VENDE CASA EN TUNJA
+📍 A 4 km de la salida hacia Villa de Leyva
+🌄 Excelente vista • 🛣️ Fácil acceso
+
+📐 Lote: 940 m²
+🏗️ Construidos: 208 m²
+
+🏠 Primer piso:
+🛋️ Sala • 
+🍽️ Comedor • 
+👩‍🍳 Cocina integral
+🛏️ Habitación • 
+🚻 Baño social • 
+🧺 Lavandería
+
+🏠 Segundo piso:
+🛏️ 2 alcobas (principal con walking closet)
+🌅 Balcón • 
+🛁 Baño privado • 
+🚻 Baño social
+🛋️ Sala de estar • 
+💼 Estudio
+
+🔧 Extras:
+🚗 Garaje para 2 vehículos
+🔥 Bases para kiosko/BBQ
+🌿 Zonas verdes`,
+    videoYoutube: "https://youtu.be/6Y3sZK5VnT4",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
