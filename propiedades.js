@@ -1464,6 +1464,56 @@ Te ofrecemos una casa de dos pisos en un condominio Campestre.
 Pago de administración: $90.000 pesos`,
     videoYoutube: "https://youtu.be/qZKO0WCM1lw",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Campestre",
+    referencia: "C. 018",
+    imagenes: ["Ref. C. 18/1.jpg",
+             "Ref. C. 18/2.jpg",
+             "Ref. C. 18/3.jpg",
+             "Ref. C. 18/4.jpg",
+             "Ref. C. 18/5.jpg",
+             "Ref. C. 18/6.jpg",
+             "Ref. C. 18/7.jpg",
+             "Ref. C. 18/8.jpg",
+             "Ref. C. 18/9.jpg",
+             "Ref. C. 18/10.jpg",
+             "Ref. C. 18/11.jpg",
+             "Ref. C. 18/12.jpg",
+             "Ref. C. 18/13.jpg",
+             "Ref. C. 18/14.jpg",
+             "Ref. C. 18/15.jpg",],
+    precio: "$820.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "180 m² contruidos (2,400 m² en total)",
+    habitaciones: "4",
+    banos: "5",
+    descripcion: `Venta de Casa Campestre en Moniquirá - Boyacá
+
+📍 Lugar: Moniquirá – Boyacá
+✔️ A un 1Km del parque principal de Moniquirá
+✔️ Punto de agua Municipal
+📏 Área Total: 2.400 Mt2
+📏 Área Construida: 180 Mt2
+
+👉 Características Casa
+
+🛌🏻 No. de Habitaciones: 4
+🛀 No. de Baños: 5
+✔️ Parqueadero
+✔️ Cocina Integral
+✔️ Sala - comedor
+✔️Cuarto de lavandería
+👉 Características Generales
+
+✔️Senderos Peatonales
+✔️Hermoso pozo natural con pescados
+✔️2 niveles
+✔️Dentro de condominio
+
+❌ NO PERMUTA`,
+    videoYoutube: "https://youtu.be/ILXghX1kTbI",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
