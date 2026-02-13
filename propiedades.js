@@ -1308,6 +1308,57 @@ Documentos al día.`,
 🌿 Zonas verdes`,
     videoYoutube: "https://youtu.be/6Y3sZK5VnT4",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 015",
+    imagenes: ["Ref. C. 15/1.jpeg",
+             "Ref. C. 15/2.jpeg",
+             "Ref. C. 15/3.jpeg",
+             "Ref. C. 15/4.jpeg",
+             "Ref. C. 15/5.jpeg",
+             "Ref. C. 15/6.jpeg",
+             "Ref. C. 15/7.jpeg",
+             "Ref. C. 15/8.jpeg",
+             "Ref. C. 15/9.jpeg",
+             "Ref. C. 15/10.jpeg",
+             "Ref. C. 15/11.jpeg",
+             "Ref. C. 15/12.jpeg",
+             "Ref. C. 15/13.jpeg",],
+    precio: "$620.000.000",
+    ubicacion: "Simijaca, Cundinamarca",
+    area: "240 m² contruidos (240 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `🏡 SE VENDE CASA EN TUNJA
+📍 A 4 km de la salida hacia Villa de Leyva
+🌄 Excelente vista • 🛣️ Fácil acceso
+
+📐 Lote: 940 m²
+🏗️ Construidos: 208 m²
+
+🏠 Primer piso:
+🛋️ Sala • 
+🍽️ Comedor • 
+👩‍🍳 Cocina integral
+🛏️ Habitación • 
+🚻 Baño social • 
+🧺 Lavandería
+
+🏠 Segundo piso:
+🛏️ 2 alcobas (principal con walking closet)
+🌅 Balcón • 
+🛁 Baño privado • 
+🚻 Baño social
+🛋️ Sala de estar • 
+💼 Estudio
+
+🔧 Extras:
+🚗 Garaje para 2 vehículos
+🔥 Bases para kiosko/BBQ
+🌿 Zonas verdes`,
+    videoYoutube: "https://youtu.be/6lFXeePrJhI",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
