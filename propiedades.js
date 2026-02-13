@@ -1330,34 +1330,82 @@ Documentos al día.`,
     area: "240 m² contruidos (240 m² en total)",
     habitaciones: "4",
     banos: "3",
-    descripcion: `🏡 SE VENDE CASA EN TUNJA
-📍 A 4 km de la salida hacia Villa de Leyva
-🌄 Excelente vista • 🛣️ Fácil acceso
+    descripcion: `🏡 casa en venta – Simijaca, Cundinamarca!
+📍 Ubicación: Calle 8 #9-69, Barrio Orquídea, Simijaca
 
-📐 Lote: 940 m²
-🏗️ Construidos: 208 m²
-
-🏠 Primer piso:
-🛋️ Sala • 
-🍽️ Comedor • 
-👩‍🍳 Cocina integral
-🛏️ Habitación • 
-🚻 Baño social • 
-🧺 Lavandería
-
-🏠 Segundo piso:
-🛏️ 2 alcobas (principal con walking closet)
-🌅 Balcón • 
-🛁 Baño privado • 
+📐 Área construida: 240 m²
+🏠 Distribución:
+✨ Primer piso:
+🛋️ Sala amplia
+🍽️ Comedor y cocina integral abiertas
+🧰 Cuarto pequeño para herramientas
+🧺 Cuarto de ropa
 🚻 Baño social
-🛋️ Sala de estar • 
-💼 Estudio
-
-🔧 Extras:
-🚗 Garaje para 2 vehículos
-🔥 Bases para kiosko/BBQ
-🌿 Zonas verdes`,
+🚗 Dos garajes
+✨ Segundo piso:
+🛏️ Cuatro alcobas con chifonier
+💻 Estudio pequeño
+🚿 Dos baños completos
+🌅 Dos miradores
+⚡ Características adicionales:
+💡 Luz trifásica
+🔆 Iluminación interior y exterior (control desde la entrada y el final de la casa)
+📹 Sistema de cámaras de seguridad
+🔥 Calentador a gas`,
     videoYoutube: "https://youtu.be/6lFXeePrJhI",
+  },
+   {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 016",
+    imagenes: ["Ref. C. 16/1.jpg",
+             "Ref. C. 16/2.jpg",
+             "Ref. C. 16/3.jpg",
+             "Ref. C. 16/4.jpg",
+             "Ref. C. 16/5.jpg",
+             "Ref. C. 16/6.jpg",
+             "Ref. C. 16/7.jpg",
+             "Ref. C. 16/8.jpg",
+             "Ref. C. 16/9.jpg",
+             "Ref. C. 16/10.jpg",
+             "Ref. C. 16/11.jpg",
+             "Ref. C. 16/12.jpg",
+             "Ref. C. 16/13.jpg",
+             "Ref. C. 16/14.jpg",
+             "Ref. C. 16/15.jpg",
+             "Ref. C. 16/16.jpg",
+             "Ref. C. 16/17.jpg",],
+    precio: "$670.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "187 m² contruidos (187 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌SE VENDE CASA DE DOS PISOS EN CONDOMINIO DE MONIQUIRÁ BOYACÁ
+
+📐AREA DEL LOTE: 186.66M2
+📐AREA DE CONSTRUCCIÓN: 187 M2
+☑DISTRIBUCIÓN:
+PISO 1:
+✅2 HABITACIONES CON CLOSET Y BAÑO PRIVADO
+✅1 BAÑO SOCIAL
+✅COCINA INTEGRAL CON HORNO Y ESTRACTOR
+✅SALA COMEDOR
+✅PATIO DE ROPA
+✅CALENTADOR A GAS
+PISO 2:
+✅1 HABITACION CON CLOSET Y BAÑO PRIVADO
+✅2 HABITACIONES CON CLOSET Y BALCON
+✅1 BAÑO SOCIAL
+✅SALA
+✅BALCON AMPLIO
+👩‍🍳ZONA BBQ
+🛁JACUZZI
+✅CORREDORES AMPLIOS
+🚗GARAJE BAJO TECHO
+☑GAS NATURAL, AGUA, LUZ, ALCANTARILLADO
+💰ADMINISTRACION: 💸314.000 MIL PESOS
+📝DOCUMENTOS AL DIA`,
+    videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
   },
   /* ================= lote ================= */
    {
