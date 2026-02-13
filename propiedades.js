@@ -1514,6 +1514,55 @@ Pago de administración: $90.000 pesos`,
 ❌ NO PERMUTA`,
     videoYoutube: "https://youtu.be/ILXghX1kTbI",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Campestre",
+    referencia: "C. 019",
+    imagenes: ["Ref. C. 19/1.jpeg",
+             "Ref. C. 19/2.jpeg",
+             "Ref. C. 19/3.jpeg",
+             "Ref. C. 19/4.jpeg",
+             "Ref. C. 19/5.jpeg",
+             "Ref. C. 19/6.jpeg",
+             "Ref. C. 19/7.jpeg",
+             "Ref. C. 19/8.jpeg",
+             "Ref. C. 19/9.jpeg",
+             "Ref. C. 19/10.jpeg",
+             "Ref. C. 19/11.jpeg",
+             "Ref. C. 19/12.jpeg",
+             "Ref. C. 19/13.jpeg",
+             "Ref. C. 19/14.jpeg",],
+    precio: "$850.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "180 m² contruidos (2,400 m² en total)",
+    habitaciones: "4",
+    banos: "5",
+    descripcion: `Venta de Casa Campestre en Moniquirá - Boyacá
+
+📍 Lugar: Moniquirá – Boyacá
+✔️ A un 1Km del parque principal de Moniquirá
+✔️ Punto de agua Municipal
+📏 Área Total: 2.400 Mt2
+📏 Área Construida: 180 Mt2
+
+👉 Características Casa
+
+🛌🏻 No. de Habitaciones: 4
+🛀 No. de Baños: 5
+✔️ Parqueadero
+✔️ Cocina Integral
+✔️ Sala - comedor
+✔️Cuarto de lavandería
+👉 Características Generales
+
+✔️Senderos Peatonales
+✔️Hermoso pozo natural con pescados
+✔️2 niveles
+✔️Dentro de condominio
+
+❌ NO PERMUTA`,
+    videoYoutube: "https://youtu.be/ILXghX1kTbI",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
