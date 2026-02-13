@@ -1407,6 +1407,63 @@ PISO 2:
 📝DOCUMENTOS AL DIA`,
     videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 017",
+    imagenes: ["Ref. C. 17/1.jpg",
+             "Ref. C. 17/2.jpg",
+             "Ref. C. 17/3.png",
+             "Ref. C. 17/4.png",
+             "Ref. C. 17/5.png",
+             "Ref. C. 17/6.png",
+             "Ref. C. 17/7.png",
+             "Ref. C. 17/8.png",
+             "Ref. C. 17/9.png",
+             "Ref. C. 17/10.jpg",
+             "Ref. C. 17/11.jpg",
+             "Ref. C. 17/12.png",
+             "Ref. C. 17/13.png",],
+    precio: "$700.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "300 m² contruidos (300 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌 Venta de Casa en Barbosa – Santander 
+
+Te ofrecemos una casa de dos pisos en un condominio Campestre.
+
+📍 Lugar: Barbosa – Santander, a 1.5 Km del casco urbano
+
+📏 Área del lote: 696 metros cuadrados
+📏 Área Construida: 300 metros cuadrados
+
+👉 Características Casa
+🛌🏻 No. de Habitaciones: 4 con sus respectivos closets
+✔1  Cuarto de servicios
+🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
+✔ 4 Parqueaderos, cubiertos y dos libres
+✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
+✔Sala – comedor
+✔ 1 Jacuzzi para 4 personas
+✔Sistema de bombeo con Hidro Flow
+✔Zona de verde con Jardín 
+✔Tanque subterráneo de 4.000 litros enchapado
+✔Tanque de agua aéreo de 500 litros
+✔Corredores externos y zonas verdes
+✔Calentador a gas natural
+✔3 Balcones
+✔Excelente vista
+✔ Todos los servicios: agua, luz, gas y internet.
+
+👉 Características Generales
+✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, y zonas verdes.
+✔el condominio cuenta con alcantarillado y acueducto propio. 
+¡Se entrega totalmente terminada!
+
+Pago de administración: $90.000 pesos`,
+    videoYoutube: "https://youtu.be/qZKO0WCM1lw",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
