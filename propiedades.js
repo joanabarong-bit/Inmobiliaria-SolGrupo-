@@ -1534,34 +1534,31 @@ Pago de administración: $90.000 pesos`,
              "Ref. C. 19/14.jpeg",],
     precio: "$850.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "180 m² contruidos (2,400 m² en total)",
-    habitaciones: "4",
-    banos: "5",
-    descripcion: `Venta de Casa Campestre en Moniquirá - Boyacá
+    area: "273 m² contruidos (1,045 m² en total)",
+    habitaciones: "3",
+    banos: "4",
+    descripcion: `📌 Venta de Casa dentro de condominio exclusivo, en Moniquirá Boyacá.
 
-📍 Lugar: Moniquirá – Boyacá
-✔️ A un 1Km del parque principal de Moniquirá
-✔️ Punto de agua Municipal
-📏 Área Total: 2.400 Mt2
-📏 Área Construida: 180 Mt2
+📐 Área del lote: 1045 Mt2.”
+📐 Área Construida: 273 mt2
 
-👉 Características Casa
-
-🛌🏻 No. de Habitaciones: 4
-🛀 No. de Baños: 5
-✔️ Parqueadero
-✔️ Cocina Integral
-✔️ Sala - comedor
-✔️Cuarto de lavandería
-👉 Características Generales
-
-✔️Senderos Peatonales
-✔️Hermoso pozo natural con pescados
-✔️2 niveles
-✔️Dentro de condominio
-
-❌ NO PERMUTA`,
-    videoYoutube: "https://youtu.be/ILXghX1kTbI",
+✅ Amplios senderos peatonales
+✅ 3 habitaciones con closet, todas con baño
+✅ 4 baños
+✅ Jacuzzi 
+✅Cocina integral y sala comedor 
+✅ zona de lavandería
+✅ Parqueaderos: Dos (2) cubiertos y tres (3) descubiertos, con capacidad total para cinco (5) vehículos.
+✅ Zonas Verdes con cítricos 
+✅ Zona BBQ (Buena Ventilación) Acero Inoxidable 
+✅ Gran Balcón, con excelente vista
+✅ Gas natural
+✅ luz eléctrica
+✅ punto de agua
+✅ Zonas sociales, piscina, salón social, cancha de básquet, de voleibol,
+portón automático se abre desde el celular
+✅Si  deseas puedes instalar internet de fibra óptica..`,
+    videoYoutube: "https://youtu.be/eMXcAzKSLXw",
   },
   /* ================= lote ================= */
    {
