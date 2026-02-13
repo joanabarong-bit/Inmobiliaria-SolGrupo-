@@ -1047,6 +1047,63 @@ CUENTA CON 3 APARTAMENTOS BAJO EL REGIMEN DE PROPEDAD HORIZONTAL
 Documentos al día.`,
     videoYoutube: "https://youtu.be/DjltWnrV_-M",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 010",
+    imagenes: ["Ref. C. 10/1.jpg",
+             "Ref. C. 10/2.jpg",
+             "Ref. C. 10/3.jpg",
+             "Ref. C. 10/4.jpg",
+             "Ref. C. 10/5.jpg",
+             "Ref. C. 10/6.jpg",
+             "Ref. C. 10/7.jpg",
+             "Ref. C. 10/8.jpg",
+             "Ref. C. 10/9.jpg",
+             "Ref. C. 10/10.jpg",
+             "Ref. C. 10/11.jpg",
+             "Ref. C. 10/12.jpg",
+             "Ref. C. 10/13.jpg",
+             "Ref. C. 10/14.jpg",
+             "Ref. C. 10/15.jpg",
+             "Ref. C. 10/16.jpg",
+             "Ref. C. 10/17.jpg",
+             "Ref. C. 10/18.jpg",],
+    precio: "$510.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "272 m² contruidos (272 m² en total)",
+    habitaciones: "9",
+    banos: "5",
+    descripcion: `📌 VENTA DE CASA EN MONIQUIRÀ – BOYACÀ
+
+📐Superficie de Terreno: 105 mt2 aprox.
+📐Superficie Construida: 272 mt2 aprox.
+👉 Estado: Segunda Mano
+Características Generales:
+✅ Habitaciones: 9
+✅Baños: 5
+✅Sala – Comedor: 2
+✅Cocina: 2
+Características Internas
+👉 Primer Nivel
+✅3 habitaciones
+✅2 baños
+✅Cocina
+✅Sala Comedor
+✅Amplio Patio de Ropas/ Lavanderia
+👉 Segundo Nivel
+✅3 habitaciones (Todas con Closet)
+✅2 Baños
+✅Cocina
+✅Sala – Comedor
+👉 Tercer Nivel
+✅2 habitaciones
+✅Amplio balcón (muy buena vista)
+✅1 baño
+✅Cuarto de sanalejo
+✅Zona de Lavandería`,
+    videoYoutube: "https://youtu.be/qYjkwKScWNg",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",

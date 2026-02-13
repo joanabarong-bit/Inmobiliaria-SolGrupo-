@@ -95,21 +95,49 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
   },
     {
-        tipo: "Local",
-        nombre: "Local Comercial",
-        referencia: "REF-HOME-001",
-        imagenes: [
-            "img/finca/finca9.jpg",
-             "img/finca/finca10.jpg", 
-             "img/finca/finca11.jpg"],
-        precio: "$3.800.000 / mes",
-        ubicacion: "Cali",
-        area: "120 m²",
-        habitaciones: "—",
-        banos: "1",
-        descripcion: "Apartamento cómodo y bien ubicado, ideal para familias.",
-        videoYoutube: "https://youtu.be/W6ol5Wf2pP4"
-    }
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.png",
+             "Ref. C. 07/2.jpg",
+             "Ref. C. 07/3.jpg",
+             "Ref. C. 07/4.jpg",
+             "Ref. C. 07/5.jpg",
+             "Ref. C. 07/6.jpg",
+             "Ref. C. 07/7.jpg",
+             "Ref. C. 07/8.jpg",
+             "Ref. C. 07/9.jpg",
+             "Ref. C. 07/10.jpeg",
+             "Ref. C. 07/11.png",
+             "Ref. C. 07/12.jpg",
+             "Ref. C. 07/13.jpg",
+             "Ref. C. 07/14.jpg",],
+    precio: "$405.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "118 m² contruidos (1,238 m² en total)",
+    habitaciones: "2",
+    banos: "2",
+    descripcion: `🏡 ¡Se vende casa en zona rural a solo 5 minutos del casco urbano de Moniquirá!
+
+🌿 Perfecta para quienes buscan tranquilidad, espacio y una excelente ubicación.
+
+🚗 A 5 minutos del casco urbano
+🛣️ Sobre la vía a Togüí
+🪵 Solo 200 metros de vía destapada
+📑 Documentación al día: escrituras y folio de matrícula independiente
+📐 Área del lote: 1.238 m²
+🏠 Área construida: 118 m²
+🛏️ Distribución:
+• 🛌 2 habitaciones (principal con baño privado y walk-in closet)
+• 🍽️ Cocina integral
+• 🛋️ Sala
+• 🍴 Comedor
+• 🧺 Patio de ropas
+• 🚶 Corredor de servicios
+• 🔥🍖 Terraza con zona BBQ ideal para reuniones
+🚗 Parqueadero para aprox. 5 vehículos`,
+    videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
+  },
 ];
 
 
