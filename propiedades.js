@@ -1516,7 +1516,7 @@ Pago de administración: $90.000 pesos`,
   },
   {
     tipo: "Casa",
-    nombre: "Casa Campestre",
+    nombre: "Casa en Condominios",
     referencia: "C. 019",
     imagenes: ["Ref. C. 19/1.jpeg",
              "Ref. C. 19/2.jpeg",
@@ -1559,6 +1559,76 @@ Pago de administración: $90.000 pesos`,
 portón automático se abre desde el celular
 ✅Si  deseas puedes instalar internet de fibra óptica..`,
     videoYoutube: "https://youtu.be/eMXcAzKSLXw",
+  },
+  {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 020",
+    imagenes: ["Ref. C. 20/1.jpg",
+             "Ref. C. 20/2.jpg",
+             "Ref. C. 20/3.jpg",
+             "Ref. C. 20/4.jpg",
+             "Ref. C. 20/5.jpg",
+             "Ref. C. 20/6.jpg",
+             "Ref. C. 20/7.jpg",
+             "Ref. C. 20/8.jpg",
+             "Ref. C. 20/9.jpg",
+             "Ref. C. 20/10.jpg",
+             "Ref. C. 20/11.jpg",
+             "Ref. C. 20/12.jpg",
+             "Ref. C. 20/13.jpg",
+             "Ref. C. 20/14.jpg",
+             "Ref. C. 20/15.jpg",],
+    precio: "$950.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "400 m² contruidos (1,000 m² en total)",
+    habitaciones: "8",
+    banos: "5",
+    descripcion: `📌VENTA DE CASA URBANA EN MONIQUIRA – BOYACA
+
+👉🏻Características Generales
+
+✔Ubicada Sobre el Perímetro Urbano
+✔Dos Casas
+✔Parqueaderos
+✔Bbq
+✔Tanques de reserva
+✔Propiedad en su totalidad Cercada
+✔Buena Iluminación y vista
+
+👉🏻CARACTERÍSTICAS ESPECIFICAS
+
+👉🏻PRIMERA CASA (PRINCIPAL)
+✔4 habitaciones
+✔2 baños
+✔Sala Comedor
+✔Cocina
+✔Amplios Corredores
+✔Zona de Lavandería
+
+👉🏻SEGUNDA CASA
+
+✔4 habitaciones
+✔3 baños
+✔Sala Comedor
+✔Cocina
+✔Corredor Amplio
+✔Zona de Lavandería
+
+👉🏻ÁREA EXTERIOR
+
+✔Amplias Zonas Verdes
+✔1 parqueadero Cubierto para una Camioneta
+✔Parqueadero Exterior Capacidad 4 Carros
+✔Portón
+✔Muro fachada
+✔Zona BBQ
+✔Balcón amplio (Para Quiosco)
+✔Árboles frutales (cítricos)
+
+👌🏻Documentos al día
+👌🏻Se recibe permuta como parte de pago`,
+    videoYoutube: "https://www.youtube.com/watch?v=aMlZLWIDy3o&t=9s",
   },
   /* ================= lote ================= */
    {
