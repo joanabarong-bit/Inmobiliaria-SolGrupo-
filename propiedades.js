@@ -2358,7 +2358,7 @@ Cuenta con todos los servicios:
 ✔️Uso residencial`,
     videoYoutube: "https://youtu.be/bVqU0IkkRcs",
   },
-     {
+   {
     tipo: "Lote",
     nombre: "Lotes en Condominio",
     referencia: "LT. 016",
@@ -2394,6 +2394,46 @@ El condominio cuenta con:
 💸Lote 3: 179’900.000
 💸Lote 6: 179’900.000l`,
     videoYoutube: "https://youtu.be/BmScr0QFKfo",
+  },
+  {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 017",
+    imagenes: ["Ref. LT. 17/1.jpeg",
+             "Ref. LT. 17/2.jpeg",
+             "Ref. LT. 17/3.jpeg",
+             "Ref. LT. 17/4.jpeg",
+             "Ref. LT. 17/5.jpeg",
+             "Ref. LT. 17/6.jpeg",
+             "Ref. LT. 17/7.jpeg",],
+    precio: "$189.000.000",
+    ubicacion: "Puente Nacional, Santander",
+    area: "996 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 VENTA DE LOTE EN CONDOMINIO – PUENTE NACIONAL, SANTANDER
+
+📍 Condominio Chaneque
+📐 Área: 996 m²
+
+✨ Características del lote
+💧 Agua
+⚡ Energía eléctrica
+🔥 Gas natural
+🛠️ Pozo séptico
+🏗️ Libre construcción
+🚪 Portón eléctrico
+🛣️ Vía adoquinada
+
+🌿 Zonas y áreas comunes
+🏓 Mesa de pimpón
+🏀 Cancha múltiple
+🌴 Zona de hamacas
+💦 Piscina
+🧖 Sauna
+🧖‍♂️ Turco
+🏛️ Salón comunal`,
+    videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
 ];
 
