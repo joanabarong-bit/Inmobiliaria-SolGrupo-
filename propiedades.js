@@ -1630,6 +1630,65 @@ portón automático se abre desde el celular
 👌🏻Se recibe permuta como parte de pago`,
     videoYoutube: "https://www.youtube.com/watch?v=aMlZLWIDy3o&t=9s",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Quinta",
+    referencia: "C. 021",
+    imagenes: ["Ref. C. 21/1.jpg",
+             "Ref. C. 21/2.jpg",
+             "Ref. C. 21/3.jpg",
+             "Ref. C. 21/4.jpg",
+             "Ref. C. 21/5.jpg",
+             "Ref. C. 21/6.jpg",
+             "Ref. C. 21/7.jpg",
+             "Ref. C. 21/8.jpg",
+             "Ref. C. 21/9.jpg",],
+    precio: "$950.000.000",
+    ubicacion: "Cite, Santander",
+    area: "280 m² contruidos (1,000 m² en total)",
+    habitaciones: "3",
+    banos: "4",
+    descripcion: `📌Invierte en el lugar perfecto, donde el ambiente y tranquilidad que te ofrece la naturaleza se unen con la comodidad de la ciudad.
+
+Venta de Casas quintas dentro de conjunto cerrado en Cite - Santander
+Ubicación:  A 3km desde la Y que está ubicada sobre la vía principal que conduce de Barbosa a Cite y a tan solo 800 mt de la Universidad Industrial de Santander.
+
+Temperatura: 23 a 25ºC
+
+📐Casas de 280 mt2 en lotes desde 1.000 mt2
+Con excelente vista, ambiente sano y seguro con fácil acceso
+
+👉🏿 Entrada con portería vigilada (vehicular y peatonal 24/7)
+👉🏿 Circuito cerrado de Vigilancia
+👉🏿 Piscina apta para niños y adultos
+👉🏿 Parque infantil
+👉🏿 Exclusiva cancha de tenis
+👉🏿 Zonas verdes
+👉🏿 Salón Social
+👉🏿 Cancha de tenis
+
+
+Goza de buena iluminación y ventilación, en casas de una sola planta, pensadas para todos los miembros de la familia.
+
+Con parqueadero para tres vehículos, con dos accesos al interior de la casa en la que encontraras:
+
+👉🏿 Sala 
+👉🏿 Comedor
+👉🏿 Cocina Americana
+👉🏿 3 alcobas, la principal con Walking closet
+👉🏿 Alcoba de servicios
+👉🏿 Zona de lavandería
+👉🏿 4 Baños
+👉🏿 Opción de piscina privada
+
+Servicios:
+💧2 Puntos de Agua Veredal
+💧1 Punto de agua Municipal
+Punto de Gas natural
+Energía
+Alcantarillado Pluvial y de aguas grises `,
+    videoYoutube: "https://youtu.be/pReB9Zdyeo8",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
