@@ -2435,6 +2435,39 @@ El condominio cuenta con:
 🏛️ Salón comunal`,
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
+  {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 018",
+    imagenes: ["Ref. LT. 18/1.jpg",
+             "Ref. LT. 18/2.jpg",
+             "Ref. LT. 18/3.jpg",
+             "Ref. LT. 18/4.jpg",
+             "Ref. LT. 18/5.jpg",
+             "Ref. LT. 18/6.jpg",
+             "Ref. LT. 18/7.jpg",
+             "Ref. LT. 18/8.jpg",
+             "Ref. LT. 18/9.jpg",
+             "Ref. LT. 18/10.jpg",],
+    precio: "$210.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "4,291 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `Lotes campestres en venta en Moniquirá - Boyacá
+
+📐 Áreas: 5.000 metros cuadrados.
+📌 Ubicados en la vereda El Colorado de Moniquirá, Boyacá. Zona de alta valorización.
+✔️ A 18 minutos (7,3 kilómetros) del municipio de Moniquirá.
+✔️ Disponibilidad para instalar punto de agua, luz y gas natural.
+✔️ Documentos al día, listos para una transacción exitosa.
+✔️ Puedes construir la casa de tus sueños.
+✔️ Un lugar tranquilo.
+✔️ Dos lotes incluyen cabaña construida para tu descanso.
+💸 Precio: a partir de 210.000.000 de pesos.
+📕 Documentos al día.`,
+    videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
