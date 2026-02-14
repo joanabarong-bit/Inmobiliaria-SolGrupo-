@@ -2746,9 +2746,9 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
              "Ref. FC. 01/8.jpg",
              "Ref. FC. 01/9.jpg",
              "Ref. FC. 01/10.jpg",],
-    precio: "$-.000.000",
+    precio: "$65.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "1,890 m²",
+    area: "20 m² contruidos (1,890 m² en total)",
     habitaciones: "-",
     banos: "-",
     descripcion: `📌VENTA DE LOTE EN MONIQUIRÁ- BOYACÁ
@@ -2761,6 +2761,34 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 ✔ Terreno Semiplano 
 ✔ Vía de Acceso Hasta el Lote `,
     videoYoutube: "https://youtu.be/5OZRUQm98Bk",
+  },
+   {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 002",
+    imagenes: ["Ref. FC. 02/1.jpg",
+             "Ref. FC. 02/2.jpg",
+             "Ref. FC. 02/3.jpg",
+             "Ref. FC. 02/4.jpg",
+             "Ref. FC. 02/5.jpg",
+             "Ref. FC. 02/6.jpg",],
+    precio: "$240.000.000",
+    ubicacion: "Vélez, Santander",
+    area: "20,000 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `Vélez -Santander (2 héctareas)
+
+Ubicación: 6 kilometros de la vía principal que conduce del
+Municipio de Barbosa a Vélez santander .
+👉Cuenta con aceptables vías de acceso
+📏Área: 2 Hectáreas
+👉Cuenta con punto de agua
+👉Punto de luz
+👉 Punto de gas natural
+✅Linda a una quebrada natural de agua.
+✅La propiedad cuenta con diferentes tipos de topografía, plano, y semiondulado`,
+    videoYoutube: "https://youtu.be/j7MCWWhJDbM",
   },
 ];
 
