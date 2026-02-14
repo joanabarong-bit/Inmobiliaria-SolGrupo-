@@ -2334,7 +2334,7 @@ Cuenta con todos los servicios:
 ✅ Zonas sociales: piscina, salón social, cancha de básquet, de voleibol y además cuenta con un portón automático que se abre desde el celular.`,
     videoYoutube: "https://youtu.be/ApOfWWArBkw",
   },
-    {
+   {
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 015",
@@ -2357,6 +2357,43 @@ Cuenta con todos los servicios:
 ✔️Alcantarillado interno
 ✔️Uso residencial`,
     videoYoutube: "https://youtu.be/bVqU0IkkRcs",
+  },
+     {
+    tipo: "Lote",
+    nombre: "Lotes en Condominio",
+    referencia: "LT. 016",
+    imagenes: ["Ref. LT. 16/1.jpeg",
+             "Ref. LT. 16/2.jpeg",
+             "Ref. LT. 16/3.jpeg",
+             "Ref. LT. 16/4.jpeg",
+             "Ref. LT. 16/5.jpeg",
+             "Ref. LT. 16/6.jpeg",
+             "Ref. LT. 16/7.jpeg",
+             "Ref. LT. 16/8.jpeg",
+             "Ref. LT. 16/9.jpeg",],
+    precio: "$179.900.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "425 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌Venta de Lotes en condominio en Moniquirá – Boyacá 
+Contamos con 2 lotes disponibles en Condominio Campestre. Ubicado en Moniquirá, Boyacá
+
+📏Áreas
+✅ Lote 3 – Área: 1.318,94 m²
+✅ Lote 6 – Área: 1.521,69 m²
+✅ Amplios senderos peatonales
+El condominio cuenta con:
+✨ Portería, lago, piscina, quioscos, BBQ
+✨ Zonas verdes, zona de juegos, acceso al río
+✨ Planta de tratamiento de aguas
+✨ Servicios públicos completos: agua, luz, gas y alcantarillado
+✨ Escritura independiente
+🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.
+💸 Precios:
+💸Lote 3: 179’900.000
+💸Lote 6: 179’900.000l`,
+    videoYoutube: "https://youtu.be/BmScr0QFKfo",
   },
 ];
 
