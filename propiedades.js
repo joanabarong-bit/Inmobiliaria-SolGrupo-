@@ -2077,6 +2077,40 @@ Un espacio perfecto para construir a tu gusto.
 ✔️Disponibilidad, para tramitar licencia de construción.`,
     videoYoutube: "https://www.youtube.com/watch?v=QojWbtiaTAM&t=4s",
   },
+  {
+    tipo: "Lote",
+    nombre: "Lotes Urbanos",
+    referencia: "LT. 007",
+    imagenes: ["Ref. LT. 07/1.jpeg",
+             "Ref. LT. 07/2.jpeg",
+             "Ref. LT. 07/3.jpeg",
+             "Ref. LT. 07/4.jpeg",
+             "Ref. LT. 07/5.jpeg",
+             "Ref. LT. 07/6.jpeg",
+             "Ref. LT. 07/7.jpeg",
+             "Ref. LT. 07/8.jpeg",
+             "Ref. LT. 07/9.jpeg",
+             "Ref. LT. 07/10.jpeg",],
+    precio: "$85.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "157 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lotes Urbanos en venta en Moniquirá - Boyacá,
+
+📌Ubicado en un barrio residencial
+✔️cuenta con Todos los servicios publicos
+✔️documentos al día 
+✔️Uso residencial
+✔️estan ubicados a dos cuadras del parque Santander 
+
+💸Precios y áreas de los lotes:
+📐Lote # 1   Área: 157M2  $ 85.000.000 millones de pesos
+📐Lote # 2.  Área: 157 M2  $ 115.000.000 millones de pesos
+📐Lote # 3   Área: 192 M2  $160.000.000 millones de pesos
+📐Lote # 5   Área: 238 M2 $198.000.000 millones de pesos`,
+    videoYoutube: "https://youtu.be/beHO-48Z-3s",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
