@@ -2009,6 +2009,42 @@ Un espacio perfecto para construir a tu gusto.
 🔥 Gas`,
     videoYoutube: "https://youtu.be/CtM5iNxqIig",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lote Urbano",
+    referencia: "LT. 005",
+    imagenes: ["Ref. LT. 05/1.jpg",
+             "Ref. LT. 05/2.jpg",
+             "Ref. LT. 05/3.jpg",
+             "Ref. LT. 05/4.jpg",
+             "Ref. LT. 05/5.jpg",
+             "Ref. LT. 05/6.jpg",
+             "Ref. LT. 05/7.jpg",
+             "Ref. LT. 05/8.jpg",
+             "Ref. LT. 05/9.jpg",
+             "Ref. LT. 05/10.jpg",
+             "Ref. LT. 05/11.jpg",
+             "Ref. LT. 05/12.jpg",
+             "Ref. LT. 05/13.jpg",
+             "Ref. LT. 05/14.jpg",
+             "Ref. LT. 05/15.jpg",],
+    precio: "$72.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "84 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lote Urbano en venta en Moniquirá - Boyacá,
+📐Area: 84 mt2
+📐7m de frente x 12m de fondo
+💸Precio: COP. 85.000.000 millones
+📌Ubicado a 4 cuadras del parque Santander
+✔cuenta con Todos los servicios publicos
+✔documentos al día
+✔Alcantarillado interno
+✔Disponibilidad, para tramitar licencia de construción.
+✔ cuenta con vecinos que ya están construyendo sus casas, lo que garantiza un entorno en crecimiento y desarrollo.`,
+    videoYoutube: "https://youtu.be/QSkb92aGxiI",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
