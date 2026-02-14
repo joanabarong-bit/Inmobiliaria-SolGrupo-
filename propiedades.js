@@ -1724,6 +1724,7 @@ Alcantarillado Pluvial y de aguas grises `,
     imagenes: ["Ref. C. 23/1.jpeg",
              "Ref. C. 23/2.jpeg",
              "Ref. C. 23/3.jpeg",
+             "Ref. C. 23/4.jpeg",
              "Ref. C. 23/5.jpeg",
              "Ref. C. 23/6.jpeg",
              "Ref. C. 23/7.jpeg",
@@ -1752,6 +1753,7 @@ Alcantarillado Pluvial y de aguas grises `,
     imagenes: ["Ref. C. 24/1.jpg",
              "Ref. C. 24/2.jpg",
              "Ref. C. 24/3.jpg",
+             "Ref. C. 24/4.jpg",
              "Ref. C. 24/5.jpg",
              "Ref. C. 24/6.jpg",
              "Ref. C. 24/7.jpg",
@@ -1803,6 +1805,57 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔Seguridad
 ✔Zonas sociales, Piscina cancha de basquetbol `,
     videoYoutube: "https://youtu.be/kyAVuzNEJLY",
+  },
+   {
+    tipo: "Casa",
+    nombre: "Casa en Condominio Cerrado",
+    referencia: "C. 025",
+    imagenes: ["Ref. C. 25/1.jpg",
+             "Ref. C. 25/2.jpg",
+             "Ref. C. 25/3.jpg",
+             "Ref. C. 25/4.jpeg",
+             "Ref. C. 25/5.jpeg",
+             "Ref. C. 25/6.jpeg",
+             "Ref. C. 25/7.jpeg",
+             "Ref. C. 25/8.jpeg",
+             "Ref. C. 25/9.jpeg",
+             "Ref. C. 25/10.jpeg",
+             "Ref. C. 25/11.jpeg",
+             "Ref. C. 25/12.jpeg",
+             "Ref. C. 25/13.jpeg",
+             "Ref. C. 25/14.jpeg",
+             "Ref. C. 25/15.jpeg",],
+    precio: "$3.000.000.000",
+    ubicacion: "La Calera, Cundinamarca",
+    area: "464 m² contruidos (1,398 m² en total)",
+    habitaciones: "4",
+    banos: "6",
+    descripcion: `🏡 Venta de Casa en Condominio – La Calera
+
+💰 Precio: $3.000.000.000
+📏 Área privada: 1.398 m²
+🏠 Área construida: 464 m²
+📅 Año de construcción: 2018
+💳 Administración: $800.000
+📍 Ubicación: Altos Patios
+
+Características principales:
+🛏️ 4 habitaciones
+🛁 6 baños
+🚗 4 garajes
+🛣️ Acceso pavimentado
+⚽ Cancha de fútbol
+🏋️ Gimnasio
+🏢 Salón comunal
+🌳 Zona campestre / bosques nativos
+🤝 Área social
+🎾 Cancha de squash y de tenis
+📺 Circuito cerrado de TV
+🅿️ Parqueadero de visitantes
+🏘️ Urbanización cerrada
+🏡 Club House
+🛡️ Portería, recepción y vigilancia `,
+    videoYoutube: "",
   },
   /* ================= lote ================= */
    {
