@@ -2828,6 +2828,44 @@ Municipio de Barbosa a Vélez santander .
 ✅ sala de estar `,
     videoYoutube: "https://youtu.be/C0sbg68cJwg",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 004",
+    imagenes: ["Ref. FC. 04/1.jpeg",
+             "Ref. FC. 04/2.jpeg",
+             "Ref. FC. 04/3.jpeg",
+             "Ref. FC. 04/4.jpeg",
+             "Ref. FC. 04/5.jpeg",
+             "Ref. FC. 04/6.jpeg",
+             "Ref. FC. 04/7.jpeg",
+             "Ref. FC. 04/8.jpeg",
+             "Ref. FC. 04/9.jpeg",
+             "Ref. FC. 04/10.jpeg",
+             "Ref. FC. 04/11.jpeg",],
+    precio: "$250.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "70 m² contruidos (3,673 m² en total)",
+    habitaciones: "2",
+    banos: "1",
+    descripcion: `📌VENTA DE CASA LOTE EN MONIQUIRÁ BOYACÁ
+
+📏Área lote: 3673 mts2
+📏Área casa: 70 metros aproximadamente
+
+Ubicada en Neval y Cruces
+✔️Tiene una casa sencilla de dos habitaciones , cocina , patio , cocina y baño.
+✔️Agua veredal del municipio
+✔️Punto de luz
+✔️Acceso pavimentado hasta la propiedad
+✔️Terreno plano y semi ondulado
+✔️Estado de la vía excelente
+✔️Esta ubicada a 9.3 km de Moniquirá 18 minutos.
+✔️tiene cultivos y cítricos
+✔️ parqueadero hasta para 4 carros
+👉🏻 Documentos Al Dia`,
+    videoYoutube: "https://youtu.be/3HNU0RRhwNg",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
