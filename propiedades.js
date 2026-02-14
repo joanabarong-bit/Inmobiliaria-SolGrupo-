@@ -2026,17 +2026,15 @@ Un espacio perfecto para construir a tu gusto.
              "Ref. LT. 05/11.jpg",
              "Ref. LT. 05/12.jpg",
              "Ref. LT. 05/13.jpg",
-             "Ref. LT. 05/14.jpg",
-             "Ref. LT. 05/15.jpg",],
+             "Ref. LT. 05/14.jpg",],
     precio: "$72.000.000",
-    ubicacion: "Barbosa, Santander",
+    ubicacion: "Moniquirá, Boyacá",
     area: "84 m²",
     habitaciones: "-",
     banos: "-",
     descripcion: `📌 Lote Urbano en venta en Moniquirá - Boyacá,
 📐Area: 84 mt2
 📐7m de frente x 12m de fondo
-💸Precio: COP. 85.000.000 millones
 📌Ubicado a 4 cuadras del parque Santander
 ✔cuenta con Todos los servicios publicos
 ✔documentos al día
@@ -2044,6 +2042,40 @@ Un espacio perfecto para construir a tu gusto.
 ✔Disponibilidad, para tramitar licencia de construción.
 ✔ cuenta con vecinos que ya están construyendo sus casas, lo que garantiza un entorno en crecimiento y desarrollo.`,
     videoYoutube: "https://youtu.be/QSkb92aGxiI",
+  },
+  {
+    tipo: "Lote",
+    nombre: "Lote Urbano",
+    referencia: "LT. 006",
+    imagenes: ["Ref. LT. 06/1.jpg",
+             "Ref. LT. 06/2.jpg",
+             "Ref. LT. 06/3.jpg",
+             "Ref. LT. 06/4.jpg",
+             "Ref. LT. 06/5.jpg",
+             "Ref. LT. 06/6.jpg",
+             "Ref. LT. 06/7.jpg",
+             "Ref. LT. 06/8.jpg",
+             "Ref. LT. 06/9.jpg",
+             "Ref. LT. 06/10.jpg",
+             "Ref. LT. 06/11.jpg",
+             "Ref. LT. 06/12.jpg",
+             "Ref. LT. 06/13.jpg",
+             "Ref. LT. 06/14.jpg",
+             "Ref. LT. 06/15.jpg",],
+    precio: "$78.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "84 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lote Urbano en venta en Moniquirá - Boyacá,
+
+📐Area: 84 mt2
+📌Ubicado a 4 cuadras del parque Santander
+✔️cuenta con Todos los servicios publicos
+✔️documentos al día
+✔️Alcantarillado interno
+✔️Disponibilidad, para tramitar licencia de construción.`,
+    videoYoutube: "https://www.youtube.com/watch?v=QojWbtiaTAM&t=4s",
   },
 ];
 
