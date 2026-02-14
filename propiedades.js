@@ -2468,6 +2468,87 @@ El condominio cuenta con:
 📕 Documentos al día.`,
     videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
   },
+  {
+    tipo: "Lote",
+    nombre: "Lotes",
+    referencia: "LT. 019",
+    imagenes: ["Ref. LT. 19/1.jpg",
+             "Ref. LT. 19/2.jpg",
+             "Ref. LT. 19/3.jpg",
+             "Ref. LT. 19/4.jpg",
+             "Ref. LT. 19/5.jpg",
+             "Ref. LT. 19/6.jpg",
+             "Ref. LT. 19/7.jpg",
+             "Ref. LT. 19/8.jpg",
+             "Ref. LT. 19/9.jpg",
+             "Ref. LT. 19/10.jpg",
+             "Ref. LT. 19/11.jpg",
+             "Ref. LT. 19/12.jpg",
+             "Ref. LT. 19/13.jpg",],
+    precio: "$215.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "- m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `-`,
+    videoYoutube: "-",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 020",
+    imagenes: ["Ref. LT. 20/1.jpg",
+             "Ref. LT. 20/2.jpg",
+             "Ref. LT. 20/3.jpg",
+             "Ref. LT. 20/4.jpg",
+             "Ref. LT. 20/5.jpg",
+             "Ref. LT. 20/6.jpg",
+             "Ref. LT. 20/7.jpg",
+             "Ref. LT. 20/8.jpg",
+             "Ref. LT. 20/9.jpg",
+             "Ref. LT. 20/10.jpg",
+             "Ref. LT. 20/11.jpg",
+             "Ref. LT. 20/12.jpg",
+             "Ref. LT. 20/13.jpg",],
+    precio: "$220.000.000",
+    ubicacion: "Cite, Santander",
+    area: "1,000 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lotes en venta dentro de condominio en Cite - Santander 
+Invierte en el lugar perfecto, donde el ambiente y tranquilidad que te ofrece la naturaleza se unen con la comodidad de la ciudad.
+
+Venta de Lotes dentro de conjunto cerrado en Cite - Santander
+Ubicación:  A 3km desde la Y que está ubicada sobre la vía principal que conduce de Barbosa a Cite y a tan solo 800 mt de la Universidad Industrial de Santander.
+Temperatura: 23 a 25ºC
+📐 lotes desde 1.000 mt2
+Con excelente vista, ambiente sano y seguro con fácil acceso
+👉🏿 Entrada con portería vigilada (vehicular y peatonal 24/7)
+👉🏿 Circuito cerrado de Vigilancia
+👉🏿 Piscina apta para niños y adultos
+👉🏿 Exclusiva cancha de tenis
+👉🏿 Zonas verdes
+👉🏿 Salón Social
+👉🏿 Cancha de tenis
+Goza de buena iluminación y ventilación, en casas de una sola planta, pensadas para todos los miembros de la familia.
+Si deseas construir tu casa: 
+cuenta con parqueadero para tres vehículos, con dos accesos al interior de la casa en la que encontraras:
+👉🏿 Sala 
+👉🏿 Comedor
+👉🏿 Cocina Americana
+👉🏿 3 alcobas, la principal con Walking closet
+👉🏿 Alcoba de servicios
+👉🏿 Zona de lavandería
+👉🏿 4 Baños
+👉🏿 Opción de piscina privada
+Servicios:
+💧2 Puntos de Agua Veredal
+💧1 Punto de agua Municipal
+Punto de Gas natural
+Energía
+Alcantarillado Pluvial y de aguas grises `,
+    videoYoutube: "https://youtu.be/UaBJX_1hitU",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
