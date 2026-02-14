@@ -1897,6 +1897,48 @@ Características principales:
 💦 Acueducto propio con reservorio natural, que garantiza el abastecimiento de agua `,
     videoYoutube: "https://youtu.be/IIK3hd4l3UA",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lotes",
+    referencia: "LT. 002",
+    imagenes: ["Ref. LT. 02/1.jpg",
+             "Ref. LT. 02/2.jpg",
+             "Ref. LT. 02/3.jpg",
+             "Ref. LT. 02/4.jpg",
+             "Ref. LT. 02/5.jpg",
+             "Ref. LT. 02/6.jpg",
+             "Ref. LT. 02/7.jpg",
+             "Ref. LT. 02/8.jpg",
+             "Ref. LT. 02/9.jpg",
+             "Ref. LT. 02/10.jpg",
+             "Ref. LT. 02/11.jpg",
+             "Ref. LT. 02/12.jpg",
+             "Ref. LT. 02/13.jpg",
+             "Ref. LT. 02/14.jpg",
+             "Ref. LT. 02/15.jpg",],
+    precio: "$55.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "500 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌VENTA DE LOTES RURALES EN MONIQUIRÁ- BOYACÁ 
+
+📏Áreas del lote 500 Mts2 hasta 1.100 mts2 
+📏 Áreas de la cabaña: 40 mts2 y 150 mts2
+✔ Se entrega con punto de agua instalado 
+✔ Se entrega con punto de punto de luz instalado
+✔ Vía de Acceso Hasta el Lote 
+✔ Cerca de lugares turísticos como la cascada del zorro 
+✔ A 8 kilómetros pueblo 
+✔ A 22 minutos de distancia del parque principal de Moniquirá Boyacá 
+✔ Excelente vista 
+✔ Senderos ecológicos 
+✔ Zonas sociales 
+✔ Ideal para construir tu cabaña 
+Precio: Cabaña Tipo 1, 40Mts2 120 millones en un lote de 700 Mts2
+Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
+    videoYoutube: "https://youtu.be/uITRIPGSBtE",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
