@@ -1689,6 +1689,34 @@ Energía
 Alcantarillado Pluvial y de aguas grises `,
     videoYoutube: "https://youtu.be/pReB9Zdyeo8",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa Lote Urbano",
+    referencia: "C. 022",
+    imagenes: ["Ref. C. 22/1.jpg",
+             "Ref. C. 22/2.jpg",
+             "Ref. C. 22/3.jpg",
+             "Ref. C. 22/4.jpg",
+             "Ref. C. 22/5.jpg",
+             "Ref. C. 22/6.jpg",
+             "Ref. C. 22/7.jpg",
+             "Ref. C. 22/8.jpg",
+             "Ref. C. 22/9.jpg",
+             "Ref. C. 22/10.jpg",
+             "Ref. C. 22/11.jpg",],
+    precio: "$995.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,420 m²",
+    habitaciones: "4",
+    banos: "2",
+    descripcion: `📌 Venta de Casa - Lote en Moniquirá – Boyacá
+
+📏 Area: 1.420 mt2
+  Ubicado: Perímetro Urbano 
+✔La Propiedad cuenta con todos los Servicios Públicos
+✔Ubicada a 5 Minutos del parque principal `,
+    videoYoutube: "https://youtu.be/WOs7xb1X1sA",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
