@@ -1899,7 +1899,7 @@ Características principales:
   },
    {
     tipo: "Lote",
-    nombre: "Lotes",
+    nombre: "Lote",
     referencia: "LT. 002",
     imagenes: ["Ref. LT. 02/1.jpg",
              "Ref. LT. 02/2.jpg",
@@ -1969,6 +1969,45 @@ Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
 ✔️Topografía totalmente plano.
 ✔️El 90% de la vía es pavimentada, y el otro 10% es destapado en buen estado.`,
     videoYoutube: "https://youtu.be/gYl7-P8GZks",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 004",
+    imagenes: ["Ref. LT. 04/1.jpg",
+             "Ref. LT. 04/2.jpg",
+             "Ref. LT. 04/3.jpg",
+             "Ref. LT. 04/4.jpg",
+             "Ref. LT. 04/5.jpg",
+             "Ref. LT. 04/6.jpg",
+             "Ref. LT. 04/7.jpg",
+             "Ref. LT. 04/8.jpg",
+             "Ref. LT. 04/9.jpg",
+             "Ref. LT. 04/10.jpg",
+             "Ref. LT. 04/11.jpg",
+             "Ref. LT. 04/12.jpg",
+             "Ref. LT. 04/13.jpg",
+             "Ref. LT. 04/14.jpg",],
+    precio: "$69.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "72 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🟢Se vende lote – Barbosa, Santander
+¿Buscas el lugar perfecto para invertir o construir tu nuevo hogar? 🏡✨
+
+🌟 Excelente lote disponible
+📌 Ubicado a solo 300 metros abajo de la Universidad Industrial de Santander (UIS)
+🏞️ Zona tranquila, segura y con un entorno ideal para vivir o desarrollar un proyecto rentable.
+
+📐 Área: 72 m²
+Un espacio perfecto para construir a tu gusto.
+
+⚡ Servicios públicos disponibles para solicitar:
+💡 Luz
+🚰 Agua
+🔥 Gas`,
+    videoYoutube: "https://youtu.be/CtM5iNxqIig",
   },
 ];
 
