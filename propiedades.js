@@ -2111,6 +2111,39 @@ Un espacio perfecto para construir a tu gusto.
 📐Lote # 5   Área: 238 M2 $198.000.000 millones de pesos`,
     videoYoutube: "https://youtu.be/beHO-48Z-3s",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 008",
+    imagenes: ["Ref. LT. 08/1.jpg",
+             "Ref. LT. 08/2.jpg",
+             "Ref. LT. 08/3.jpg",
+             "Ref. LT. 08/4.jpg",
+             "Ref. LT. 08/5.jpg",
+             "Ref. LT. 08/6.jpg",
+             "Ref. LT. 08/7.jpg",
+             "Ref. LT. 08/8.jpg",
+             "Ref. LT. 08/9.jpg",],
+    precio: "$140.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,530 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de lote rural en Moniquirá – Boyacá
+
+📏 Área: 2.530 mt2
+
+👉🏻 Perímetro Rural
+👉🏻 Vereda: Tapias y San Antonio, Sector Pajales
+👉🏻 carretera desatada, se recomienda tener campero, está a una distancia de 9.1 kilómetros, 22 minutos desde el municipio de Moniquirá, 
+
+✔ Terreno Plano
+✔ Pasa una quebrada por el lote 
+✔ Excelente vista
+✔ Acceso a punto de energía eléctrica
+✔ cuenta con tres vías de acceso `,
+    videoYoutube: "https://youtu.be/GJNmj6I9TFY",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
