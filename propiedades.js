@@ -2241,7 +2241,7 @@ Un espacio perfecto para construir a tu gusto.
 ✔️Acceso pavimentado hasta el condominio y cerca al municipio  `,
     videoYoutube: "https://youtu.be/lKo5TlLiOzk",
   },
-    {
+   {
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 012",
@@ -2250,6 +2250,37 @@ Un espacio perfecto para construir a tu gusto.
              "Ref. LT. 12/3.jpeg",
              "Ref. LT. 12/4.jpeg",
              "Ref. LT. 12/5.jpeg",],
+    precio: "$160.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "915 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de lote dentro de condominio exclusivo, en Moniquirá Boyacá.
+
+📐 Área del lote: 915 Mt2
+Topografía: Lote con topografía inclinada de pendiente constante, apta para construcción con adecuaciones mínimas.”
+
+✅ Amplios senderos peatonales
+
+Cuenta con todos los servicios:
+
+✅ Gas natural
+✅ luz eléctrica
+✅ punto de agua
+✅ Zonas sociales, piscina, salón social, cancha de básquet, de voleibol,
+portón automático se abre desde el celular
+✅Si  deseas puedes instalar internet de fibra óptica..`,
+    videoYoutube: "https://youtu.be/GIaLj9XbMWI",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 013",
+    imagenes: ["Ref. LT. 13/1.jpg",
+             "Ref. LT. 13/2.jpg",
+             "Ref. LT. 13/3.jpg",
+             "Ref. LT. 13/4.jpg",
+             "Ref. LT. 13/5.jpg",],
     precio: "$160.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,399 m²",
