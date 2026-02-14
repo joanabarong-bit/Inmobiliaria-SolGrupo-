@@ -2304,15 +2304,15 @@ portón automático se abre desde el celular
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 014",
-    imagenes: ["Ref. LT. 14/1.jpg",
-             "Ref. LT. 14/2.jpg",
-             "Ref. LT. 14/3.jpg",
-             "Ref. LT. 14/4.jpg",
-             "Ref. LT. 14/5.jpg",
-             "Ref. LT. 14/6.jpg",
-             "Ref. LT. 14/7.jpg",
-             "Ref. LT. 14/8.jpg",
-             "Ref. LT. 14/9.jpg",
+    imagenes: ["Ref. LT. 14/1.jpeg",
+             "Ref. LT. 14/2.jpeg",
+             "Ref. LT. 14/3.jpeg",
+             "Ref. LT. 14/4.jpeg",
+             "Ref. LT. 14/5.jpeg",
+             "Ref. LT. 14/6.jpeg",
+             "Ref. LT. 14/7.jpeg",
+             "Ref. LT. 14/8.jpeg",
+             "Ref. LT. 14/9.jpeg",
              "Ref. LT. 14/10.jpg",],
     precio: "$170.000.000",
     ubicacion: "Moniquirá, Boyacá",
@@ -2333,6 +2333,30 @@ Cuenta con todos los servicios:
 ✅ punto de agua
 ✅ Zonas sociales: piscina, salón social, cancha de básquet, de voleibol y además cuenta con un portón automático que se abre desde el celular.`,
     videoYoutube: "https://youtu.be/ApOfWWArBkw",
+  },
+    {
+    tipo: "Lote",
+    nombre: "Lote Urbano",
+    referencia: "LT. 015",
+    imagenes: ["Ref. LT. 15/1.jpeg",
+             "Ref. LT. 15/2.jpeg",
+             "Ref. LT. 15/3.jpeg",
+             "Ref. LT. 15/4.jpeg",],
+    precio: "$175.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "131 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lote Urbano en venta en Moniquirá - Boyacá,
+
+📐Área: 131 mt2
+📌Ubicado en un barrio residencial, muy valorizado
+✔️ El barrio cuenta con un parque de zonas verdes
+✔️cuenta con Todos los servicios publicos
+✔️documentos al día
+✔️Alcantarillado interno
+✔️Uso residencial`,
+    videoYoutube: "https://youtu.be/bVqU0IkkRcs",
   },
 ];
 
