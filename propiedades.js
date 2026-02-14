@@ -2241,6 +2241,34 @@ Un espacio perfecto para construir a tu gusto.
 ✔️Acceso pavimentado hasta el condominio y cerca al municipio  `,
     videoYoutube: "https://youtu.be/lKo5TlLiOzk",
   },
+    {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 012",
+    imagenes: ["Ref. LT. 12/1.jpeg",
+             "Ref. LT. 12/2.jpeg",
+             "Ref. LT. 12/3.jpeg",
+             "Ref. LT. 12/4.jpeg",
+             "Ref. LT. 12/5.jpeg",],
+    precio: "$160.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,399 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de lotes dentro de Condominio en Moniquirá Boyacá
+
+📏 Área:  1.399 metros cuadrados
+✔️Lote número 10
+✔️Cada lote cuenta con licencia de construcción para una casa de 2 pisos más altillo (MODELO DE CONSTRUCIÓN LIBRE)
+✔️ Servicios de agua veredal, energía eléctrica 
+✔️Dos vías de acceso a la propiedad, así como una fanegada para áreas sociales
+✔️Lotes de alta valorización. 
+✔️Buena Vista
+✔️ Ambiente Natural
+✔️ Ubicados a 800 metros antes de la primera entrada al municipio, vía Tunja – Moniquirá
+✔️ Acceso pavimentado hasta el condominio y cerca al municipio `,
+    videoYoutube: "https://youtu.be/5j7nmDEquPw",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
