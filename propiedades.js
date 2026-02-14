@@ -1939,6 +1939,37 @@ Precio: Cabaña Tipo 1, 40Mts2 120 millones en un lote de 700 Mts2
 Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
     videoYoutube: "https://youtu.be/uITRIPGSBtE",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lotes",
+    referencia: "LT. 003",
+    imagenes: ["Ref. LT. 03/1.jpg",
+             "Ref. LT. 03/2.jpg",
+             "Ref. LT. 03/3.jpg",
+             "Ref. LT. 03/4.jpg",
+             "Ref. LT. 03/5.jpg",
+             "Ref. LT. 03/6.jpg",
+             "Ref. LT. 03/7.jpg",
+             "Ref. LT. 03/8.jpg",
+             "Ref. LT. 03/9.jpg",
+             "Ref. LT. 03/10.jpg",
+             "Ref. LT. 03/11.jpg",
+             "Ref. LT. 03/12.jpg",
+             "Ref. LT. 03/13.jpg",],
+    precio: "$60.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "120 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de lote rural en Moniquirá - Boyacá
+
+📐Área: 8 x 15 metros. 120 metros cuadrados
+📌Ubicado a 2.3 kilómetros del pueblo, equivalen a 6 minutos del municipio.
+✔️Cuenta la disponibilidad de instalar punto de luz y gas natural   
+✔️Topografía totalmente plano.
+✔️El 90% de la vía es pavimentada, y el otro 10% es destapado en buen estado.`,
+    videoYoutube: "https://youtu.be/gYl7-P8GZks",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
