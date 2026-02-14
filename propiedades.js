@@ -2643,6 +2643,33 @@ Cuenta con todos los servicios:
 📄 Documentación al día`,
     videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 024",
+    imagenes: ["Ref. LT. 24/1.jpeg",
+             "Ref. LT. 24/2.jpeg",
+             "Ref. LT. 24/3.jpeg",
+             "Ref. LT. 24/4.jpeg",
+             "Ref. LT. 24/5.jpeg",
+             "Ref. LT. 24/6.jpeg",
+             "Ref. LT. 24/7.jpeg",],
+    precio: "$260.000.000",
+    ubicacion: "Cite, Santander",
+    area: "1,000 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de Lotes en Cite Santander.
+
+🌱Hola 👋🏼! Te comparto una excelente oportunidad de inversión, en el corregimiento de Cite Santander.
+Contamos con 2 lotes disponibles:
+✅ Lote 29 – Área: 895 m²
+✅ Lote 30 – Área: 821,70 m²
+Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), escritura independiente y ubicación estratégica con excelente valorización.
+🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.
+🌡️ Temperatura promedio: 12 °C a 25 °C`,
+    videoYoutube: "https://youtu.be/QbbpelBdYqc",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
