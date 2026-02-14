@@ -2144,6 +2144,31 @@ Un espacio perfecto para construir a tu gusto.
 ✔ cuenta con tres vías de acceso `,
     videoYoutube: "https://youtu.be/GJNmj6I9TFY",
   },
+  {
+    tipo: "Lote",
+    nombre: "Lotes",
+    referencia: "LT. 009",
+    imagenes: ["Ref. LT. 09/1.jpeg",
+             "Ref. LT. 09/2.jpeg",
+             "Ref. LT. 09/3.jpeg",
+             "Ref. LT. 09/4.jpeg",],
+    precio: "$110.000.000",
+    ubicacion: "Cite, Santander",
+    area: "300 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 ¡Venta de Lotes en Cite, Santander!
+
+¡Invierte en una zona con gran proyección de valorización! Disponibles 5 lotes amplios, todos con servicios públicos completos (agua, luz, gas natural y alcantarillado), escritura independiente y excelente ubicación.
+
+🟩 Detalles de los Lotes:
+✅ Lote 1 – Área: 304 m² – 💸 $140.000.000
+✅ Lote 2 – Área: 303,70 m² – 💸 $110.000.000
+✅ Lote 3 – Área: 300,70 m² – 💸 $130.000.000
+✅ Lote 4 – Área: 300,70 m² – 💸 $120.000.000
+✅ Lote 5 – Área: 312,70 m² – 💸 $115.000.000 `,
+    videoYoutube: "https://youtu.be/f8-LuSuXE5k",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
