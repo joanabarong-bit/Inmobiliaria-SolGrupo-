@@ -2790,6 +2790,44 @@ Municipio de Barbosa a Vélez santander .
 ✅La propiedad cuenta con diferentes tipos de topografía, plano, y semiondulado`,
     videoYoutube: "https://youtu.be/j7MCWWhJDbM",
   },
+   {
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 003",
+    imagenes: ["Ref. FC. 03/1.jpeg",
+             "Ref. FC. 03/2.jpeg",
+             "Ref. FC. 03/3.jpeg",
+             "Ref. FC. 03/4.jpeg",],
+    precio: "$240.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "170 m² contruidos (1,850 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌Venta de casa campestre en Moniquirá – Boyacá - Colombia
+
+📐Área total: 1.850 metros cuadrados 
+📐Área Construida: 170 metros cuadrados
+
+✅Distancia: a 12.3 km, 30 minutos del Parque principal, el 60% de la vía es pavimentada y el otro 40% es destapado se recomienda tener un carro campero, para acceder a la propiedad. 
+
+🟡Primer piso
+✅2 habitaciones
+✅1 baños
+✅Sala – Comedor
+✅2 Cocinas, una de gas y otra de leña
+✅parquedero
+✅Amplio Corredor
+✅Excelente vista
+✅2 niveles
+✅Punto de Agua, luz eléctrica, y gas natural 
+
+🟡Segundo piso
+✅2 habitaciones 
+✅1 baño
+✅ Sauna 
+✅ sala de estar `,
+    videoYoutube: "https://youtu.be/C0sbg68cJwg",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
