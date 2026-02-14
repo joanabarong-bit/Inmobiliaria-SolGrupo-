@@ -2169,6 +2169,45 @@ Un espacio perfecto para construir a tu gusto.
 ✅ Lote 5 – Área: 312,70 m² – 💸 $115.000.000 `,
     videoYoutube: "https://youtu.be/f8-LuSuXE5k",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lotes",
+    referencia: "LT. 010",
+    imagenes: ["Ref. LT. 10/1.jpeg",
+             "Ref. LT. 10/2.jpeg",
+             "Ref. LT. 10/3.jpeg",
+             "Ref. LT. 10/4.jpeg",
+             "Ref. LT. 10/5.jpeg",
+             "Ref. LT. 10/6.jpeg",
+             "Ref. LT. 10/7.jpeg",
+             "Ref. LT. 10/8.jpeg",
+             "Ref. LT. 10/9.jpeg",
+             "Ref. LT. 10/10.jpeg",
+             "Ref. LT. 10/11.jpeg",
+             "Ref. LT. 10/12.jpeg",
+             "Ref. LT. 10/13.jpeg",
+             "Ref. LT. 10/14.jpeg",
+             "Ref. LT. 10/15.jpeg",],
+    precio: "$120.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,500 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 VENTA DE LOTE EN MONIQUIRA – BOYACA
+
+📏 Área: 2.500 mt2
+👉🏻 Perímetro Rural
+👉🏻 Vereda: Chovo
+👉🏻Cerca de Vía Principal (Moniquirá – Santa Sofia 400 mts)
+👉🏻Vía hasta el lote
+
+✔Terreno Semiplano
+✔Acceso a Punto de Agua Veredal
+✔Excelente vista
+✔Buen estado de la Vía
+✔Acceso a punto de energía eléctrica `,
+    videoYoutube: "https://youtu.be/2BeopAk18o8",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
