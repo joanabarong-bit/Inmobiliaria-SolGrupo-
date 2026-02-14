@@ -2395,7 +2395,7 @@ El condominio cuenta con:
 💸Lote 6: 179’900.000l`,
     videoYoutube: "https://youtu.be/BmScr0QFKfo",
   },
-  {
+   {
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 017",
@@ -2435,7 +2435,7 @@ El condominio cuenta con:
 🏛️ Salón comunal`,
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
-  {
+   {
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 018",
@@ -2468,7 +2468,7 @@ El condominio cuenta con:
 📕 Documentos al día.`,
     videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
   },
-  {
+   {
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 019",
@@ -2548,6 +2548,42 @@ Punto de Gas natural
 Energía
 Alcantarillado Pluvial y de aguas grises `,
     videoYoutube: "https://youtu.be/UaBJX_1hitU",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 021",
+    imagenes: ["Ref. LT. 21/1.jpg",
+             "Ref. LT. 21/2.jpg",
+             "Ref. LT. 21/3.jpg",
+             "Ref. LT. 21/4.jpg",
+             "Ref. LT. 21/5.jpg",
+             "Ref. LT. 21/6.jpg",
+             "Ref. LT. 21/7.jpg",
+             "Ref. LT. 21/8.jpg",
+             "Ref. LT. 21/9.jpg",
+             "Ref. LT. 21/10.jpg",
+             "Ref. LT. 21/11.jpg",],
+    precio: "$230.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "3,500 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 Se venden lotes en Moniquirá , Boyacá
+
+📍 Ubicado en la vereda ubaza Están ubicados a tan solo 12 minutos (4,6 kilómetros) del casco urbano.
+
+📐 Área: 4.000 metros cuadrados
+🌄 Topografía ondulada, en su mayoría plana
+
+Disponibilidad de:
+
+⚡ Punto de luz
+💧 Acueducto veredal y aljibe
+🔥 gas natural
+
+📄 Documentación al día. Escritura con matricula independiente .`,
+    videoYoutube: "https://www.youtube.com/watch?v=epFVfZrE9qg",
   },
 ];
 
