@@ -1717,6 +1717,34 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔Ubicada a 5 Minutos del parque principal `,
     videoYoutube: "https://youtu.be/WOs7xb1X1sA",
   },
+   {
+    tipo: "Casa",
+    nombre: "Casa Lote Urbano",
+    referencia: "C. 023",
+    imagenes: ["Ref. C. 23/1.jpeg",
+             "Ref. C. 23/2.jpeg",
+             "Ref. C. 23/3.jpeg",
+             "Ref. C. 23/5.jpeg",
+             "Ref. C. 23/6.jpeg",
+             "Ref. C. 23/7.jpeg",
+             "Ref. C. 23/8.jpeg",],
+    precio: "$1.150.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "520 m²",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `📌 Casa lote Urbano en venta en Moniquirá - Boyacá,
+
+📍 Ubicado en un excelente sector de alta valorización 
+📐 Área: 520 metros cuadrados
+✔️Cuenta con Todos los servicios públicos
+✔️está ubicado a unos pasos del parque principal de Municipio. 
+✔️Uso residencial 
+✔️Cuenta con de una Casa y un local comercial 
+✔️Documentos al día 
+✔️ Ubicado en una zona comercial y residencial `,
+    videoYoutube: "https://youtu.be/RyukLWNBP1M",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
