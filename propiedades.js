@@ -2670,7 +2670,7 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 🌡️ Temperatura promedio: 12 °C a 25 °C`,
     videoYoutube: "https://youtu.be/QbbpelBdYqc",
   },
-  {
+   {
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 025",
@@ -2703,6 +2703,33 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 ✔️19.3 metros x 15 metros
 ✔️Tiene uso de suelos para zona comercial y residencial.`,
     videoYoutube: "https://www.youtube.com/watch?v=mBRRXE_GTQo",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 026",
+    imagenes: ["Ref. LT. 26/1.jpg",
+             "Ref. LT. 26/2.jpg",
+             "Ref. LT. 26/3.jpg",
+             "Ref. LT. 26/4.jpg",
+             "Ref. LT. 26/5.jpg",],
+    precio: "$750.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "8,572 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de Lote en Moniquirá - Boyacá
+
+👉Área: 8.572.2 mt2
+👉Lote Semi- Urbano
+👉800 mt2 de Moniquirá 
+👉Acceso hasta el lote
+👉Cerca a la vía principal -Tunja -Moniquirá 
+👉Buena proyección 
+👉Agua tratada / Acueducto Municipal 
+👉 Energía eléctrica 
+👉Pasa la red de gas natural `,
+    videoYoutube: "https://youtu.be/H4JFyabHQow",
   },
 ];
 
