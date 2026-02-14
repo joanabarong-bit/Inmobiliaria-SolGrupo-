@@ -2731,6 +2731,37 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 👉Pasa la red de gas natural `,
     videoYoutube: "https://youtu.be/H4JFyabHQow",
   },
+   /* ================= finca ================= */
+   {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 001",
+    imagenes: ["Ref. FC. 01/1.jpg",
+             "Ref. FC. 01/2.jpg",
+             "Ref. FC. 01/3.jpg",
+             "Ref. FC. 01/4.jpg",
+             "Ref. FC. 01/5.jpg",
+             "Ref. FC. 01/6.jpg",
+             "Ref. FC. 01/7.jpg",
+             "Ref. FC. 01/8.jpg",
+             "Ref. FC. 01/9.jpg",
+             "Ref. FC. 01/10.jpg",],
+    precio: "$-.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,890 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌VENTA DE LOTE EN MONIQUIRÁ- BOYACÁ
+
+👉Lote ubicado en vereda monjas
+📏Área: 1.890 mt2 
+📏Área Cuarto de Herramientas: 20 mt2 
+✔ Punto de Agua del acueducto Veredal
+✔ Punto de luz
+✔ Terreno Semiplano 
+✔ Vía de Acceso Hasta el Lote `,
+    videoYoutube: "https://youtu.be/5OZRUQm98Bk",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
