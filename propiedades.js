@@ -1860,53 +1860,42 @@ Características principales:
   /* ================= lote ================= */
    {
     tipo: "Lote",
-    nombre: "Lote",
-    referencia: "C. 008",
-    imagenes: ["Ref. C. 08/1.png",
-             "Ref. C. 08/2.jpg",
-             "Ref. C. 08/3.jpg",
-             "Ref. C. 08/4.jpg",
-             "Ref. C. 08/5.jpg",
-             "Ref. C. 08/6.jpg",
-             "Ref. C. 08/7.jpg",
-             "Ref. C. 08/8.jpg",
-             "Ref. C. 08/9.jpg",
-             "Ref. C. 08/10.jpeg",
-             "Ref. C. 08/11.png",
-             "Ref. C. 08/12.jpg",
-             "Ref. C. 08/13.jpg",
-             "Ref. C. 08/14.jpg",],
-    precio: "$405.000.000",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 001",
+    imagenes: ["Ref. LT. 01/1.jpg",
+             "Ref. LT. 01/2.jpg",
+             "Ref. LT. 01/3.jpg",
+             "Ref. LT. 01/4.jpg",
+             "Ref. LT. 01/5.jpg",
+             "Ref. LT. 01/6.jpg",
+             "Ref. LT. 01/7.jpg",
+             "Ref. LT. 01/8.jpg",
+             "Ref. LT. 01/9.jpg",
+             "Ref. LT. 01/10.jpg",
+             "Ref. LT. 01/11.jpg",
+             "Ref. LT. 01/12.jpg",
+             "Ref. LT. 01/13.jpg",],
+    precio: "$40.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "220 m² contruidos (220 m² en total)",
-    habitaciones: "7",
-    banos: "6",
-    descripcion: `VENTA DE CASA EN MONIQUIRA – BOYACA
-CUENTA CON 3 APARTAMENTOS BAJO EL REGIMEN DE PROPEDAD HORIZONTAL
-(SERVICIOS INDEPENDIENTES)
+    area: "1,287 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 Venta de Lotes en Condominio – Moniquirá, Boyacá
 
-📐 Área: 220 mt2
-⏳  Distancia: 5 minutos del parque principal
-👉 1 piso:
- ✔️ 2 habitaciones
- ✔️ Sala- comedor
- ✔️ Cocina 
- ✔️ 1 baño
- ✔️ Parqueadero
- ✔️ Patio de ropas
-👉 2 piso
- ✔️ 3 habitaciones
- ✔️ 2 baños
- ✔️ Cocina
- ✔️ Sala comedor
- ✔️ Patio de ropas
-👉 3 piso
- ✔️ 3 habitaciones
- ✔️ 2 baños
- ✔️ Cocina
- ✔️ Sala Comedor
- ✔️ Patio de Ropas.`,
-    videoYoutube: "https://youtu.be/xTFo3nhcXz0",
+📍 Ubicados a tan solo 5 minutos del casco urbano
+🛣️ Vía pavimentada hasta la entrada del condominio
+📐 Áreas y precios:
+✅lote 31: 📐1.287 m²= 40 millones 
+✅lote 33: 📐 1.645 m²= 50 millones
+✅lote 8: 📐629 m²= 70 millones
+✅lote 13: 📐1.157 m²= 90 millones 
+💧⚡🔥 Servicios disponibles:
+✅ Agua
+✅ Luz
+✅ Gas
+
+💦 Acueducto propio con reservorio natural, que garantiza el abastecimiento de agua `,
+    videoYoutube: "https://youtu.be/IIK3hd4l3UA",
   },
 ];
 
