@@ -2300,6 +2300,40 @@ portón automático se abre desde el celular
 ✔️ Acceso pavimentado hasta el condominio y cerca al municipio `,
     videoYoutube: "https://youtu.be/5j7nmDEquPw",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 014",
+    imagenes: ["Ref. LT. 14/1.jpg",
+             "Ref. LT. 14/2.jpg",
+             "Ref. LT. 14/3.jpg",
+             "Ref. LT. 14/4.jpg",
+             "Ref. LT. 14/5.jpg",
+             "Ref. LT. 14/6.jpg",
+             "Ref. LT. 14/7.jpg",
+             "Ref. LT. 14/8.jpg",
+             "Ref. LT. 14/9.jpg",
+             "Ref. LT. 14/10.jpg",],
+    precio: "$170.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,110 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lote en venta dentro de condominio, en Moniquirá Boyacá.
+
+📐 Área del lote: 1.110 Mt2
+Topografía: plana con una pendiente de inclinación minima
+
+✅ Amplios senderos peatonales
+
+Cuenta con todos los servicios:
+
+✅ Gas natural
+✅ luz eléctrica
+✅ punto de agua
+✅ Zonas sociales: piscina, salón social, cancha de básquet, de voleibol y además cuenta con un portón automático que se abre desde el celular.`,
+    videoYoutube: "https://youtu.be/ApOfWWArBkw",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
