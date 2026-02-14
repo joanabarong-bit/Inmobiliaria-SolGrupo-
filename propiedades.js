@@ -2615,6 +2615,34 @@ Cuenta con todos los servicios:
 ✅ Construye la casa de tus sueños.`,
     videoYoutube: "https://youtu.be/G_0s631XGRE",
   },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 023",
+    imagenes: ["Ref. LT. 23/1.jpeg",
+             "Ref. LT. 23/2.jpeg",
+             "Ref. LT. 23/3.jpeg",
+             "Ref. LT. 23/4.jpeg",
+             "Ref. LT. 23/5.jpeg",
+             "Ref. LT. 23/6.jpeg",
+             "Ref. LT. 23/7.jpeg",],
+    precio: "$260.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,597 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 SE VENDE LOTE EN MONIQUIRÁ, BOYACÁ
+
+📍 Ubicado en la vereda Tierra de Gómez, sector La Capona, sobre la vía pavimentada hacia Santa Sofía.
+
+📐 Área: 6.000 metros cuadrados
+🌄 Topografía ondulada, en su mayoría plana
+⚡ Punto de luz
+💧 Acueducto veredal y aljibe
+🚗 A solo 20 minutos del casco urbano de Moniquirá
+📄 Documentación al día`,
+    videoYoutube: "https://youtu.be/oB5l0_gkj5w",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
