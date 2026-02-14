@@ -1745,6 +1745,65 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔️ Ubicado en una zona comercial y residencial `,
     videoYoutube: "https://youtu.be/RyukLWNBP1M",
   },
+   {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 024",
+    imagenes: ["Ref. C. 24/1.jpg",
+             "Ref. C. 24/2.jpg",
+             "Ref. C. 24/3.jpg",
+             "Ref. C. 24/5.jpg",
+             "Ref. C. 24/6.jpg",
+             "Ref. C. 24/7.jpg",
+             "Ref. C. 24/8.jpg",
+             "Ref. C. 24/9.jpg",],
+    precio: "$1.200.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "480 m² contruidos (1,170 m² en total)",
+    habitaciones: "6",
+    banos: "7",
+    descripcion: `🏡VENTA DE CASA EN CONDOMINIO EXCLUSIVO EN MONIQUIRÁ BOYACÁ
+
+📏 AREA TOTAL: 1.170 MT2
+📏 AREA CONSTRUIDA: 480 MT2
+ 💲 Precio:  1.200.000.000 Millones
+🍬 2 NIVELES
+👉 Primer Nivel
+✔2 Habitaciones, con Baño privado
+✔Fuente de agua
+✔Cocina integral amueblada con mesón Auxiliar
+✔Sala de estar y estudio 
+✔comedor 
+✔1 baño social 
+✔1 Baño exterior con regaderas 
+✔2 casas para perro 
+✔1 Cuarto exterior se puede usar para guardar de herramienta, capilla.
+✔Corredores y zonas verdes
+✔Parqueadero Cubierto
+✔Espacio para Ejercitarse, 
+👉Segundo Nivel
+✔Estación de café o estudio
+✔4 habitaciones cada una con baño privado 
+✔4 baños 
+✔Balcones en las habitaciones
+✔Jacuzzy 
+✔1 Sala de estar.
+✔Balcones con excelente vista 
+✔Mirador, Excelentes Paisajes
+👉Otros
+⏳Ubicada a 5 minutos del Parque Principal
+⚡ Servicios: Agua, Energía Eléctrica, punto de gas 
+✔Excelentes acabados 
+✔Valor Administración: 175.000 pesos
+✔Estrato 3
+✔Buenas Vías de Acceso
+✔Espacio para jardín o huerta
+✔Portón Principal
+✔Parqueadero para 4 Vehículos
+✔Seguridad
+✔Zonas sociales, Piscina cancha de basquetbol `,
+    videoYoutube: "https://youtu.be/kyAVuzNEJLY",
+  },
   /* ================= lote ================= */
    {
     tipo: "Lote",
