@@ -2943,6 +2943,50 @@ La casa cuenta con:
 🌿 Amplias zonas verdes`,
     videoYoutube: "https://youtu.be/8X-aM3JnDS4",
   },
+   {
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 007",
+    imagenes: ["Ref. FC. 07/1.jpg",
+             "Ref. FC. 07/2.jpg",
+             "Ref. FC. 07/3.jpg",
+             "Ref. FC. 07/4.jpg",
+             "Ref. FC. 07/5.jpg",
+             "Ref. FC. 07/6.jpg",
+             "Ref. FC. 07/7.jpg",
+             "Ref. FC. 07/8.jpg",
+             "Ref. FC. 07/9.jpg",
+             "Ref. FC. 07/10.jpg",
+             "Ref. FC. 07/11.jpg",
+             "Ref. FC. 07/12.jpg",],
+    precio: "$390.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "80 m² contruidos (32,000 m² en total)",
+    habitaciones: "2",
+    banos: "2",
+    descripcion: `📌Venta de Finca productiva en Moniquirá – Boyacá - Colombia
+
+📐Área total: 3.2 hectáreas 
+📐Área Construida: 80 metros cuadrados
+
+✅Distancia: 6.7 km, 17 minutos del Parque principal.
+
+Características Casa
+
+✅2 habitaciones
+✅2 baños
+✅Sala – Comedor
+✅2 Cocinas, una de gas y otra de leña
+✅parqueadero
+✅Amplio Corredor
+✅Excelente vista
+✅Punto de Agua, luz eléctrica, y gas natural
+✅4.000 plantas de café 
+✅Cítricos 
+✅Terreno Ondulado.
+✅Aljibe de agua propio`,
+    videoYoutube: "https://youtu.be/ogIaz4p5uYU",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
