@@ -3031,6 +3031,46 @@ Cuenta con casa de un nivel con:
 ✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
     videoYoutube: "https://youtu.be/AJa1UqjWiE8",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 009",
+    imagenes: ["Ref. FC. 09/1.jpg",
+             "Ref. FC. 09/2.jpg",
+             "Ref. FC. 09/3.jpg",
+             "Ref. FC. 09/4.jpg",
+             "Ref. FC. 09/5.jpg",
+             "Ref. FC. 09/6.jpg",
+             "Ref. FC. 09/7.jpg",
+             "Ref. FC. 09/8.jpg",
+             "Ref. FC. 09/9.jpg",
+             "Ref. FC. 09/10.jpg",
+             "Ref. FC. 09/11.jpg",
+             "Ref. FC. 09/12.jpg",
+             "Ref. FC. 09/13.jpg",
+             "Ref. FC. 09/14.jpg",],
+    precio: "$530.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "225 m² contruidos (10,700 m² en total)",
+    habitaciones: "7",
+    banos: "4",
+    descripcion: `📌 Se vende finca en Moniquirá – Boyacá
+
+📍 Ubicación: Vereda Ubaza
+
+📐 Área total: 10.700 m²
+🛣️ Entrada con placa huella
+🏠 Casa de dos pisos – Área construida: 225 m²
+🛋️ Sala – Comedor
+👩‍🍳 Cocina con estufa 
+🛏️ Primer piso: 4 habitaciones (3 con baño privado)
+🛏️ Segundo piso: 3 habitaciones con baño privado
+📍 Servicio de agua de acueducto veredal y de aljibe, luz y gas natural
+🌳 árboles frutales:
+💧 2 aljibes 
+🚗 A solo 15 minutos de la vía nacional `,
+    videoYoutube: "https://youtu.be/OGOKnkDz7lE",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
