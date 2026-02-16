@@ -600,6 +600,18 @@ footer {
     font-size: 14px;
 }
 
+.property-description {
+    margin: 10px 0;
+    color: #3a4e63;
+    font-size: 14px;
+    line-height: 1.45;
+    white-space: pre-line;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .price {
     color: var(--dorado);
     font-weight: bold;
@@ -1576,6 +1588,7 @@ img {
     margin-bottom: 18px;
     color: #3a4e63;
     line-height: 1.6;
+    white-space: pre-line;
     max-height: 170px;
     overflow-y: auto;
     padding-right: 6px;
