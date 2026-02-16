@@ -3119,6 +3119,81 @@ PROPIEDAD PRODUCTIVA
 La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se recomienda tener vehículo alto o 4x4. `,
     videoYoutube: "https://youtu.be/-bx6O4-xBDQ",
   },
+   {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 011",
+    imagenes: ["Ref. FC. 11/1.jpg",
+             "Ref. FC. 11/2.jpg",
+             "Ref. FC. 11/3.jpg",
+             "Ref. FC. 11/4.jpg",
+             "Ref. FC. 11/5.jpg",
+             "Ref. FC. 11/6.jpg",
+             "Ref. FC. 11/7.jpg",
+             "Ref. FC. 11/8.jpg",
+             "Ref. FC. 11/9.jpg",
+             "Ref. FC. 11/10.jpg",
+             "Ref. FC. 11/11.jpg",],
+    precio: "$715.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "80,000 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Venta de Finca en Moniquirá- Boyacá 
+
+📏Área: 8 Hectáreas (80.000) Mt2
+
+✔ Aljibe/ Nacimiento de Agua (Propio)
+✔Topografía: Semiplano, semiondulado.
+✔ Dividido en potreros (alambre de púas)
+
+⌛ Distancia: 20 minutos Aprox. de Moniquirá
+
+✔  Cuenta con estudio Hidrológico.
+
+✔Acceso a energía eléctrica
+✔ Excelente vista
+🍀Buena Vegetación 
+🍀Tranquilo`,
+    videoYoutube: "https://youtu.be/SZsVw5NdoH0",
+  },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 012",
+    imagenes: ["Ref. FC. 12/1.jpg",
+             "Ref. FC. 12/2.jpg",
+             "Ref. FC. 12/3.jpg",
+             "Ref. FC. 12/4.jpg",
+             "Ref. FC. 12/5.jpg",
+             "Ref. FC. 12/6.jpg",
+             "Ref. FC. 12/7.jpg",
+             "Ref. FC. 12/8.jpg",
+             "Ref. FC. 12/9.jpg",
+             "Ref. FC. 12/10.jpg",
+             "Ref. FC. 12/11.jpg",
+             "Ref. FC. 12/12.jpg",],
+    precio: "$830.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "130,000 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ 
+
+Ubicada en Perímetro Rural
+📐Área: 13 Hectáreas
+✅Características 
+✅Sembrada plátano y cítricos 
+✅Punto de luz 
+✅2 Aljibe (Nacimiento de agua)
+✅Excelente vista 
+✅Linda a una quebrada
+✅Topografía mixta
+✅Bosque natural
+✅Queda a tan solo 5 kilómetros del parque principal de Moniquirá. Esta finca goza de abundante agua, vegetación, cuenta con servicio de luz, tiene la disponibilidad de instalar un punto de agua veredal. 
+Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
+    videoYoutube: "https://youtu.be/_zFwDW1L4Ho",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
