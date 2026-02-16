@@ -37,6 +37,8 @@ const propiedades = [
     precio: "$136.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "42 m²",
+    areaPrivada:"-",
+    areaConstruida:"42 m²",
     habitaciones: "1",
     banos: "1",
     descripcion: `📌 Venta de Apartamento en Moniquirá – Boyacá
@@ -71,6 +73,8 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
     precio: "$231.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "50,77 m²",
+    areaPrivada:"-",
+    areaConstruida:"50,77 m²",
     habitaciones: "1",
     banos: "1",
     descripcion: "Apartamento cómodo y bien ubicado, ideal para familias.",
@@ -99,6 +103,8 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
     precio: "$125.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "45 m²",
+    areaPrivada:"-",
+    areaConstruida:"45 m²",
     habitaciones: "1",
     banos: "1",
     descripcion:  ` 📌 Venta de Apartamento en Moniquirá – Boyacá
@@ -134,7 +140,9 @@ Características del apartamento
              "Ref. Apt. 02/13.jpg",],
     precio: "$185.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "130 m² (terreno 1.367 m²)",
+    area: "94 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"94 m²",
     habitaciones: "3",
     banos: "4",
     descripcion: `Ubicado Cerca al Centro 
@@ -177,6 +185,8 @@ Características del apartamento
     precio: "$225.000.000",
     ubicacion: "Barbosa, Santander",
     area: "68 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"68 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `🏡 ¡Tu nuevo hogar te espera en Barbosa, Santander!
@@ -223,7 +233,9 @@ Características del apartamento
              "Ref. Apt. 04/22.jpg"],
     precio: "$305.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: " 117.19  m²",
+    area: " 117,19  m²",
+    areaPrivada:"- m²",
+    areaConstruida:"117,19 m²",
     habitaciones: "4",
     banos: "3",
     descripcion:`📌 VENTA APARTAMENTO EN MONIQUIRA – BOYACA
@@ -272,6 +284,8 @@ Ubicado Cerca al Centro
     precio: "$325.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "94 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"94 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `📌 VENTA DE APARTAMENTO + PARQUEADERO + DEPOSITO EN MONIQUIRÁ – BOYACÁ
@@ -320,6 +334,8 @@ Ubicado Cerca al Centro
     precio: "$367.341.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "85,5 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"85,5 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `📌 VENTA DE APARTAMENTO + PARQUEADERO + DEPOSITO EN MONIQUIRÁ – BOYACÁ
@@ -368,6 +384,8 @@ Ubicado Cerca al Centro
     precio: "$390.000.000",
     ubicacion: "Barbosa, Santander",
     area: "222 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"222 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `📌 VENTA DE APARTAMENTO + PARQUEADERO + DEPOSITO EN MONIQUIRÁ – BOYACÁ
@@ -418,6 +436,8 @@ Ubicado Cerca al Centro
     precio: "$500.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "148 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"148 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `📌 Venta de Apartamento PentHouse en Moniquirá – Boyacá
@@ -474,6 +494,8 @@ Incluye Parqueadero
     precio: "$548.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "148 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"148 m²",
     habitaciones: "3",
     banos: "2",
     descripcion: `📌 Venta de Apartamento PenHouse en Moniquirá – Boyacá
@@ -526,6 +548,8 @@ Incluye Parqueadero
     precio: "$200.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "28 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"28 m²",
     habitaciones: "-",
     banos: "1",
     descripcion: `📌 Venta de Local en Moniquirá - Boyacá 
@@ -558,6 +582,8 @@ Incluye Parqueadero
     precio: "$200.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "30 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"30 m²",
     habitaciones: "—",
     banos: "1", 
     descripcion: `📌 Venta de Local en Moniquirá - Boyacá 
@@ -590,6 +616,8 @@ Incluye Parqueadero
     precio: "$210.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "28,7 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"28,7 m²",
     habitaciones: "—",
     banos: "1", 
     descripcion: `📌 Venta de Local comercial en Moniquirá - Boyacá
@@ -620,6 +648,8 @@ Incluye Parqueadero
     precio: "$280.000.000",
     ubicacion: "Tunja, Boyacá",
     area: "37,8 m²",
+    areaPrivada:"- m²",
+    areaConstruida:"37,8 m²",
     habitaciones: "-",
     banos: "1",
     descripcion: `📌 Venta de Local comercial en Tunja - Boyacá
