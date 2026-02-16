@@ -3071,6 +3071,54 @@ Cuenta con casa de un nivel con:
 🚗 A solo 15 minutos de la vía nacional `,
     videoYoutube: "https://youtu.be/OGOKnkDz7lE",
   },
+   {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 010",
+    imagenes: ["Ref. FC. 10/1.jpeg",
+             "Ref. FC. 10/2.jpeg",
+             "Ref. FC. 10/3.jpeg",
+             "Ref. FC. 10/4.jpeg",
+             "Ref. FC. 10/5.jpg",
+             "Ref. FC. 10/6.jpg",
+             "Ref. FC. 10/7.jpg",
+             "Ref. FC. 10/8.jpg",
+             "Ref. FC. 10/9.jpg",
+             "Ref. FC. 10/10.jpg",
+             "Ref. FC. 10/11.jpg",
+             "Ref. FC. 10/12.jpeg",
+             "Ref. FC. 10/13.jpg",
+             "Ref. FC. 10/14.jpg",],
+    precio: "$690.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "90 m² contruidos (21,760 m² en total)",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `📍VENTA FINCA PRODUCTIVA EN MONIQUIRÁ – BOYACÁ 
+
+👉Ubicación: Vereda Jordán
+👉A 45 Minutos de distancia de Moniquirá y a 20 Minutos de Barbosa – Santander
+
+👉La propiedad cuenta con un área de 3.4 fanegadas, con una casa de 90 mt2 y consta de:
+
+🏡2 habitaciones
+🏡Sala Comedor
+🏡Baño Social
+🏡Cocina
+
+👉Adicionalmente, cuenta con una cabaña construida en Guadua de tres pisos, área 70mt2 y un domo bajo tierra tipo glamping.
+
+👉La propiedad tiene abundante agua, con dos reservorios, linda al Rio Suarez, subterráneo de 30 mts de profundidad aproximadamente, tanques de almacenamiento, uno de 600 cm3 y dos de 2.000 cm3, motobomba para bombear agua del rio.
+
+PROPIEDAD PRODUCTIVA
+
+🐓Un galpón de 264 mt2
+🐡10 pozos - 50x10 -
+🌾2 invernaderos
+
+La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se recomienda tener vehículo alto o 4x4. `,
+    videoYoutube: "https://youtu.be/-bx6O4-xBDQ",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
