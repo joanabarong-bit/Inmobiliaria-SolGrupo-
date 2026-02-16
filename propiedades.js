@@ -3247,6 +3247,48 @@ Características de la casa 2:
 🌱 esta sembrada en café, plátano y algunos cítricos.`,
     videoYoutube: "https://youtu.be/BBYVbJ0bF4c",
   },
+   {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 014",
+    imagenes: ["Ref. FC. 14/1.jpg",
+             "Ref. FC. 14/2.jpg",
+             "Ref. FC. 14/3.jpg",
+             "Ref. FC. 14/4.jpg",
+             "Ref. FC. 14/5.jpg",
+             "Ref. FC. 14/6.jpg",
+             "Ref. FC. 14/7.jpg",
+             "Ref. FC. 14/8.jpg",
+             "Ref. FC. 14/9.jpg",
+             "Ref. FC. 14/10.jpg",
+             "Ref. FC. 14/11.jpg",
+             "Ref. FC. 14/12.jpg",
+             "Ref. FC. 14/13.jpg",
+             "Ref. FC. 14/14.jpg",
+             "Ref. FC. 14/15.jpg",],
+    precio: "$860.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "230 m² contruidos (20,000 m² en total)",
+    habitaciones: "2",
+    banos: "3",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ
+
+ 📐Área terreno: 2 hectáreas
+ 📐Área Casa: 230 Mts2
+👉 No. de Habitaciones: 2
+👉 No. de Baños: 3
+👉 Sala amplia
+👉 Zona de lavandería
+👉 Corredores amplios
+👉Garaje con puerta automática
+✅ Punto de agua, acueducto veredal
+✅ Punto de luz 
+✅ Cuarto de bombas 
+✅ Vereda la Coralina 
+✅ Distancia: 20 minutos de Moniquirá
+✅ 1.5 Km de la vía principal santa Sofía`,
+    videoYoutube: "https://youtu.be/ep0YpZZo0ZA",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
