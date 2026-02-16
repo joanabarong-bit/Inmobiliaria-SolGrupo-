@@ -2987,6 +2987,50 @@ Características Casa
 ✅Aljibe de agua propio`,
     videoYoutube: "https://youtu.be/ogIaz4p5uYU",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 008",
+    imagenes: ["Ref. FC. 08/1.jpeg",
+             "Ref. FC. 08/2.jpeg",
+             "Ref. FC. 08/3.jpeg",
+             "Ref. FC. 08/4.jpeg",],
+    precio: "$460.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "159 m² contruidos (6,000 m² en total)",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `👉Venta de Finca campestre
+📍 Ubicación: Moniquirá – Boyacá
+
+Cuenta con un área total de: 6.000 Mt2
+Área construida de la casa: 159 metros cuadrados
+
+Además, tiene dos vías de acceso:
+1. A una distancia aproximada de 8 Km – 16 Minutos sobre vía pavimentada que de Moniquirá conduce a Togui.
+2. A una distancia de 6 km por via al Gaque en Moniquirá – Boyacá (vía no pavimentada)
+
+Cuenta con casa de un nivel con:
+
+✔️4 habitaciones
+✔️4 baños (3 baños privados y 1 social)️
+✔️Cocina
+✔️Sala Comedor
+✔️Dos puertas de ingreso a la casa
+✔️Parqueadero
+✔️Kiosco cerca a la quebrada con camino en piedra
+✔️BBQ
+✔️Linda a quebrada
+✔️Tanques de reserva
+✔️Sistema hidro Flow
+✔️Cuarto de herramientas
+✔️Piscina con cascadas
+✔️Zona de regaderas externas
+✔️los servicios, excepto gas natural, la red avanza, está a más o menos 1 km de la propiedad.
+✔️Terreno plano – ondulado
+✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
+    videoYoutube: "https://youtu.be/AJa1UqjWiE8",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
