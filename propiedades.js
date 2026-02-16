@@ -2902,6 +2902,47 @@ Ubicada en Neval y Cruces
 ✔️A 12.5 Kilómetros del pueblo`,
     videoYoutube: "https://youtu.be/pyizV_ZH88U",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 006",
+    imagenes: ["Ref. FC. 06/1.png",
+             "Ref. FC. 06/2.jpg",
+             "Ref. FC. 06/3.jpg",
+             "Ref. FC. 06/4.jpg",
+             "Ref. FC. 06/5.jpg",
+             "Ref. FC. 06/6.jpg",
+             "Ref. FC. 06/7.jpg",
+             "Ref. FC. 06/8.jpg",
+             "Ref. FC. 06/9.jpg",
+             "Ref. FC. 06/10.jpg",
+             "Ref. FC. 06/11.jpg",
+             "Ref. FC. 06/12.jpg",
+             "Ref. FC. 06/13.jpg",
+             "Ref. FC. 06/14.jpg",
+             "Ref. FC. 06/15.jpg",],
+    precio: "$330.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "160 m² contruidos (7,300 m² en total)",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `🏡 SE VENDE FINCA EN MONIQUIRÁ, BOYACÁ 🌳
+
+📍 Ubicación: Vereda San Cristóbal, a solo 17 minutos del casco urbano y 6.6 km del pueblo.
+
+📐 Área total: 7.300 m²
+🏠 Casa construida: 160 m²
+
+La casa cuenta con:
+✨ Sala - comedor
+🛏️ 3 habitaciones
+🚻 2 baños sociales
+🍳 2 cocinas (una a leña y otra con gas)
+🧺 Zona de lavandería
+🚗 Parqueadero cubierto
+🌿 Amplias zonas verdes`,
+    videoYoutube: "https://youtu.be/8X-aM3JnDS4",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
