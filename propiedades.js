@@ -3334,6 +3334,115 @@ La Propiedad cuenta con un Molino Moderno y funcional.
 ✅Sobre vía vereda principal `,
     videoYoutube: "https://youtu.be/1KDp4R_w9uE",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 016",
+    imagenes: ["Ref. FC. 16/1.jpg",
+             "Ref. FC. 16/2.jpg",
+             "Ref. FC. 16/3.jpg",
+             "Ref. FC. 16/4.jpg",
+             "Ref. FC. 16/5.jpg",
+             "Ref. FC. 16/6.jpg",
+             "Ref. FC. 16/7.jpg",
+             "Ref. FC. 16/8.jpg",],
+    precio: "$1.050.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "300 m² contruidos (50,000 m² en total)",
+    habitaciones: "5",
+    banos: "3",
+    descripcion: `📌Venta de Finca con Casa en Moniquirá - Boyacá
+
+Ubicación: Veredal, muy cerca a la vía principal que de Moniquirá conduce a Villa de Leyva
+
+👉Cuenta con buenas vías de acceso, gran porcentaje en placahuella.
+ (apta para vehículos automóviles)
+
+📏 Área:5 Hectáreas
+👉4 hectáreas aprovechables, 1 hectárea de reserva natural, ideal para senderos ecológicos.
+👉Hermosa vista, cuenta con quebrada.
+👉Sembradas algunas plantas de café, naranja, mandarina, plátano.
+✨Características Generales
+👉Terreno plano y ondulado
+👉Dos Casas
+👉Parqueadero cubierto
+
+✨Características Especificas
+
+Casa principal:
+
+👉Un solo nivel
+👉Tres habitaciones, una de ellas, con baño privado
+👉Sala – Comedor
+👉Cocina
+👉Zona de lavandería
+👉Baño externo
+👉Amplios balcones
+✨La segunda casa:
+Dos niveles
+👉Dos habitaciones
+👉Sala - comedor
+👉Cocina
+👉Un baño
+👉Terraza
+👉Cuarto de herramientas
+Servicios
+👉Dos puntos de agua del acueducto veredal
+👉Luz trifásica
+
+✅Diferentes opciones de Compra
+
+1. 3 Fanegadas (cada fanegada cuenta con su escritura, matrícula inmobiliaria, documentos totalmente al día. 
+
+Valor Unidad
+
+F.1. Área: 6.505 mt2: 159.000.000
+F. 2.Área: 6.122 mt2 149.000.000
+F.3. Área: 7.577 mt2 165.000.000
+
+✅Opción 2 
+Comprar las 3 fanegadas
+  $ 455.000.000
+✅Opción 3 
+Comprar toda la propiedad 
+  $1.050.000 millones `,
+    videoYoutube: "https://youtu.be/mt5KiRn5qF4",
+  },
+  {
+    tipo: "Finca",
+    nombre: "Finca Productiva",
+    referencia: "FC. 017",
+    imagenes: ["Ref. FC. 17/1.jpg",
+             "Ref. FC. 17/2.jpg",
+             "Ref. FC. 17/3.jpg",
+             "Ref. FC. 17/4.jpg",
+             "Ref. FC. 17/5.jpg",
+             "Ref. FC. 17/6.jpg",
+             "Ref. FC. 17/7.jpg",
+             "Ref. FC. 17/8.jpg",
+             "Ref. FC. 17/9.jpg",
+             "Ref. FC. 17/10.jpg",
+             "Ref. FC. 17/11.jpg",
+             "Ref. FC. 17/12.jpg",
+             "Ref. FC. 17/13.jpg",
+             "Ref. FC. 17/14.jpg",],
+    precio: "$1.700.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "520 m² contruidos (100,000 m² en total)",
+    habitaciones: "2",
+    banos: "2",
+    descripcion: `📌 VENTA DE FINCA PRODUCTIVA EN MONIQUIRÁ – BOYACÁ
+
+📐Área: 10 Hectáreas o 100.000 mt2
+📐 Área Construida: 520 mt2 Aprox.
+👉 Estado: Segunda Mano
+
+✅Incluye un Molino totalmente funcional con empacadora
+✅Finca sembrada en caña de azucar, linda al Rio Suarez
+✅Hasta el mes de marzo de 2024 tiene agendado Maquila.
+✅ Incluye casa Sencilla`,
+    videoYoutube: "https://youtu.be/KRf_whScWk4",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
