@@ -94,49 +94,45 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 🚗 Parqueadero para aprox. 5 vehículos`,
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
   },
-    {
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 007",
-    imagenes: ["Ref. C. 07/1.png",
-             "Ref. C. 07/2.jpg",
-             "Ref. C. 07/3.jpg",
-             "Ref. C. 07/4.jpg",
-             "Ref. C. 07/5.jpg",
-             "Ref. C. 07/6.jpg",
-             "Ref. C. 07/7.jpg",
-             "Ref. C. 07/8.jpg",
-             "Ref. C. 07/9.jpg",
-             "Ref. C. 07/10.jpeg",
-             "Ref. C. 07/11.png",
-             "Ref. C. 07/12.jpg",
-             "Ref. C. 07/13.jpg",
-             "Ref. C. 07/14.jpg",],
-    precio: "$405.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "118 m² contruidos (1,238 m² en total)",
-    habitaciones: "2",
-    banos: "2",
-    descripcion: `🏡 ¡Se vende casa en zona rural a solo 5 minutos del casco urbano de Moniquirá!
+{
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 017",
+    imagenes: ["Ref. LT. 17/1.jpeg",
+             "Ref. LT. 17/2.jpeg",
+             "Ref. LT. 17/3.jpeg",
+             "Ref. LT. 17/4.jpeg",
+             "Ref. LT. 17/5.jpeg",
+             "Ref. LT. 17/6.jpeg",
+             "Ref. LT. 17/7.jpeg",],
+    precio: "$189.000.000",
+    ubicacion: "Puente Nacional, Santander",
+    area: "996 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 VENTA DE LOTE EN CONDOMINIO – PUENTE NACIONAL, SANTANDER
 
-🌿 Perfecta para quienes buscan tranquilidad, espacio y una excelente ubicación.
+📍 Condominio Chaneque
+📐 Área: 996 m²
 
-🚗 A 5 minutos del casco urbano
-🛣️ Sobre la vía a Togüí
-🪵 Solo 200 metros de vía destapada
-📑 Documentación al día: escrituras y folio de matrícula independiente
-📐 Área del lote: 1.238 m²
-🏠 Área construida: 118 m²
-🛏️ Distribución:
-• 🛌 2 habitaciones (principal con baño privado y walk-in closet)
-• 🍽️ Cocina integral
-• 🛋️ Sala
-• 🍴 Comedor
-• 🧺 Patio de ropas
-• 🚶 Corredor de servicios
-• 🔥🍖 Terraza con zona BBQ ideal para reuniones
-🚗 Parqueadero para aprox. 5 vehículos`,
-    videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
+✨ Características del lote
+💧 Agua
+⚡ Energía eléctrica
+🔥 Gas natural
+🛠️ Pozo séptico
+🏗️ Libre construcción
+🚪 Portón eléctrico
+🛣️ Vía adoquinada
+
+🌿 Zonas y áreas comunes
+🏓 Mesa de pimpón
+🏀 Cancha múltiple
+🌴 Zona de hamacas
+💦 Piscina
+🧖 Sauna
+🧖‍♂️ Turco
+🏛️ Salón comunal`,
+    videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
 ];
 
