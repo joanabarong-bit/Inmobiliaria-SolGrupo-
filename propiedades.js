@@ -3194,6 +3194,59 @@ Ubicada en Perímetro Rural
 Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
     videoYoutube: "https://youtu.be/_zFwDW1L4Ho",
   },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 013",
+    imagenes: ["Ref. FC. 13/1.jpg",
+             "Ref. FC. 13/2.jpeg",
+             "Ref. FC. 13/3.jpeg",
+             "Ref. FC. 13/4.jpeg",
+             "Ref. FC. 13/5.jpeg",
+             "Ref. FC. 13/6.jpeg",
+             "Ref. FC. 13/7.jpeg",
+             "Ref. FC. 13/8.jpeg",
+             "Ref. FC. 13/9.jpeg",
+             "Ref. FC. 13/10.jpeg",
+             "Ref. FC. 13/11.jpeg",
+             "Ref. FC. 13/12.jpeg",
+             "Ref. FC. 13/13.jpg",
+             "Ref. FC. 13/14.jpg",
+             "Ref. FC. 13/15.jpeg",
+             "Ref. FC. 13/16.jpg",],
+    precio: "$850.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "250 m² contruidos (8,500 m² en total)",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌Venta de espectacular Finca campestre en Moniquirá - Boyacá
+
+📐Área del lote:  8.500 metros cuadrados
+📐Casa 1 Área construida: 250 metros cuadrados aproximadamente
+📐Casa 2 Área construida: 150 metros cuadrados aproximadamente
+✔️Cuentan con punto de agua, gas y punto de luz.
+✔️Un lugar tranquilo.
+✔️Topografía plana 
+Características de la casa 1:
+✔️4 habitaciones
+✔️3 baños
+✔️Sala-comedor
+✔️Cocina integral
+✔️Corredores
+✔️Zonas verdes
+✔️Zona de lavandería 
+✔️Sala de estar con jacuzzi
+Características de la casa 2:
+✔️3 habitaciones
+✔️2 baños
+✔️Sala-comedor
+✔️Cocina 
+✔️Corredores
+✔️Zonas verdes
+✔️Zona BBQ
+🌱 esta sembrada en café, plátano y algunos cítricos.`,
+    videoYoutube: "https://youtu.be/BBYVbJ0bF4c",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
