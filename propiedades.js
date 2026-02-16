@@ -3289,6 +3289,51 @@ Características de la casa 2:
 ✅ 1.5 Km de la vía principal santa Sofía`,
     videoYoutube: "https://youtu.be/ep0YpZZo0ZA",
   },
+  {
+    tipo: "Finca",
+    nombre: " Dos Fincas",
+    referencia: "FC. 015",
+    imagenes: ["Ref. FC. 15/1.jpg",
+             "Ref. FC. 15/2.jpg",
+             "Ref. FC. 15/3.jpg",
+             "Ref. FC. 15/4.jpg",
+             "Ref. FC. 15/5.jpg",
+             "Ref. FC. 15/6.jpg",
+             "Ref. FC. 15/7.jpg",
+             "Ref. FC. 15/8.jpg",
+             "Ref. FC. 15/9.jpg",
+             "Ref. FC. 15/10.jpg",
+             "Ref. FC. 15/11.jpg",
+             "Ref. FC. 15/12.jpg",
+             "Ref. FC. 15/13.jpg",
+             "Ref. FC. 15/14.jpg",
+             "Ref. FC. 15/15.jpg",
+             "Ref. FC. 15/16.jpg",],
+    precio: "$900.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "- m² contruidos (-,000 m² en total)",
+    habitaciones: "3",
+    banos: "1",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ 
+
+Ubicada en Perímetro Rural
+📐Área: 30 Hectáreas
+📐Área Casa: 140 Mts2 
+La Propiedad cuenta con un Molino Moderno y funcional.
+✅Características casa
+👉No. de Habitaciones: 3 
+👉Sala Amplia
+👉No. de Baños: 2
+👉2 Cocinas
+👉Corredores sociales amplios
+👉 Quiosco 
+✅Sembrada de Café, plátano y cítricos 
+✅Punto de luz 
+✅2 Aljibe (Nacimiento de agua)
+✅Excelente vista y topografía.
+✅Sobre vía vereda principal `,
+    videoYoutube: "https://youtu.be/1KDp4R_w9uE",
+  },
 ];
 
 const ORDEN_TIPOS = ["Apartaestudio", "Apartamento", "Casa", "Lote", "Finca", "Local"];
