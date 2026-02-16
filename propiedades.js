@@ -3601,6 +3601,17 @@ function obtenerVideoEmbebido(urlVideo) {
 }
 
 /* ================= MODAL ================= */
+function obtenerAreasDetalle(propiedad) {
+  const areaTexto = propiedad.area || "-";
+
+  const areaTotal = propiedad.areaTotal || areaTexto;
+  const areaConstruida = propiedad.areaConstruida ||
+    (areaTexto.toLowerCase().includes("constru") ? areaTexto : "No especificada");
+  const areaPrivada = propiedad.areaPrivada || "No especificada";
+
+  return { areaTotal, areaConstruida, areaPrivada };
+}
+
 function verDetalle(referencia) {
   const p = propiedadesNormalizadas.find(prop => prop.referencia === referencia);
   if (!p) return;
@@ -3614,7 +3625,12 @@ function verDetalle(referencia) {
   // Información
   document.getElementById("detalleTitulo").textContent = p.nombre;
   document.getElementById("detallePrecio").textContent = p.precio;
-  document.getElementById("detalleArea").textContent = p.area;
+  
+  const areas = obtenerAreasDetalle(p);
+
+  document.getElementById("detalleArea").textContent = areas.areaTotal;
+  document.getElementById("detalleAreaConstruida").textContent = areas.areaConstruida;
+  document.getElementById("detalleAreaPrivada").textContent = areas.areaPrivada;
   document.getElementById("detalleHabitaciones").textContent = p.habitaciones;
   document.getElementById("detalleBanos").textContent = p.banos;
   document.getElementById("detalleUbicacion").textContent = p.ubicacion;
