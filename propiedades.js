@@ -2560,11 +2560,22 @@ El condominio cuenta con:
              "Ref. LT. 18/13.jpg",],
     precio: "$215.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "- m²",
+    area: "3,300 m²",
+    areaPrivada:"3,300 m²",
+    areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `-`,
-    videoYoutube: "-",
+    descripcion: `📌Venta de Lotes cerca a la vía principal 
+✔️3 Lotes de 3.300 Mts2
+✔️1 Lote de 10.135 Mts2
+✔️Ubicación: Vereda el chovo Moniquirá Boyacá 
+✔️Se puede comprar el punto de agua del acueducto Veredal 
+✔️Punto de luz
+✔️Vía placa Huella, 
+✔️a menos de un 1km de la vía principal santa Sofia. 
+💲 Precio: 215.000.000 millones (3300mts2)
+💲 Precio: 450.000.000 Millones (10.135mts2`,
+    videoYoutube: "https://youtu.be/6CPwk1PU8gc",
   },
    {
     tipo: "Lote",
