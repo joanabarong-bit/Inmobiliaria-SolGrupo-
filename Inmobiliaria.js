@@ -136,6 +136,219 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 🏛️ Salón comunal`,
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
+  {
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 016",
+    imagenes: ["Ref. C. 16/1.jpg",
+             "Ref. C. 16/2.jpg",
+             "Ref. C. 16/3.jpg",
+             "Ref. C. 16/4.jpg",
+             "Ref. C. 16/5.jpg",
+             "Ref. C. 16/6.jpg",
+             "Ref. C. 16/7.jpg",
+             "Ref. C. 16/8.jpg",
+             "Ref. C. 16/9.jpg",
+             "Ref. C. 16/10.jpg",
+             "Ref. C. 16/11.jpg",
+             "Ref. C. 16/12.jpg",
+             "Ref. C. 16/13.jpg",
+             "Ref. C. 16/14.jpg",
+             "Ref. C. 16/15.jpg",
+             "Ref. C. 16/16.jpg",
+             "Ref. C. 16/17.jpg",],
+    precio: "$670.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "187 m²",
+    areaPrivada:"187 m²",
+    areaConstruida:"187 m²",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `📌SE VENDE CASA DE DOS PISOS EN CONDOMINIO DE MONIQUIRÁ BOYACÁ
+
+📐AREA DEL LOTE: 186.66M2
+📐AREA DE CONSTRUCCIÓN: 187 M2
+☑DISTRIBUCIÓN:
+PISO 1:
+✅2 HABITACIONES CON CLOSET Y BAÑO PRIVADO
+✅1 BAÑO SOCIAL
+✅COCINA INTEGRAL CON HORNO Y ESTRACTOR
+✅SALA COMEDOR
+✅PATIO DE ROPA
+✅CALENTADOR A GAS
+PISO 2:
+✅1 HABITACION CON CLOSET Y BAÑO PRIVADO
+✅2 HABITACIONES CON CLOSET Y BALCON
+✅1 BAÑO SOCIAL
+✅SALA
+✅BALCON AMPLIO
+👩‍🍳ZONA BBQ
+🛁JACUZZI
+✅CORREDORES AMPLIOS
+🚗GARAJE BAJO TECHO
+☑GAS NATURAL, AGUA, LUZ, ALCANTARILLADO
+💰ADMINISTRACION: 💸314.000 MIL PESOS
+📝DOCUMENTOS AL DIA`,
+    videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
+  },
+  {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 009",
+    imagenes: ["Ref. LT. 09/1.jpeg",
+             "Ref. LT. 09/2.jpeg",
+             "Ref. LT. 09/3.jpeg",
+             "Ref. LT. 09/4.jpeg",
+             "Ref. LT. 09/5.jpeg",
+             "Ref. LT. 09/6.jpeg",
+             "Ref. LT. 09/7.jpeg",
+             "Ref. LT. 09/8.jpeg",
+             "Ref. LT. 09/9.jpeg",
+             "Ref. LT. 09/10.jpeg",
+             "Ref. LT. 09/11.jpeg",
+             "Ref. LT. 09/12.jpeg",
+             "Ref. LT. 09/13.jpeg",
+             "Ref. LT. 09/14.jpeg",
+             "Ref. LT. 09/15.jpeg",],
+    precio: "$120.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,500 m²",
+    areaPrivada:"2,500 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 VENTA DE LOTE EN MONIQUIRA – BOYACA
+
+📏 Área: 2.500 mt2
+👉🏻 Perímetro Rural
+👉🏻 Vereda: Chovo
+👉🏻Cerca de Vía Principal (Moniquirá – Santa Sofia 400 mts)
+👉🏻Vía hasta el lote
+
+✔Terreno Semiplano
+✔Acceso a Punto de Agua Veredal
+✔Excelente vista
+✔Buen estado de la Vía
+✔Acceso a punto de energía eléctrica `,
+    videoYoutube: "https://youtu.be/2BeopAk18o8",
+  },
+  {
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 013",
+    imagenes: ["Ref. LT. 13/1.jpeg",
+             "Ref. LT. 13/2.jpeg",
+             "Ref. LT. 13/3.jpeg",
+             "Ref. LT. 13/4.jpeg",
+             "Ref. LT. 13/5.jpeg",
+             "Ref. LT. 13/6.jpeg",
+             "Ref. LT. 13/7.jpeg",
+             "Ref. LT. 13/8.jpeg",
+             "Ref. LT. 13/9.jpeg",
+             "Ref. LT. 13/10.jpg",],
+    precio: "$170.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,110 m²",
+    areaPrivada:"1,110 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 Lote en venta dentro de condominio, en Moniquirá Boyacá.
+
+📐 Área del lote: 1.110 Mt2
+Topografía: plana con una pendiente de inclinación minima
+
+✅ Amplios senderos peatonales
+
+Cuenta con todos los servicios:
+
+✅ Gas natural
+✅ luz eléctrica
+✅ punto de agua
+✅ Zonas sociales: piscina, salón social, cancha de básquet, de voleibol y además cuenta con un portón automático que se abre desde el celular.`,
+    videoYoutube: "https://youtu.be/ApOfWWArBkw",
+  },
+  {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 017",
+    imagenes: ["Ref. LT. 17/1.jpg",
+             "Ref. LT. 17/2.jpg",
+             "Ref. LT. 17/3.jpg",
+             "Ref. LT. 17/4.jpg",
+             "Ref. LT. 17/5.jpg",
+             "Ref. LT. 17/6.jpg",
+             "Ref. LT. 17/7.jpg",
+             "Ref. LT. 17/8.jpg",
+             "Ref. LT. 17/9.jpg",
+             "Ref. LT. 17/10.jpg",],
+    precio: "$210.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "4,291 m²",
+    areaPrivada:"4,291 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `Lotes campestres en venta en Moniquirá - Boyacá
+
+📐 Áreas: 5.000 metros cuadrados.
+📌 Ubicados en la vereda El Colorado de Moniquirá, Boyacá. Zona de alta valorización.
+✔️ A 18 minutos (7,3 kilómetros) del municipio de Moniquirá.
+✔️ Disponibilidad para instalar punto de agua, luz y gas natural.
+✔️ Documentos al día, listos para una transacción exitosa.
+✔️ Puedes construir la casa de tus sueños.
+✔️ Un lugar tranquilo.
+✔️ Dos lotes incluyen cabaña construida para tu descanso.
+💸 Precio: a partir de 210.000.000 de pesos.
+📕 Documentos al día.`,
+    videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
+  },
+  {
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 008",
+    imagenes: ["Ref. FC. 08/1.jpeg",
+             "Ref. FC. 08/2.jpeg",
+             "Ref. FC. 08/3.jpeg",
+             "Ref. FC. 08/4.jpeg",],
+    precio: "$460.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "6,000 m²",
+    areaPrivada:"6,000 m²",
+    areaConstruida:"159 m²",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `👉Venta de Finca campestre
+📍 Ubicación: Moniquirá – Boyacá
+
+Cuenta con un área total de: 6.000 Mt2
+Área construida de la casa: 159 metros cuadrados
+
+Además, tiene dos vías de acceso:
+1. A una distancia aproximada de 8 Km – 16 Minutos sobre vía pavimentada que de Moniquirá conduce a Togui.
+2. A una distancia de 6 km por via al Gaque en Moniquirá – Boyacá (vía no pavimentada)
+
+Cuenta con casa de un nivel con:
+
+✔️4 habitaciones
+✔️4 baños (3 baños privados y 1 social)️
+✔️Cocina
+✔️Sala Comedor
+✔️Dos puertas de ingreso a la casa
+✔️Parqueadero
+✔️Kiosco cerca a la quebrada con camino en piedra
+✔️BBQ
+✔️Linda a quebrada
+✔️Tanques de reserva
+✔️Sistema hidro Flow
+✔️Cuarto de herramientas
+✔️Piscina con cascadas
+✔️Zona de regaderas externas
+✔️los servicios, excepto gas natural, la red avanza, está a más o menos 1 km de la propiedad.
+✔️Terreno plano – ondulado
+✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
+    videoYoutube: "https://youtu.be/AJa1UqjWiE8",
+  },
 ];
 
 
