@@ -1379,14 +1379,18 @@ img {
 
 @media (max-width: 768px) {
     .dropdown-content {
-        position: static;
+         position: fixed;
+        top: var(--mobile-dropdown-top, 76px);
+        left: 12px;
+        right: 12px;
         max-height: 0;
         overflow: hidden;
-        margin-top: 6px;
+        margin-top: 0;
         opacity: 1;
         visibility: visible;
         transform: none;
         transition: max-height 0.3s ease;
+        z-index: 1200;
     }
 
     .dropdown.open .dropdown-content {

@@ -3824,10 +3824,20 @@ document.addEventListener("DOMContentLoaded", () => {
    mostrarPropiedades(propiedadesNormalizadas);
   const dropdown = document.querySelector(".menu .dropdown");
   const dropdownTrigger = dropdown?.querySelector("span");
+  const header = document.querySelector(".top-header");
+
+  const actualizarPosicionDropdownMobile = () => {
+    if (!header) return;
+
+    const headerRect = header.getBoundingClientRect();
+    const top = Math.max(headerRect.bottom + 8, 8);
+    document.documentElement.style.setProperty("--mobile-dropdown-top", `${top}px`);
+  };
 
   if (dropdown && dropdownTrigger) {
     dropdownTrigger.addEventListener("click", () => {
       if (window.matchMedia("(max-width: 768px)").matches) {
+        actualizarPosicionDropdownMobile();
         dropdown.classList.toggle("open");
       }
     });
@@ -3844,6 +3854,8 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdown.classList.remove("open");
       });
     });
+    window.addEventListener("resize", actualizarPosicionDropdownMobile);
+    window.addEventListener("scroll", actualizarPosicionDropdownMobile, { passive: true });
   }
 
   iniciarAnimacionesScroll();
