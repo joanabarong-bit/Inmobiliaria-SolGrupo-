@@ -381,6 +381,7 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
                 <img src="${p.imagenes[0]}" alt="${p.nombre}">
                 <div class="property-body">
                     <h3>${p.nombre}</h3>
+                     <p class="property-ref">📌 Ref: ${p.referencia || "Sin referencia"}</p>
                     <p class="location">📍 ${p.ubicacion}</p>
                     <p class="price">${p.precio}</p>
                     <button onclick="verDetalle('${p.nombre}')">Ver detalles</button>
@@ -497,9 +498,10 @@ function verDetalle(nombre) {
     document.getElementById("detalleUbicacion").textContent = p.ubicacion;
     document.getElementById("detalleDescripcion").textContent = p.descripcion;
 
+    const referencia = p.referencia || "Sin referencia";
     document.getElementById("btnWhatsappDetalle").href =
         "https://wa.me/573161498625?text=" +
-       encodeURIComponent(`Hola, estoy interesado en la propiedad: ${p.nombre} (Ref: ${p.referencia || "Sin referencia"})`);
+       encodeURIComponent(`Hola, estoy interesado en la propiedad: ${p.nombre}. Referencia: ${referencia}`);
 
         const videoYoutube = p.videoYoutube || "";
     const videoEmbed = obtenerVideoEmbebido(videoYoutube);
