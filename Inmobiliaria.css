@@ -783,9 +783,9 @@ footer {
 
 .aliados-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    gap: 18px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    align-items: stretch;
 }
 
 .aliados-grid a {
@@ -795,8 +795,8 @@ footer {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 14px;
-    min-height: 88px;
-    padding: 14px;
+    min-height: 120px;
+    padding: 16px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -806,8 +806,8 @@ footer {
 }
 
 .aliados-grid img {
-    max-width: 120px;
-    max-height: 44px;
+    max-width: 150px;
+    max-height: 72px;
     width: auto;
     height: auto;
     object-fit: contain;
