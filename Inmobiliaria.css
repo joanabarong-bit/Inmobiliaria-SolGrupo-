@@ -1258,22 +1258,44 @@ img {
     filter: invert(12%) sepia(89%) saturate(700%) hue-rotate(180deg);
 }
 
-/* ===== FOOTER COLUMNA SÍGUENOS ===== */
+/* ===== FOOTER REORGANIZADO ===== */
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
 .footer-col {
-    text-align: center;
+    text-align: left;
+}
+
+.footer-col h4 {
+    text-align: left;
+}
+
+.footer-contact-list {
+    display: grid;
+    gap: 10px;
+}
+
+.footer-contact-list li {
+    line-height: 1.5;
+}
+
+.footer-col-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .footer-socials.icons {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    gap: 18px;
+    gap: 14px;
     margin-top: 12px;
-}
-
-.footer-col h4 {
-    text-align: center;
 }
 
 /* ===== LOGO NAVBAR ===== */
@@ -2000,5 +2022,26 @@ body.detalle-modal-open .top-header {
         width: auto;
         min-width: 0;
         border-radius: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer,
+    .footer-col,
+    .footer-col h4,
+    .footer-brand {
+        text-align: center;
+    }
+
+    .footer-brand {
+        align-items: center;
+    }
+
+    .footer-col-social {
+        align-items: center;
+    }
+
+    .footer-socials.icons {
+        justify-content: center;
     }
 }
