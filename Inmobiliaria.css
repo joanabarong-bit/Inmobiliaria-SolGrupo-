@@ -129,7 +129,8 @@ footer {
 }
 
 .menu a,
-.menu span {
+.menu span,
+.menu .dropdown-trigger {
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -1864,7 +1865,8 @@ body.detalle-modal-open .top-header {
     }
 
     .menu a,
-    .menu span {
+   .menu span,
+   .menu .dropdown-trigger {
         font-size: 0.9rem;
     }
 
@@ -1923,7 +1925,8 @@ body.detalle-modal-open .top-header {
 }
 
 .menu a,
-.menu span {
+.menu span,
+.menu .dropdown-trigger {
     padding: 6px 10px;
     border-radius: 999px;
 }
@@ -1952,8 +1955,21 @@ body.detalle-modal-open .top-header {
     }
 
     .menu a,
-    .menu span {
+    .menu span,
+    .menu .dropdown-trigger {
         flex: 0 0 auto;
         white-space: nowrap;
     }
+}
+
+.menu .dropdown-trigger {
+    background: transparent;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+.menu .dropdown-trigger:hover {
+    transform: none;
+    box-shadow: none;
 }

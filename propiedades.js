@@ -2027,19 +2027,19 @@ Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 003",
-    imagenes: ["Ref. LT. 03/1.jpg",
-             "Ref. LT. 03/2.jpg",
-             "Ref. LT. 03/3.jpg",
-             "Ref. LT. 03/4.jpg",
-             "Ref. LT. 03/5.jpg",
-             "Ref. LT. 03/6.jpg",
-             "Ref. LT. 03/7.jpg",
-             "Ref. LT. 03/8.jpg",
-             "Ref. LT. 03/9.jpg",
-             "Ref. LT. 03/10.jpg",
-             "Ref. LT. 03/11.jpg",
-             "Ref. LT. 03/12.jpg",
-             "Ref. LT. 03/13.jpg",],
+    imagenes: ["REF. LT. 03/1.jpg",
+             "REF. LT. 03/2.jpg",
+             "REF. LT. 03/3.jpg",
+             "REF. LT. 03/4.jpg",
+             "REF. LT. 03/5.jpg",
+             "REF. LT. 03/6.jpg",
+             "REF. LT. 03/7.jpg",
+             "REF. LT. 03/8.jpg",
+             "REF. LT. 03/9.jpg",
+             "REF. LT. 03/10.jpg",
+             "REF. LT. 03/11.jpg",
+             "REF. LT. 03/12.jpg",
+             "REF. LT. 03/13.jpg",],
     precio: "$60.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "120 m²",
@@ -2060,20 +2060,20 @@ Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 004",
-    imagenes: ["Ref. LT. 04/1.jpg",
-             "Ref. LT. 04/2.jpg",
-             "Ref. LT. 04/3.jpg",
-             "Ref. LT. 04/4.jpg",
-             "Ref. LT. 04/5.jpg",
-             "Ref. LT. 04/6.jpg",
-             "Ref. LT. 04/7.jpg",
-             "Ref. LT. 04/8.jpg",
-             "Ref. LT. 04/9.jpg",
-             "Ref. LT. 04/10.jpg",
-             "Ref. LT. 04/11.jpg",
-             "Ref. LT. 04/12.jpg",
-             "Ref. LT. 04/13.jpg",
-             "Ref. LT. 04/14.jpg",],
+    imagenes: ["REF. LT. 04/1.jpg",
+             "REF. LT. 04/2.jpg",
+             "REF. LT. 04/3.jpg",
+             "REF. LT. 04/4.jpg",
+             "REF. LT. 04/5.jpg",
+             "REF. LT. 04/6.jpg",
+             "REF. LT. 04/7.jpg",
+             "REF. LT. 04/8.jpg",
+             "REF. LT. 04/9.jpg",
+             "REF. LT. 04/10.jpg",
+             "REF. LT. 04/11.jpg",
+             "REF. LT. 04/12.jpg",
+             "REF. LT. 04/13.jpg",
+             "REF. LT. 04/14.jpg",],
     precio: "$69.000.000",
     ubicacion: "Barbosa, Santander",
     area: "72 m²",
@@ -3823,7 +3823,7 @@ function buscarPropiedades() {
 document.addEventListener("DOMContentLoaded", () => {
    mostrarPropiedades(propiedadesNormalizadas);
   const dropdown = document.querySelector(".menu .dropdown");
-  const dropdownTrigger = dropdown?.querySelector("span");
+  const dropdownTrigger = dropdown?.querySelector(".dropdown-trigger");
   const header = document.querySelector(".top-header");
 
   const actualizarPosicionDropdownMobile = () => {
@@ -3835,16 +3835,19 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   if (dropdown && dropdownTrigger) {
-    dropdownTrigger.addEventListener("click", () => {
+   dropdownTrigger.addEventListener("click", event => {
       if (window.matchMedia("(max-width: 768px)").matches) {
+        event.stopPropagation();
         actualizarPosicionDropdownMobile();
         dropdown.classList.toggle("open");
+        dropdownTrigger.setAttribute("aria-expanded", dropdown.classList.contains("open") ? "true" : "false");
       }
     });
 
     document.addEventListener("click", event => {
       if (!dropdown.contains(event.target)) {
         dropdown.classList.remove("open");
+        dropdownTrigger.setAttribute("aria-expanded", "false");
       }
     });
 
@@ -3852,7 +3855,14 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdownLinks.forEach(link => {
       link.addEventListener("click", () => {
         dropdown.classList.remove("open");
+        dropdownTrigger.setAttribute("aria-expanded", "false");
       });
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        dropdown.classList.remove("open");
+        dropdownTrigger.setAttribute("aria-expanded", "false");
+      }
     });
     window.addEventListener("resize", actualizarPosicionDropdownMobile);
     window.addEventListener("scroll", actualizarPosicionDropdownMobile, { passive: true });
