@@ -549,6 +549,10 @@ footer {
     text-align: center;
 }
 
+/* Ajuste específico de home para evitar espacio excesivo antes del título */
+#destacadas.featured-properties {
+    margin-top: 24px;
+}
 .featured-properties h2 {
     color: var(--azul);
 }
@@ -1967,9 +1971,34 @@ body.detalle-modal-open .top-header {
     border: none;
     font: inherit;
     cursor: pointer;
+    padding: 0;
+    border-radius: 0;
 }
 
 .menu .dropdown-trigger:hover {
     transform: none;
     box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .top-header,
+    .menu,
+    .dropdown {
+        overflow: visible;
+    }
+
+    .menu .dropdown-trigger {
+        appearance: none;
+        -webkit-appearance: none;
+        color: inherit;
+        font-weight: 600;
+    }
+
+    .dropdown-content {
+        left: 10px;
+        right: 10px;
+        width: auto;
+        min-width: 0;
+        border-radius: 14px;
+    }
 }

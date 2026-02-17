@@ -3837,6 +3837,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (dropdown && dropdownTrigger) {
    dropdownTrigger.addEventListener("click", event => {
       if (window.matchMedia("(max-width: 768px)").matches) {
+        event.preventDefault();
         event.stopPropagation();
         actualizarPosicionDropdownMobile();
         dropdown.classList.toggle("open");
@@ -3864,7 +3865,13 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdownTrigger.setAttribute("aria-expanded", "false");
       }
     });
-    window.addEventListener("resize", actualizarPosicionDropdownMobile);
+     window.addEventListener("resize", () => {
+      actualizarPosicionDropdownMobile();
+      if (!window.matchMedia("(max-width: 768px)").matches) {
+        dropdown.classList.remove("open");
+        dropdownTrigger.setAttribute("aria-expanded", "false");
+      }
+    });
     window.addEventListener("scroll", actualizarPosicionDropdownMobile, { passive: true });
   }
 
