@@ -355,12 +355,15 @@ function buscarPropiedades() {
 
 const form = document.getElementById("contactForm");
 if (form) {
+    const endpointCorreo = "https://formsubmit.co/ajax/solgrupo.asesorias@gmail.com";
+
     form.addEventListener("submit", async e => {
         e.preventDefault();
         const formData = new FormData(form);
 
         try {
-            const response = await fetch(form.action, {
+            const destino = form.action && form.action.trim() ? form.action : endpointCorreo;
+            const response = await fetch(destino, {
                 method: "POST",
                 body: formData,
                 headers: {

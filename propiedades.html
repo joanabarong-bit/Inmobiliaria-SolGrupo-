@@ -144,13 +144,16 @@
 
   
         <!-- FORMULARIO -->
-        <form id="contactForm">
+         <form id="contactForm" action="https://formsubmit.co/ajax/solgrupo.asesorias@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nuevo mensaje de contacto - Inmobiliaria Solgrupo">
+            <input type="hidden" name="_captcha" value="false">
+
             <div class="form-row">
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                 <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
             </div>
 
-            <input type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+           <input type="email" name="email" id="correo" placeholder="Correo electrónico" required>
             <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
 
             <select name="motivo" id="motivo" required>
