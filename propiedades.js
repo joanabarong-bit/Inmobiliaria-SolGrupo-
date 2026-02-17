@@ -2023,7 +2023,7 @@ Precio: Cabaña Tipo 1, 40Mts2 120 millones en un lote de 700 Mts2
 Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
     videoYoutube: "https://youtu.be/uITRIPGSBtE",
   },
-   {
+  {
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 003",
@@ -2056,9 +2056,9 @@ Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
 ✔️El 90% de la vía es pavimentada, y el otro 10% es destapado en buen estado.`,
     videoYoutube: "https://youtu.be/gYl7-P8GZks",
   },
-   {
+  {
     tipo: "Lote",
-    nombre: "Lote",
+    nombre: "Lotes",
     referencia: "LT. 004",
     imagenes: ["Ref. LT. 04/1.jpg",
              "Ref. LT. 04/2.jpg",
