@@ -2117,6 +2117,14 @@ body.detalle-modal-open .top-header {
         gap: 22px;
     }
 
+    .footer-brand {
+        align-items: center;
+    }
+
+    .footer-brand h3 {
+        text-align: center;
+    }
+
     .footer h3,
     .footer h4 {
         font-size: 1.18rem;
@@ -2130,5 +2138,6 @@ body.detalle-modal-open .top-header {
 
     .footer-logo img {
         width: min(280px, 85vw);
+        margin-inline: auto;
     }
 }
