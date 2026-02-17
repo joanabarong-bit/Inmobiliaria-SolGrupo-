@@ -355,10 +355,28 @@ function buscarPropiedades() {
 
 const form = document.getElementById("contactForm");
 if (form) {
-    form.addEventListener("submit", e => {
+    form.addEventListener("submit", async e => {
         e.preventDefault();
-        alert("Gracias por contactarnos. Pronto nos comunicaremos contigo.");
-        form.reset();
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: formData,
+                headers: {
+                    Accept: "application/json"
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error("No se pudo enviar el formulario");
+            }
+
+            alert("Gracias por contactarnos. Tu mensaje fue enviado correctamente.");
+            form.reset();
+        } catch (error) {
+            alert("No pudimos enviar tu mensaje en este momento. Inténtalo nuevamente.");
+        }
     });
 }
 
