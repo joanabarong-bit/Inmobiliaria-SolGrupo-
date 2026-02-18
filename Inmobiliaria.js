@@ -22,7 +22,9 @@ const propiedades = [
              "Ref. C. 02/12.jpeg",],
     precio: "$160.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "54 m² contruidos (1,328 m² en total)",
+    area: "1,328 m²",
+    areaPrivada:"1,328 m²",
+    areaConstruida:"54 m²",
     habitaciones: "2",
     banos: "2",
     descripcion: `🏡 Se vende cabaña en Moniquirá, Boyacá
@@ -50,7 +52,7 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 `,
     videoYoutube: "https://youtu.be/2VMqNNXp55g",
   },
-    {
+   {
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 007",
@@ -70,7 +72,9 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
              "Ref. C. 07/14.jpg",],
     precio: "$405.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "118 m² contruidos (1,238 m² en total)",
+    area: "1,238 m²",
+    areaPrivada:"1,238 m²",
+    areaConstruida:"118 m²",
     habitaciones: "2",
     banos: "2",
     descripcion: `🏡 ¡Se vende casa en zona rural a solo 5 minutos del casco urbano de Moniquirá!
