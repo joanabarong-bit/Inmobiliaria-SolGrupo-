@@ -771,7 +771,7 @@ footer {
 
 .aliados-section {
     background: #ffffff;
-    margin-top: 70px;
+    margin-top: 0;
     padding: 35px 20px;
 }
 
@@ -1723,8 +1723,8 @@ body.detalle-modal-open .top-header {
 
     .logo img {
         transform: none;
-        height: 52px;
-        max-width: 170px;
+        height: 64px;
+        max-width: 210px;
     }
 
     .menu {
@@ -1896,8 +1896,8 @@ body.detalle-modal-open .top-header {
     }
 
     .logo img {
-        height: 46px;
-        max-width: 150px;
+        height: 56px;
+        max-width: 190px;
     }
 
     .menu a,
@@ -2141,3 +2141,4 @@ body.detalle-modal-open .top-header {
         margin-inline: auto;
     }
 }
+
