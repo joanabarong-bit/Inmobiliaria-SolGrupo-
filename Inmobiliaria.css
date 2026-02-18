@@ -2142,3 +2142,48 @@ body.detalle-modal-open .top-header {
     }
 }
 
+/* ===== AJUSTE FOOTER PC: CENTRADO Y COMPACTO ===== */
+@media (min-width: 769px) {
+    .footer {
+        padding: 48px 24px 20px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin-inline: auto;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        justify-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-col,
+    .footer-col-social {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+    }
+
+    .footer-col,
+    .footer-col h4,
+    .footer-contact-list,
+    .footer-contact-list li,
+    .footer-col ul {
+        text-align: center;
+        justify-items: center;
+    }
+
+    .footer-socials.icons {
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 24px;
+    }
+}
