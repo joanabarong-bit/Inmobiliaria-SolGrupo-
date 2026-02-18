@@ -1896,8 +1896,8 @@ body.detalle-modal-open .top-header {
     }
 
     .logo img {
-        height: 56px;
-        max-width: 190px;
+        height: 82px;
+        max-width: 250px;
     }
 
     .menu a,
@@ -1981,6 +1981,9 @@ body.detalle-modal-open .top-header {
 }
 
 @media (max-width: 600px) {
+    .logo {
+        align-self: center;
+    }
     .menu {
         flex-wrap: nowrap;
         justify-content: flex-start;
