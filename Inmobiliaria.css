@@ -1078,6 +1078,33 @@ footer {
         padding: 40px 15px;
     }
 
+     .videos-section {
+        padding-bottom: 12px;
+    }
+
+    .aliados-section {
+        padding-top: 12px;
+    }
+
+    .team-section {
+        padding-bottom: 0;
+    }
+
+    .team-section + .videos-section {
+        margin-top: 7px;
+        padding-top: 0;
+    }
+
+    .videos-section {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .videos-section + .aliados-section {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     .about-section h1,
     .values-section h2,
     .team-section h2,
