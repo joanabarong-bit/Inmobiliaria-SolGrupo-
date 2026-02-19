@@ -2222,6 +2222,21 @@ body.detalle-modal-open .top-header {
 @media (max-width: 768px) {
     .top-header {
         overflow: hidden;
+        padding: 6px 12px;
+        gap: 4px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 0;
+    }
+
+    .logo img {
+        display: block;
+        height: 98px;
+        max-width: min(82vw, 310px);
     }
 
     .menu {
@@ -2229,6 +2244,7 @@ body.detalle-modal-open .top-header {
         max-width: 100%;
         overflow-x: auto;
         padding-inline: 4px;
+        margin-top: 0;
     }
 
     .contact-section {
