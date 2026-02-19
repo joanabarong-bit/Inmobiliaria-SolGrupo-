@@ -2217,3 +2217,40 @@ body.detalle-modal-open .top-header {
         margin-top: 24px;
     }
 }
+
+/* ===== AJUSTE EXTRA MÓVIL: CONTACTO COMPLETO + BOTÓN WHATSAPP ===== */
+@media (max-width: 768px) {
+    .top-header {
+        overflow: hidden;
+    }
+
+    .menu {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        padding-inline: 4px;
+    }
+
+    .contact-section {
+        scroll-margin-top: 140px;
+    }
+
+    .contact-container,
+    #contactForm,
+    .mapa {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .whatsapp-float {
+        width: 68px;
+        height: 68px;
+        right: max(14px, env(safe-area-inset-right));
+        bottom: max(14px, env(safe-area-inset-bottom));
+    }
+
+    .whatsapp-float img {
+        width: 36px;
+        height: 36px;
+    }
+}
