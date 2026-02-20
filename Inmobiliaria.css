@@ -2089,6 +2089,7 @@ body.detalle-modal-open .top-header {
 
 /* ===== AJUSTE FOOTER EN COLUMNAS: ORDEN Y PROPORCIÓN ===== */
 .footer {
+    margin-top: 0;
     padding: 56px 28px 22px;
 }
 
@@ -2122,6 +2123,10 @@ body.detalle-modal-open .top-header {
 
 .footer-contact-list {
     gap: 12px;
+}
+
+.footer-horario {
+    white-space: nowrap;
 }
 
 .footer-col ul {

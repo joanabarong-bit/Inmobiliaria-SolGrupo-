@@ -259,8 +259,8 @@
              <ul class="footer-contact-list">
                 <li>📍 Edificio Altos del nogal, Cra. 7 #22-27 local 114, Moniquirá, Boyacá</li>
                 <li><a href="tel:+573161498625">📞 +57 316 149 8625</a></li>
-                <li><a href="mailto:solgrupo.asesorias@gmail.com">✉️ solgrupo.asesorias@gmail.com</a></li>
-                <li>🕒 Lun – Sab: 8:00 a.m. – 5:30 p.m.</li>
+                <li><a href="mailto:solgrupo.asesorias@gmail.com">✉️&nbsp;solgrupo.asesorias@gmail.com</a></li>
+               <li class="footer-horario">🕒 Lun – Sab: 8:00 a.m. – 5:30&nbsp;p.m.</li>
             </ul>
         </div>
 
@@ -314,5 +314,20 @@
 
 
 <script src="propiedades.js"></script>
+
+<script>
+(function () {
+  const { pathname, search, hash } = window.location;
+  const cleanedPath = pathname
+    .replace(/\/(?:index\.html)?$/, "/")
+    .replace(/\.html-\d+$/, "")
+    .replace(/\.html$/, "");
+
+  if (cleanedPath !== pathname) {
+    window.history.replaceState({}, "", `${cleanedPath}${search}${hash}`);
+  }
+})();
+</script>
+
 </body>
 </html>
