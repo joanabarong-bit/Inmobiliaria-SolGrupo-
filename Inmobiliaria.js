@@ -503,6 +503,7 @@ function verDetalle(nombre) {
     document.getElementById("detalleDescripcion").textContent = p.descripcion;
 
     const referencia = p.referencia || "Sin referencia";
+    document.getElementById("detalleReferencia").textContent = `Referencia: ${referencia}`;
     document.getElementById("btnWhatsappDetalle").href =
         "https://wa.me/573161498625?text=" +
        encodeURIComponent(`Hola, estoy interesado en la propiedad: ${p.nombre}. Referencia: ${referencia}`);

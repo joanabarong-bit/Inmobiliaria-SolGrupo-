@@ -3768,10 +3768,13 @@ function verDetalle(referencia) {
   document.getElementById("detalleUbicacion").textContent = p.ubicacion;
   document.getElementById("detalleDescripcion").textContent = p.descripcion;
 
+  const referenciaDetalle = p.referencia || "Sin referencia";
+  document.getElementById("detalleReferencia").textContent = `Referencia: ${referenciaDetalle}`;
+
   // WhatsApp
   document.getElementById("btnWhatsappDetalle").href =
     "https://wa.me/573161498625?text=" +
-     encodeURIComponent(`Hola, estoy interesado en la propiedad: ${p.nombre} (Ref: ${p.referencia})`);
+     encodeURIComponent(`Hola, estoy interesado en la propiedad: ${p.nombre} (Ref: ${referenciaDetalle})`);
 
      // Video
   const videoYoutube = p.videoYoutube || VIDEO_YOUTUBE_DEFAULT;
