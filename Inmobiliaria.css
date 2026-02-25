@@ -1296,7 +1296,7 @@ img {
 .footer-brand {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0;
 }
 
 .footer-col {
@@ -1423,12 +1423,12 @@ img {
 
 /* ===== LOGO EN FOOTER ===== */
 .footer-logo {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 .footer-logo img {
-    width: 400px;       /* tamaño del logo */
+    width: 460px;       /* tamaño del logo */
     height: auto;       /* mantiene proporción */
     object-fit: contain;
     filter: brightness(0) invert(1); /* opcional: hace el logo blanco si tu footer es oscuro */
@@ -2126,10 +2126,25 @@ body.detalle-modal-open .top-header {
 
 .footer-brand {
     max-width: 420px;
+    justify-self: start;
+    text-align: center;
 }
 
 .footer-logo img {
     width: clamp(220px, 24vw, 320px);
+    width: clamp(300px, 28vw, 440px);
+}
+
+.footer-brand h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.footer-brand p {
+    margin-top: 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
 }
 
 .footer-contact-list {
@@ -2212,6 +2227,8 @@ body.detalle-modal-open .top-header {
 
     .footer-brand {
         max-width: 100%;
+        justify-self: start;
+        text-align: center;
     }
 
     .footer-col,
