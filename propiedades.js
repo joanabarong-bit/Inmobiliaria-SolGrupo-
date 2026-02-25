@@ -904,7 +904,7 @@ Características Especificas
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 006",
-    imagenes: ["Ref. C. 06/1.jpg",
+    imagenes: ["Ref. C. 06/1.png",
              "Ref. C. 06/2.jpg",
              "Ref. C. 06/3.jpg",
              "Ref. C. 06/4.jpg",
@@ -913,55 +913,11 @@ Características Especificas
              "Ref. C. 06/7.jpg",
              "Ref. C. 06/8.jpg",
              "Ref. C. 06/9.jpg",
-             "Ref. C. 06/10.jpg",
-             "Ref. C. 06/11.jpg",
+             "Ref. C. 06/10.jpeg",
+             "Ref. C. 06/11.png",
              "Ref. C. 06/12.jpg",
              "Ref. C. 06/13.jpg",
-             "Ref. C. 06/14.jpg",
-             "Ref. C. 06/15.jpg",
-             "Ref. C. 06/16.jpg",],
-    precio: "$420.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "238 m²",
-    areaPrivada:"238 m²",
-    areaConstruida:"204 m²",
-    habitaciones: "6",
-    banos: "3",
-    descripcion: `📌 VENTA DE CASA EN MONIQUIRA - BOYACA
-
-📏 Área total: 238 metros cuadrados
-📏 Área Construida: 204 metros
-
-✔️Casa de dos niveles 
-✔️6 habitaciones
-✔️Sala comedor
-✔Cuarto de Lavandería
-✔️4 baños 
-✔️2 cocinas
-✔️Garaje Cubierto
-✔️Antejardín
-✔️Zona de Bbq 
-✔️2 patios uno bastante amplio y otro pequeño`,
-    videoYoutube: "https://youtu.be/UGGg38yn3pY",
-  }, 
-   {
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 007",
-    imagenes: ["Ref. C. 07/1.png",
-             "Ref. C. 07/2.jpg",
-             "Ref. C. 07/3.jpg",
-             "Ref. C. 07/4.jpg",
-             "Ref. C. 07/5.jpg",
-             "Ref. C. 07/6.jpg",
-             "Ref. C. 07/7.jpg",
-             "Ref. C. 07/8.jpg",
-             "Ref. C. 07/9.jpg",
-             "Ref. C. 07/10.jpeg",
-             "Ref. C. 07/11.png",
-             "Ref. C. 07/12.jpg",
-             "Ref. C. 07/13.jpg",
-             "Ref. C. 07/14.jpg",],
+             "Ref. C. 06/14.jpg",],
     precio: "$405.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
@@ -989,6 +945,50 @@ Características Especificas
 • 🔥🍖 Terraza con zona BBQ ideal para reuniones
 🚗 Parqueadero para aprox. 5 vehículos`,
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
+  },
+   {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.jpg",
+             "Ref. C. 07/2.jpg",
+             "Ref. C. 07/3.jpg",
+             "Ref. C. 07/4.jpg",
+             "Ref. C. 07/5.jpg",
+             "Ref. C. 07/6.jpg",
+             "Ref. C. 07/7.jpg",
+             "Ref. C. 07/8.jpg",
+             "Ref. C. 07/9.jpg",
+             "Ref. C. 07/10.jpg",
+             "Ref. C. 07/11.jpg",
+             "Ref. C. 07/12.jpg",
+             "Ref. C. 07/13.jpg",
+             "Ref. C. 07/14.jpg",
+             "Ref. C. 07/15.jpg",
+             "Ref. C. 07/16.jpg",],
+    precio: "$420.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "238 m²",
+    areaPrivada:"238 m²",
+    areaConstruida:"204 m²",
+    habitaciones: "6",
+    banos: "3",
+    descripcion: `📌 VENTA DE CASA EN MONIQUIRA - BOYACA
+
+📏 Área total: 238 metros cuadrados
+📏 Área Construida: 204 metros
+
+✔️Casa de dos niveles 
+✔️6 habitaciones
+✔️Sala comedor
+✔Cuarto de Lavandería
+✔️4 baños 
+✔️2 cocinas
+✔️Garaje Cubierto
+✔️Antejardín
+✔️Zona de Bbq 
+✔️2 patios uno bastante amplio y otro pequeño`,
+    videoYoutube: "https://youtu.be/UGGg38yn3pY",
   },
   {
     tipo: "Casa",
@@ -1523,23 +1523,89 @@ Pago de administración: $90.000 pesos`,
   },
   {
     tipo: "Casa",
-    nombre: "Casa Campestre",
+    nombre: "Casa Rural",
     referencia: "C. 018",
-    imagenes: ["Ref. C. 18/1.jpg",
-             "Ref. C. 18/2.jpg",
-             "Ref. C. 18/3.jpg",
-             "Ref. C. 18/4.jpg",
-             "Ref. C. 18/5.jpg",
-             "Ref. C. 18/6.jpg",
-             "Ref. C. 18/7.jpg",
-             "Ref. C. 18/8.jpg",
-             "Ref. C. 18/9.jpg",
-             "Ref. C. 18/10.jpg",
-             "Ref. C. 18/11.jpg",
-             "Ref. C. 18/12.jpg",
-             "Ref. C. 18/13.jpg",
-             "Ref. C. 18/14.jpg",
-             "Ref. C. 18/15.jpg",],
+    imagenes: ["Ref. C. 18/1.jpeg",
+             "Ref. C. 18/2.jpeg",
+             "Ref. C. 18/3.jpeg",
+             "Ref. C. 18/4.jpeg",
+             "Ref. C. 18/5.jpeg",
+             "Ref. C. 18/6.jpeg",
+             "Ref. C. 18/7.jpeg",
+             "Ref. C. 18/8.jpeg",
+             "Ref. C. 18/9.jpeg",
+             "Ref. C. 18/10.jpeg",
+             "Ref. C. 18/11.jpeg",
+             "Ref. C. 18/12.jpeg",
+             "Ref. C. 18/13.jpeg",
+             "Ref. C. 18/14.jpeg",
+             "Ref. C. 18/15.jpeg",],
+    precio: "$735.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,056 m²",
+    areaPrivada:"2,056 m²",
+    areaConstruida:"360 m²",
+    habitaciones: "6",
+    banos: "5",
+    descripcion: `🏡 ¡SE VENDE CASA EN ZONA RURAL – MONIQUIRÁ!
+
+🌿 Ideal para quienes buscan tranquilidad, amplitud y excelente ubicación, a solo minutos del casco urbano.
+
+📍 Ubicación
+🚗 A solo 5 minutos del casco urbano de Moniquirá
+🛣️ Vereda Potrero Grande
+🪵 Solo 200 metros de vía destapada
+
+📑 Documentación al día (escrituras y folio de matrícula independiente)
+
+📐 Características Generales
+Área del lote: 2.056 m²
+Área construida: 360 m²
+
+La propiedad se divide en: 2 casas y 1 apartaestudio
+
+🏠 Distribución
+🛌 6 habitaciones
+🚿 5 baños
+🍽️ Cocina integral
+🛋️ Sala
+🍴 Comedor
+🧺 Zona de lavandería
+👕 Patio de ropas
+🚶 Corredor de servicios
+🔥 Terraza con zona BBQ ideal para reuniones
+
+🔧 Servicios y Comodidades
+
+💧 Punto de agua del acueducto
+🔥 Calentador a gas
+💡 Servicio de luz
+🔥 Gas
+🌐 Internet con fibra óptica
+🚗 Parqueadero
+
+Espacio para aproximadamente 3 vehículos`,
+    videoYoutube: "https://youtu.be/LO_szsBXv9E",
+  },
+  {
+    tipo: "Casa",
+    nombre: "Casa Campestre",
+    referencia: "C. 019",
+    imagenes: ["Ref. C. 19/1.jpg",
+             "Ref. C. 19/2.jpg",
+             "Ref. C. 19/3.jpg",
+             "Ref. C. 19/4.jpg",
+             "Ref. C. 19/5.jpg",
+             "Ref. C. 19/6.jpg",
+             "Ref. C. 19/7.jpg",
+             "Ref. C. 19/8.jpg",
+             "Ref. C. 19/9.jpg",
+             "Ref. C. 19/10.jpg",
+             "Ref. C. 19/11.jpg",
+             "Ref. C. 19/12.jpg",
+             "Ref. C. 19/13.jpg",
+             "Ref. C. 19/14.jpg",
+             "Ref. C. 19/15.jpg",],
     precio: "$790.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "2,400 m²",
@@ -1575,22 +1641,83 @@ Pago de administración: $90.000 pesos`,
   },
   {
     tipo: "Casa",
+    nombre: "Casa Quinta en Condominio",
+    referencia: "C. 020",
+    imagenes: ["Ref. C. 20/1.jpeg",
+             "Ref. C. 20/2.jpeg",
+             "Ref. C. 20/3.jpeg",
+             "Ref. C. 20/4.jpeg",
+             "Ref. C. 20/5.jpeg",
+             "Ref. C. 20/6.jpeg",
+             "Ref. C. 20/7.jpeg",
+             "Ref. C. 20/8.jpeg",
+             "Ref. C. 20/9.jpeg",
+             "Ref. C. 20/10.jpeg",
+             "Ref. C. 20/11.jpeg",
+             "Ref. C. 20/12.jpeg",
+             "Ref. C. 20/13.jpeg",
+             "Ref. C. 20/14.jpeg",
+             "Ref. C. 20/15.jpeg",],
+    precio: "$820.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,600 m²",
+    areaPrivada:"1,600 m²",
+    areaConstruida:"210 m²",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `📌Venta Casa quinta dentro de condominio en Moniquirá - Boyacá
+
+📍Ubicado en un excelente sector de alta valorización 
+
+📐Área del lote: 1.160 metros cuadrados
+📐Área construida: 210 metros aproximadamente sin contar senderos peatonales y zonas sociales.
+
+✔Cuenta con Todos los servicios públicos
+✔esta ubicada en uno de los condominios más exclusivos del municipio 
+
+🔻 Primer piso:
+➡ Sala-comedor
+➡ Cocina integral con extractor e isla 🍽
+➡ 3 habitaciones 🛏 (una con baño privado 🚿)
+➡ Baño social 🚻
+➡ Zona de lavandería 🧺
+🔺 Segundo piso:
+➡ 1 habitación con balcón 🌅
+➡ 1 baño completo 🛁
+➡ Sala de estar con balcón 🛋
+
+🚗 Exteriores y zonas comunes:
+➡ Amplio parqueadero 🚘
+➡ Pileta de descanso 💧
+➡ Senderos peatonales 🚶‍♂🌿
+➡ Zona BBQ con 2 comedores 🍖🍽
+➡ 1 baño auxiliar 🚻
+➡ Kiosco campestre ⛱
+➡ Mini cancha de tejo 🎯
+➡ Zonas verdes 🌳
+➡ Árboles frutales 🍊🍌🍍
+➡ Alcantarillado del municipio
+➡ Pago de administración mensual : 150.000 pesos `,
+    videoYoutube: "https://youtu.be/M7qr_Q6sFcg",
+  },
+  {
+    tipo: "Casa",
     nombre: "Casa en Condominios",
-    referencia: "C. 019",
-    imagenes: ["Ref. C. 19/1.jpeg",
-             "Ref. C. 19/2.jpeg",
-             "Ref. C. 19/3.jpeg",
-             "Ref. C. 19/4.jpeg",
-             "Ref. C. 19/5.jpeg",
-             "Ref. C. 19/6.jpeg",
-             "Ref. C. 19/7.jpeg",
-             "Ref. C. 19/8.jpeg",
-             "Ref. C. 19/9.jpeg",
-             "Ref. C. 19/10.jpeg",
-             "Ref. C. 19/11.jpeg",
-             "Ref. C. 19/12.jpeg",
-             "Ref. C. 19/13.jpeg",
-             "Ref. C. 19/14.jpeg",],
+    referencia: "C. 021",
+    imagenes: ["Ref. C. 21/1.jpeg",
+             "Ref. C. 21/2.jpeg",
+             "Ref. C. 21/3.jpeg",
+             "Ref. C. 21/4.jpeg",
+             "Ref. C. 21/5.jpeg",
+             "Ref. C. 21/6.jpeg",
+             "Ref. C. 21/7.jpeg",
+             "Ref. C. 21/8.jpeg",
+             "Ref. C. 21/9.jpeg",
+             "Ref. C. 21/10.jpeg",
+             "Ref. C. 21/11.jpeg",
+             "Ref. C. 21/12.jpeg",
+             "Ref. C. 21/13.jpeg",
+             "Ref. C. 21/14.jpeg",],
     precio: "$850.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,045 m²",
@@ -1624,22 +1751,22 @@ portón automático se abre desde el celular
   {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 020",
-    imagenes: ["Ref. C. 20/1.jpg",
-             "Ref. C. 20/2.jpg",
-             "Ref. C. 20/3.jpg",
-             "Ref. C. 20/4.jpg",
-             "Ref. C. 20/5.jpg",
-             "Ref. C. 20/6.jpg",
-             "Ref. C. 20/7.jpg",
-             "Ref. C. 20/8.jpg",
-             "Ref. C. 20/9.jpg",
-             "Ref. C. 20/10.jpg",
-             "Ref. C. 20/11.jpg",
-             "Ref. C. 20/12.jpg",
-             "Ref. C. 20/13.jpg",
-             "Ref. C. 20/14.jpg",
-             "Ref. C. 20/15.jpg",],
+    referencia: "C. 022",
+    imagenes: ["Ref. C. 22/1.jpg",
+             "Ref. C. 22/2.jpg",
+             "Ref. C. 22/3.jpg",
+             "Ref. C. 22/4.jpg",
+             "Ref. C. 22/5.jpg",
+             "Ref. C. 22/6.jpg",
+             "Ref. C. 22/7.jpg",
+             "Ref. C. 22/8.jpg",
+             "Ref. C. 22/9.jpg",
+             "Ref. C. 22/10.jpg",
+             "Ref. C. 22/11.jpg",
+             "Ref. C. 22/12.jpg",
+             "Ref. C. 22/13.jpg",
+             "Ref. C. 22/14.jpg",
+             "Ref. C. 22/15.jpg",],
     precio: "$950.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,000 m²",
@@ -1696,16 +1823,16 @@ portón automático se abre desde el celular
   {
     tipo: "Casa",
     nombre: "Casa Quinta",
-    referencia: "C. 021",
-    imagenes: ["Ref. C. 21/1.jpg",
-             "Ref. C. 21/2.jpg",
-             "Ref. C. 21/3.jpg",
-             "Ref. C. 21/4.jpg",
-             "Ref. C. 21/5.jpg",
-             "Ref. C. 21/6.jpg",
-             "Ref. C. 21/7.jpg",
-             "Ref. C. 21/8.jpg",
-             "Ref. C. 21/9.jpg",],
+    referencia: "C. 023",
+    imagenes: ["Ref. C. 23/1.jpg",
+             "Ref. C. 23/2.jpg",
+             "Ref. C. 23/3.jpg",
+             "Ref. C. 23/4.jpg",
+             "Ref. C. 23/5.jpg",
+             "Ref. C. 23/6.jpg",
+             "Ref. C. 23/7.jpg",
+             "Ref. C. 23/8.jpg",
+             "Ref. C. 23/9.jpg",],
     precio: "$950.000.000",
     ubicacion: "Cite, Santander",
     area: "1,000 m²",
@@ -1757,18 +1884,18 @@ Alcantarillado Pluvial y de aguas grises `,
   {
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
-    referencia: "C. 022",
-    imagenes: ["Ref. C. 22/1.jpg",
-             "Ref. C. 22/2.jpg",
-             "Ref. C. 22/3.jpg",
-             "Ref. C. 22/4.jpg",
-             "Ref. C. 22/5.jpg",
-             "Ref. C. 22/6.jpg",
-             "Ref. C. 22/7.jpg",
-             "Ref. C. 22/8.jpg",
-             "Ref. C. 22/9.jpg",
-             "Ref. C. 22/10.jpg",
-             "Ref. C. 22/11.jpg",],
+    referencia: "C. 024",
+    imagenes: ["Ref. C. 24/1.jpg",
+             "Ref. C. 24/2.jpg",
+             "Ref. C. 24/3.jpg",
+             "Ref. C. 24/4.jpg",
+             "Ref. C. 24/5.jpg",
+             "Ref. C. 24/6.jpg",
+             "Ref. C. 24/7.jpg",
+             "Ref. C. 24/8.jpg",
+             "Ref. C. 24/9.jpg",
+             "Ref. C. 24/10.jpg",
+             "Ref. C. 24/11.jpg",],
     precio: "$995.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,420 m²",
@@ -1787,15 +1914,15 @@ Alcantarillado Pluvial y de aguas grises `,
    {
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
-    referencia: "C. 023",
-    imagenes: ["Ref. C. 23/1.jpeg",
-             "Ref. C. 23/2.jpeg",
-             "Ref. C. 23/3.jpeg",
-             "Ref. C. 23/4.jpeg",
-             "Ref. C. 23/5.jpeg",
-             "Ref. C. 23/6.jpeg",
-             "Ref. C. 23/7.jpeg",
-             "Ref. C. 23/8.jpeg",],
+    referencia: "C. 025",
+    imagenes: ["Ref. C. 25/1.jpeg",
+             "Ref. C. 25/2.jpeg",
+             "Ref. C. 25/3.jpeg",
+             "Ref. C. 25/4.jpeg",
+             "Ref. C. 25/5.jpeg",
+             "Ref. C. 25/6.jpeg",
+             "Ref. C. 25/7.jpeg",
+             "Ref. C. 25/8.jpeg",],
     precio: "$1.150.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "520 m²",
@@ -1818,16 +1945,16 @@ Alcantarillado Pluvial y de aguas grises `,
    {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 024",
-    imagenes: ["Ref. C. 24/1.jpg",
-             "Ref. C. 24/2.jpg",
-             "Ref. C. 24/3.jpg",
-             "Ref. C. 24/4.jpg",
-             "Ref. C. 24/5.jpg",
-             "Ref. C. 24/6.jpg",
-             "Ref. C. 24/7.jpg",
-             "Ref. C. 24/8.jpg",
-             "Ref. C. 24/9.jpg",],
+    referencia: "C. 026",
+    imagenes: ["Ref. C. 26/1.jpg",
+             "Ref. C. 26/2.jpg",
+             "Ref. C. 26/3.jpg",
+             "Ref. C. 26/4.jpg",
+             "Ref. C. 26/5.jpg",
+             "Ref. C. 26/6.jpg",
+             "Ref. C. 26/7.jpg",
+             "Ref. C. 26/8.jpg",
+             "Ref. C. 26/9.jpg",],
     precio: "$1.200.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,170 m²",
@@ -1880,22 +2007,22 @@ Alcantarillado Pluvial y de aguas grises `,
    {
     tipo: "Casa",
     nombre: "Casa en Condominio Cerrado",
-    referencia: "C. 025",
-    imagenes: ["Ref. C. 25/1.jpg",
-             "Ref. C. 25/2.jpg",
-             "Ref. C. 25/3.jpg",
-             "Ref. C. 25/4.jpeg",
-             "Ref. C. 25/5.jpeg",
-             "Ref. C. 25/6.jpeg",
-             "Ref. C. 25/7.jpeg",
-             "Ref. C. 25/8.jpeg",
-             "Ref. C. 25/9.jpeg",
-             "Ref. C. 25/10.jpeg",
-             "Ref. C. 25/11.jpeg",
-             "Ref. C. 25/12.jpeg",
-             "Ref. C. 25/13.jpeg",
-             "Ref. C. 25/14.jpeg",
-             "Ref. C. 25/15.jpeg",],
+    referencia: "C. 027",
+    imagenes: ["Ref. C. 27/1.jpg",
+             "Ref. C. 27/2.jpg",
+             "Ref. C. 27/3.jpg",
+             "Ref. C. 27/4.jpeg",
+             "Ref. C. 27/5.jpeg",
+             "Ref. C. 27/6.jpeg",
+             "Ref. C. 27/7.jpeg",
+             "Ref. C. 27/8.jpeg",
+             "Ref. C. 27/9.jpeg",
+             "Ref. C. 27/10.jpeg",
+             "Ref. C. 27/11.jpeg",
+             "Ref. C. 27/12.jpeg",
+             "Ref. C. 27/13.jpeg",
+             "Ref. C. 27/14.jpeg",
+             "Ref. C. 27/15.jpeg",],
     precio: "$3.000.000.000",
     ubicacion: "La Calera, Cundinamarca",
     area: "1,398 m²",
