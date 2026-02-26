@@ -3183,59 +3183,21 @@ Ubicada en Neval y Cruces
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 005",
-    imagenes: ["Ref. FC. 05/1.jpeg",
-             "Ref. FC. 05/2.jpeg",
-             "Ref. FC. 05/3.jpeg",
-             "Ref. FC. 05/4.jpeg",
-             "Ref. FC. 05/5.jpeg",
-             "Ref. FC. 05/6.jpeg",
-             "Ref. FC. 05/7.jpeg",
-             "Ref. FC. 05/8.jpeg",
-             "Ref. FC. 05/9.jpeg",
-             "Ref. FC. 05/10.jpeg",
-             "Ref. FC. 05/11.jpeg",],
-    precio: "$340.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "80,000 m²",
-    areaPrivada:"80,000 m²",
-    areaConstruida:"-",
-    habitaciones: "-",
-    banos: "-",
-    descripcion: `📌VENTA DE FINCA EN MONIQUIRÁ- BOYACÁ
-
-👉Finca rural, Moniquirá Boyacá
-
-📏Área 8 hectáreas
-✔1 hectárea aproximadamente sembrada en pinos
-✔️Punto de Agua (por Instalar)
-✔️Aljibe de agua
-✔️Terreno Semi ondulado
-✔️Vía de Acceso Hasta el Lote
-✔️Estado de la vía acta, para carro Campero 4x4
-✔Se puede acceder por Puente Nacional o Moniquirá
-✔️Lote Rural a una distancia de 40 Minutos del Parque Principal
-✔️A 12.5 Kilómetros del pueblo`,
-    videoYoutube: "https://youtu.be/pyizV_ZH88U",
-  },
-  {
-    tipo: "Finca",
-    nombre: "Finca",
-    referencia: "FC. 006",
-    imagenes: ["Ref. FC. 06/1.png",
-             "Ref. FC. 06/2.jpg",
-             "Ref. FC. 06/3.jpg",
-             "Ref. FC. 06/4.jpg",
-             "Ref. FC. 06/5.jpg",
-             "Ref. FC. 06/6.jpg",
-             "Ref. FC. 06/7.jpg",
-             "Ref. FC. 06/8.jpg",
-             "Ref. FC. 06/9.jpg",
-             "Ref. FC. 06/10.jpg",
-             "Ref. FC. 06/11.jpg",
-             "Ref. FC. 06/12.jpg",
-             "Ref. FC. 06/13.jpg",
-             "Ref. FC. 06/14.jpg",
-             "Ref. FC. 06/15.jpg",],
+    imagenes: ["Ref. FC. 05/1.png",
+             "Ref. FC. 05/2.jpg",
+             "Ref. FC. 05/3.jpg",
+             "Ref. FC. 05/4.jpg",
+             "Ref. FC. 05/5.jpg",
+             "Ref. FC. 05/6.jpg",
+             "Ref. FC. 05/7.jpg",
+             "Ref. FC. 05/8.jpg",
+             "Ref. FC. 05/9.jpg",
+             "Ref. FC. 05/10.jpg",
+             "Ref. FC. 05/11.jpg",
+             "Ref. FC. 05/12.jpg",
+             "Ref. FC. 05/13.jpg",
+             "Ref. FC. 05/14.jpg",
+             "Ref. FC. 05/15.jpg",],
     precio: "$330.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "7,300 m²",
@@ -3259,6 +3221,44 @@ La casa cuenta con:
 🚗 Parqueadero cubierto
 🌿 Amplias zonas verdes`,
     videoYoutube: "https://youtu.be/8X-aM3JnDS4",
+  },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 006",
+    imagenes: ["Ref. FC. 06/1.jpeg",
+             "Ref. FC. 06/2.jpeg",
+             "Ref. FC. 06/3.jpeg",
+             "Ref. FC. 06/4.jpeg",
+             "Ref. FC. 06/5.jpeg",
+             "Ref. FC. 06/6.jpeg",
+             "Ref. FC. 06/7.jpeg",
+             "Ref. FC. 06/8.jpeg",
+             "Ref. FC. 06/9.jpeg",
+             "Ref. FC. 06/10.jpeg",
+             "Ref. FC. 06/11.jpeg",],
+    precio: "$340.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "80,000 m²",
+    areaPrivada:"80,000 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌VENTA DE FINCA EN MONIQUIRÁ- BOYACÁ
+
+👉Finca rural, Moniquirá Boyacá
+
+📏Área 8 hectáreas
+✔1 hectárea aproximadamente sembrada en pinos
+✔️Punto de Agua (por Instalar)
+✔️Aljibe de agua
+✔️Terreno Semi ondulado
+✔️Vía de Acceso Hasta el Lote
+✔️Estado de la vía acta, para carro Campero 4x4
+✔Se puede acceder por Puente Nacional o Moniquirá
+✔️Lote Rural a una distancia de 40 Minutos del Parque Principal
+✔️A 12.5 Kilómetros del pueblo`,
+    videoYoutube: "https://youtu.be/pyizV_ZH88U",
   },
    {
     tipo: "Finca",
