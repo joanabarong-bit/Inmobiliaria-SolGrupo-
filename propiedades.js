@@ -77,8 +77,8 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
     areaConstruida:"50,77 m²",
     habitaciones: "1",
     banos: "1",
-    descripcion: "Apartamento cómodo y bien ubicado, ideal para familias.",
-    videoYoutube: "https://youtu.be/iOTYsHt7Phg?si=eCMkZwohBA67i4Nm",
+    descripcion: "“Apartamentos nuevos para estrenar 🏡✨ 1 y 3 habitaciones en clima cálido. ¡Tu nuevo hogar te está esperando!",
+    videoYoutube: "https://youtube.com/shorts/abuIVw7IXH8",
   },
 
 /* ================= apartamentos ================= */
