@@ -107,18 +107,24 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
     areaConstruida:"45 m²",
     habitaciones: "1",
     banos: "1",
-    descripcion:  ` 📌 Venta de Apartamento en Moniquirá – Boyacá
+    descripcion:  `📌 VENTA DE APARTAMENTO EN MONIQUIRA- BOYACÁ
 
-Características del apartamento 
+📏AREA: 56 m2
+✔Sala - Comedor
+✔Cocina
+✔2 Habitaciones
+✔Sala de estar/Biblioteca 
+✔1 baño
+✔Zona de lavandería
+✔Buena iluminación
+✔2 Piso
+✔Ubicado cerca a la vía principal que conduce al hospital nuevo
+✔ Documentos al día
+✔ Propiedad Horizontal
+✔ Venta Directa
 
-✔Queda en un primer piso
-✔Cuenta con parqueadero
-✔Sala Comedor
-✔1 habitación
-✔Cocina integral
-✔Zona de lavandería amplia
-✔1 baños social
-✔Ubicado en un barrio residencial`,
+⛔ NO PERMUTA
+⛔ NO PARQUEADERO`,
     videoYoutube: "https://youtu.be/AA85XfnvnLI",
   },
    {
