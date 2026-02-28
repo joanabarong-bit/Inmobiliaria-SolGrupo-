@@ -102,14 +102,14 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
              "Ref. Apt. 01/14.jpeg",],
     precio: "$130.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "45 m²",
+    area: "57.76 m²",
     areaPrivada:"-",
-    areaConstruida:"45 m²",
+    areaConstruida:"57.76 m²",
     habitaciones: "1",
     banos: "1",
     descripcion:  `📌 VENTA DE APARTAMENTO EN MONIQUIRA- BOYACÁ
 
-📏AREA: 56 m2
+📏AREA: 57.76 m2
 ✔Sala - Comedor
 ✔Cocina
 ✔2 Habitaciones
