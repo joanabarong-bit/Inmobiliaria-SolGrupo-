@@ -77,7 +77,24 @@ videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
     areaConstruida:"50,77 m²",
     habitaciones: "1",
     banos: "1",
-    descripcion: "“Apartamentos nuevos para estrenar 🏡✨ 1 y 3 habitaciones en clima cálido. ¡Tu nuevo hogar te está esperando!",
+    descripcion: `🏢🌿 Se vende aparta estudio en Moniquirá, Boyacá
+
+📍 Ubicado en el edificio Altos del Nogal, conjunto residencial que ofrece:
+
+🛎️ Portería con celador
+🕒 Vigilancia 24/7
+🛗 Ascensor panorámico
+
+✨ El aparta estudio cuenta con:
+
+🛋️ Sala comedor
+🍽️ Cocina integral con horno y campana extractora
+🧺 Zona de lavandería
+🚪 Hall hacia las habitaciones
+🛏️ Habitación principal con balcón y baño privado
+🛏️ 1 habitación con clóset
+🚿 Baño social
+`,
     videoYoutube: "https://youtube.com/shorts/abuIVw7IXH8",
   },
 
