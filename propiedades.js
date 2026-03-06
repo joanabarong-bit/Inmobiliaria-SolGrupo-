@@ -866,7 +866,7 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
    {
     tipo: "Casa",
     nombre: "Casa Rural",
-    referencia: "C. 003",
+    referencia: "C. 004",
     imagenes: ["Ref. C. 04/1.jpeg",
              "Ref. C. 04/2.jpeg",
              "Ref. C. 04/3.jpeg",
