@@ -2440,13 +2440,13 @@ Un espacio perfecto para construir a tu gusto.
   },
   {
     tipo: "Lote",
-    nombre: "Lotes",
+    nombre: "Lote",
     referencia: "LT. 007",
     imagenes: ["Ref. LT. 07/1.jpeg",
              "Ref. LT. 07/2.jpeg",
              "Ref. LT. 07/3.jpeg",
              "Ref. LT. 07/4.jpeg",],
-    precio: "$110.000.000",
+    precio: "$140.000.000",
     ubicacion: "Cite, Santander",
     area: "300 m²",
     areaPrivada:"300 m²",
@@ -2458,11 +2458,7 @@ Un espacio perfecto para construir a tu gusto.
 ¡Invierte en una zona con gran proyección de valorización! Disponibles 5 lotes amplios, todos con servicios públicos completos (agua, luz, gas natural y alcantarillado), escritura independiente y excelente ubicación.
 
 🟩 Detalles de los Lotes:
-✅ Lote 1 – Área: 304 m² – 💸 $140.000.000
-✅ Lote 2 – Área: 303,70 m² – 💸 $110.000.000
-✅ Lote 3 – Área: 300,70 m² – 💸 $130.000.000
-✅ Lote 4 – Área: 300,70 m² – 💸 $120.000.000
-✅ Lote 5 – Área: 312,70 m² – 💸 $115.000.000 `,
+✅ Lote 1 – Área: 304 m² – 💸 $140.000.000 `,
     videoYoutube: "https://youtu.be/f8-LuSuXE5k",
   }, 
   {
