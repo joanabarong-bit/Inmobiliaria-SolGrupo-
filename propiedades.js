@@ -2442,25 +2442,37 @@ Un espacio perfecto para construir a tu gusto.
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 007",
-    imagenes: ["Ref. LT. 07/1.jpeg",
-             "Ref. LT. 07/2.jpeg",
-             "Ref. LT. 07/3.jpeg",
-             "Ref. LT. 07/4.jpeg",],
-    precio: "$140.000.000",
-    ubicacion: "Cite, Santander",
-    area: "300 m²",
-    areaPrivada:"300 m²",
+    imagenes: ["Ref. LT. 07/1.jpg",
+             "Ref. LT. 07/2.jpg",
+             "Ref. LT. 07/3.jpg",
+             "Ref. LT. 07/4.jpg",
+             "Ref. LT. 07/5.jpg",
+             "Ref. LT. 07/6.jpg",
+             "Ref. LT. 07/7.jpg",
+             "Ref. LT. 07/8.jpg",
+             "Ref. LT. 07/9.jpg",],
+    precio: "$110.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,530 m²",
+    areaPrivada:"2,530 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `📌 ¡Venta de Lotes en Cite, Santander!
+    descripcion: `📌 Venta de lote rural en Moniquirá – Boyacá
 
-¡Invierte en una zona con gran proyección de valorización! Disponibles 5 lotes amplios, todos con servicios públicos completos (agua, luz, gas natural y alcantarillado), escritura independiente y excelente ubicación.
+📏 Área: 2.530 mt2
 
-🟩 Detalles de los Lotes:
-✅ Lote 1 – Área: 304 m² – 💸 $140.000.000 `,
-    videoYoutube: "https://youtu.be/f8-LuSuXE5k",
-  }, 
+👉🏻 Perímetro Rural
+👉🏻 Vereda: Tapias y San Antonio, Sector Pajales
+👉🏻 carretera desatada, se recomienda tener campero, está a una distancia de 9.1 kilómetros, 22 minutos desde el municipio de Moniquirá, 
+
+✔ Terreno Plano
+✔ Pasa una quebrada por el lote 
+✔ Excelente vista
+✔ Acceso a punto de energía eléctrica
+✔ cuenta con tres vías de acceso `,
+    videoYoutube: "https://youtu.be/GJNmj6I9TFY",
+  },
   {
     tipo: "Lote",
     nombre: "Lote",
@@ -2541,37 +2553,25 @@ Un espacio perfecto para construir a tu gusto.
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 010",
-    imagenes: ["Ref. LT. 10/1.jpg",
-             "Ref. LT. 10/2.jpg",
-             "Ref. LT. 10/3.jpg",
-             "Ref. LT. 10/4.jpg",
-             "Ref. LT. 10/5.jpg",
-             "Ref. LT. 10/6.jpg",
-             "Ref. LT. 10/7.jpg",
-             "Ref. LT. 10/8.jpg",
-             "Ref. LT. 10/9.jpg",],
+    imagenes: ["Ref. LT. 10/1.jpeg",
+             "Ref. LT. 10/2.jpeg",
+             "Ref. LT. 10/3.jpeg",
+             "Ref. LT. 10/4.jpeg",],
     precio: "$140.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "2,530 m²",
-    areaPrivada:"2,530 m²",
+    ubicacion: "Cite, Santander",
+    area: "300 m²",
+    areaPrivada:"300 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `📌 Venta de lote rural en Moniquirá – Boyacá
+    descripcion: `📌 ¡Venta de Lotes en Cite, Santander!
 
-📏 Área: 2.530 mt2
+¡Invierte en una zona con gran proyección de valorización! Disponibles 5 lotes amplios, todos con servicios públicos completos (agua, luz, gas natural y alcantarillado), escritura independiente y excelente ubicación.
 
-👉🏻 Perímetro Rural
-👉🏻 Vereda: Tapias y San Antonio, Sector Pajales
-👉🏻 carretera desatada, se recomienda tener campero, está a una distancia de 9.1 kilómetros, 22 minutos desde el municipio de Moniquirá, 
-
-✔ Terreno Plano
-✔ Pasa una quebrada por el lote 
-✔ Excelente vista
-✔ Acceso a punto de energía eléctrica
-✔ cuenta con tres vías de acceso `,
-    videoYoutube: "https://youtu.be/GJNmj6I9TFY",
-  },
+🟩 Detalles de los Lotes:
+✅ Lote 1 – Área: 304 m² – 💸 $140.000.000 `,
+    videoYoutube: "https://youtu.be/f8-LuSuXE5k",
+  }, 
   {
     tipo: "Lote",
     nombre: "Lote Urbano",
