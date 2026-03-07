@@ -274,7 +274,7 @@ El apartamento cuenta con:
   {
     tipo: "Apartamento",
     nombre: "Apartamento",
-    referencia: "Apt. 004",
+    referencia: "Apt. 005",
     imagenes: ["Ref. Apt. 05/1.jpg",
              "Ref. Apt. 05/2.jpg",
              "Ref. Apt. 05/3.jpg",
@@ -334,7 +334,7 @@ Ubicado Cerca al Centro
    {
     tipo: "Apartamento",
     nombre: "Apartamento",
-    referencia: "Apt. 005",
+    referencia: "Apt. 006",
     imagenes: ["Ref. Apt. 06/1.jpg",
              "Ref. Apt. 06/2.jpg",
              "Ref. Apt. 06/3.jpg",
