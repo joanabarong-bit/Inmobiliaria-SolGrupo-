@@ -1691,8 +1691,8 @@ Pago de administración: $90.000 pesos`,
              "Ref. C. 20/15.jpeg",],
     precio: "$735.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "2,056 m²",
-    areaPrivada:"2,056 m²",
+    area: "2,064 m²",
+    areaPrivada:"2,064 m²",
     areaConstruida:"360 m²",
     habitaciones: "6",
     banos: "5",
@@ -1708,7 +1708,7 @@ Pago de administración: $90.000 pesos`,
 📑 Documentación al día (escrituras y folio de matrícula independiente)
 
 📐 Características Generales
-Área del lote: 2.056 m²
+Área del lote: 2.064 m²
 Área construida: 360 m²
 
 La propiedad se divide en: 2 casas y 1 apartaestudio
