@@ -161,7 +161,7 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
              "Ref. C. 18/15.jpg",
              "Ref. C. 18/16.jpg",
              "Ref. C. 18/17.jpg",],
-    precio: "$630.000.000",
+    precio: "$620.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "187 m²",
     areaPrivada:"187 m²",
