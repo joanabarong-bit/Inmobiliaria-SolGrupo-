@@ -795,7 +795,7 @@ A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa 
              "Ref. C. 02/10.jpeg",
              "Ref. C. 02/11.jpeg",
              "Ref. C. 02/12.jpeg",],
-    precio: "$160.000.000",
+    precio: "$145.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,328 m²",
     areaPrivada:"1,328 m²",
