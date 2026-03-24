@@ -434,7 +434,7 @@ Ubicado Cerca al Centro
 👉 Cuenta con Ascensor Panorámico, parqueadero y deposito
 ✖️ No permuta
 `,
-    videoYoutube: "https://youtu.be/m-yQXOTCkPM",
+    videoYoutube: "-",
   },
    {
     tipo: "Apartamento",
