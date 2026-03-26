@@ -236,7 +236,7 @@ PISO 2:
 ✔Acceso a punto de energía eléctrica `,
     videoYoutube: "https://youtu.be/2BeopAk18o8",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 012",
@@ -249,7 +249,7 @@ PISO 2:
              "Ref. LT. 12/7.jpeg",
              "Ref. LT. 12/8.jpeg",
              "Ref. LT. 12/9.jpeg",
-             "Ref. LT. 12/10.jpg",],
+             "Ref. LT. 12/10.jpeg",],
     precio: "$155.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,110 m²",
@@ -388,7 +388,7 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
                      <p class="property-ref">📌 Ref: ${p.referencia || "Sin referencia"}</p>
                     <p class="location">📍 ${p.ubicacion}</p>
                     <p class="price">${p.precio}</p>
-                    <button onclick="verDetalle('${p.nombre}')">Ver detalles</button>
+                    <button onclick="verDetalle('${p.referencia || p.nombre}')">Ver detalles</button>
                 </div>
             </div>
         `;
@@ -476,8 +476,11 @@ function obtenerAreasDetalle(propiedad) {
     return { areaTotal, areaConstruida, areaPrivada };
 }
 
-function verDetalle(nombre) {
-    const p = propiedades.find(prop => prop.nombre === nombre);
+function verDetalle(identificador) {
+    const p = propiedades.find(prop =>
+        (prop.referencia && prop.referencia === identificador) ||
+        prop.nombre === identificador
+    );
     if (!p) return;
 
     // cargar imágenes del inmueble
