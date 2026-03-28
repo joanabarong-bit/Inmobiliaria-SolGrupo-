@@ -827,7 +827,7 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 💧 Agua
 ⚡ Luz
 🔥 Gas`,
-    videoYoutube: "-",
+    videoYoutube: "https://youtu.be/FYgrVuGAF_I",
   },
   {
     tipo: "Casa",

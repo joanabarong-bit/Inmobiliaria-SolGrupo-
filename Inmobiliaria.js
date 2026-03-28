@@ -273,85 +273,106 @@ Cuenta con todos los servicios:
     videoYoutube: "https://youtu.be/ApOfWWArBkw",
   },
 {
-    tipo: "Lote",
-    nombre: "Lote",
-    referencia: "LT. 018",
-    imagenes: ["Ref. LT. 18/1.jpg",
-             "Ref. LT. 18/2.jpg",
-             "Ref. LT. 18/3.jpg",
-             "Ref. LT. 18/4.jpg",
-             "Ref. LT. 18/5.jpg",
-             "Ref. LT. 18/6.jpg",
-             "Ref. LT. 18/7.jpg",
-             "Ref. LT. 18/8.jpg",
-             "Ref. LT. 18/9.jpg",
-             "Ref. LT. 18/10.jpg",],
-    precio: "$210.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "4,291 m²",
-    areaPrivada:"4,291 m²",
-    areaConstruida:"-",
-    habitaciones: "-",
-    banos: "-",
-    descripcion: `Lotes campestres en venta en Moniquirá - Boyacá
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 003",
+    imagenes: ["Ref. C. 03/1.jpg",
+             "Ref. C. 03/2.jpg",
+             "Ref. C. 03/3.jpg",
+             "Ref. C. 03/4.jpg",
+             "Ref. C. 03/5.jpg",
+             "Ref. C. 03/6.jpg",
+             "Ref. C. 03/7.jpg",
+             "Ref. C. 03/8.jpg",
+             "Ref. C. 03/9.jpg",
+             "Ref. C. 03/10.jpg",
+             "Ref. C. 03/11.jpg",
+             "Ref. C. 03/12.jpg",
+             "Ref. C. 03/13.jpg",
+             "Ref. C. 03/14.jpg",],
+    precio: "$250.000.000",
+    ubicacion: "Paipa, Boyacá",
+    area: "111 m²",
+    areaPrivada:"111 m²",
+    areaConstruida:"111 m²",
+    habitaciones: "3",
+    banos: "3",
+    descripcion: `🏡 ¡Venta de Casa en Paipa – Boyacá!
 
-📐 Áreas: 5.000 metros cuadrados.
-📌 Ubicados en la vereda El Colorado de Moniquirá, Boyacá. Zona de alta valorización.
-✔️ A 18 minutos (7,3 kilómetros) del municipio de Moniquirá.
-✔️ Disponibilidad para instalar punto de agua, luz y gas natural.
-✔️ Documentos al día, listos para una transacción exitosa.
-✔️ Puedes construir la casa de tus sueños.
-✔️ Un lugar tranquilo.
-✔️ Dos lotes incluyen cabaña construida para tu descanso.
-💸 Precio: a partir de 210.000.000 de pesos.
-📕 Documentos al día.`,
-    videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
+📐 Área: 111 metros cuadrados
+
+✨ Características principales:
+🏠 Casa de dos pisos
+🛏️ 3 habitaciones
+🚿 3 baños
+🛋️ Sala
+🍽️ Comedor
+👩‍🍳 Cocina
+🌿 Patio
+🚗 Garaje
+
+⚙️ Servicios públicos:
+💧 Agua
+⚡ Luz
+🔥 Gas`,
+    videoYoutube: "https://youtu.be/FYgrVuGAF_I",
   },
 {
-    tipo: "Finca",
-    nombre: "Finca Rural",
-    referencia: "FC. 008",
-    imagenes: ["Ref. FC. 08/1.jpeg",
-             "Ref. FC. 08/2.jpeg",
-             "Ref. FC. 08/3.jpeg",
-             "Ref. FC. 08/4.jpeg",],
-    precio: "$460.000.000",
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 004",
+    imagenes: ["Ref. C. 04/1.jpeg",
+             "Ref. C. 04/2.jpeg",
+             "Ref. C. 04/3.jpeg",
+             "Ref. C. 04/4.jpeg",
+             "Ref. C. 04/5.jpeg",
+             "Ref. C. 04/6.jpeg",
+             "Ref. C. 04/7.jpeg",
+             "Ref. C. 04/8.jpeg",
+             "Ref. C. 04/9.jpeg",
+             "Ref. C. 04/10.jpeg",
+             "Ref. C. 04/11.jpeg",
+             "Ref. C. 04/12.jpeg",],
+    precio: "$290.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "6,000 m²",
-    areaPrivada:"6,000 m²",
-    areaConstruida:"159 m²",
-    habitaciones: "4",
-    banos: "4",
-    descripcion: `👉Venta de Finca campestre
-📍 Ubicación: Moniquirá – Boyacá
+    area: "168 m²",
+    areaPrivada:"168 m²",
+    areaConstruida:"168 m²",
+    habitaciones: "6",
+    banos: "5",
+    descripcion: `🏡 ¡SE VENDE CASA EN MONIQUIRÁ – BOYACÁ!
 
-Cuenta con un área total de: 6.000 Mt2
-Área construida de la casa: 159 metros cuadrados
+✨ Amplia propiedad ideal para vivir y generar ingresos
 
-Además, tiene dos vías de acceso:
-1. A una distancia aproximada de 8 Km – 16 Minutos sobre vía pavimentada que de Moniquirá conduce a Togui.
-2. A una distancia de 6 km por via al Gaque en Moniquirá – Boyacá (vía no pavimentada)
+📍 Ubicación
+🏘️ Barrio Las Colinas (por la calle de las grúas)
+📐 Área 168 m²
 
-Cuenta con casa de un nivel con:
+🏢 Propiedad horizontal
 
-✔️4 habitaciones
-✔️4 baños (3 baños privados y 1 social)️
-✔️Cocina
-✔️Sala Comedor
-✔️Dos puertas de ingreso a la casa
-✔️Parqueadero
-✔️Kiosco cerca a la quebrada con camino en piedra
-✔️BBQ
-✔️Linda a quebrada
-✔️Tanques de reserva
-✔️Sistema hidro Flow
-✔️Cuarto de herramientas
-✔️Piscina con cascadas
-✔️Zona de regaderas externas
-✔️los servicios, excepto gas natural, la red avanza, está a más o menos 1 km de la propiedad.
-✔️Terreno plano – ondulado
-✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
-    videoYoutube: "https://youtu.be/AJa1UqjWiE8",
+🏠 Casa de 3 pisos
+🏠 Distribución
+
+🔹 Primer piso
+🛏️ 2 habitaciones
+🚿 2 baños
+🍽️ Cocina
+🛋️ Sala comedor
+🧺 Patio de ropas
+
+🔹 Segundo piso
+🛏️ 3 habitaciones
+🚿 2 baños
+🍽️ Cocina
+🛋️ Sala comedor
+
+🔹 Tercer piso (apartaestudio)
+🛏️ 1 habitación
+🚿 1 baño
+🛋️ Sala
+🍳 Cocina
+🧺 Patio compartido con el segundo piso`,
+    videoYoutube: "https://youtu.be/1x4IqTyEd-E",
   },
 ];
 
