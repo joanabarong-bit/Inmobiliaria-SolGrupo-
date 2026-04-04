@@ -2,6 +2,7 @@
 let imagenActual = 0;
 let imagenesActuales = [];
 let scrollRevealObserver = null;
+const cacheImagenes = new Set();
 
 const propiedades = [
 {
@@ -403,7 +404,7 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
         contenedor.innerHTML += `
             <div class="property-card">
              <span class="badge">Destacada</span>
-                <img src="${p.imagenes[0]}" alt="${p.nombre}">
+                <img src="${p.imagenes[0]}" alt="${p.nombre}" loading="lazy" decoding="async">
                 <div class="property-body">
                     <h3>${p.nombre}</h3>
                      <p class="property-ref">📌 Ref: ${p.referencia || "Sin referencia"}</p>
@@ -414,6 +415,24 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
             </div>
         `;
     });
+}
+
+function precargarImagen(src) {
+    if (!src || cacheImagenes.has(src)) return;
+    const img = new Image();
+    img.decoding = "async";
+    img.src = src;
+    cacheImagenes.add(src);
+}
+
+function precargarImagenesCercanas() {
+    if (!imagenesActuales.length) return;
+
+    const siguiente = (imagenActual + 1) % imagenesActuales.length;
+    const anterior = (imagenActual - 1 + imagenesActuales.length) % imagenesActuales.length;
+
+    precargarImagen(imagenesActuales[siguiente]);
+    precargarImagen(imagenesActuales[anterior]);
 }
 
 function iniciarAnimacionesScroll() {
@@ -509,8 +528,12 @@ function verDetalle(identificador) {
     imagenActual = 0;
 
     // SIEMPRE mostrar la primera imagen
-    document.getElementById("detalleImg").src = imagenesActuales[0];
-    document.getElementById("detalleImg").alt = p.nombre;
+    const detalleImg = document.getElementById("detalleImg");
+    detalleImg.decoding = "async";
+    detalleImg.fetchPriority = "high";
+    detalleImg.src = imagenesActuales[0];
+    detalleImg.alt = p.nombre;
+    precargarImagenesCercanas();
 
 
     // info
@@ -570,8 +593,10 @@ function cambiarFoto(direccion) {
         imagenActual = 0;
     }
 
-    document.getElementById("detalleImg").src = imagenesActuales[imagenActual];
-     document.getElementById("detalleImg").alt = "Imagen " + (imagenActual + 1);
+    const detalleImg = document.getElementById("detalleImg");
+    detalleImg.src = imagenesActuales[imagenActual];
+    detalleImg.alt = "Imagen " + (imagenActual + 1);
+    precargarImagenesCercanas();
 }
 
 

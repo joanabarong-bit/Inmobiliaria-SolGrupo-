@@ -2,6 +2,7 @@
 let imagenActual = 0;
 let imagenesActuales = [];
 let scrollRevealObserver = null;
+const cacheImagenes = new Set();
 
 const VIDEO_YOUTUBE_DEFAULT = "https://www.youtube.com/watch?v=x_xDcaQxBX0";
 
@@ -3950,7 +3951,7 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
     const card = document.createElement("div");
     card.className = "property-card";
     card.innerHTML = `
-      <img src="${p.imagenes[0]}" alt="${p.nombre}">
+      <img src="${p.imagenes[0]}" alt="${p.nombre}" loading="lazy" decoding="async">
       <div class="property-body">
         <h3>${p.nombre}</h3>
            <p class="property-ref">📌 Ref: ${p.referencia}</p>
@@ -3961,6 +3962,24 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
     `;
     contenedor.appendChild(card);
   });
+}
+
+function precargarImagen(src) {
+  if (!src || cacheImagenes.has(src)) return;
+  const img = new Image();
+  img.decoding = "async";
+  img.src = src;
+  cacheImagenes.add(src);
+}
+
+function precargarImagenesCercanas() {
+  if (!imagenesActuales.length) return;
+
+  const siguiente = (imagenActual + 1) % imagenesActuales.length;
+  const anterior = (imagenActual - 1 + imagenesActuales.length) % imagenesActuales.length;
+
+  precargarImagen(imagenesActuales[siguiente]);
+  precargarImagen(imagenesActuales[anterior]);
 }
 
 function iniciarAnimacionesScroll() {
@@ -4075,8 +4094,12 @@ function verDetalle(referencia) {
   // Inicializar slider
   imagenesActuales = p.imagenes;
   imagenActual = 0;
-  document.getElementById("detalleImg").src = imagenesActuales[0];
-  document.getElementById("detalleImg").alt = p.nombre;
+  const detalleImg = document.getElementById("detalleImg");
+  detalleImg.decoding = "async";
+  detalleImg.fetchPriority = "high";
+  detalleImg.src = imagenesActuales[0];
+  detalleImg.alt = p.nombre;
+  precargarImagenesCercanas();
 
   // Información
   document.getElementById("detalleTitulo").textContent = p.nombre;
@@ -4130,8 +4153,10 @@ function cambiarFoto(direccion) {
   if (imagenActual < 0) imagenActual = imagenesActuales.length - 1;
   if (imagenActual >= imagenesActuales.length) imagenActual = 0;
 
-  document.getElementById("detalleImg").src = imagenesActuales[imagenActual];
-  document.getElementById("detalleImg").alt = "Imagen " + (imagenActual + 1);
+  const detalleImg = document.getElementById("detalleImg");
+  detalleImg.src = imagenesActuales[imagenActual];
+  detalleImg.alt = "Imagen " + (imagenActual + 1);
+  precargarImagenesCercanas();
 }
 
 function cerrarDetalle() {
