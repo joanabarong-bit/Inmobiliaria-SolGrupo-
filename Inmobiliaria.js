@@ -194,7 +194,7 @@ PISO 2:
 ☑GAS NATURAL, AGUA, LUZ, ALCANTARILLADO
 💰ADMINISTRACION: 💸314.000 MIL PESOS
 📝DOCUMENTOS AL DIA`,
-    videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
+    videoYoutube: "https://youtu.be/Y0Tqh3dpEUs",
   },
 {
     tipo: "Lote",
@@ -206,15 +206,7 @@ PISO 2:
              "Ref. LT. 08/4.jpeg",
              "Ref. LT. 08/5.jpeg",
              "Ref. LT. 08/6.jpeg",
-             "Ref. LT. 08/7.jpeg",
-             "Ref. LT. 08/8.jpeg",
-             "Ref. LT. 08/9.jpeg",
-             "Ref. LT. 08/10.jpeg",
-             "Ref. LT. 08/11.jpeg",
-             "Ref. LT. 08/12.jpeg",
-             "Ref. LT. 08/13.jpeg",
-             "Ref. LT. 08/14.jpeg",
-             "Ref. LT. 08/15.jpeg",],
+             "Ref. LT. 08/7.jpeg",],
     precio: "$120.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "2,500 m²",
