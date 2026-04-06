@@ -2366,3 +2366,145 @@ body.detalle-modal-open .top-header {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== Footer estilo Inmobiliaria Atos ===== */
+.footer.footer-atos {
+    position: relative;
+    margin-top: 64px;
+    padding: 0 24px 20px;
+    background: radial-gradient(circle at 0% 0%, #243447 0%, #1e3d59 45%, #1e3d59 100%);
+    color: #e5e7eb;
+    overflow: hidden;
+}
+
+.footer-atos .footer-top-line {
+    height: 4px;
+    width: 100%;
+    margin-bottom: 34px;
+    background: linear-gradient(90deg, #c9a24d, #c9a24d, #c9a24d);
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-atos .footer-container {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr 1.1fr;
+    gap: 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.footer-atos .footer-brand {
+    text-align: left;
+    align-items: flex-start;
+    max-width: 360px;
+}
+
+.footer-atos .footer-logo img {
+    width: clamp(210px, 18vw, 260px);
+    margin: 0 0 10px;
+    filter: none;
+}
+
+.footer-atos .footer-brand p,
+.footer-atos .footer-col li,
+.footer-atos .footer-col a {
+    font-size: 0.96rem;
+    line-height: 1.7;
+    color: #cbd5e1;
+}
+
+.footer-atos .footer-col h4 {
+    font-size: 1.05rem;
+    color: #e8c87a;
+    margin-bottom: 14px;
+    letter-spacing: 0.3px;
+}
+
+.footer-atos .footer-col ul,
+.footer-atos .footer-contact-list {
+    display: grid;
+    gap: 8px;
+}
+
+.footer-atos .footer-cta {
+    display: inline-flex;
+    margin-top: 14px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background-color: #e8c87a;
+    color: #1e3d59;
+    font-weight: 700;
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.footer-atos .footer-cta:hover {
+    color: #1e3d59;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(245, 158, 11, .3);
+}
+
+.footer-atos .footer-socials.icons {
+    margin-top: 14px;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.footer-atos .footer-socials.icons a {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer-atos .footer-socials.icons img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) saturate(100%) invert(88%) sepia(14%) saturate(207%) hue-rotate(177deg) brightness(99%) contrast(94%);
+}
+
+.footer-atos .footer-bottom {
+    border-top: 1px solid rgba(148, 163, 184, 0.25);
+    margin: 28px auto 0;
+    padding-top: 16px;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+@media (max-width: 1024px) {
+    .footer-atos .footer-container {
+        grid-template-columns: repeat(2, minmax(240px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .footer.footer-atos {
+        padding-inline: 18px;
+    }
+
+    .footer-atos .footer-container {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .footer-atos .footer-brand,
+    .footer-atos .footer-col,
+    .footer-atos .footer-col-contact {
+        text-align: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .footer-atos .footer-logo img {
+        margin-inline: auto;
+    }
+
+    .footer-atos .footer-socials.icons {
+        justify-content: center;
+    }
+}
