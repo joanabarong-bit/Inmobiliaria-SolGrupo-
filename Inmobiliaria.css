@@ -973,6 +973,10 @@ footer {
     text-align: center;
 }
 
+.about-section {
+    padding-bottom: 20px;
+}
+
 .about-section h1,
 .values-section h2,
 .team-section h2,
