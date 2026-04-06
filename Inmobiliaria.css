@@ -973,13 +973,30 @@ footer {
     text-align: center;
 }
 
+.nosotros-page .videos-section {
+    padding-bottom: 24px;
+}
+
+.nosotros-page .aliados-section {
+    padding-top: 16px;
+}
+
+.nosotros-page .footer {
+    margin-top: 24px;
+}
 .about-section {
     padding-bottom: 20px;
 }
 
 .team-section {
     padding-top: 30px;
+    padding-bottom: 8px;
 }
+
+team-section + .videos-section {
+    padding-top: 8px;
+}
+
 
 .values-section {
     padding-top: 30px;
@@ -1074,6 +1091,12 @@ footer {
 }
 
 /* ================== VIDEOS ================== */
+
+.team-section + .videos-section {
+    margin-top: 0;
+    padding-top: 8px;
+}
+
 .videos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
