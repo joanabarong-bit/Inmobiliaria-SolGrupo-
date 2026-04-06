@@ -977,6 +977,10 @@ footer {
     padding-bottom: 20px;
 }
 
+.team-section {
+    padding-top: 30px;
+}
+
 .values-section {
     padding-top: 30px;
 }
@@ -1033,7 +1037,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .team-member {
@@ -1117,6 +1121,7 @@ footer {
     }
 
     .team-section {
+        padding-top: 20px;
         padding-bottom: 0;
     }
 
