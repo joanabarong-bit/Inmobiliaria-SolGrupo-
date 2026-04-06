@@ -3,6 +3,8 @@ let imagenActual = 0;
 let imagenesActuales = [];
 let scrollRevealObserver = null;
 const cacheImagenes = new Set();
+const MOBILE_MAX_WIDTH = 768;
+const MOBILE_BATCH_SIZE = 8;
 
 const VIDEO_YOUTUBE_DEFAULT = "https://www.youtube.com/watch?v=x_xDcaQxBX0";
 
@@ -3930,6 +3932,77 @@ function ordenarPropiedades(lista) {
   });
 }
 
+function esVistaMobile() {
+  return window.matchMedia(`(max-width: ${MOBILE_MAX_WIDTH}px)`).matches;
+}
+
+function crearCardPropiedad(p, index, cargaPrioritaria = false) {
+  const card = document.createElement("div");
+  card.className = "property-card";
+
+  const imagenPrincipal = p.imagenes?.[0] || "";
+  const loadingMode = cargaPrioritaria ? "eager" : "lazy";
+  const fetchPriority = cargaPrioritaria ? "high" : "low";
+
+  card.innerHTML = `
+      <img src="${imagenPrincipal}" alt="${p.nombre}" loading="${loadingMode}" decoding="async" fetchpriority="${fetchPriority}">
+      <div class="property-body">
+        <h3>${p.nombre}</h3>
+           <p class="property-ref">📌 Ref: ${p.referencia}</p>
+        <p class="location">📍 ${p.ubicacion}</p>
+        <p class="price">${p.precio}</p>
+         <button onclick="verDetalle('${p.referencia}')">Ver detalles</button>
+      </div>
+    `;
+
+  if (index < MOBILE_BATCH_SIZE) {
+    precargarImagen(imagenPrincipal);
+  }
+
+  return card;
+}
+
+function renderizarCardsEnLotes(lista, contenedor) {
+  const primerLote = lista.slice(0, MOBILE_BATCH_SIZE);
+  const restantes = lista.slice(MOBILE_BATCH_SIZE);
+
+  primerLote.forEach((propiedad, index) => {
+    const card = crearCardPropiedad(propiedad, index, true);
+    contenedor.appendChild(card);
+  });
+
+  if (!restantes.length) return;
+
+  let indice = 0;
+
+  const renderizarSiguienteLote = () => {
+    const fragmento = document.createDocumentFragment();
+    const siguienteBloque = restantes.slice(indice, indice + MOBILE_BATCH_SIZE);
+
+    siguienteBloque.forEach((propiedad, localIndex) => {
+      const card = crearCardPropiedad(propiedad, indice + localIndex + MOBILE_BATCH_SIZE, false);
+      fragmento.appendChild(card);
+    });
+
+    contenedor.appendChild(fragmento);
+    indice += MOBILE_BATCH_SIZE;
+
+    if (indice < restantes.length) {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(renderizarSiguienteLote, { timeout: 220 });
+      } else {
+        setTimeout(renderizarSiguienteLote, 60);
+      }
+    }
+  };
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(renderizarSiguienteLote, { timeout: 180 });
+  } else {
+    setTimeout(renderizarSiguienteLote, 40);
+  }
+}
+
 
 /* ================= MOSTRAR PROPIEDADES ================= */
 function mostrarPropiedades(lista, titulo = "Propiedades") {
@@ -3947,19 +4020,13 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
     return;
   }
 
-   listaOrdenada.forEach(p => {
-    const card = document.createElement("div");
-    card.className = "property-card";
-    card.innerHTML = `
-      <img src="${p.imagenes[0]}" alt="${p.nombre}" loading="lazy" decoding="async">
-      <div class="property-body">
-        <h3>${p.nombre}</h3>
-           <p class="property-ref">📌 Ref: ${p.referencia}</p>
-        <p class="location">📍 ${p.ubicacion}</p>
-        <p class="price">${p.precio}</p>
-         <button onclick="verDetalle('${p.referencia}')">Ver detalles</button>
-      </div>
-    `;
+  if (esVistaMobile()) {
+    renderizarCardsEnLotes(listaOrdenada, contenedor);
+    return;
+  }
+
+  listaOrdenada.forEach((p, index) => {
+    const card = crearCardPropiedad(p, index, index < 4);
     contenedor.appendChild(card);
   });
 }
