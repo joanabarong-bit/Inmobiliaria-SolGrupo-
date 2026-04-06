@@ -977,6 +977,10 @@ footer {
     padding-bottom: 20px;
 }
 
+.values-section {
+    padding-top: 30px;
+}
+
 .about-section h1,
 .values-section h2,
 .team-section h2,
@@ -1098,6 +1102,10 @@ footer {
     .team-section,
     .videos-section {
         padding: 40px 15px;
+    }
+
+      .values-section {
+        padding-top: 20px;
     }
 
      .videos-section {
