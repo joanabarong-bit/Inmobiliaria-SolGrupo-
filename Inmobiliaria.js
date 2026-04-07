@@ -100,48 +100,6 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
   },
 {
-    tipo: "Lote",
-    nombre: "Lote en Condominio",
-    referencia: "LT. 017",
-    imagenes: ["Ref. LT. 17/1.jpeg",
-             "Ref. LT. 17/2.jpeg",
-             "Ref. LT. 17/3.jpeg",
-             "Ref. LT. 17/4.jpeg",
-             "Ref. LT. 17/5.jpeg",
-             "Ref. LT. 17/6.jpeg",
-             "Ref. LT. 17/7.jpeg",],
-    precio: "$189.000.000",
-    ubicacion: "Puente Nacional, Santander",
-    area: "996 m²",
-    areaPrivada:"996 m²",
-    areaConstruida:"-",
-    habitaciones: "-",
-    banos: "-",
-    descripcion: `🏡 VENTA DE LOTE EN CONDOMINIO – PUENTE NACIONAL, SANTANDER
-
-📍 Condominio Chaneque
-📐 Área: 996 m²
-
-✨ Características del lote
-💧 Agua
-⚡ Energía eléctrica
-🔥 Gas natural
-🛠️ Pozo séptico
-🏗️ Libre construcción
-🚪 Portón eléctrico
-🛣️ Vía adoquinada
-
-🌿 Zonas y áreas comunes
-🏓 Mesa de pimpón
-🏀 Cancha múltiple
-🌴 Zona de hamacas
-💦 Piscina
-🧖 Sauna
-🧖‍♂️ Turco
-🏛️ Salón comunal`,
-    videoYoutube: "https://youtu.be/pbxH9u49Gis",
- },
-{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 019",
@@ -196,38 +154,47 @@ PISO 2:
 📝DOCUMENTOS AL DIA`,
     videoYoutube: "https://youtu.be/Y0Tqh3dpEUs",
   },
-{
+ {
     tipo: "Lote",
-    nombre: "Lote",
-    referencia: "LT. 008",
-    imagenes: ["Ref. LT. 08/1.jpeg",
-             "Ref. LT. 08/2.jpeg",
-             "Ref. LT. 08/3.jpeg",
-             "Ref. LT. 08/4.jpeg",
-             "Ref. LT. 08/5.jpeg",
-             "Ref. LT. 08/6.jpeg",
-             "Ref. LT. 08/7.jpeg",],
-    precio: "$120.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "2,500 m²",
-    areaPrivada:"2,500 m²",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 016",
+    imagenes: ["Ref. LT. 16/1.jpeg",
+             "Ref. LT. 16/2.jpeg",
+             "Ref. LT. 16/3.jpeg",
+             "Ref. LT. 16/4.jpeg",
+             "Ref. LT. 16/5.jpeg",
+             "Ref. LT. 16/6.jpeg",
+             "Ref. LT. 16/7.jpeg",],
+    precio: "$189.000.000",
+    ubicacion: "Puente Nacional, Santander",
+    area: "996 m²",
+    areaPrivada:"996 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `📌 VENTA DE LOTE EN MONIQUIRA – BOYACA
+    descripcion: `🏡 VENTA DE LOTE EN CONDOMINIO – PUENTE NACIONAL, SANTANDER
 
-📏 Área: 2.500 mt2
-👉🏻 Perímetro Rural
-👉🏻 Vereda: Chovo
-👉🏻Cerca de Vía Principal (Moniquirá – Santa Sofia 400 mts)
-👉🏻Vía hasta el lote
+📍 Condominio Chaneque
+📐 Área: 996 m²
 
-✔Terreno Semiplano
-✔Acceso a Punto de Agua Veredal
-✔Excelente vista
-✔Buen estado de la Vía
-✔Acceso a punto de energía eléctrica `,
-    videoYoutube: "https://youtu.be/2BeopAk18o8",
+✨ Características del lote
+💧 Agua
+⚡ Energía eléctrica
+🔥 Gas natural
+🛠️ Pozo séptico
+🏗️ Libre construcción
+🚪 Portón eléctrico
+🛣️ Vía adoquinada
+
+🌿 Zonas y áreas comunes
+🏓 Mesa de pimpón
+🏀 Cancha múltiple
+🌴 Zona de hamacas
+💦 Piscina
+🧖 Sauna
+🧖‍♂️ Turco
+🏛️ Salón comunal`,
+    videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
 {
     tipo: "Lote",
