@@ -3009,7 +3009,7 @@ Cuenta con todos los servicios:
              "Ref. LT. 22/5.jpeg",
              "Ref. LT. 22/6.jpeg",
              "Ref. LT. 22/7.jpeg",],
-    precio: "$260.000.000",
+    precio: "$250.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
     areaPrivada:"6,000 m²",
