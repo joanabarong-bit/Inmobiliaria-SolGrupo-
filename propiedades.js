@@ -3571,7 +3571,7 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
 🍀Tranquilo`,
     videoYoutube: "https://youtu.be/SZsVw5NdoH0",
   },
-  {
+   {
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 012",
@@ -3586,7 +3586,51 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
              "Ref. FC. 12/9.jpg",
              "Ref. FC. 12/10.jpg",
              "Ref. FC. 12/11.jpg",
-             "Ref. FC. 12/12.jpg",],
+             "Ref. FC. 12/12.jpg",
+             "Ref. FC. 12/13.jpg",
+             "Ref. FC. 12/14.jpg",
+             "Ref. FC. 12/15.jpg",],
+    precio: "$770.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "20,000 m²",
+    areaPrivada:"20,000 m²",
+    areaConstruida:"230 m²",
+    habitaciones: "2",
+    banos: "3",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ
+
+ 📐Área terreno: 2 hectáreas
+ 📐Área Casa: 230 Mts2
+👉 No. de Habitaciones: 2
+👉 No. de Baños: 3
+👉 Sala amplia
+👉 Zona de lavandería
+👉 Corredores amplios
+👉Garaje con puerta automática
+✅ Punto de agua, acueducto veredal
+✅ Punto de luz 
+✅ Cuarto de bombas 
+✅ Vereda la Coralina 
+✅ Distancia: 20 minutos de Moniquirá
+✅ 1.5 Km de la vía principal santa Sofía`,
+    videoYoutube: "https://youtu.be/ep0YpZZo0ZA",
+  },
+  {
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 013",
+    imagenes: ["Ref. FC. 13/1.jpg",
+             "Ref. FC. 13/2.jpg",
+             "Ref. FC. 13/3.jpg",
+             "Ref. FC. 13/4.jpg",
+             "Ref. FC. 13/5.jpg",
+             "Ref. FC. 13/6.jpg",
+             "Ref. FC. 13/7.jpg",
+             "Ref. FC. 13/8.jpg",
+             "Ref. FC. 13/9.jpg",
+             "Ref. FC. 13/10.jpg",
+             "Ref. FC. 13/11.jpg",
+             "Ref. FC. 13/12.jpg",],
     precio: "$830.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "130,000 m²",
@@ -3613,23 +3657,23 @@ Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
   {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 013",
-    imagenes: ["Ref. FC. 13/1.jpg",
-             "Ref. FC. 13/2.jpeg",
-             "Ref. FC. 13/3.jpeg",
-             "Ref. FC. 13/4.jpeg",
-             "Ref. FC. 13/5.jpeg",
-             "Ref. FC. 13/6.jpeg",
-             "Ref. FC. 13/7.jpeg",
-             "Ref. FC. 13/8.jpeg",
-             "Ref. FC. 13/9.jpeg",
-             "Ref. FC. 13/10.jpeg",
-             "Ref. FC. 13/11.jpeg",
-             "Ref. FC. 13/12.jpeg",
-             "Ref. FC. 13/13.jpg",
-             "Ref. FC. 13/14.jpg",
-             "Ref. FC. 13/15.jpeg",
-             "Ref. FC. 13/16.jpg",],
+    referencia: "FC. 014",
+    imagenes: ["Ref. FC. 14/1.jpg",
+             "Ref. FC. 14/2.jpeg",
+             "Ref. FC. 14/3.jpeg",
+             "Ref. FC. 14/4.jpeg",
+             "Ref. FC. 14/5.jpeg",
+             "Ref. FC. 14/6.jpeg",
+             "Ref. FC. 14/7.jpeg",
+             "Ref. FC. 14/8.jpeg",
+             "Ref. FC. 14/9.jpeg",
+             "Ref. FC. 14/10.jpeg",
+             "Ref. FC. 14/11.jpeg",
+             "Ref. FC. 14/12.jpeg",
+             "Ref. FC. 14/13.jpg",
+             "Ref. FC. 14/14.jpg",
+             "Ref. FC. 14/15.jpeg",
+             "Ref. FC. 14/16.jpg",],
     precio: "$850.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "8,500 m²",
@@ -3664,50 +3708,6 @@ Características de la casa 2:
 ✔️Zona BBQ
 🌱 esta sembrada en café, plátano y algunos cítricos.`,
     videoYoutube: "https://youtu.be/BBYVbJ0bF4c",
-  },
-   {
-    tipo: "Finca",
-    nombre: "Finca",
-    referencia: "FC. 014",
-    imagenes: ["Ref. FC. 14/1.jpg",
-             "Ref. FC. 14/2.jpg",
-             "Ref. FC. 14/3.jpg",
-             "Ref. FC. 14/4.jpg",
-             "Ref. FC. 14/5.jpg",
-             "Ref. FC. 14/6.jpg",
-             "Ref. FC. 14/7.jpg",
-             "Ref. FC. 14/8.jpg",
-             "Ref. FC. 14/9.jpg",
-             "Ref. FC. 14/10.jpg",
-             "Ref. FC. 14/11.jpg",
-             "Ref. FC. 14/12.jpg",
-             "Ref. FC. 14/13.jpg",
-             "Ref. FC. 14/14.jpg",
-             "Ref. FC. 14/15.jpg",],
-    precio: "$860.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "20,000 m²",
-    areaPrivada:"20,000 m²",
-    areaConstruida:"230 m²",
-    habitaciones: "2",
-    banos: "3",
-    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ
-
- 📐Área terreno: 2 hectáreas
- 📐Área Casa: 230 Mts2
-👉 No. de Habitaciones: 2
-👉 No. de Baños: 3
-👉 Sala amplia
-👉 Zona de lavandería
-👉 Corredores amplios
-👉Garaje con puerta automática
-✅ Punto de agua, acueducto veredal
-✅ Punto de luz 
-✅ Cuarto de bombas 
-✅ Vereda la Coralina 
-✅ Distancia: 20 minutos de Moniquirá
-✅ 1.5 Km de la vía principal santa Sofía`,
-    videoYoutube: "https://youtu.be/ep0YpZZo0ZA",
   },
   {
     tipo: "Finca",
