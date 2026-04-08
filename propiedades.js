@@ -1291,7 +1291,7 @@ Características Internas
     ubicacion: "Moniquirá, Boyacá",
     area: "168 m²",
     areaPrivada:"168 m²",
-    areaConstruida:"168 m²",
+    areaConstruida:"310 m²",
     habitaciones: "5",
     banos: "4",
     descripcion: `🏡✨ ¡Se Vende Casa en Moniquirá – Boyacá! ✨🏡
