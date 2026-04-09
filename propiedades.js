@@ -2768,7 +2768,7 @@ El condominio cuenta con:
              "Ref. LT. 16/5.jpeg",
              "Ref. LT. 16/6.jpeg",
              "Ref. LT. 16/7.jpeg",],
-    precio: "$189.000.000",
+    precio: "$180.000.000",
     ubicacion: "Puente Nacional, Santander",
     area: "996 m²",
     areaPrivada:"996 m²",

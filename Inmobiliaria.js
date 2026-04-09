@@ -165,7 +165,7 @@ PISO 2:
              "Ref. LT. 16/5.jpeg",
              "Ref. LT. 16/6.jpeg",
              "Ref. LT. 16/7.jpeg",],
-    precio: "$189.000.000",
+    precio: "$180.000.000",
     ubicacion: "Puente Nacional, Santander",
     area: "996 m²",
     areaPrivada:"996 m²",
@@ -333,6 +333,36 @@ Cuenta con todos los servicios:
 🍳 Cocina
 🧺 Patio compartido con el segundo piso`,
     videoYoutube: "https://youtu.be/1x4IqTyEd-E",
+  },
+   {
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 022",
+    imagenes: ["Ref. LT. 22/1.jpeg",
+             "Ref. LT. 22/2.jpeg",
+             "Ref. LT. 22/3.jpeg",
+             "Ref. LT. 22/4.jpeg",
+             "Ref. LT. 22/5.jpeg",
+             "Ref. LT. 22/6.jpeg",
+             "Ref. LT. 22/7.jpeg",],
+    precio: "$250.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "6,000 m²",
+    areaPrivada:"6,000 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 SE VENDE LOTE EN MONIQUIRÁ, BOYACÁ
+
+📍 Ubicado en la vereda Tierra de Gómez, sector La Capona, sobre la vía pavimentada hacia Santa Sofía.
+
+📐 Área: 6.000 metros cuadrados
+🌄 Topografía ondulada, en su mayoría plana
+⚡ Punto de luz
+💧 Acueducto veredal y aljibe
+🚗 A solo 20 minutos del casco urbano de Moniquirá
+📄 Documentación al día`,
+    videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
 ];
 
