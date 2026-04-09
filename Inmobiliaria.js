@@ -154,17 +154,17 @@ PISO 2:
 📝DOCUMENTOS AL DIA`,
     videoYoutube: "https://youtu.be/Y0Tqh3dpEUs",
   },
- {
+  {
     tipo: "Lote",
     nombre: "Lote en Condominio",
-    referencia: "LT. 016",
-    imagenes: ["Ref. LT. 16/1.jpeg",
-             "Ref. LT. 16/2.jpeg",
-             "Ref. LT. 16/3.jpeg",
-             "Ref. LT. 16/4.jpeg",
-             "Ref. LT. 16/5.jpeg",
-             "Ref. LT. 16/6.jpeg",
-             "Ref. LT. 16/7.jpeg",],
+    referencia: "LT. 015",
+    imagenes: ["Ref. LT. 15/1.jpeg",
+             "Ref. LT. 15/2.jpeg",
+             "Ref. LT. 15/3.jpeg",
+             "Ref. LT. 15/4.jpeg",
+             "Ref. LT. 15/5.jpeg",
+             "Ref. LT. 15/6.jpeg",
+             "Ref. LT. 15/7.jpeg",],
     precio: "$180.000.000",
     ubicacion: "Puente Nacional, Santander",
     area: "996 m²",
@@ -195,42 +195,6 @@ PISO 2:
 🧖‍♂️ Turco
 🏛️ Salón comunal`,
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
-  },
-{
-    tipo: "Lote",
-    nombre: "Lote en Condominio",
-    referencia: "LT. 012",
-    imagenes: ["Ref. LT. 12/1.jpeg",
-             "Ref. LT. 12/2.jpeg",
-             "Ref. LT. 12/3.jpeg",
-             "Ref. LT. 12/4.jpeg",
-             "Ref. LT. 12/5.jpeg",
-             "Ref. LT. 12/6.jpeg",
-             "Ref. LT. 12/7.jpeg",
-             "Ref. LT. 12/8.jpeg",
-             "Ref. LT. 12/9.jpeg",
-             "Ref. LT. 12/10.jpeg",],
-    precio: "$155.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "1,110 m²",
-    areaPrivada:"1,110 m²",
-    areaConstruida:"-",
-    habitaciones: "-",
-    banos: "-",
-    descripcion: `📌 Lote en venta dentro de condominio, en Moniquirá Boyacá.
-
-📐 Área del lote: 1.110 Mt2
-Topografía: plana con una pendiente de inclinación minima
-
-✅ Amplios senderos peatonales
-
-Cuenta con todos los servicios:
-
-✅ Gas natural
-✅ luz eléctrica
-✅ punto de agua
-✅ Zonas sociales: piscina, salón social, cancha de básquet, de voleibol y además cuenta con un portón automático que se abre desde el celular.`,
-    videoYoutube: "https://youtu.be/ApOfWWArBkw",
   },
 {
     tipo: "Casa",
@@ -334,17 +298,17 @@ Cuenta con todos los servicios:
 🧺 Patio compartido con el segundo piso`,
     videoYoutube: "https://youtu.be/1x4IqTyEd-E",
   },
-   {
+  {
     tipo: "Lote",
     nombre: "Lote",
-    referencia: "LT. 022",
-    imagenes: ["Ref. LT. 22/1.jpeg",
-             "Ref. LT. 22/2.jpeg",
-             "Ref. LT. 22/3.jpeg",
-             "Ref. LT. 22/4.jpeg",
-             "Ref. LT. 22/5.jpeg",
-             "Ref. LT. 22/6.jpeg",
-             "Ref. LT. 22/7.jpeg",],
+    referencia: "LT. 021",
+    imagenes: ["Ref. LT. 21/1.jpeg",
+             "Ref. LT. 21/2.jpeg",
+             "Ref. LT. 21/3.jpeg",
+             "Ref. LT. 21/4.jpeg",
+             "Ref. LT. 21/5.jpeg",
+             "Ref. LT. 21/6.jpeg",
+             "Ref. LT. 21/7.jpeg",],
     precio: "$250.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
