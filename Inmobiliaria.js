@@ -328,6 +328,55 @@ PISO 2:
 📄 Documentación al día`,
     videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
+     {
+    tipo: "Apartamento",
+    nombre: "Apartamento",
+    referencia: "Apt. 006",
+    imagenes: ["Ref. Apt. 06/1.jpg",
+             "Ref. Apt. 06/2.jpg",
+             "Ref. Apt. 06/3.jpg",
+             "Ref. Apt. 06/4.jpg",
+             "Ref. Apt. 06/5.jpg",
+             "Ref. Apt. 06/6.jpg",
+             "Ref. Apt. 06/7.jpg",
+             "Ref. Apt. 06/8.jpg",
+             "Ref. Apt. 06/9.jpg",
+             "Ref. Apt. 06/10.jpg",
+             "Ref. Apt. 06/11.jpg",
+             "Ref. Apt. 06/12.jpg",
+             "Ref. Apt. 06/13.jpg",],
+    precio: "$367.341.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "85,5 m²",
+    areaPrivada:"-",
+    areaConstruida:"85,5 m²",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `📌 VENTA DE APARTAMENTO + PARQUEADERO + DEPOSITO EN MONIQUIRÁ – BOYACÁ
+
+ 👉 No. de Habita: 3
+✅Closet Empotrado de techo a piso
+✅Amplios Balcones con puerta corrediza en (Sala Comedor y habitación principal)
+👉 No. de Baños: 2
+✅Con División en vidrio
+👉 Cocina Integral:
+✅Muble superior – mueble inferior
+✅ Mesón Auxiliar 
+✅Horno
+✅Alacena
+✅Extractor
+✅Zona de Lavandería
+👉 Proyección de áreas sociales:
+🌼 Salón Social
+🌼 Sauna 
+🌼 Jacuzzy
+🌼 Senderos peatonales
+🌼 Piscinas
+👉 Cuenta con Ascensor Panorámico, parqueadero y deposito
+✖️ No permuta
+`,
+    videoYoutube: "-",
+  },
 ];
 
 
