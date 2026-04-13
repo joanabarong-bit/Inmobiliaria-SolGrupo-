@@ -53,24 +53,24 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 `,
     videoYoutube: "https://youtu.be/2VMqNNXp55g",
  },
-{
+   {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 008",
-    imagenes: ["Ref. C. 08/1.png",
-             "Ref. C. 08/2.jpg",
-             "Ref. C. 08/3.jpg",
-             "Ref. C. 08/4.jpg",
-             "Ref. C. 08/5.jpg",
-             "Ref. C. 08/6.jpg",
-             "Ref. C. 08/7.jpg",
-             "Ref. C. 08/8.jpg",
-             "Ref. C. 08/9.jpg",
-             "Ref. C. 08/10.jpeg",
-             "Ref. C. 08/11.png",
-             "Ref. C. 08/12.jpg",
-             "Ref. C. 08/13.jpg",
-             "Ref. C. 08/14.jpg",],
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.png",
+             "Ref. C. 07/2.jpg",
+             "Ref. C. 07/3.jpg",
+             "Ref. C. 07/4.jpg",
+             "Ref. C. 07/5.jpg",
+             "Ref. C. 07/6.jpg",
+             "Ref. C. 07/7.jpg",
+             "Ref. C. 07/8.jpg",
+             "Ref. C. 07/9.jpg",
+             "Ref. C. 07/10.jpeg",
+             "Ref. C. 07/11.png",
+             "Ref. C. 07/12.jpg",
+             "Ref. C. 07/13.jpg",
+             "Ref. C. 07/14.jpg",],
     precio: "$405.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
@@ -102,24 +102,24 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 019",
-    imagenes: ["Ref. C. 19/1.jpg",
-             "Ref. C. 19/2.jpg",
-             "Ref. C. 19/3.jpg",
-             "Ref. C. 19/4.jpg",
-             "Ref. C. 19/5.jpg",
-             "Ref. C. 19/6.jpg",
-             "Ref. C. 19/7.jpg",
-             "Ref. C. 19/8.jpg",
-             "Ref. C. 19/9.jpg",
-             "Ref. C. 19/10.jpg",
-             "Ref. C. 19/11.jpg",
-             "Ref. C. 19/12.jpg",
-             "Ref. C. 19/13.jpg",
-             "Ref. C. 19/14.jpg",
-             "Ref. C. 19/15.jpg",
-             "Ref. C. 19/16.jpg",
-             "Ref. C. 19/17.jpg",],
+    referencia: "C. 018",
+    imagenes: ["Ref. C. 18/1.jpg",
+             "Ref. C. 18/2.jpg",
+             "Ref. C. 18/3.jpg",
+             "Ref. C. 18/4.jpg",
+             "Ref. C. 18/5.jpg",
+             "Ref. C. 18/6.jpg",
+             "Ref. C. 18/7.jpg",
+             "Ref. C. 18/8.jpg",
+             "Ref. C. 18/9.jpg",
+             "Ref. C. 18/10.jpg",
+             "Ref. C. 18/11.jpg",
+             "Ref. C. 18/12.jpg",
+             "Ref. C. 18/13.jpg",
+             "Ref. C. 18/14.jpg",
+             "Ref. C. 18/15.jpg",
+             "Ref. C. 18/16.jpg",
+             "Ref. C. 18/17.jpg",],
     precio: "$620.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "187 m²",
@@ -152,9 +152,48 @@ PISO 2:
 ☑GAS NATURAL, AGUA, LUZ, ALCANTARILLADO
 💰ADMINISTRACION: 💸314.000 MIL PESOS
 📝DOCUMENTOS AL DIA`,
-    videoYoutube: "https://youtu.be/Y0Tqh3dpEUs",
+    videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
   },
-  {
+{
+    tipo: "Apartaestudio",
+    nombre: "Apartaestudio",
+    referencia: "Apte. 002",
+    imagenes: ["Ref. Apte. 02/1.jpg",
+             "Ref. Apte. 02/2.jpg",
+             "Ref. Apte. 02/3.jpg",
+             "Ref. Apte. 02/4.jpg",
+             "Ref. Apte. 02/5.jpg",
+             "Ref. Apte. 02/6.jpg",
+             "Ref. Apte. 02/7.jpg",
+             "Ref. Apte. 02/8.jpg",],
+    precio: "$231.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "50,77 m²",
+    areaPrivada:"-",
+    areaConstruida:"50,77 m²",
+    habitaciones: "1",
+    banos: "1",
+    descripcion: `🏢🌿 Se vende aparta estudio en Moniquirá, Boyacá
+
+📍 Ubicado en el edificio Altos del Nogal, conjunto residencial que ofrece:
+
+🛎️ Portería con celador
+🕒 Vigilancia 24/7
+🛗 Ascensor panorámico
+
+✨ El aparta estudio cuenta con:
+
+🛋️ Sala comedor
+🍽️ Cocina integral con horno y campana extractora
+🧺 Zona de lavandería
+🚪 Hall hacia las habitaciones
+🛏️ Habitación principal con balcón y baño privado
+🛏️ 1 habitación con clóset
+🚿 Baño social
+`,
+    videoYoutube: "https://youtu.be/HM1YtC1UIPg",
+  },
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 015",
@@ -200,63 +239,18 @@ PISO 2:
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 003",
-    imagenes: ["Ref. C. 03/1.jpg",
-             "Ref. C. 03/2.jpg",
-             "Ref. C. 03/3.jpg",
-             "Ref. C. 03/4.jpg",
-             "Ref. C. 03/5.jpg",
-             "Ref. C. 03/6.jpg",
-             "Ref. C. 03/7.jpg",
-             "Ref. C. 03/8.jpg",
-             "Ref. C. 03/9.jpg",
-             "Ref. C. 03/10.jpg",
-             "Ref. C. 03/11.jpg",
-             "Ref. C. 03/12.jpg",
-             "Ref. C. 03/13.jpg",
-             "Ref. C. 03/14.jpg",],
-    precio: "$250.000.000",
-    ubicacion: "Paipa, Boyacá",
-    area: "111 m²",
-    areaPrivada:"111 m²",
-    areaConstruida:"111 m²",
-    habitaciones: "3",
-    banos: "3",
-    descripcion: `🏡 ¡Venta de Casa en Paipa – Boyacá!
-
-📐 Área: 111 metros cuadrados
-
-✨ Características principales:
-🏠 Casa de dos pisos
-🛏️ 3 habitaciones
-🚿 3 baños
-🛋️ Sala
-🍽️ Comedor
-👩‍🍳 Cocina
-🌿 Patio
-🚗 Garaje
-
-⚙️ Servicios públicos:
-💧 Agua
-⚡ Luz
-🔥 Gas`,
-    videoYoutube: "https://youtu.be/FYgrVuGAF_I",
-  },
-{
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 004",
-    imagenes: ["Ref. C. 04/1.jpeg",
-             "Ref. C. 04/2.jpeg",
-             "Ref. C. 04/3.jpeg",
-             "Ref. C. 04/4.jpeg",
-             "Ref. C. 04/5.jpeg",
-             "Ref. C. 04/6.jpeg",
-             "Ref. C. 04/7.jpeg",
-             "Ref. C. 04/8.jpeg",
-             "Ref. C. 04/9.jpeg",
-             "Ref. C. 04/10.jpeg",
-             "Ref. C. 04/11.jpeg",
-             "Ref. C. 04/12.jpeg",],
+    imagenes: ["Ref. C. 03/1.jpeg",
+             "Ref. C. 03/2.jpeg",
+             "Ref. C. 03/3.jpeg",
+             "Ref. C. 03/4.jpeg",
+             "Ref. C. 03/5.jpeg",
+             "Ref. C. 03/6.jpeg",
+             "Ref. C. 03/7.jpeg",
+             "Ref. C. 03/8.jpeg",
+             "Ref. C. 03/9.jpeg",
+             "Ref. C. 03/10.jpeg",
+             "Ref. C. 03/11.jpeg",
+             "Ref. C. 03/12.jpeg",],
     precio: "$290.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "168 m²",
@@ -298,7 +292,7 @@ PISO 2:
 🧺 Patio compartido con el segundo piso`,
     videoYoutube: "https://youtu.be/1x4IqTyEd-E",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 021",
@@ -328,7 +322,7 @@ PISO 2:
 📄 Documentación al día`,
     videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
-     {
+ {
     tipo: "Apartamento",
     nombre: "Apartamento",
     referencia: "Apt. 006",
