@@ -14,65 +14,14 @@ const propiedades = [
     tipo: "Apartaestudio",
     nombre: "Apartaestudio",
     referencia: "Apte. 001",
-    imagenes:["Ref. Apte. 01/1.jpg",
+    imagenes: ["Ref. Apte. 01/1.jpg",
              "Ref. Apte. 01/2.jpg",
              "Ref. Apte. 01/3.jpg",
              "Ref. Apte. 01/4.jpg",
              "Ref. Apte. 01/5.jpg",
              "Ref. Apte. 01/6.jpg",
              "Ref. Apte. 01/7.jpg",
-             "Ref. Apte. 01/8.jpg",
-             "Ref. Apte. 01/9.jpg",
-             "Ref. Apte. 01/10.jpg",
-             "Ref. Apte. 01/11.jpg",
-             "Ref. Apte. 01/12.jpg",
-             "Ref. Apte. 01/13.jpg",
-             "Ref. Apte. 01/14.jpg",
-             "Ref. Apte. 01/15.jpg",
-             "Ref. Apte. 01/16.jpg",
-             "Ref. Apte. 01/17.jpg",
-             "Ref. Apte. 01/18.jpg",
-             "Ref. Apte. 01/19.jpg",
-             "Ref. Apte. 01/20.jpg",
-             "Ref. Apte. 01/21.jpg",
-             "Ref. Apte. 01/22.jpg",
-             "Ref. Apte. 01/23.jpg",],
-    precio: "$136.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "42 m²",
-    areaPrivada:"-",
-    areaConstruida:"42 m²",
-    habitaciones: "1",
-    banos: "1",
-    descripcion: `📌 Venta de Apartamento en Moniquirá – Boyacá
-
-📏 Área 45 mt2
-
-Características del apartamento 
-
-✔Queda en un primer piso
-✔Cuenta con parqueadero
-✔Sala Comedor
-✔1 habitación
-✔Cocina integral
-✔Zona de lavandería amplia
-✔1 baños social
-✔Ubicado en un barrio residencial`,
-videoYoutube: "https://youtu.be/JiUddVN-l84?si=YDCyPaKFSDIYP19ds",
-
-  },
-  {
-    tipo: "Apartaestudio",
-    nombre: "Apartaestudio",
-    referencia: "Apte. 002",
-    imagenes: ["Ref. Apte. 02/1.jpg",
-             "Ref. Apte. 02/2.jpg",
-             "Ref. Apte. 02/3.jpg",
-             "Ref. Apte. 02/4.jpg",
-             "Ref. Apte. 02/5.jpg",
-             "Ref. Apte. 02/6.jpg",
-             "Ref. Apte. 02/7.jpg",
-             "Ref. Apte. 02/8.jpg",],
+             "Ref. Apte. 01/8.jpg",],
     precio: "$231.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "50,77 m²",
