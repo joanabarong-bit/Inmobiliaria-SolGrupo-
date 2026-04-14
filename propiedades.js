@@ -273,32 +273,46 @@ Ubicado Cerca al Centro
     precio: "$390.000.000",
     ubicacion: "Barbosa, Santander",
     area: "222 m²",
-    areaPrivada:"-",
+    areaPrivada:"222 m²",
     areaConstruida:"222 m²",
     habitaciones: "3",
-    banos: "2",
-    descripcion: `📌 VENTA DE APARTAMENTO + PARQUEADERO + DEPOSITO EN MONIQUIRÁ – BOYACÁ
+    banos: "3",
+    descripcion: `📍 VENTA DE APARTAMENTO PH- ZONA BBQ- 
+📌 UBICACIÓN: BARBOSA SANTANDER
+📏 Área 222 mt2
 
- 👉 No. de Habita: 3
-✅Closet Empotrado de techo a piso
-✅Amplios Balcones con puerta corrediza en (Sala Comedor y habitación principal)
-👉 No. de Baños: 2
-✅Con División en vidrio
-👉 Cocina Integral:
-✅Muble superior – mueble inferior
-✅ Mesón Auxiliar 
-✅Horno
-✅Alacena
-✅Extractor
-✅Zona de Lavandería
-👉 Proyección de áreas sociales:
-🌼 Salón Social
-🌼 Sauna 
-🌼 Jacuzzy
-🌼 Senderos peatonales
-🌼 Piscinas
-👉 Cuenta con Ascensor Panorámico, parqueadero y deposito
-✖️ No permuta
+🏢 Propiedad compuesta de 3 niveles, ultimo nivel zona BBQ
+
+✔️3 habitaciones
+✔️ 3 Baños
+✔️2 Salas
+✔️Cocina Integral 
+✔️Amplios Balcones
+✔️ BBQ
+✔️ Cuarto de SanAlejo
+✔️ 3 pisos (5,6 y7)
+✔️ Hermosa Vista
+
+👉 1 PISO
+✔️2 habitaciones con Closet
+✔️1 Baño
+✔️Sala Comedor
+✔️Cocina Integral
+✔️Cuarto de Lavandería
+✔️2 Balcones
+
+👉 2 PISO
+✔️Habitación principal
+✔️2 baños
+✔️Sala Comedor
+✔️2 balcones
+✔️Cuarto de San Alejo (debajo de las escaleras)
+
+
+👉 3 PISO
+✔️Zona BBQ Cubierta / terraza 
+✔️Linda vista
+
 `,
     videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
