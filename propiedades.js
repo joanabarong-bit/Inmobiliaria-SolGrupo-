@@ -220,7 +220,7 @@ Ubicado Cerca al Centro
              "Ref. Apt. 04/11.jpg",
              "Ref. Apt. 04/12.jpg",
              "Ref. Apt. 04/13.jpg",],
-    precio: "$367.341.000",
+    precio: "$363.375.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "85,5 m²",
     areaPrivada:"-",
