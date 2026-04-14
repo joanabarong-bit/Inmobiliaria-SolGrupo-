@@ -250,7 +250,7 @@ Ubicado Cerca al Centro
 👉 Cuenta con Ascensor Panorámico, parqueadero y deposito
 ✖️ No permuta
 `,
-    videoYoutube: "-",
+    videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
    {
     tipo: "Apartamento",
