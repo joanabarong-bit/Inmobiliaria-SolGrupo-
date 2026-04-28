@@ -2167,9 +2167,9 @@ Características principales:
 📍 Ubicados a tan solo 5 minutos del casco urbano
 🛣️ Vía pavimentada hasta la entrada del condominio
 📐 Áreas y precios:
-✅lote 31: 📐782 m²= 50 millones
 ✅lote 33: 📐 Área Total: 3.066 m² 
-                          Área aprovechable: 600 m² = 50 millones
+                          Área aprovechable: 600 m² = 43 millones
+✅lote 31: 📐782 m²= 50 millones
 ✅lote 8: 📐629 m²= 70 millones
 ✅lote 5: 📐646 m²= 75 millones
 ✅Lote 12: 📐856 m²= 75 millones
