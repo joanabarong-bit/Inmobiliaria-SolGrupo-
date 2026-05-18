@@ -196,14 +196,14 @@ PISO 2:
 {
     tipo: "Lote",
     nombre: "Lote en Condominio",
-    referencia: "LT. 014",
-    imagenes: ["Ref. LT. 14/1.jpeg",
-             "Ref. LT. 14/2.jpeg",
-             "Ref. LT. 14/3.jpeg",
-             "Ref. LT. 14/4.jpeg",
-             "Ref. LT. 14/5.jpeg",
-             "Ref. LT. 14/6.jpeg",
-             "Ref. LT. 14/7.jpeg",],
+    referencia: "LT. 016",
+    imagenes: ["Ref. LT. 16/1.jpeg",
+             "Ref. LT. 16/2.jpeg",
+             "Ref. LT. 16/3.jpeg",
+             "Ref. LT. 16/4.jpeg",
+             "Ref. LT. 16/5.jpeg",
+             "Ref. LT. 16/6.jpeg",
+             "Ref. LT. 16/7.jpeg",],
     precio: "$180.000.000",
     ubicacion: "Puente Nacional, Santander",
     area: "996 m²",
@@ -294,33 +294,32 @@ PISO 2:
   },
 {
     tipo: "Lote",
-    nombre: "Lote",
-    referencia: "LT. 021",
-    imagenes: ["Ref. LT. 21/1.jpeg",
-             "Ref. LT. 21/2.jpeg",
-             "Ref. LT. 21/3.jpeg",
-             "Ref. LT. 21/4.jpeg",
-             "Ref. LT. 21/5.jpeg",
-             "Ref. LT. 21/6.jpeg",
-             "Ref. LT. 21/7.jpeg",],
-    precio: "$250.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "6,000 m²",
-    areaPrivada:"6,000 m²",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 023",
+    imagenes: ["Ref. LT. 23/1.jpeg",
+             "Ref. LT. 23/2.jpeg",
+             "Ref. LT. 23/3.jpeg",
+             "Ref. LT. 23/4.jpeg",
+             "Ref. LT. 23/5.jpeg",
+             "Ref. LT. 23/6.jpeg",
+             "Ref. LT. 23/7.jpeg",],
+    precio: "$260.000.000",
+    ubicacion: "Cite, Santander",
+    area: "1,000 m²",
+    areaPrivada:"1,000 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `🏡 SE VENDE LOTE EN MONIQUIRÁ, BOYACÁ
+    descripcion: `📌 Venta de Lotes en Cite Santander.
 
-📍 Ubicado en la vereda Tierra de Gómez, sector La Capona, sobre la vía pavimentada hacia Santa Sofía.
-
-📐 Área: 6.000 metros cuadrados
-🌄 Topografía ondulada, en su mayoría plana
-⚡ Punto de luz
-💧 Acueducto veredal y aljibe
-🚗 A solo 20 minutos del casco urbano de Moniquirá
-📄 Documentación al día`,
-    videoYoutube: "https://youtu.be/oB5l0_gkj5w",
+🌱Hola 👋🏼! Te comparto una excelente oportunidad de inversión, en el corregimiento de Cite Santander.
+Contamos con 2 lotes disponibles:
+✅ Lote 29 – Área: 895 m²
+✅ Lote 30 – Área: 821,70 m²
+Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), escritura independiente y ubicación estratégica con excelente valorización.
+🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.
+🌡️ Temperatura promedio: 12 °C a 25 °C`,
+    videoYoutube: "https://youtu.be/QbbpelBdYqc",
   },
 {
     tipo: "Apartamento",
