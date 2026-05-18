@@ -3499,7 +3499,7 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
              "Ref. FC. 12/13.jpg",
              "Ref. FC. 12/14.jpg",
              "Ref. FC. 12/15.jpg",],
-    precio: "$770.000.000",
+    precio: "$760.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "20,000 m²",
     areaPrivada:"20,000 m²",
