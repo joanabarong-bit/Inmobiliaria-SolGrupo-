@@ -819,68 +819,24 @@ Características Especificas
 🚗 Parqueadero para aprox. 5 vehículos`,
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
   },
-   {
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 007",
-    imagenes: ["Ref. C. 07/1.jpg",
-             "Ref. C. 07/2.jpg",
-             "Ref. C. 07/3.jpg",
-             "Ref. C. 07/4.jpg",
-             "Ref. C. 07/5.jpg",
-             "Ref. C. 07/6.jpg",
-             "Ref. C. 07/7.jpg",
-             "Ref. C. 07/8.jpg",
-             "Ref. C. 07/9.jpg",
-             "Ref. C. 07/10.jpg",
-             "Ref. C. 07/11.jpg",
-             "Ref. C. 07/12.jpg",
-             "Ref. C. 07/13.jpg",
-             "Ref. C. 07/14.jpg",
-             "Ref. C. 07/15.jpg",
-             "Ref. C. 07/16.jpg",],
-    precio: "$420.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "238 m²",
-    areaPrivada:"238 m²",
-    areaConstruida:"204 m²",
-    habitaciones: "6",
-    banos: "3",
-    descripcion: `📌 VENTA DE CASA EN MONIQUIRA - BOYACA
-
-📏 Área total: 238 metros cuadrados
-📏 Área Construida: 204 metros
-
-✔️Casa de dos niveles 
-✔️6 habitaciones
-✔️Sala comedor
-✔Cuarto de Lavandería
-✔️4 baños 
-✔️2 cocinas
-✔️Garaje Cubierto
-✔️Antejardín
-✔️Zona de Bbq 
-✔️2 patios uno bastante amplio y otro pequeño`,
-    videoYoutube: "https://youtu.be/UGGg38yn3pY",
-  },
   {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 008",
-    imagenes: ["Ref. C. 08/1.jpeg",
-             "Ref. C. 08/2.jpeg",
-             "Ref. C. 08/3.jpeg",
-             "Ref. C. 08/4.jpeg",
-             "Ref. C. 08/5.jpeg",
-             "Ref. C. 08/6.jpeg",
-             "Ref. C. 08/7.jpeg",
-             "Ref. C. 08/8.jpeg",
-             "Ref. C. 08/9.jpeg",
-             "Ref. C. 08/10.jpeg",
-             "Ref. C. 08/11.jpeg",
-             "Ref. C. 08/12.jpeg",
-             "Ref. C. 08/13.jpeg",
-             "Ref. C. 08/14.jpeg",],
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.jpeg",
+             "Ref. C. 07/2.jpeg",
+             "Ref. C. 07/3.jpeg",
+             "Ref. C. 07/4.jpeg",
+             "Ref. C. 07/5.jpeg",
+             "Ref. C. 07/6.jpeg",
+             "Ref. C. 07/7.jpeg",
+             "Ref. C. 07/8.jpeg",
+             "Ref. C. 07/9.jpeg",
+             "Ref. C. 07/10.jpeg",
+             "Ref. C. 07/11.jpeg",
+             "Ref. C. 07/12.jpeg",
+             "Ref. C. 07/13.jpeg",
+             "Ref. C. 07/14.jpeg",],
     precio: "$440.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "558 m²",
@@ -928,6 +884,81 @@ Características Especificas
 🏊 Piscina
 🔥 Zona BBQ`,
     videoYoutube: "https://youtu.be/6H4QTncNsSQ",
+  },
+  {
+    tipo: "Casa",
+    nombre: "Casa En Condominio",
+    referencia: "C. 008",
+    imagenes: ["Ref. C. 08/1.jpg",
+             "Ref. C. 08/2.jpg",
+             "Ref. C. 08/3.jpg",
+             "Ref. C. 08/4.jpg",
+             "Ref. C. 08/5.jpg",
+             "Ref. C. 08/6.jpg",
+             "Ref. C. 08/7.jpg",
+             "Ref. C. 08/8.jpg",
+             "Ref. C. 08/9.jpg",
+             "Ref. C. 08/10.jpg",
+             "Ref. C. 08/11.jpg",
+             "Ref. C. 08/12.jpg",
+             "Ref. C. 08/13.jpg",
+             "Ref. C. 08/14.jpg",
+             "Ref. C. 08/15.jpg",
+             "Ref. C. 08/16.jpg",
+             "Ref. C. 08/17.jpg",
+             "Ref. C. 08/18.jpg",
+             "Ref. C. 08/19.jpg",
+             "Ref. C. 08/20.jpg",],
+    precio: "$470.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "107 m²",
+    areaPrivada:"107 m²",
+    areaConstruida:"107 m²",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `🏡 ¡SE VENDE CASA QUINTA EN MONIQUIRÁ – BOYACÁ!
+
+✨ Exclusiva propiedad con amplios espacios, excelente iluminación y ubicación privilegiada
+
+📍 Ubicación
+🚗 A solo 1.2 kilómetros del parque principal
+
+📐 Área: 107.25 m²
+
+✨ Características generales
+🛣️ Acceso totalmente pavimentado
+☀️ Excelente iluminación natural
+👕 Clósets de techo a piso
+🌅 Amplios balcones
+🏠 Casa de 2 niveles
+
+🔧 Servicios
+🔥 Gas natural
+🌐 Internet fibra óptica
+🔥 Calentador a gas
+💡 Energía eléctrica
+💧 Agua
+
+🪟 Persianas instaladas en toda la casa
+
+🏠 Distribución
+
+🔹 Primer nivel
+🚗 Parqueadero
+🛋️ 2 salas de estar
+🍳 Cocina
+🛋️ Sala comedor
+🚿 Baño social
+🛏️ 1 habitación con baño privado
+🧺 Zona de lavandería
+👕 Zona de planchado
+
+🔹 Segundo nivel
+🛏️ 3 habitaciones con clóset
+🛏️ 1 habitación con baño privado
+🚿 1 baño social
+🌅 Balcón`,
+    videoYoutube: "https://youtu.be/T6aVRPwMsTQ",
   },
   {
     tipo: "Casa",
@@ -3473,53 +3504,6 @@ Características de la casa 2:
 ✔️Zona BBQ
 🌱 esta sembrada en café, plátano y algunos cítricos.`,
     videoYoutube: "https://youtu.be/BBYVbJ0bF4c",
-  },
-  {
-    tipo: "Finca",
-    nombre: " Dos Fincas",
-    referencia: "FC. 015",
-    imagenes: ["Ref. FC. 15/1.jpg",
-             "Ref. FC. 15/2.jpg",
-             "Ref. FC. 15/3.jpg",
-             "Ref. FC. 15/4.jpg",
-             "Ref. FC. 15/5.jpg",
-             "Ref. FC. 15/6.jpg",
-             "Ref. FC. 15/7.jpg",
-             "Ref. FC. 15/8.jpg",
-             "Ref. FC. 15/9.jpg",
-             "Ref. FC. 15/10.jpg",
-             "Ref. FC. 15/11.jpg",
-             "Ref. FC. 15/12.jpg",
-             "Ref. FC. 15/13.jpg",
-             "Ref. FC. 15/14.jpg",
-             "Ref. FC. 15/15.jpg",
-             "Ref. FC. 15/16.jpg",],
-    precio: "$900.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "300,000 m²",
-    areaPrivada:"300,000 m²",
-    areaConstruida:"140 m²",
-    habitaciones: "3",
-    banos: "1",
-    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ 
-
-Ubicada en Perímetro Rural
-📐Área: 30 Hectáreas
-📐Área Casa: 140 Mts2 
-La Propiedad cuenta con un Molino Moderno y funcional.
-✅Características casa
-👉No. de Habitaciones: 3 
-👉Sala Amplia
-👉No. de Baños: 2
-👉2 Cocinas
-👉Corredores sociales amplios
-👉 Quiosco 
-✅Sembrada de Café, plátano y cítricos 
-✅Punto de luz 
-✅2 Aljibe (Nacimiento de agua)
-✅Excelente vista y topografía.
-✅Sobre vía vereda principal `,
-    videoYoutube: "https://youtu.be/1KDp4R_w9uE",
   },
   {
     tipo: "Finca",
