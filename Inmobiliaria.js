@@ -6,53 +6,62 @@ const cacheImagenes = new Set();
 
 const propiedades = [
 {
-    tipo: "Casa",
-    nombre: "Casa Rural",
-    referencia: "C. 002",
-    imagenes: ["Ref. C. 02/1.jpg",
-             "Ref. C. 02/2.jpg",
-             "Ref. C. 02/3.png",
-             "Ref. C. 02/4.jpeg",
-             "Ref. C. 02/5.jpeg",
-             "Ref. C. 02/6.jpeg",
-             "Ref. C. 02/7.jpeg",
-             "Ref. C. 02/8.jpeg",
-             "Ref. C. 02/9.jpeg",
-             "Ref. C. 02/10.jpeg",
-             "Ref. C. 02/11.jpeg",
-             "Ref. C. 02/12.jpeg",],
-    precio: "$145.000.000",
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 012",
+    imagenes: ["Ref. FC. 12/1.jpeg",
+             "Ref. FC. 12/2.jpeg",
+             "Ref. FC. 12/3.jpeg",
+             "Ref. FC. 12/4.jpeg",
+             "Ref. FC. 12/5.jpeg",
+             "Ref. FC. 12/6.jpeg",
+             "Ref. FC. 12/7.jpeg",
+             "Ref. FC. 12/8.jpeg",
+             "Ref. FC. 12/9.jpeg",
+             "Ref. FC. 12/10.jpeg",
+             "Ref. FC. 12/11.jpeg",
+             "Ref. FC. 12/12.jpeg",
+             "Ref. FC. 12/13.jpeg",
+             "Ref. FC. 12/14.jpeg",
+             "Ref. FC. 12/15.jpeg",
+             "Ref. FC. 12/16.jpeg",
+             "Ref. FC. 12/17.jpeg",
+             "Ref. FC. 12/18.jpeg",
+             "Ref. FC. 12/19.jpeg",
+             "Ref. FC. 12/20.jpeg",
+             "Ref. FC. 12/21.jpeg",
+             "Ref. FC. 12/22.jpeg",
+             "Ref. FC. 12/23.jpeg",
+             "Ref. FC. 12/24.jpeg",
+             "Ref. FC. 12/25.jpeg",
+             "Ref. FC. 12/26.jpeg",
+             "Ref. FC. 12/27.jpeg",
+             "Ref. FC. 12/28.jpeg",],
+    precio: "$760.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "1,328 m²",
-    areaPrivada:"1,328 m²",
-    areaConstruida:"54 m²",
+    area: "20,000 m²",
+    areaPrivada:"20,000 m²",
+    areaConstruida:"230 m²",
     habitaciones: "2",
-    banos: "2",
-    descripcion: `🏡 Se vende cabaña en Moniquirá, Boyacá
+    banos: "3",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ
 
-Hermosa cabaña campestre ubicada en una zona tranquila y de naturaleza privilegiada.
-
-Cuenta con un área total de 1.328 m² y una construcción de 54 m².
-La propiedad es ideal para proyectos de ecoturismo, descanso, vivienda campestre o cultivo, ya que el terreno permite sembrar todo tipo de cítricos y plantas aromáticas.
-
-La cabaña está distribuida en:
-• Sala comedor
-• Cocina integral
-• Dos habitaciones
-• Dos baños
-• Estudio
-
-Se entrega totalmente amoblada, lista para habitar o rentar.
-Servicios y equipamiento:
-• Pozo séptico instalado
-• Tanque de almacenamiento de agua
-• Energía eléctrica
-• Gas por pipeta
-• Sistema Hidro Flow
-Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
-`,
-    videoYoutube: "https://youtu.be/2VMqNNXp55g",
- },
+ 📐Área terreno: 2 hectáreas
+ 📐Área Casa: 230 Mts2
+👉 No. de Habitaciones: 2
+👉 No. de Baños: 3
+👉 Sala amplia
+👉 Zona de lavandería
+👉 Corredores amplios
+👉Garaje con puerta automática
+✅ Punto de agua, acueducto veredal
+✅ Punto de luz 
+✅ Cuarto de bombas 
+✅ Vereda la Coralina 
+✅ Distancia: 20 minutos de Moniquirá
+✅ 1.5 Km de la vía principal santa Sofía`,
+    videoYoutube: "https://youtu.be/c_jHdMNsRbU",
+  },
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
