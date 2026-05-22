@@ -8,35 +8,35 @@ const propiedades = [
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 012",
-    imagenes: ["Ref. FC. 12/1.jpeg",
-             "Ref. FC. 12/2.jpeg",
-             "Ref. FC. 12/3.jpeg",
-             "Ref. FC. 12/4.jpeg",
-             "Ref. FC. 12/5.jpeg",
-             "Ref. FC. 12/6.jpeg",
-             "Ref. FC. 12/7.jpeg",
-             "Ref. FC. 12/8.jpeg",
-             "Ref. FC. 12/9.jpeg",
-             "Ref. FC. 12/10.jpeg",
-             "Ref. FC. 12/11.jpeg",
-             "Ref. FC. 12/12.jpeg",
-             "Ref. FC. 12/13.jpeg",
-             "Ref. FC. 12/14.jpeg",
-             "Ref. FC. 12/15.jpeg",
-             "Ref. FC. 12/16.jpeg",
-             "Ref. FC. 12/17.jpeg",
-             "Ref. FC. 12/18.jpeg",
-             "Ref. FC. 12/19.jpeg",
-             "Ref. FC. 12/20.jpeg",
-             "Ref. FC. 12/21.jpeg",
-             "Ref. FC. 12/22.jpeg",
-             "Ref. FC. 12/23.jpeg",
-             "Ref. FC. 12/24.jpeg",
-             "Ref. FC. 12/25.jpeg",
-             "Ref. FC. 12/26.jpeg",
-             "Ref. FC. 12/27.jpeg",
-             "Ref. FC. 12/28.jpeg",],
+    referencia: "FC. 013",
+    imagenes: ["Ref. FC. 13/1.jpeg",
+             "Ref. FC. 13/2.jpeg",
+             "Ref. FC. 13/3.jpeg",
+             "Ref. FC. 13/4.jpeg",
+             "Ref. FC. 13/5.jpeg",
+             "Ref. FC. 13/6.jpeg",
+             "Ref. FC. 13/7.jpeg",
+             "Ref. FC. 13/8.jpeg",
+             "Ref. FC. 13/9.jpeg",
+             "Ref. FC. 13/10.jpeg",
+             "Ref. FC. 13/11.jpeg",
+             "Ref. FC. 13/12.jpeg",
+             "Ref. FC. 13/13.jpeg",
+             "Ref. FC. 13/14.jpeg",
+             "Ref. FC. 13/15.jpeg",
+             "Ref. FC. 13/16.jpeg",
+             "Ref. FC. 13/17.jpeg",
+             "Ref. FC. 13/18.jpeg",
+             "Ref. FC. 13/19.jpeg",
+             "Ref. FC. 13/20.jpeg",
+             "Ref. FC. 13/21.jpeg",
+             "Ref. FC. 13/22.jpeg",
+             "Ref. FC. 13/23.jpeg",
+             "Ref. FC. 13/24.jpeg",
+             "Ref. FC. 13/25.jpeg",
+             "Ref. FC. 13/26.jpeg",
+             "Ref. FC. 13/27.jpeg",
+             "Ref. FC. 13/28.jpeg",],
     precio: "$760.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "20,000 m²",
@@ -65,21 +65,21 @@ const propiedades = [
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 006",
-    imagenes: ["Ref. C. 06/1.png",
-             "Ref. C. 06/2.jpg",
-             "Ref. C. 06/3.jpg",
-             "Ref. C. 06/4.jpg",
-             "Ref. C. 06/5.jpg",
-             "Ref. C. 06/6.jpg",
-             "Ref. C. 06/7.jpg",
-             "Ref. C. 06/8.jpg",
-             "Ref. C. 06/9.jpg",
-             "Ref. C. 06/10.jpeg",
-             "Ref. C. 06/11.png",
-             "Ref. C. 06/12.jpg",
-             "Ref. C. 06/13.jpg",
-             "Ref. C. 06/14.jpg",],
+    referencia: "C. 005",
+    imagenes: ["Ref. C. 05/1.png",
+             "Ref. C. 05/2.jpg",
+             "Ref. C. 05/3.jpg",
+             "Ref. C. 05/4.jpg",
+             "Ref. C. 05/5.jpg",
+             "Ref. C. 05/6.jpg",
+             "Ref. C. 05/7.jpg",
+             "Ref. C. 05/8.jpg",
+             "Ref. C. 05/9.jpg",
+             "Ref. C. 05/10.jpeg",
+             "Ref. C. 05/11.png",
+             "Ref. C. 05/12.jpg",
+             "Ref. C. 05/13.jpg",
+             "Ref. C. 05/14.jpg",],
     precio: "$405.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
@@ -111,24 +111,24 @@ const propiedades = [
 {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 017",
-    imagenes: ["Ref. C. 17/1.jpg",
-             "Ref. C. 17/2.jpg",
-             "Ref. C. 17/3.jpg",
-             "Ref. C. 17/4.jpg",
-             "Ref. C. 17/5.jpg",
-             "Ref. C. 17/6.jpg",
-             "Ref. C. 17/7.jpg",
-             "Ref. C. 17/8.jpg",
-             "Ref. C. 17/9.jpg",
-             "Ref. C. 17/10.jpg",
-             "Ref. C. 17/11.jpg",
-             "Ref. C. 17/12.jpg",
-             "Ref. C. 17/13.jpg",
-             "Ref. C. 17/14.jpg",
-             "Ref. C. 17/15.jpg",
-             "Ref. C. 17/16.jpg",
-             "Ref. C. 17/17.jpg",],
+    referencia: "C. 016",
+    imagenes: ["Ref. C. 16/1.jpg",
+             "Ref. C. 16/2.jpg",
+             "Ref. C. 16/3.jpg",
+             "Ref. C. 16/4.jpg",
+             "Ref. C. 16/5.jpg",
+             "Ref. C. 16/6.jpg",
+             "Ref. C. 16/7.jpg",
+             "Ref. C. 16/8.jpg",
+             "Ref. C. 16/9.jpg",
+             "Ref. C. 16/10.jpg",
+             "Ref. C. 16/11.jpg",
+             "Ref. C. 16/12.jpg",
+             "Ref. C. 16/13.jpg",
+             "Ref. C. 16/14.jpg",
+             "Ref. C. 16/15.jpg",
+             "Ref. C. 16/16.jpg",
+             "Ref. C. 16/17.jpg",],
     precio: "$620.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "187 m²",
@@ -203,6 +203,72 @@ PISO 2:
     videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
 {
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 006",
+    imagenes: ["Ref. C. 06/1.jpeg",
+             "Ref. C. 06/2.jpeg",
+             "Ref. C. 06/3.jpeg",
+             "Ref. C. 06/4.jpeg",
+             "Ref. C. 06/5.jpeg",
+             "Ref. C. 06/6.jpeg",
+             "Ref. C. 06/7.jpeg",
+             "Ref. C. 06/8.jpeg",
+             "Ref. C. 06/9.jpeg",
+             "Ref. C. 06/10.jpeg",
+             "Ref. C. 06/11.jpeg",
+             "Ref. C. 06/12.jpeg",
+             "Ref. C. 06/13.jpeg",
+             "Ref. C. 06/14.jpeg",],
+    precio: "$440.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "558 m²",
+    areaPrivada:"558 m²",
+    areaConstruida:"181 m²",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `🏡¡CASA EN CONDOMINIO EN VENTA EN MONIQUIRÁ - BOYACÁ!
+
+✨ Comodidad, seguridad y excelente ubicación
+
+📍 Ubicación
+🚗 A solo 5 minutos del parque principal
+
+📐 Áreas
+🌳 Lote: 558 m²
+🏠 Construida: 181 m²
+
+
+🏠 Casa de dos pisos
+
+🔹 Primer piso:
+🍳 Cocina integral
+🛋️ Sala comedor
+🛏️ 1 habitación con baño privado
+🚿 1 baño social
+🚶 Corredores
+
+🔹 Segundo piso:
+🛋️ Sala de estar
+🌅 Balcón con vista panorámica
+🛏️ 2 habitaciones
+🚿 1 baño social
+
+🧺 Zona de lavandería
+🚗 Parqueadero para 3 carros
+
+🌳 Zona para cultivo de árboles cítricos
+
+💡 Cuenta con todos los servicios
+
+🔹 Zonas sociales:
+🎉 Salón social
+🚗 Parqueadero comunal
+🏊 Piscina
+🔥 Zona BBQ`,
+    videoYoutube: "https://youtu.be/6H4QTncNsSQ",
+  },
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 016",
@@ -247,19 +313,19 @@ PISO 2:
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 003",
-    imagenes: ["Ref. C. 03/1.jpeg",
-             "Ref. C. 03/2.jpeg",
-             "Ref. C. 03/3.jpeg",
-             "Ref. C. 03/4.jpeg",
-             "Ref. C. 03/5.jpeg",
-             "Ref. C. 03/6.jpeg",
-             "Ref. C. 03/7.jpeg",
-             "Ref. C. 03/8.jpeg",
-             "Ref. C. 03/9.jpeg",
-             "Ref. C. 03/10.jpeg",
-             "Ref. C. 03/11.jpeg",
-             "Ref. C. 03/12.jpeg",],
+    referencia: "C. 002",
+    imagenes: ["Ref. C. 02/1.jpeg",
+             "Ref. C. 02/2.jpeg",
+             "Ref. C. 02/3.jpeg",
+             "Ref. C. 02/4.jpeg",
+             "Ref. C. 02/5.jpeg",
+             "Ref. C. 02/6.jpeg",
+             "Ref. C. 02/7.jpeg",
+             "Ref. C. 02/8.jpeg",
+             "Ref. C. 02/9.jpeg",
+             "Ref. C. 02/10.jpeg",
+             "Ref. C. 02/11.jpeg",
+             "Ref. C. 02/12.jpeg",],
     precio: "$290.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "168 m²",
@@ -303,32 +369,33 @@ PISO 2:
   },
 {
     tipo: "Lote",
-    nombre: "Lote en Condominio",
-    referencia: "LT. 023",
-    imagenes: ["Ref. LT. 23/1.jpeg",
-             "Ref. LT. 23/2.jpeg",
-             "Ref. LT. 23/3.jpeg",
-             "Ref. LT. 23/4.jpeg",
-             "Ref. LT. 23/5.jpeg",
-             "Ref. LT. 23/6.jpeg",
-             "Ref. LT. 23/7.jpeg",],
-    precio: "$260.000.000",
-    ubicacion: "Cite, Santander",
-    area: "1,000 m²",
-    areaPrivada:"1,000 m²",
+    nombre: "Lote",
+    referencia: "LT. 022",
+    imagenes: ["Ref. LT. 22/1.jpeg",
+             "Ref. LT. 22/2.jpeg",
+             "Ref. LT. 22/3.jpeg",
+             "Ref. LT. 22/4.jpeg",
+             "Ref. LT. 22/5.jpeg",
+             "Ref. LT. 22/6.jpeg",
+             "Ref. LT. 22/7.jpeg",],
+    precio: "$250.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "6,000 m²",
+    areaPrivada:"6,000 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `📌 Venta de Lotes en Cite Santander.
+    descripcion: `🏡 SE VENDE LOTE EN MONIQUIRÁ, BOYACÁ
 
-🌱Hola 👋🏼! Te comparto una excelente oportunidad de inversión, en el corregimiento de Cite Santander.
-Contamos con 2 lotes disponibles:
-✅ Lote 29 – Área: 895 m²
-✅ Lote 30 – Área: 821,70 m²
-Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), escritura independiente y ubicación estratégica con excelente valorización.
-🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.
-🌡️ Temperatura promedio: 12 °C a 25 °C`,
-    videoYoutube: "https://youtu.be/QbbpelBdYqc",
+📍 Ubicado en la vereda Tierra de Gómez, sector La Capona, sobre la vía pavimentada hacia Santa Sofía.
+
+📐 Área: 6.000 metros cuadrados
+🌄 Topografía ondulada, en su mayoría plana
+⚡ Punto de luz
+💧 Acueducto veredal y aljibe
+🚗 A solo 20 minutos del casco urbano de Moniquirá
+📄 Documentación al día`,
+    videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
 {
     tipo: "Apartamento",
@@ -379,6 +446,189 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 `,
     videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
+{
+    tipo: "Casa",
+    nombre: "Casa En Condominio",
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.jpg",
+             "Ref. C. 07/2.jpg",
+             "Ref. C. 07/3.jpg",
+             "Ref. C. 07/4.jpg",
+             "Ref. C. 07/5.jpg",
+             "Ref. C. 07/6.jpg",
+             "Ref. C. 07/7.jpg",
+             "Ref. C. 07/8.jpg",
+             "Ref. C. 07/9.jpg",
+             "Ref. C. 07/10.jpg",
+             "Ref. C. 07/11.jpg",
+             "Ref. C. 07/12.jpg",
+             "Ref. C. 07/13.jpg",
+             "Ref. C. 07/14.jpg",
+             "Ref. C. 07/15.jpg",
+             "Ref. C. 07/16.jpg",
+             "Ref. C. 07/17.jpg",
+             "Ref. C. 07/18.jpg",
+             "Ref. C. 07/19.jpg",
+             "Ref. C. 07/20.jpg",],
+    precio: "$470.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "107 m²",
+    areaPrivada:"107 m²",
+    areaConstruida:"107 m²",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `🏡 ¡SE VENDE CASA QUINTA EN MONIQUIRÁ – BOYACÁ!
+
+✨ Exclusiva propiedad con amplios espacios, excelente iluminación y ubicación privilegiada
+
+📍 Ubicación
+🚗 A solo 1.2 kilómetros del parque principal
+
+📐 Área: 107.25 m²
+
+✨ Características generales
+🛣️ Acceso totalmente pavimentado
+☀️ Excelente iluminación natural
+👕 Clósets de techo a piso
+🌅 Amplios balcones
+🏠 Casa de 2 niveles
+
+🔧 Servicios
+🔥 Gas natural
+🌐 Internet fibra óptica
+🔥 Calentador a gas
+💡 Energía eléctrica
+💧 Agua
+
+🪟 Persianas instaladas en toda la casa
+
+🏠 Distribución
+
+🔹 Primer nivel
+🚗 Parqueadero
+🛋️ 2 salas de estar
+🍳 Cocina
+🛋️ Sala comedor
+🚿 Baño social
+🛏️ 1 habitación con baño privado
+🧺 Zona de lavandería
+👕 Zona de planchado
+
+🔹 Segundo nivel
+🛏️ 3 habitaciones con clóset
+🛏️ 1 habitación con baño privado
+🚿 1 baño social
+🌅 Balcón`,
+    videoYoutube: "https://youtu.be/T6aVRPwMsTQ",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 009",
+    imagenes: ["Ref. FC. 09/1.jpeg",
+             "Ref. FC. 09/2.jpeg",
+             "Ref. FC. 09/3.jpeg",
+             "Ref. FC. 09/4.jpeg",],
+    precio: "$445.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "6,000 m²",
+    areaPrivada:"6,000 m²",
+    areaConstruida:"159 m²",
+    habitaciones: "4",
+    banos: "4",
+    descripcion: `👉Venta de Finca campestre
+📍 Ubicación: Moniquirá – Boyacá
+
+Cuenta con un área total de: 6.000 Mt2
+Área construida de la casa: 159 metros cuadrados
+
+Además, tiene dos vías de acceso:
+1. A una distancia aproximada de 8 Km – 16 Minutos sobre vía pavimentada que de Moniquirá conduce a Togui.
+2. A una distancia de 6 km por via al Gaque en Moniquirá – Boyacá (vía no pavimentada)
+
+Cuenta con casa de un nivel con:
+
+✔️4 habitaciones
+✔️4 baños (3 baños privados y 1 social)️
+✔️Cocina
+✔️Sala Comedor
+✔️Dos puertas de ingreso a la casa
+✔️Parqueadero
+✔️Kiosco cerca a la quebrada con camino en piedra
+✔️BBQ
+✔️Linda a quebrada
+✔️Tanques de reserva
+✔️Sistema hidro Flow
+✔️Cuarto de herramientas
+✔️Piscina con cascadas
+✔️Zona de regaderas externas
+✔️los servicios, excepto gas natural, la red avanza, está a más o menos 1 km de la propiedad.
+✔️Terreno plano – ondulado
+✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
+    videoYoutube: "https://youtu.be/AJa1UqjWiE8",
+  },
+{
+    tipo: "Lote",
+    nombre: "Lote Rural",
+    referencia: "LT. 009",
+    imagenes: ["Ref. LT. 09/1.jpeg",
+             "Ref. LT. 09/2.jpeg",
+             "Ref. LT. 09/3.jpeg",
+             "Ref. LT. 09/4.jpeg",
+             "Ref. LT. 09/5.jpeg",
+             "Ref. LT. 09/6.jpeg",
+             "Ref. LT. 09/7.jpeg",
+             "Ref. LT. 09/8.jpeg",
+             "Ref. LT. 09/9.jpeg",
+             "Ref. LT. 09/10.jpeg",
+             "Ref. LT. 09/11.jpeg",
+             "Ref. LT. 09/12.jpeg",
+             "Ref. LT. 09/13.jpeg",
+             "Ref. LT. 09/14.jpeg",
+             "Ref. LT. 09/15.jpeg",
+             "Ref. LT. 09/16.jpeg",
+             "Ref. LT. 09/17.jpeg",
+             "Ref. LT. 09/18.jpeg",],
+    precio: "$117.376.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "896 m²",
+    areaPrivada:"896 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡✨ ¡Invierte en el lugar perfecto para construir tu futuro! ✨🏡
+
+🌿 Se venden exclusivos lotes en Moniquirá, Boyacá
+📍 Vereda Potrero Grande
+
+Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 7 minutos (2.7 km) del casco urbano de Moniquirá.
+🚗 Vía en buen estado y fácil acceso.
+
+🌄 Características del proyecto:
+✅ Topografía mixta: plana y ondulada
+🌿 Entorno natural y tranquilo
+🏡 Ideal para construir tu hogar, finca o proyecto de descanso
+
+🔌 Servicios disponibles:
+⚡ Punto de luz
+💧 Acueducto veredal
+🔥 Gas natural
+
+💰 Disponibilidad de lotes:
+
+📐 Lote 1 — 1.076,49 m² | $144.249.660
+📐 Lote 2 — 931,8 m² | $123.929.400
+📐 Lote 3 — 896 m² | $117.376.000
+📐 Lote 4 — 963,25 m² | $125.222.500
+📐 Lote 5 — 1.052 m² | $133.604.000
+📐 Lote 6 — 1.050 m² | $130.200.000
+📐 Lote 7 — 1.038 m² | $129.750.000
+📐 Lote 8 — 1.097 m² | $136.028.000
+📐 Lote 15 — 2.617 m² | $287.870.000
+
+🌟 Vive rodeado de naturaleza, aire puro y tranquilidad.`,
+    videoYoutube: "https://youtu.be/8qDXzdINnhQ",
+  }
 ];
 
 
