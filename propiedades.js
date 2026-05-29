@@ -899,7 +899,7 @@ Características Especificas
    {
     tipo: "Casa",
     nombre: "Casa En Condominio",
-    referencia: "C. 00",
+    referencia: "C. 008",
     imagenes: ["Ref. C. 08/1.jpg",
              "Ref. C. 08/2.jpg",
              "Ref. C. 08/3.jpg",
