@@ -594,7 +594,7 @@ A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa 
              "Ref. C. 02/21.jpeg",
              "Ref. C. 02/22.jpeg"],
     precio: "$252.000.000",
-    ubicacion: "Moniquirá, Boyacá",
+    ubicacion: "Tunja, Boyacá",
     area: "36 m²",
     areaPrivada:"36 m²",
     areaConstruida:"108 m²",
