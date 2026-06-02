@@ -663,8 +663,8 @@ A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa 
     area: "36 m²",
     areaPrivada:"36 m²",
     areaConstruida:"108 m²",
-    habitaciones: "6",
-    banos: "5",
+    habitaciones: "3",
+    banos: "3",
     descripcion: `🏡 ¡SE VENDE CASA URBANA EN TUNJA BOYACÁ
 
 ✨ Exclusiva propiedad con amplios espacios, excelente iluminación
