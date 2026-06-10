@@ -8,35 +8,35 @@ const propiedades = [
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 013",
-    imagenes: ["Ref. FC. 13/1.jpeg",
-             "Ref. FC. 13/2.jpeg",
-             "Ref. FC. 13/3.jpeg",
-             "Ref. FC. 13/4.jpeg",
-             "Ref. FC. 13/5.jpeg",
-             "Ref. FC. 13/6.jpeg",
-             "Ref. FC. 13/7.jpeg",
-             "Ref. FC. 13/8.jpeg",
-             "Ref. FC. 13/9.jpeg",
-             "Ref. FC. 13/10.jpeg",
-             "Ref. FC. 13/11.jpeg",
-             "Ref. FC. 13/12.jpeg",
-             "Ref. FC. 13/13.jpeg",
-             "Ref. FC. 13/14.jpeg",
-             "Ref. FC. 13/15.jpeg",
-             "Ref. FC. 13/16.jpeg",
-             "Ref. FC. 13/17.jpeg",
-             "Ref. FC. 13/18.jpeg",
-             "Ref. FC. 13/19.jpeg",
-             "Ref. FC. 13/20.jpeg",
-             "Ref. FC. 13/21.jpeg",
-             "Ref. FC. 13/22.jpeg",
-             "Ref. FC. 13/23.jpeg",
-             "Ref. FC. 13/24.jpeg",
-             "Ref. FC. 13/25.jpeg",
-             "Ref. FC. 13/26.jpeg",
-             "Ref. FC. 13/27.jpeg",
-             "Ref. FC. 13/28.jpeg",],
+    referencia: "FC. 014",
+    imagenes: ["Ref. FC. 14/1.jpeg",
+             "Ref. FC. 14/2.jpeg",
+             "Ref. FC. 14/3.jpeg",
+             "Ref. FC. 14/4.jpeg",
+             "Ref. FC. 14/5.jpeg",
+             "Ref. FC. 14/6.jpeg",
+             "Ref. FC. 14/7.jpeg",
+             "Ref. FC. 14/8.jpeg",
+             "Ref. FC. 14/9.jpeg",
+             "Ref. FC. 14/10.jpeg",
+             "Ref. FC. 14/11.jpeg",
+             "Ref. FC. 14/12.jpeg",
+             "Ref. FC. 14/13.jpeg",
+             "Ref. FC. 14/14.jpeg",
+             "Ref. FC. 14/15.jpeg",
+             "Ref. FC. 14/16.jpeg",
+             "Ref. FC. 14/17.jpeg",
+             "Ref. FC. 14/18.jpeg",
+             "Ref. FC. 14/19.jpeg",
+             "Ref. FC. 14/20.jpeg",
+             "Ref. FC. 14/21.jpeg",
+             "Ref. FC. 14/22.jpeg",
+             "Ref. FC. 14/23.jpeg",
+             "Ref. FC. 14/24.jpeg",
+             "Ref. FC. 14/25.jpeg",
+             "Ref. FC. 14/26.jpeg",
+             "Ref. FC. 14/27.jpeg",
+             "Ref. FC. 14/28.jpeg",],
     precio: "$760.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "20,000 m²",
@@ -65,21 +65,21 @@ const propiedades = [
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 006",
-    imagenes: ["Ref. C. 06/1.png",
-             "Ref. C. 06/2.jpg",
-             "Ref. C. 06/3.jpg",
-             "Ref. C. 06/4.jpg",
-             "Ref. C. 06/5.jpg",
-             "Ref. C. 06/6.jpg",
-             "Ref. C. 06/7.jpg",
-             "Ref. C. 06/8.jpg",
-             "Ref. C. 06/9.jpg",
-             "Ref. C. 06/10.jpeg",
-             "Ref. C. 06/11.png",
-             "Ref. C. 06/12.jpg",
-             "Ref. C. 06/13.jpg",
-             "Ref. C. 06/14.jpg",],
+    referencia: "C. 005",
+    imagenes: ["Ref. C. 05/1.png",
+             "Ref. C. 05/2.jpg",
+             "Ref. C. 05/3.jpg",
+             "Ref. C. 05/4.jpg",
+             "Ref. C. 05/5.jpg",
+             "Ref. C. 05/6.jpg",
+             "Ref. C. 05/7.jpg",
+             "Ref. C. 05/8.jpg",
+             "Ref. C. 05/9.jpg",
+             "Ref. C. 05/10.jpeg",
+             "Ref. C. 05/11.png",
+             "Ref. C. 05/12.jpg",
+             "Ref. C. 05/13.jpg",
+             "Ref. C. 05/14.jpg",],
     precio: "$405.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
@@ -112,56 +112,57 @@ const propiedades = [
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 017",
-    imagenes: ["Ref. C. 17/1.jpg",
+    imagenes: ["Ref. C. 17/1.png",
              "Ref. C. 17/2.jpg",
-             "Ref. C. 17/3.jpg",
-             "Ref. C. 17/4.jpg",
-             "Ref. C. 17/5.jpg",
-             "Ref. C. 17/6.jpg",
-             "Ref. C. 17/7.jpg",
-             "Ref. C. 17/8.jpg",
-             "Ref. C. 17/9.jpg",
-             "Ref. C. 17/10.jpg",
-             "Ref. C. 17/11.jpg",
-             "Ref. C. 17/12.jpg",
-             "Ref. C. 17/13.jpg",
-             "Ref. C. 17/14.jpg",
-             "Ref. C. 17/15.jpg",
-             "Ref. C. 17/16.jpg",
-             "Ref. C. 17/17.jpg",],
-    precio: "$620.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "187 m²",
-    areaPrivada:"187 m²",
-    areaConstruida:"187 m²",
+             "Ref. C. 17/3.png",
+             "Ref. C. 17/4.png",
+             "Ref. C. 17/5.png",
+             "Ref. C. 17/6.png",
+             "Ref. C. 17/7.png",
+             "Ref. C. 17/8.png",
+             "Ref. C. 17/9.png",
+             "Ref. C. 17/10.png",],
+    precio: "$700.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "696 m²",
+    areaPrivada:"696 m²",
+    areaConstruida:"300 m²",
     habitaciones: "4",
     banos: "3",
-    descripcion: `📌SE VENDE CASA DE DOS PISOS EN CONDOMINIO DE MONIQUIRÁ BOYACÁ
+    descripcion: `📌 Venta de Casa en Barbosa – Santander 
 
-📐AREA DEL LOTE: 186.66M2
-📐AREA DE CONSTRUCCIÓN: 187 M2
-☑DISTRIBUCIÓN:
-PISO 1:
-✅2 HABITACIONES CON CLOSET Y BAÑO PRIVADO
-✅1 BAÑO SOCIAL
-✅COCINA INTEGRAL CON HORNO Y ESTRACTOR
-✅SALA COMEDOR
-✅PATIO DE ROPA
-✅CALENTADOR A GAS
-PISO 2:
-✅1 HABITACION CON CLOSET Y BAÑO PRIVADO
-✅2 HABITACIONES CON CLOSET Y BALCON
-✅1 BAÑO SOCIAL
-✅SALA
-✅BALCON AMPLIO
-👩‍🍳ZONA BBQ
-🛁JACUZZI
-✅CORREDORES AMPLIOS
-🚗GARAJE BAJO TECHO
-☑GAS NATURAL, AGUA, LUZ, ALCANTARILLADO
-💰ADMINISTRACION: 💸314.000 MIL PESOS
-📝DOCUMENTOS AL DIA`,
-    videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
+Te ofrecemos una casa de dos pisos en un condominio Campestre.
+
+📍 Lugar: Barbosa – Santander, a 1.5 Km del casco urbano
+
+📏 Área del lote: 696 metros cuadrados
+📏 Área Construida: 300 metros cuadrados
+
+👉 Características Casa
+🛌🏻 No. de Habitaciones: 4 con sus respectivos closets
+✔1  Cuarto de servicios
+🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
+✔ 4 Parqueaderos, cubiertos y dos libres
+✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
+✔Sala – comedor
+✔ 1 Jacuzzi para 4 personas
+✔Sistema de bombeo con Hidro Flow
+✔Zona de verde con Jardín 
+✔Tanque subterráneo de 4.000 litros enchapado
+✔Tanque de agua aéreo de 500 litros
+✔Corredores externos y zonas verdes
+✔Calentador a gas natural
+✔3 Balcones
+✔Excelente vista
+✔ Todos los servicios: agua, luz, gas y internet.
+
+👉 Características Generales
+✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, y zonas verdes.
+✔el condominio cuenta con alcantarillado y acueducto propio. 
+¡Se entrega totalmente terminada!
+
+Pago de administración: $90.000 pesos`,
+    videoYoutube: "https://youtu.be/qZKO0WCM1lw",
   },
 {
     tipo: "Apartaestudio",
@@ -205,21 +206,21 @@ PISO 2:
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 007",
-    imagenes: ["Ref. C. 07/1.jpeg",
-             "Ref. C. 07/2.jpeg",
-             "Ref. C. 07/3.jpeg",
-             "Ref. C. 07/4.jpeg",
-             "Ref. C. 07/5.jpeg",
-             "Ref. C. 07/6.jpeg",
-             "Ref. C. 07/7.jpeg",
-             "Ref. C. 07/8.jpeg",
-             "Ref. C. 07/9.jpeg",
-             "Ref. C. 07/10.jpeg",
-             "Ref. C. 07/11.jpeg",
-             "Ref. C. 07/12.jpeg",
-             "Ref. C. 07/13.jpeg",
-             "Ref. C. 07/14.jpeg",],
+    referencia: "C. 006",
+    imagenes: ["Ref. C. 06/1.jpeg",
+             "Ref. C. 06/2.jpeg",
+             "Ref. C. 06/3.jpeg",
+             "Ref. C. 06/4.jpeg",
+             "Ref. C. 06/5.jpeg",
+             "Ref. C. 06/6.jpeg",
+             "Ref. C. 06/7.jpeg",
+             "Ref. C. 06/8.jpeg",
+             "Ref. C. 06/9.jpeg",
+             "Ref. C. 06/10.jpeg",
+             "Ref. C. 06/11.jpeg",
+             "Ref. C. 06/12.jpeg",
+             "Ref. C. 06/13.jpeg",
+             "Ref. C. 06/14.jpeg",],
     precio: "$440.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "558 m²",
@@ -311,63 +312,6 @@ PISO 2:
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
 {
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 002",
-    imagenes: ["Ref. C. 02/1.jpeg",
-             "Ref. C. 02/2.jpeg",
-             "Ref. C. 02/3.jpeg",
-             "Ref. C. 02/4.jpeg",
-             "Ref. C. 02/5.jpeg",
-             "Ref. C. 02/6.jpeg",
-             "Ref. C. 02/7.jpeg",
-             "Ref. C. 02/8.jpeg",
-             "Ref. C. 02/9.jpeg",
-             "Ref. C. 02/10.jpeg",
-             "Ref. C. 02/11.jpeg",
-             "Ref. C. 02/12.jpeg",],
-    precio: "$290.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "168 m²",
-    areaPrivada:"168 m²",
-    areaConstruida:"168 m²",
-    habitaciones: "6",
-    banos: "5",
-    descripcion: `🏡 ¡SE VENDE CASA EN MONIQUIRÁ – BOYACÁ!
-
-✨ Amplia propiedad ideal para vivir y generar ingresos
-
-📍 Ubicación
-🏘️ Barrio Las Colinas (por la calle de las grúas)
-📐 Área 168 m²
-
-🏢 Propiedad horizontal
-
-🏠 Casa de 3 pisos
-🏠 Distribución
-
-🔹 Primer piso
-🛏️ 2 habitaciones
-🚿 2 baños
-🍽️ Cocina
-🛋️ Sala comedor
-🧺 Patio de ropas
-
-🔹 Segundo piso
-🛏️ 3 habitaciones
-🚿 2 baños
-🍽️ Cocina
-🛋️ Sala comedor
-
-🔹 Tercer piso (apartaestudio)
-🛏️ 1 habitación
-🚿 1 baño
-🛋️ Sala
-🍳 Cocina
-🧺 Patio compartido con el segundo piso`,
-    videoYoutube: "https://youtu.be/1x4IqTyEd-E",
-  },
-{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 023",
@@ -449,27 +393,27 @@ PISO 2:
 {
     tipo: "Casa",
     nombre: "Casa En Condominio",
-    referencia: "C. 00",
-    imagenes: ["Ref. C. 08/1.jpg",
-             "Ref. C. 08/2.jpg",
-             "Ref. C. 08/3.jpg",
-             "Ref. C. 08/4.jpg",
-             "Ref. C. 08/5.jpg",
-             "Ref. C. 08/6.jpg",
-             "Ref. C. 08/7.jpg",
-             "Ref. C. 08/8.jpg",
-             "Ref. C. 08/9.jpg",
-             "Ref. C. 08/10.jpg",
-             "Ref. C. 08/11.jpg",
-             "Ref. C. 08/12.jpg",
-             "Ref. C. 08/13.jpg",
-             "Ref. C. 08/14.jpg",
-             "Ref. C. 08/15.jpg",
-             "Ref. C. 08/16.jpg",
-             "Ref. C. 08/17.jpg",
-             "Ref. C. 08/18.jpg",
-             "Ref. C. 08/19.jpg",
-             "Ref. C. 08/20.jpg",],
+    referencia: "C. 007",
+    imagenes: ["Ref. C. 07/1.jpg",
+             "Ref. C. 07/2.jpg",
+             "Ref. C. 07/3.jpg",
+             "Ref. C. 07/4.jpg",
+             "Ref. C. 07/5.jpg",
+             "Ref. C. 07/6.jpg",
+             "Ref. C. 07/7.jpg",
+             "Ref. C. 07/8.jpg",
+             "Ref. C. 07/9.jpg",
+             "Ref. C. 07/10.jpg",
+             "Ref. C. 07/11.jpg",
+             "Ref. C. 07/12.jpg",
+             "Ref. C. 07/13.jpg",
+             "Ref. C. 07/14.jpg",
+             "Ref. C. 07/15.jpg",
+             "Ref. C. 07/16.jpg",
+             "Ref. C. 07/17.jpg",
+             "Ref. C. 07/18.jpg",
+             "Ref. C. 07/19.jpg",
+             "Ref. C. 07/20.jpg",],
     precio: "$470.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "107 m²",
@@ -524,11 +468,11 @@ PISO 2:
 {
     tipo: "Finca",
     nombre: "Finca Rural",
-    referencia: "FC. 009",
-    imagenes: ["Ref. FC. 09/1.jpeg",
-             "Ref. FC. 09/2.jpeg",
-             "Ref. FC. 09/3.jpeg",
-             "Ref. FC. 09/4.jpeg",],
+    referencia: "FC. 010",
+    imagenes: ["Ref. FC. 10/1.jpeg",
+             "Ref. FC. 10/2.jpeg",
+             "Ref. FC. 10/3.jpeg",
+             "Ref. FC. 10/4.jpeg",],
     precio: "$445.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
@@ -628,7 +572,62 @@ Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 7 minu
 
 🌟 Vive rodeado de naturaleza, aire puro y tranquilidad.`,
     videoYoutube: "https://youtu.be/8qDXzdINnhQ",
-  }
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 012",
+    imagenes: ["Ref. C. 12/1.png",
+             "Ref. C. 12/2.jpg",
+             "Ref. C. 12/3.png",
+             "Ref. C. 12/4.png",
+             "Ref. C. 12/5.png",
+             "Ref. C. 12/6.jpg",
+             "Ref. C. 12/7.png",
+             "Ref. C. 12/8.jpg",
+             "Ref. C. 12/9.png",
+             "Ref. C. 12/10.png",],
+    precio: "$565.000.000",
+    ubicacion: "Barbosa, Santander",
+    area: "677 m²",
+    areaPrivada:"677 m²",
+    areaConstruida:"217 m²",
+    habitaciones: "3",
+    banos: "3",
+    descripcion: `📌 Venta de Casa campestre  en Barbosa – Santander 
+
+Te ofrecemos una casa de un piso en un condominio Campestre.
+
+📍 Lugar: Barbosa – Santander, a 1.5 Km del casco urbano
+
+📏 Área del lote: 677 metros cuadrados
+📏 Área Construida: 217 metros cuadrados
+
+👉 Características Casa
+🛌🏻 No. de Habitaciones: 3 con sus respectivos closets
+✔1  Cuarto de servicios
+🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
+✔ 2 Parqueaderos, cubiertos
+✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
+✔Sala – comedor
+✔ 1 Jacuzzi para 4 personas
+✔Sistema de bombeo con Hidro Flow
+✔Zona de verde con Jardín 
+✔Tanque subterráneo de 4.000 litros enchapado
+✔Tanque de agua aéreo de 500 litros
+✔Corredores externos y zonas verdes
+✔Calentador a gas natural
+✔1 Balcon
+✔Excelente vista
+✔ Todos los servicios: agua, luz, gas y internet.
+
+👉 Características Generales
+✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, y zonas verdes.
+✔el condominio cuenta con alcantarillado y acueducto propio. 
+¡Se entrega totalmente terminada!
+Pago de administración: $90.000 pesos`,
+    videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
+  },
 ];
 
 
