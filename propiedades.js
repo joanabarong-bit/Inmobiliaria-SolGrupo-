@@ -14,14 +14,71 @@ const propiedades = [
     tipo: "Apartaestudio",
     nombre: "Apartaestudio",
     referencia: "Apte. 001",
-    imagenes: ["Ref. Apte. 01/1.jpg",
-             "Ref. Apte. 01/2.jpg",
-             "Ref. Apte. 01/3.jpg",
-             "Ref. Apte. 01/4.jpg",
-             "Ref. Apte. 01/5.jpg",
-             "Ref. Apte. 01/6.jpg",
-             "Ref. Apte. 01/7.jpg",
-             "Ref. Apte. 01/8.jpg",],
+    imagenes: ["Ref. Apte. 01/1.jpeg",
+             "Ref. Apte. 01/2.jpeg",
+             "Ref. Apte. 01/3.jpeg",
+             "Ref. Apte. 01/4.jpeg",
+             "Ref. Apte. 01/5.jpeg",
+             "Ref. Apte. 01/6.jpeg",
+             "Ref. Apte. 01/7.jpeg",
+             "Ref. Apte. 01/8.jpeg",
+             "Ref. Apte. 01/9.jpeg",
+             "Ref. Apte. 01/10.jpeg",
+             "Ref. Apte. 01/11.jpeg",
+             "Ref. Apte. 01/12.jpeg",
+             "Ref. Apte. 01/13.jpeg",],
+    precio: "$170.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "50,77 m²",
+    areaPrivada:"-",
+    areaConstruida:"50,77 m²",
+    habitaciones: "1",
+    banos: "1",
+    descripcion: `📌 VENTA DE APARTAESTUDIO EN MONIQUIRA – BOYACA
+
+Área: 56 Mt2
+
+👉 No. de Habita: 1
+✅Closet Empotrado de techo a piso
+✅Amplio Balcón con puerta corrediza
+
+👉 No. de Baños: 1
+✅Con División en vidrio
+
+👉 Cocina Integral:
+✅Muble superior – mueble inferior
+✅Horno
+✅Alacena
+✅Extractor
+✅Mesón Auxiliar
+✅Zona de Lavandería
+
+👉 Sala Comedor con gran ventanal, buena iluminación
+✅Repisas minibar
+
+👉 Proyección de áreas sociales:
+🌼 Salón Social
+🌼 Sauna
+🌼 Jacuzzy
+🌼 Senderos peatonales
+🌼 Piscinas
+👉 Cuenta con Ascensor Panorámico
+✖️ No permuta
+✖️ No Parqueadero`,
+    videoYoutube: "https://youtu.be/Yj17XMkaPm4",
+  },
+  {
+    tipo: "Apartaestudio",
+    nombre: "Apartaestudio",
+    referencia: "Apte. 002",
+    imagenes: ["Ref. Apte. 02/1.jpg",
+             "Ref. Apte. 02/2.jpg",
+             "Ref. Apte. 02/3.jpg",
+             "Ref. Apte. 02/4.jpg",
+             "Ref. Apte. 02/5.jpg",
+             "Ref. Apte. 02/6.jpg",
+             "Ref. Apte. 02/7.jpg",
+             "Ref. Apte. 02/8.jpg",],
     precio: "$231.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "50,77 m²",
