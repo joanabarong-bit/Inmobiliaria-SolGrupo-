@@ -314,14 +314,14 @@ Pago de administración: $90.000 pesos`,
 {
     tipo: "Lote",
     nombre: "Lote",
-    referencia: "LT. 023",
-    imagenes: ["Ref. LT. 23/1.jpeg",
-             "Ref. LT. 23/2.jpeg",
-             "Ref. LT. 23/3.jpeg",
-             "Ref. LT. 23/4.jpeg",
-             "Ref. LT. 23/5.jpeg",
-             "Ref. LT. 23/6.jpeg",
-             "Ref. LT. 23/7.jpeg",],
+    referencia: "LT. 022",
+    imagenes: ["Ref. LT. 22/1.jpeg",
+             "Ref. LT. 22/2.jpeg",
+             "Ref. LT. 22/3.jpeg",
+             "Ref. LT. 22/4.jpeg",
+             "Ref. LT. 22/5.jpeg",
+             "Ref. LT. 22/6.jpeg",
+             "Ref. LT. 22/7.jpeg",],
     precio: "$250.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
@@ -513,65 +513,38 @@ Cuenta con casa de un nivel con:
   },
 {
     tipo: "Lote",
-    nombre: "Lote Rural",
-    referencia: "LT. 009",
-    imagenes: ["Ref. LT. 09/1.jpeg",
-             "Ref. LT. 09/2.jpeg",
-             "Ref. LT. 09/3.jpeg",
-             "Ref. LT. 09/4.jpeg",
-             "Ref. LT. 09/5.jpeg",
-             "Ref. LT. 09/6.jpeg",
-             "Ref. LT. 09/7.jpeg",
-             "Ref. LT. 09/8.jpeg",
-             "Ref. LT. 09/9.jpeg",
-             "Ref. LT. 09/10.jpeg",
-             "Ref. LT. 09/11.jpeg",
-             "Ref. LT. 09/12.jpeg",
-             "Ref. LT. 09/13.jpeg",
-             "Ref. LT. 09/14.jpeg",
-             "Ref. LT. 09/15.jpeg",
-             "Ref. LT. 09/16.jpeg",
-             "Ref. LT. 09/17.jpeg",
-             "Ref. LT. 09/18.jpeg",],
-    precio: "$117.376.000",
+    nombre: "Lote",
+    referencia: "LT. 008",
+    imagenes: ["Ref. LT. 08/1.jpg",
+             "Ref. LT. 08/2.jpg",
+             "Ref. LT. 08/3.jpg",
+             "Ref. LT. 08/4.jpg",
+             "Ref. LT. 08/5.jpg",
+             "Ref. LT. 08/6.jpg",
+             "Ref. LT. 08/7.jpg",
+             "Ref. LT. 08/8.jpg",
+             "Ref. LT. 08/9.jpg",],
+    precio: "$110.000.000",
     ubicacion: "Moniquirá, Boyacá",
-    area: "896 m²",
-    areaPrivada:"896 m²",
+    area: "2,530 m²",
+    areaPrivada:"2,530 m²",
     areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `🏡✨ ¡Invierte en el lugar perfecto para construir tu futuro! ✨🏡
+    descripcion: `📌 Venta de lote rural en Moniquirá – Boyacá
 
-🌿 Se venden exclusivos lotes en Moniquirá, Boyacá
-📍 Vereda Potrero Grande
+📏 Área: 2.530 mt2
 
-Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 7 minutos (2.7 km) del casco urbano de Moniquirá.
-🚗 Vía en buen estado y fácil acceso.
+👉🏻 Perímetro Rural
+👉🏻 Vereda: Tapias y San Antonio, Sector Pajales
+👉🏻 carretera desatada, se recomienda tener campero, está a una distancia de 9.1 kilómetros, 22 minutos desde el municipio de Moniquirá, 
 
-🌄 Características del proyecto:
-✅ Topografía mixta: plana y ondulada
-🌿 Entorno natural y tranquilo
-🏡 Ideal para construir tu hogar, finca o proyecto de descanso
-
-🔌 Servicios disponibles:
-⚡ Punto de luz
-💧 Acueducto veredal
-🔥 Gas natural
-
-💰 Disponibilidad de lotes:
-
-📐 Lote 1 — 1.076,49 m² | $144.249.660
-📐 Lote 2 — 931,8 m² | $123.929.400
-📐 Lote 3 — 896 m² | $117.376.000
-📐 Lote 4 — 963,25 m² | $125.222.500
-📐 Lote 5 — 1.052 m² | $133.604.000
-📐 Lote 6 — 1.050 m² | $130.200.000
-📐 Lote 7 — 1.038 m² | $129.750.000
-📐 Lote 8 — 1.097 m² | $136.028.000
-📐 Lote 15 — 2.617 m² | $287.870.000
-
-🌟 Vive rodeado de naturaleza, aire puro y tranquilidad.`,
-    videoYoutube: "https://youtu.be/8qDXzdINnhQ",
+✔ Terreno Plano
+✔ Pasa una quebrada por el lote 
+✔ Excelente vista
+✔ Acceso a punto de energía eléctrica
+✔ cuenta con tres vías de acceso `,
+    videoYoutube: "https://youtu.be/GJNmj6I9TFY",
   },
 {
     tipo: "Casa",
