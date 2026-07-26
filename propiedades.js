@@ -10,7 +10,8 @@ const VIDEO_YOUTUBE_DEFAULT = "https://www.youtube.com/watch?v=x_xDcaQxBX0";
 
 const propiedades = [
   /* ================= apartaestudio ================= */
-  {
+
+{
     tipo: "Apartaestudio",
     nombre: "Apartaestudio",
     referencia: "Apte. 001",
@@ -51,7 +52,8 @@ const propiedades = [
   },
 
 /* ================= apartamentos ================= */
-   {
+
+{
     tipo: "Apartamento",
     nombre: "Apartamento",
     referencia: "Apt. 001",
@@ -111,7 +113,7 @@ Ubicado Cerca al Centro
 ⛔No parqueadero`,
     videoYoutube: "https://youtu.be/3K91QM6tP2E"
   },
-   {
+{
     tipo: "Apartamento",
     nombre: "Apartamento",
     referencia: "Apt. 002",
@@ -160,7 +162,7 @@ Ubicado Cerca al Centro
 `,
     videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
-   {
+{
     tipo: "Apartamento",
     nombre: "Apartamento",
     referencia: "Apt. 003",
@@ -224,7 +226,7 @@ Ubicado Cerca al Centro
 `,
     videoYoutube: "https://youtu.be/HM1YtC1UIPg",
   },
-   {
+{
     tipo: "Apartamento",
     nombre: "Penthouse",
     referencia: "Apt. 004",
@@ -283,7 +285,7 @@ Incluye Parqueadero
 👉 JACUZZI`,
     videoYoutube: "https://www.youtube.com/watch?v=GQDtOe1y39o",
   },
-   {
+{
     tipo: "Apartamento",
     nombre: "Penthouse",
     referencia: "Apt. 005",
@@ -342,7 +344,8 @@ Incluye Parqueadero
   },
 
   /* ================= locales ================= */
-  {
+
+{
     tipo: "Local",
     nombre: "Local Comercial",
     referencia: "Lc. 001",
@@ -375,7 +378,7 @@ Incluye Parqueadero
 ❌ No se acepta permuta `,
     videoYoutube: "https://youtu.be/TURknJOqOvY",
   },
-   {
+{
     tipo: "Local",
     nombre: "Local Comercial",
     referencia: "Lc. 002",
@@ -409,7 +412,7 @@ Incluye Parqueadero
 ❌ No se acepta permuta  `,
  videoYoutube: "https://youtu.be/Zsdc4CKuEUM",
   },
-   {
+{
     tipo: "Local",
     nombre: "Local Comercial",
     referencia: "Lc. 003",
@@ -442,7 +445,7 @@ Incluye Parqueadero
  `,
  videoYoutube: "https://youtu.be/ffIgmKLqueI",
   },
-  {
+{
     tipo: "Local",
     nombre: "Local Comercial",
     referencia: "Lc. 004",
@@ -474,7 +477,7 @@ Incluye Parqueadero
 ✅ Valor de la administración: 309.000 pesos`,
     videoYoutube: "https://youtu.be/DmfAK05wo2E",
   },
-  {
+{
     tipo: "Local",
     nombre: "Local Comercial",
     referencia: "Lc. 005",
@@ -541,7 +544,8 @@ una ubicación estratégica con gran potencial comercial.`,
   },
 
   /* ================= casas ================= */
- {
+
+{
     tipo: "Casa",
     nombre: "Casa Rural",
     referencia: "C. 001",
@@ -589,7 +593,7 @@ una ubicación estratégica con gran potencial comercial.`,
 `,
     videoYoutube: "https://youtu.be/jb7mfAkiB-k?si=7l9wEpzcUARIxM-x",
   },
- {
+{
     tipo: "Casa",
     nombre: "Casa Lote",
     referencia: "C. 002",
@@ -637,7 +641,7 @@ A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa 
 🌳 Ideal para invertir o disfrutar de la tranquilidad del campo.`,
     videoYoutube: "https://youtu.be/MloCLaBm91g",
   },
-  {
+{
     tipo: "Casa",
     nombre: "Casa Campestre",
     referencia: "C. 003",
@@ -695,7 +699,7 @@ MONIQUIRÁ BOYACÁ – VEREDA COLORADO
 ✅ Ambiente seguro y rodeado de naturaleza`,
     videoYoutube: "https://youtu.be/gLKxlGwuNvM?si=oWrGOo3HnSDxnNf0",
   },
-  {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 004",
@@ -754,7 +758,7 @@ MONIQUIRÁ BOYACÁ – VEREDA COLORADO
 🌅 Terraza`,
     videoYoutube: "https://youtu.be/MaHHbsLJ8Us",
   },  
-   {
+{
     tipo: "Casa",
     nombre: "Casa Rural",
     referencia: "C. 005",
@@ -801,7 +805,7 @@ Un lugar perfecto para vivir, invertir y conectar con la naturaleza.
 🛣️ El acceso a la propiedad es totalmente pavimentado`,
     videoYoutube: "https://youtu.be/RACaIIVd31s?si=u2sFDChijtfBI0lZ",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 006",
@@ -855,7 +859,7 @@ Características Especificas
 👉Opción, para Parqueadero o local Comercial`,
     videoYoutube: "https://youtu.be/y1V4uB31-Sc",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 007",
@@ -901,7 +905,7 @@ Características Especificas
 🚗 Parqueadero para aprox. 5 vehículos`,
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 008",
@@ -967,7 +971,7 @@ Características Especificas
 🔥 Zona BBQ`,
     videoYoutube: "https://youtu.be/6H4QTncNsSQ",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa En Condominio",
     referencia: "C. 009",
@@ -1040,9 +1044,9 @@ Características Especificas
 🛏️ 1 habitación con baño privado
 🚿 1 baño social
 🌅 Balcón`,
-    videoYoutube: "https://youtu.be/T6aVRPwMsTQ",
+    videoYoutube: "https://youtu.be/bY2IfDgHdqM?si=tm1w7-_WCR0gc3Ug",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 010",
@@ -1095,7 +1099,7 @@ Características Especificas
 Documentos al día.`,
     videoYoutube: "https://youtu.be/DjltWnrV_-M",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 011",
@@ -1154,7 +1158,7 @@ Características Internas
 ✅Zona de Lavandería`,
     videoYoutube: "https://youtu.be/qYjkwKScWNg",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 012",
@@ -1201,7 +1205,7 @@ Características Internas
 📑 Documentación al día`,
     videoYoutube: "https://youtu.be/BaMTWlAtRmM",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 013",
@@ -1252,7 +1256,7 @@ Te ofrecemos una casa de dos pisos en un conjunto residencial
 Pago de administración: $85.000 pesos`,
     videoYoutube: "https://youtu.be/Ffkv9Ab024w",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 014",
@@ -1307,7 +1311,7 @@ Te ofrecemos una casa de un piso en un condominio Campestre.
 Pago de administración: $90.000 pesos`,
     videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 015",
@@ -1361,7 +1365,7 @@ Pago de administración: $90.000 pesos`,
 Documentos al día.`,
     videoYoutube: "https://youtu.be/MidyuuMe5ew",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa",
     referencia: "C. 016",
@@ -1411,7 +1415,7 @@ Documentos al día.`,
 🌿 Zonas verdes`,
     videoYoutube: "https://youtu.be/6Y3sZK5VnT4",
   },
-  {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 017",
@@ -1459,7 +1463,7 @@ Documentos al día.`,
 🔥 Calentador a gas`,
     videoYoutube: "https://youtu.be/6lFXeePrJhI",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 018",
@@ -1514,7 +1518,7 @@ PISO 2:
 📝DOCUMENTOS AL DIA`,
     videoYoutube: "hhttps://youtu.be/Y0Tqh3dpEUs",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 019",
@@ -1570,7 +1574,7 @@ Te ofrecemos una casa de dos pisos en un condominio Campestre.
 Pago de administración: $90.000 pesos`,
     videoYoutube: "https://youtu.be/qZKO0WCM1lw",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Rural",
     referencia: "C. 020",
@@ -1636,7 +1640,7 @@ La propiedad se divide en: 2 casas y 1 apartaestudio
 Espacio para aproximadamente 3 vehículos`,
     videoYoutube: "https://youtu.be/LO_szsBXv9E",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Campestre",
     referencia: "C. 021",
@@ -1688,7 +1692,7 @@ Espacio para aproximadamente 3 vehículos`,
 ❌ NO PERMUTA`,
     videoYoutube: "https://youtu.be/ILXghX1kTbI",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Quinta en Condominio",
     referencia: "C. 022",
@@ -1749,7 +1753,7 @@ Espacio para aproximadamente 3 vehículos`,
 ➡ Pago de administración mensual : 150.000 pesos `,
     videoYoutube: "https://youtu.be/M7qr_Q6sFcg",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominios",
     referencia: "C. 023",
@@ -1797,9 +1801,9 @@ portón automático se abre desde el celular
 ✅Si  deseas puedes instalar internet de fibra óptica..`,
     videoYoutube: "https://youtu.be/eMXcAzKSLXw",
   },
-   {
+{
     tipo: "Casa",
-    nombre: "Casa Urbana",
+    nombre: "Casa Campestre",
     referencia: "C. 024",
     imagenes: ["Ref. C. 24/1.jpeg",
              "Ref. C. 24/2.jpeg",
@@ -1863,7 +1867,7 @@ Características:
 💧 Tanque de reserva de agua con capacidad de 5.000 litros`,
     videoYoutube: "https://youtu.be/3AUZXxYCJZM?si=GCyPP8e3Rs3BSVkB",
   },
-  {
+{
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 025",
@@ -1935,7 +1939,7 @@ Características:
 👌🏻Se recibe permuta como parte de pago`,
     videoYoutube: "https://www.youtube.com/watch?v=aMlZLWIDy3o&t=9s",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Quinta",
     referencia: "C. 026",
@@ -1996,7 +2000,7 @@ Energía
 Alcantarillado Pluvial y de aguas grises `,
     videoYoutube: "https://youtu.be/pReB9Zdyeo8",
   },
-  {
+{
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
     referencia: "C. 027",
@@ -2026,7 +2030,7 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔Ubicada a 5 Minutos del parque principal `,
     videoYoutube: "https://youtu.be/WOs7xb1X1sA",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
     referencia: "C. 028",
@@ -2057,7 +2061,7 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔️ Ubicado en una zona comercial y residencial `,
     videoYoutube: "https://youtu.be/RyukLWNBP1M",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 029",
@@ -2119,7 +2123,7 @@ Alcantarillado Pluvial y de aguas grises `,
 ✔Zonas sociales, Piscina cancha de basquetbol `,
     videoYoutube: "https://youtu.be/kyAVuzNEJLY",
   },
-   {
+{
     tipo: "Casa",
     nombre: "Casa en Condominio Cerrado",
     referencia: "C. 030",
@@ -2172,8 +2176,10 @@ Características principales:
 🛡️ Portería, recepción y vigilancia `,
     videoYoutube: "",
   },
+
   /* ================= lote ================= */
-   {
+
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 001",
@@ -2216,7 +2222,7 @@ Características principales:
 💦 Acueducto propio con reservorio natural, que garantiza el abastecimiento de agua`,
     videoYoutube: "https://youtu.be/IIK3hd4l3UA",
   },
- {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 002",
@@ -2267,7 +2273,7 @@ Características principales:
 🛣️ Vía en buen estado`,
     videoYoutube: "https://youtu.be/uITRIPGSBtE",
   }, 
-  {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 003",
@@ -2311,7 +2317,7 @@ Precio: Cabaña Tipo 1, 40Mts2 120 millones en un lote de 700 Mts2
 Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
     videoYoutube: "https://youtu.be/uITRIPGSBtE",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 004",
@@ -2344,7 +2350,7 @@ Precio: Cabaña Tipo 2, 150 Mts2 220 millones en un lote de 700 Mts2`,
 ✔️El 90% de la vía es pavimentada, y el otro 10% es destapado en buen estado.`,
     videoYoutube: "https://youtu.be/gYl7-P8GZks",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 005",
@@ -2385,7 +2391,7 @@ Un espacio perfecto para construir a tu gusto.
 🔥 Gas`,
     videoYoutube: "https://youtu.be/CtM5iNxqIig",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 006",
@@ -2421,7 +2427,7 @@ Un espacio perfecto para construir a tu gusto.
 ✔️Disponibilidad, para tramitar licencia de construción.`,
     videoYoutube: "https://www.youtube.com/watch?v=QojWbtiaTAM&t=4s",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lotes Urbanos",
     referencia: "LT. 007",
@@ -2457,7 +2463,7 @@ Un espacio perfecto para construir a tu gusto.
 📐Lote # 5   Área: 238 M2 $198.000.000 millones de pesos`,
     videoYoutube: "https://youtu.be/beHO-48Z-3s",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 008",
@@ -2492,7 +2498,7 @@ Un espacio perfecto para construir a tu gusto.
 ✔ cuenta con tres vías de acceso `,
     videoYoutube: "https://youtu.be/GJNmj6I9TFY",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote Rural",
     referencia: "LT. 009",
@@ -2554,7 +2560,7 @@ Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 7 minu
 🌟 Vive rodeado de naturaleza, aire puro y tranquilidad.`,
     videoYoutube: "https://youtu.be/8qDXzdINnhQ",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 010",
@@ -2589,7 +2595,7 @@ Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 7 minu
 ✔️Acceso pavimentado hasta el condominio y cerca al municipio  `,
     videoYoutube: "https://youtu.be/lKo5TlLiOzk",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 011",
@@ -2629,7 +2635,7 @@ El condominio cuenta con:
 🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.`,
     videoYoutube: "https://youtu.be/gToaauh3vaA?si=J8ieyir0D8o5R2aV",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 012",
@@ -2662,7 +2668,7 @@ portón automático se abre desde el celular
 ✅Si  deseas puedes instalar internet de fibra óptica..`,
     videoYoutube: "https://youtu.be/GIaLj9XbMWI",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lotes Campestres",
     referencia: "LT. 013",
@@ -2720,7 +2726,7 @@ Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 20 min
 🌟 Vive rodeado de naturaleza, aire puro y tranquilidad.`,
     videoYoutube: "https://youtu.be/AomODaj0Xeg?si=zmKc1-cII4jI5hSO",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote Rural",
     referencia: "LT. 014",
@@ -2773,7 +2779,7 @@ Disfruta de la tranquilidad, naturaleza y excelente ubicación a tan solo 20 min
 campestre o realizar una inversión con alta proyección de valorización.`,
     videoYoutube: "https://youtu.be/4TpaaxOZUGI?si=qE45cfWemRUEp52l",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 015",
@@ -2799,7 +2805,7 @@ campestre o realizar una inversión con alta proyección de valorización.`,
 ✔️Uso residencial`,
     videoYoutube: "https://youtu.be/bVqU0IkkRcs",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lotes en Condominio",
     referencia: "LT. 016",
@@ -2838,7 +2844,7 @@ El condominio cuenta con:
 💸Lote 6: 179’900.000l`,
     videoYoutube: "https://youtu.be/BmScr0QFKfo",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 017",
@@ -2880,7 +2886,7 @@ El condominio cuenta con:
 🏛️ Salón comunal`,
     videoYoutube: "https://youtu.be/pbxH9u49Gis",
   },
-  {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 018",
@@ -2939,7 +2945,7 @@ El condominio cuenta con:
 🎾 Cancha de tenis`,
     videoYoutube: "https://youtu.be/qaaSYAeJzBU?si=Mcx5mhiEOhcBSLOj",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 019",
@@ -2974,7 +2980,7 @@ El condominio cuenta con:
 📕 Documentos al día.`,
     videoYoutube: "https://www.youtube.com/watch?v=wNLakzJaosI",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lotes",
     referencia: "LT. 020",
@@ -3010,7 +3016,7 @@ El condominio cuenta con:
 💲 Precio: 450.000.000 Millones (10.135mts2`,
     videoYoutube: "https://youtu.be/6CPwk1PU8gc",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 021",
@@ -3069,7 +3075,7 @@ El condominio cuenta con:
 🎾 Cancha de tenis`,
     videoYoutube: "https://youtu.be/qaaSYAeJzBU?si=Mcx5mhiEOhcBSLOj",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 022",
@@ -3107,7 +3113,7 @@ Disponibilidad de:
 📄 Documentación al día. Escritura con matricula independiente .`,
     videoYoutube: "https://www.youtube.com/watch?v=epFVfZrE9qg",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 023",
@@ -3139,7 +3145,7 @@ Cuenta con todos los servicios:
 ✅ Construye la casa de tus sueños.`,
     videoYoutube: "https://youtu.be/G_0s631XGRE",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 024",
@@ -3169,7 +3175,7 @@ Cuenta con todos los servicios:
 📄 Documentación al día`,
     videoYoutube: "https://youtu.be/oB5l0_gkj5w",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote en Condominio",
     referencia: "LT. 025",
@@ -3198,7 +3204,7 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 🌡️ Temperatura promedio: 12 °C a 25 °C`,
     videoYoutube: "https://youtu.be/QbbpelBdYqc",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote Urbano",
     referencia: "LT. 026",
@@ -3234,7 +3240,7 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 ✔️Tiene uso de suelos para zona comercial y residencial.`,
     videoYoutube: "https://www.youtube.com/watch?v=mBRRXE_GTQo",
   },
-   {
+{
     tipo: "Lote",
     nombre: "Lote",
     referencia: "LT. 027",
@@ -3265,7 +3271,8 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
   },
   
    /* ================= finca ================= */
-   {
+
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 001",
@@ -3297,7 +3304,7 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 ✔ Vía de Acceso Hasta el Lote `,
     videoYoutube: "https://youtu.be/5OZRUQm98Bk",
   },
-   {
+{
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 002",
@@ -3349,7 +3356,7 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 ✅ Documentos totalmente al día`,
     videoYoutube: "https://youtu.be/Y_JrYyTMwm8?si=jRN0XH-OxdgA3-O_",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 003",
@@ -3379,7 +3386,7 @@ Municipio de Barbosa a Vélez santander .
 ✅La propiedad cuenta con diferentes tipos de topografía, plano, y semiondulado`,
     videoYoutube: "https://youtu.be/j7MCWWhJDbM",
   },
-   {
+{
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 004",
@@ -3419,7 +3426,7 @@ Municipio de Barbosa a Vélez santander .
 ✅ sala de estar `,
     videoYoutube: "https://youtu.be/C0sbg68cJwg",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 005",
@@ -3459,7 +3466,7 @@ Ubicada en Neval y Cruces
 👉🏻 Documentos Al Dia`,
     videoYoutube: "https://youtu.be/3HNU0RRhwNg",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 006",
@@ -3522,7 +3529,7 @@ Ubicada en Neval y Cruces
 💧 Concesión de agua por aljibe`,
     videoYoutube: "https://youtu.be/0iyvEkSs8i4?si=Hstv4TPRO1WKZ2u8",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 007",
@@ -3560,7 +3567,7 @@ Servicios disponibles:
 Escritura pública y matrícula inmobiliaria independiente.`,
     videoYoutube: "https://youtu.be/5Xe1vd40aJY",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 008",
@@ -3603,7 +3610,7 @@ La casa cuenta con:
 🌿 Amplias zonas verdes`,
     videoYoutube: "https://youtu.be/8X-aM3JnDS4",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 009",
@@ -3641,7 +3648,7 @@ La casa cuenta con:
 ✔️A 12.5 Kilómetros del pueblo`,
     videoYoutube: "https://youtu.be/pyizV_ZH88U",
   },
-   {
+{
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 010",
@@ -3687,7 +3694,7 @@ Características Casa
 ✅Aljibe de agua propio`,
     videoYoutube: "https://youtu.be/ogIaz4p5uYU",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 011",
@@ -3733,7 +3740,7 @@ Cuenta con casa de un nivel con:
 ✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
     videoYoutube: "https://youtu.be/AJa1UqjWiE8",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 012",
@@ -3775,7 +3782,7 @@ Cuenta con casa de un nivel con:
 🚗 A solo 15 minutos de la vía nacional `,
     videoYoutube: "https://youtu.be/OGOKnkDz7lE",
   },
-   {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 013",
@@ -3825,7 +3832,7 @@ PROPIEDAD PRODUCTIVA
 La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se recomienda tener vehículo alto o 4x4. `,
     videoYoutube: "https://youtu.be/-bx6O4-xBDQ",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 014",
@@ -3882,7 +3889,7 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
 ✅ 1.5 Km de la vía principal santa Sofía`,
     videoYoutube: "https://youtu.be/c_jHdMNsRbU",
   },
-   {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 015",
@@ -3922,7 +3929,7 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
 🍀Tranquilo`,
     videoYoutube: "https://youtu.be/SZsVw5NdoH0",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 016",
@@ -3961,7 +3968,7 @@ Ubicada en Perímetro Rural
 Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
     videoYoutube: "https://youtu.be/_zFwDW1L4Ho",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 017",
@@ -4016,7 +4023,7 @@ Características de la casa 2:
 🌱 esta sembrada en café, plátano y algunos cítricos.`,
     videoYoutube: "https://youtu.be/BBYVbJ0bF4c",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca",
     referencia: "FC. 018",
@@ -4092,7 +4099,7 @@ Comprar toda la propiedad
   $1.050.000 millones `,
     videoYoutube: "https://youtu.be/mt5KiRn5qF4",
   },
-  {
+{
     tipo: "Finca",
     nombre: "Finca Productiva",
     referencia: "FC. 019",
