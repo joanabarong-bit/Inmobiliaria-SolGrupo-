@@ -877,7 +877,7 @@ Características Especificas
              "Ref. C. 07/12.jpg",
              "Ref. C. 07/13.jpg",
              "Ref. C. 07/14.jpg",],
-    precio: "$405.000.000",
+    precio: "$399.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
     areaPrivada:"1,238 m²",
