@@ -53,62 +53,6 @@ const propiedades = [
   },
 {
     tipo: "Casa",
-    nombre: "Casa en Condominio",
-    referencia: "C. 018",
-    imagenes: ["Ref. C. 18/1.png",
-             "Ref. C. 18/2.jpg",
-             "Ref. C. 18/3.png",
-             "Ref. C. 18/4.png",
-             "Ref. C. 18/5.png",
-             "Ref. C. 18/6.png",
-             "Ref. C. 18/7.png",
-             "Ref. C. 18/8.png",
-             "Ref. C. 18/9.png",
-             "Ref. C. 18/10.png",],
-    precio: "$700.000.000",
-    ubicacion: "Barbosa, Santander",
-    area: "696 m²",
-    areaPrivada:"696 m²",
-    areaConstruida:"300 m²",
-    habitaciones: "4",
-    banos: "3",
-    descripcion: `📌 Venta de Casa en Barbosa – Santander 
-
-Te ofrecemos una casa de dos pisos en un condominio Campestre.
-
-📍 Lugar: Barbosa – Santander, a 1.5 Km del casco urbano
-
-📏 Área del lote: 696 metros cuadrados
-📏 Área Construida: 300 metros cuadrados
-
-👉 Características Casa
-🛌🏻 No. de Habitaciones: 4 con sus respectivos closets
-✔1  Cuarto de servicios
-🛀 No. de Baños: 3 de lujo, con lavamanos en porcelanato
-✔ 4 Parqueaderos, cubiertos y dos libres
-✔Cocina Integral con mesones en granito, extractor de campana y estufa en vidrio templado
-✔Sala – comedor
-✔ 1 Jacuzzi para 4 personas
-✔Sistema de bombeo con Hidro Flow
-✔Zona de verde con Jardín 
-✔Tanque subterráneo de 4.000 litros enchapado
-✔Tanque de agua aéreo de 500 litros
-✔Corredores externos y zonas verdes
-✔Calentador a gas natural
-✔3 Balcones
-✔Excelente vista
-✔ Todos los servicios: agua, luz, gas y internet.
-
-👉 Características Generales
-✔Zonas sociales: piscina para adultos y para niños, BBQ, salón social, y zonas verdes.
-✔el condominio cuenta con alcantarillado y acueducto propio. 
-¡Se entrega totalmente terminada!
-
-Pago de administración: $90.000 pesos`,
-    videoYoutube: "https://youtu.be/qZKO0WCM1lw",
-  },
-{
-    tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 008",
     imagenes: ["Ref. C. 08/1.jpeg",
@@ -235,14 +179,14 @@ Pago de administración: $90.000 pesos`,
 {
     tipo: "Lote",
     nombre: "Lote",
-    referencia: "LT. 024",
-    imagenes: ["Ref. LT. 24/1.jpeg",
-             "Ref. LT. 24/2.jpeg",
-             "Ref. LT. 24/3.jpeg",
-             "Ref. LT. 24/4.jpeg",
-             "Ref. LT. 24/5.jpeg",
-             "Ref. LT. 24/6.jpeg",
-             "Ref. LT. 24/7.jpeg",],
+    referencia: "LT. 023",
+    imagenes: ["Ref. LT. 23/1.jpeg",
+             "Ref. LT. 23/2.jpeg",
+             "Ref. LT. 23/3.jpeg",
+             "Ref. LT. 23/4.jpeg",
+             "Ref. LT. 23/5.jpeg",
+             "Ref. LT. 23/6.jpeg",
+             "Ref. LT. 23/7.jpeg",],
     precio: "$250.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
@@ -558,18 +502,18 @@ El condominio cuenta con:
 {
     tipo: "Lote",
     nombre: "Lote",
-    referencia: "LT. 022",
-    imagenes: ["Ref. LT. 22/1.jpg",
-             "Ref. LT. 22/2.jpg",
-             "Ref. LT. 22/3.jpg",
-             "Ref. LT. 22/4.jpg",
-             "Ref. LT. 22/5.jpg",
-             "Ref. LT. 22/6.jpg",
-             "Ref. LT. 22/7.jpg",
-             "Ref. LT. 22/8.jpg",
-             "Ref. LT. 22/9.jpg",
-             "Ref. LT. 22/10.jpg",
-             "Ref. LT. 22/11.jpg",],
+    referencia: "LT. 021",
+    imagenes: ["Ref. LT. 21/1.jpg",
+             "Ref. LT. 21/2.jpg",
+             "Ref. LT. 21/3.jpg",
+             "Ref. LT. 21/4.jpg",
+             "Ref. LT. 21/5.jpg",
+             "Ref. LT. 21/6.jpg",
+             "Ref. LT. 21/7.jpg",
+             "Ref. LT. 21/8.jpg",
+             "Ref. LT. 21/9.jpg",
+             "Ref. LT. 21/10.jpg",
+             "Ref. LT. 21/11.jpg",],
     precio: "$230.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "4,000 m²",
