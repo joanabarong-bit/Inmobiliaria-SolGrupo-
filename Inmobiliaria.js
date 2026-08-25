@@ -537,6 +537,56 @@ Disponibilidad de:
 📄 Documentación al día. Escritura con matricula independiente .`,
     videoYoutube: "https://www.youtube.com/watch?v=epFVfZrE9qg",
   },
+{
+    tipo: "Local",
+    nombre: "Local Comercial",
+    referencia: "Lc. 001",
+    imagenes: ["Ref. L.C. 01/1.jpeg",
+             "Ref. L.C. 01/2.jpeg",
+             "Ref. L.C. 01/3.jpeg",
+             "Ref. L.C. 01/4.jpeg",
+             "Ref. L.C. 01/5.jpeg",
+             "Ref. L.C. 01/6.jpeg",
+             "Ref. L.C. 01/7.jpeg",
+             "Ref. L.C. 01/8.jpeg",
+             "Ref. L.C. 01/9.jpeg",],
+    precio: "$150.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "28,671 m²",
+    areaPrivada:"-",
+    areaConstruida:"28,671 m²",
+    habitaciones: "-",
+    banos: "1",
+    descripcion: `🏢 LOCAL COMERCIAL EN EXCELENTE UBICACIÓN
+
+✨ Características del inmueble:
+
+📍 Ubicado en el segundo piso, en un sector estratégico con excelente potencial comercial.
+🪟 Grandes ventanales que permiten una excelente entrada de luz natural y brindan mayor 
+visibilidad al espacio, ideales para exhibición de productos o adecuación de oficina.
+
+🏪 Local 1 – No. 207
+
+📐 Área: 28,671 m²
+⚡ Energía eléctrica
+💧 Agua
+🔥 Gas natural
+🪟 Grandes ventanales
+
+🏪 Local 2 – No. 208
+
+📐 Área: 26,538 m²
+⚡ Energía eléctrica
+💧 Agua
+🔥 Gas natural
+🪟 Grandes ventanales
+
+💰 Valor de venta: $155.000.000
+
+✨ Excelente oportunidad de inversión para quienes buscan un espacio comercial con buena ubicación, 
+iluminación natural, visibilidad y servicios públicos disponibles.`,
+    videoYoutube: "-",
+  },
 ];
 
 
