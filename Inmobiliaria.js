@@ -331,11 +331,11 @@ Características:
 {
     tipo: "Finca",
     nombre: "Finca Rural",
-    referencia: "FC. 011",
-    imagenes: ["Ref. FC. 11/1.jpeg",
-             "Ref. FC. 11/2.jpeg",
-             "Ref. FC. 11/3.jpeg",
-             "Ref. FC. 11/4.jpeg",],
+    referencia: "FC. 012",
+    imagenes: ["Ref. FC. 12/1.jpeg",
+             "Ref. FC. 12/2.jpeg",
+             "Ref. FC. 12/3.jpeg",
+             "Ref. FC. 12/4.jpeg",],
     precio: "$445.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "6,000 m²",
@@ -408,6 +408,190 @@ Cuenta con casa de un nivel con:
 ✔ Acceso a punto de energía eléctrica
 ✔ cuenta con tres vías de acceso `,
     videoYoutube: "https://youtu.be/GJNmj6I9TFY",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 006",
+    imagenes: ["Ref. C. 06/1.jpeg",
+             "Ref. C. 06/2.jpeg",
+             "Ref. C. 06/3.jpeg",
+             "Ref. C. 06/4.jpeg",
+             "Ref. C. 06/5.jpeg",],
+    precio: "$350.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "146 m²",
+    areaPrivada:"146 m²",
+    areaConstruida:"146 m²",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `🏡 HERMOSA CASA EN VENTA – BARRIO RICAURTE
+
+✨ Excelente oportunidad de inversión en una de las zonas con mayor proyección y fácil acceso. 
+Esta propiedad se encuentra muy bien ubicada, cerca de vías principales y zonas comerciales. 
+Su distribución la convierte en una excelente opción tanto para vivienda familiar como para
+ obtener ingresos por arrendamiento.
+
+📍 Ubicación: Barrio Ricaurte
+📐 Área: 146 m²
+✨ Distribución del inmueble
+
+🏠 Casa primer piso:
+🛏️ 2 habitaciones
+🚿 1 baño
+🛋️ Sala comedor
+🍽️ Cocina
+🌿 Patio
+
+🏘️ 2 apartaestudios segundo piso:
+🛏️ 1 habitación
+🚿 1 baño cada uno
+
+🔧 Servicios
+💧 Agua
+⚡ Energía eléctrica
+🔥 Gas domiciliario
+
+📋 Documentación
+✅ Documentos totalmente al día
+✅ Propiedad urbana`,
+    videoYoutube: "https://youtu.be/roUAGcg7LGo?si=Q0gXQdPvFRutFmUV",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa Campestre",
+    referencia: "C. 003",
+    imagenes: ["Ref. C. 03/1.PNG",
+             "Ref. C. 03/2.PNG",
+             "Ref. C. 03/3.PNG",
+             "Ref. C. 03/4.PNG",
+             "Ref. C. 03/5.PNG",
+             "Ref. C. 03/6.PNG",
+             "Ref. C. 03/7.PNG",
+             "Ref. C. 03/8.PNG",
+             "Ref. C. 03/9.PNG",
+             "Ref. C. 03/10.PNG",
+             "Ref. C. 03/11.PNG",
+             "Ref. C. 03/12.PNG",
+             "Ref. C. 03/13.PNG",],
+    precio: "$145.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "500 m²",
+    areaPrivada:"500 m²",
+    areaConstruida:"60 m²",
+    habitaciones: "2",
+    banos: "1",
+    descripcion: `📌 ENCANTADORA CABAÑA CAMPESTRE EN VENTA
+MONIQUIRÁ BOYACÁ – VEREDA COLORADO
+
+🌿 Disfruta de la tranquilidad, el confort y una vista privilegiada en esta moderna propiedad de estilo campestre, ideal para descansar o vivir rodeado de naturaleza.
+
+📍 Ubicación: Vereda Colorado
+
+📐 Área total del lote: 500 m²
+🏠 Área construida: 60 m² Aprox.
+
+✨ Características del inmueble:
+
+🏡 Cabaña de dos niveles
+🏗️ Construcción tradicional en bloque y concreto
+🛏️ 2 habitaciones amplias
+🛁 1 baño con división en vidrio
+🛋️ Sala acogedora
+🍽️ Cocina integral
+🌅 Ventanales de piso a techo con excelente iluminación natural
+🪟 Vista panorámica a las montañas
+🪜 Escalera metálica con peldaños en madera
+🌳 Entorno natural y tranquilo
+🔧 Servicios y adicionales:
+💧 Servicio de agua
+⚡ Energía eléctrica
+🔥 Gas propano
+🚗 Espacio para parqueo
+
+🌿 Amplias zonas verdes alrededor de la propiedad
+✅ Excelente iluminación y ventilación natural
+✅ Ideal para vivienda, descanso o inversión turística
+✅ Ambiente seguro y rodeado de naturaleza`,
+    videoYoutube: "https://youtu.be/gLKxlGwuNvM?si=oWrGOo3HnSDxnNf0",
+  },
+{
+    tipo: "Lote",
+    nombre: "Lote en Condominio",
+    referencia: "LT. 011",
+    imagenes: ["Ref. LT. 11/1.jpeg",
+             "Ref. LT. 11/2.jpeg",
+             "Ref. LT. 11/3.jpeg",
+             "Ref. LT. 11/4.jpeg",
+             "Ref. LT. 11/5.jpeg",
+             "Ref. LT. 11/6.jpeg",
+             "Ref. LT. 11/7.jpeg",
+             "Ref. LT. 11/8.jpeg",],
+    precio: "$159.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1.372 m²",
+    areaPrivada:"1.372 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌Venta de Lote en condominio en Moniquirá – Boyacá
+
+Contamos con 1 lote disponibles en Condominio Campestre. Ubicado en Moniquirá, Boyacá
+
+📏Áreas
+
+✅ Lote – Área: 1.372 m²
+
+✅ Amplios senderos peatonales
+
+El condominio cuenta con:
+
+✨ Portería, lago, piscina, quioscos, BBQ
+✨ Zonas verdes, zona de juegos, acceso al río
+✨ Planta de tratamiento de aguas
+✨ Servicios públicos completos: agua, luz, gas y alcantarillado
+✨ Escritura independiente
+
+🏡 Además, si deseas adquirir tu lote y construir tu casa con nosotros, recibirás totalmente gratis el diseño arquitectónico personalizado.`,
+    videoYoutube: "https://youtu.be/gToaauh3vaA?si=J8ieyir0D8o5R2aV",
+  },
+{
+    tipo: "Lote",
+    nombre: "Lote",
+    referencia: "LT. 022",
+    imagenes: ["Ref. LT. 22/1.jpg",
+             "Ref. LT. 22/2.jpg",
+             "Ref. LT. 22/3.jpg",
+             "Ref. LT. 22/4.jpg",
+             "Ref. LT. 22/5.jpg",
+             "Ref. LT. 22/6.jpg",
+             "Ref. LT. 22/7.jpg",
+             "Ref. LT. 22/8.jpg",
+             "Ref. LT. 22/9.jpg",
+             "Ref. LT. 22/10.jpg",
+             "Ref. LT. 22/11.jpg",],
+    precio: "$230.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "4,000 m²",
+    areaPrivada:"4,000 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏡 Se venden lotes en Moniquirá , Boyacá
+
+📍 Ubicado en la vereda ubaza Están ubicados a tan solo 12 minutos (4,6 kilómetros) del casco urbano.
+
+📐 Área: 4.000 metros cuadrados
+🌄 Topografía ondulada, en su mayoría plana
+
+Disponibilidad de:
+
+⚡ Punto de luz
+💧 Acueducto veredal y aljibe
+🔥 gas natural
+
+📄 Documentación al día. Escritura con matricula independiente .`,
+    videoYoutube: "https://www.youtube.com/watch?v=epFVfZrE9qg",
   },
 ];
 
