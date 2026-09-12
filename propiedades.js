@@ -650,16 +650,64 @@ una ubicación estratégica con gran potencial comercial.`,
 
 {
     tipo: "Casa",
-    nombre: "Casa Rural",
+    nombre: "Casa Lote",
     referencia: "C. 001",
-    imagenes: ["Ref. C. 01/1.jpeg",
-             "Ref. C. 01/2.jpeg",
-             "Ref. C. 01/3.jpeg",
-             "Ref. C. 01/4.jpeg",
-             "Ref. C. 01/5.jpeg",
-             "Ref. C. 01/6.jpeg",
-             "Ref. C. 01/7.jpeg",
-             "Ref. C. 01/8.jpeg",],
+    imagenes: ["Ref. C. 01/1.jpg",
+             "Ref. C. 01/2.jpg",
+             "Ref. C. 01/3.jpg",
+             "Ref. C. 01/4.jpg",
+             "Ref. C. 01/5.jpg",
+             "Ref. C. 01/6.jpg",
+             "Ref. C. 01/7.jpg",
+             "Ref. C. 01/8.jpg",
+             "Ref. C. 01/9.jpg",
+             "Ref. C. 01/10.jpg",
+             "Ref. C. 01/11.jpg",
+             "Ref. C. 01/12.jpg",
+             "Ref. C. 01/13.jpg",
+             "Ref. C. 01/14.jpg",
+             "Ref. C. 01/1.jpg",
+             "Ref. C. 01/16.jpg",
+             "Ref. C. 01/17.jpg",],
+    precio: "$119.000.000",
+    ubicacion: "San José de Pare, Boyacá",
+    area: "137 m²",
+    areaPrivada:"137 m²",
+    areaConstruida:"61 m²",
+    habitaciones: "2",
+    banos: "1",
+    descripcion: `📍 ¡Se vende hermosa casa lote en San José de Pare, Boyacá! 🏠✨
+
+📏 Área total: 137 m² de terreno
+🏗️ Área construida: 61 m²
+🔹 La casa cuenta con:
+🛋️ Sala
+🍽️ Comedor
+👩‍🍳 Cocina
+🛏️ Dos habitaciones
+🚻 Baño social
+🧺 Patio de ropas
+🌿 Amplios corredores
+🚗 Parqueadero para tres vehículos
+💵 Precio: 130´000.000 millones
+📌 Ubicación estratégica:
+
+A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa a Bucaramanga, con fácil acceso al municipio.
+🌳 Ideal para invertir o disfrutar de la tranquilidad del campo.`,
+    videoYoutube: "https://youtu.be/MloCLaBm91g",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa Rural",
+    referencia: "C. 002",
+    imagenes: ["Ref. C. 02/1.jpeg",
+             "Ref. C. 02/2.jpeg",
+             "Ref. C. 02/3.jpeg",
+             "Ref. C. 02/4.jpeg",
+             "Ref. C. 02/5.jpeg",
+             "Ref. C. 02/6.jpeg",
+             "Ref. C. 02/7.jpeg",
+             "Ref. C. 02/8.jpeg",],
     precio: "$129.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "650 m²",
@@ -695,54 +743,6 @@ una ubicación estratégica con gran potencial comercial.`,
 🌿 Ideal para descanso, vivienda o inversión en renta turística
 `,
     videoYoutube: "https://youtu.be/jb7mfAkiB-k?si=7l9wEpzcUARIxM-x",
-  },
-{
-    tipo: "Casa",
-    nombre: "Casa Lote",
-    referencia: "C. 002",
-    imagenes: ["Ref. C. 02/1.jpg",
-             "Ref. C. 02/2.jpg",
-             "Ref. C. 02/3.jpg",
-             "Ref. C. 02/4.jpg",
-             "Ref. C. 02/5.jpg",
-             "Ref. C. 02/6.jpg",
-             "Ref. C. 02/7.jpg",
-             "Ref. C. 02/8.jpg",
-             "Ref. C. 02/9.jpg",
-             "Ref. C. 02/10.jpg",
-             "Ref. C. 02/11.jpg",
-             "Ref. C. 02/12.jpg",
-             "Ref. C. 02/13.jpg",
-             "Ref. C. 02/14.jpg",
-             "Ref. C. 02/1.jpg",
-             "Ref. C. 02/16.jpg",
-             "Ref. C. 02/17.jpg",],
-    precio: "$130.000.000",
-    ubicacion: "San José de Pare, Boyacá",
-    area: "137 m²",
-    areaPrivada:"137 m²",
-    areaConstruida:"61 m²",
-    habitaciones: "2",
-    banos: "1",
-    descripcion: `📍 ¡Se vende hermosa casa lote en San José de Pare, Boyacá! 🏠✨
-
-📏 Área total: 137 m² de terreno
-🏗️ Área construida: 61 m²
-🔹 La casa cuenta con:
-🛋️ Sala
-🍽️ Comedor
-👩‍🍳 Cocina
-🛏️ Dos habitaciones
-🚻 Baño social
-🧺 Patio de ropas
-🌿 Amplios corredores
-🚗 Parqueadero para tres vehículos
-💵 Precio: 130´000.000 millones
-📌 Ubicación estratégica:
-
-A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa a Bucaramanga, con fácil acceso al municipio.
-🌳 Ideal para invertir o disfrutar de la tranquilidad del campo.`,
-    videoYoutube: "https://youtu.be/MloCLaBm91g",
   },
 {
     tipo: "Casa",
@@ -969,7 +969,7 @@ Su distribución la convierte en una excelente opción tanto para vivienda famil
              "Ref. C. 07/12.jpg",
              "Ref. C. 07/13.jpg",
              "Ref. C. 07/14.jpg",],
-    precio: "$399.000.000",
+    precio: "$385.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
     areaPrivada:"1,238 m²",
@@ -1001,89 +1001,23 @@ Su distribución la convierte en una excelente opción tanto para vivienda famil
     tipo: "Casa",
     nombre: "Casa Urbana",
     referencia: "C. 008",
-    imagenes: ["Ref. C. 08/1.jpeg",
-             "Ref. C. 08/2.jpeg",
-             "Ref. C. 08/3.jpeg",
-             "Ref. C. 08/4.jpeg",
-             "Ref. C. 08/5.jpeg",
-             "Ref. C. 08/6.jpeg",
-             "Ref. C. 08/7.jpeg",
-             "Ref. C. 08/8.jpeg",
-             "Ref. C. 08/9.jpeg",
-             "Ref. C. 08/10.jpeg",
-             "Ref. C. 08/11.jpeg",
-             "Ref. C. 08/12.jpeg",
-             "Ref. C. 08/13.jpeg",
-             "Ref. C. 08/14.jpeg",],
-    precio: "$440.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "558 m²",
-    areaPrivada:"558 m²",
-    areaConstruida:"181 m²",
-    habitaciones: "3",
-    banos: "2",
-    descripcion: `🏡¡CASA EN CONDOMINIO EN VENTA EN MONIQUIRÁ - BOYACÁ!
-
-✨ Comodidad, seguridad y excelente ubicación
-
-📍 Ubicación
-🚗 A solo 5 minutos del parque principal
-
-📐 Áreas
-🌳 Lote: 558 m²
-🏠 Construida: 181 m²
-
-
-🏠 Casa de dos pisos
-
-🔹 Primer piso:
-🍳 Cocina integral
-🛋️ Sala comedor
-🛏️ 1 habitación con baño privado
-🚿 1 baño social
-🚶 Corredores
-
-🔹 Segundo piso:
-🛋️ Sala de estar
-🌅 Balcón con vista panorámica
-🛏️ 2 habitaciones
-🚿 1 baño social
-
-🧺 Zona de lavandería
-🚗 Parqueadero para 3 carros
-
-🌳 Zona para cultivo de árboles cítricos
-
-💡 Cuenta con todos los servicios
-
-🔹 Zonas sociales:
-🎉 Salón social
-🚗 Parqueadero comunal
-🏊 Piscina
-🔥 Zona BBQ`,
-    videoYoutube: "https://youtu.be/6H4QTncNsSQ",
-  },
-{
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 009",
-    imagenes: ["Ref. C. 09/1.jpg",
-             "Ref. C. 09/2.jpg",
-             "Ref. C. 09/3.jpg",
-             "Ref. C. 09/4.jpg",
-             "Ref. C. 09/5.jpg",
-             "Ref. C. 09/6.jpg",
-             "Ref. C. 09/7.jpg",
-             "Ref. C. 09/8.jpg",
-             "Ref. C. 09/9.jpg",
-             "Ref. C. 09/10.jpg",
-             "Ref. C. 09/11.jpg",
-             "Ref. C. 09/12.jpg",
-             "Ref. C. 09/13.jpg",
-             "Ref. C. 09/14.jpg",
-             "Ref. C. 09/15.jpg",
-             "Ref. C. 09/16.jpg",
-             "Ref. C. 09/17.jpg",],
+    imagenes: ["Ref. C. 08/1.jpg",
+             "Ref. C. 08/2.jpg",
+             "Ref. C. 08/3.jpg",
+             "Ref. C. 08/4.jpg",
+             "Ref. C. 08/5.jpg",
+             "Ref. C. 08/6.jpg",
+             "Ref. C. 08/7.jpg",
+             "Ref. C. 08/8.jpg",
+             "Ref. C. 08/9.jpg",
+             "Ref. C. 08/10.jpg",
+             "Ref. C. 08/11.jpg",
+             "Ref. C. 08/12.jpg",
+             "Ref. C. 08/13.jpg",
+             "Ref. C. 08/14.jpg",
+             "Ref. C. 08/15.jpg",
+             "Ref. C. 08/16.jpg",
+             "Ref. C. 08/17.jpg",],
     precio: "$490.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "270 m²",
@@ -1119,25 +1053,25 @@ Documentos al día.`,
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 010",
-    imagenes: ["Ref. C. 10/1.jpg",
-             "Ref. C. 10/2.jpg",
-             "Ref. C. 10/3.jpg",
-             "Ref. C. 10/4.jpg",
-             "Ref. C. 10/5.jpg",
-             "Ref. C. 10/6.jpg",
-             "Ref. C. 10/7.jpg",
-             "Ref. C. 10/8.jpg",
-             "Ref. C. 10/9.jpg",
-             "Ref. C. 10/10.jpg",
-             "Ref. C. 10/11.jpg",
-             "Ref. C. 10/12.jpg",
-             "Ref. C. 10/13.jpg",
-             "Ref. C. 10/14.jpg",
-             "Ref. C. 10/15.jpg",
-             "Ref. C. 10/16.jpg",
-             "Ref. C. 10/17.jpg",
-             "Ref. C. 10/18.jpg",],
+    referencia: "C. 009",
+    imagenes: ["Ref. C. 09/1.jpg",
+             "Ref. C. 09/2.jpg",
+             "Ref. C. 09/3.jpg",
+             "Ref. C. 09/4.jpg",
+             "Ref. C. 09/5.jpg",
+             "Ref. C. 09/6.jpg",
+             "Ref. C. 09/7.jpg",
+             "Ref. C. 09/8.jpg",
+             "Ref. C. 09/9.jpg",
+             "Ref. C. 09/10.jpg",
+             "Ref. C. 09/11.jpg",
+             "Ref. C. 09/12.jpg",
+             "Ref. C. 09/13.jpg",
+             "Ref. C. 09/14.jpg",
+             "Ref. C. 09/15.jpg",
+             "Ref. C. 09/16.jpg",
+             "Ref. C. 09/17.jpg",
+             "Ref. C. 09/18.jpg",],
     precio: "$510.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "272 m²",
@@ -1178,15 +1112,15 @@ Características Internas
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 011",
-    imagenes: ["Ref. C. 11/1.jpeg",
-             "Ref. C. 11/2.jpeg",
-             "Ref. C. 11/3.jpeg",
-             "Ref. C. 11/4.jpeg",
-             "Ref. C. 11/5.jpeg",
-             "Ref. C. 11/6.jpeg",
-             "Ref. C. 11/7.jpeg",
-             "Ref. C. 11/8.jpeg",],
+    referencia: "C. 010",
+    imagenes: ["Ref. C. 10/1.jpeg",
+             "Ref. C. 10/2.jpeg",
+             "Ref. C. 10/3.jpeg",
+             "Ref. C. 10/4.jpeg",
+             "Ref. C. 10/5.jpeg",
+             "Ref. C. 10/6.jpeg",
+             "Ref. C. 10/7.jpeg",
+             "Ref. C. 10/8.jpeg",],
     precio: "$550.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "168 m²",
@@ -1225,14 +1159,14 @@ Características Internas
 {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 012",
-    imagenes: ["Ref. C. 12/1.jpg",
-             "Ref. C. 12/2.jpg",
-             "Ref. C. 12/3.jpg",
-             "Ref. C. 12/4.jpg",
-             "Ref. C. 12/5.jpg",
-             "Ref. C. 12/6.jpg",
-             "Ref. C. 12/7.jpg",],
+    referencia: "C. 011",
+    imagenes: ["Ref. C. 11/1.jpg",
+             "Ref. C. 11/2.jpg",
+             "Ref. C. 11/3.jpg",
+             "Ref. C. 11/4.jpg",
+             "Ref. C. 11/5.jpg",
+             "Ref. C. 11/6.jpg",
+             "Ref. C. 11/7.jpg",],
     precio: "$560.000.000",
     ubicacion: "Barbosa, Santander",
     area: "200 m²",
@@ -1276,17 +1210,17 @@ Pago de administración: $85.000 pesos`,
 {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 013",
-    imagenes: ["Ref. C. 13/1.png",
-             "Ref. C. 13/2.jpg",
-             "Ref. C. 13/3.png",
-             "Ref. C. 13/4.png",
-             "Ref. C. 13/5.png",
-             "Ref. C. 13/6.jpg",
-             "Ref. C. 13/7.png",
-             "Ref. C. 13/8.jpg",
-             "Ref. C. 13/9.png",
-             "Ref. C. 13/10.png",],
+    referencia: "C. 012",
+    imagenes: ["Ref. C. 12/1.png",
+             "Ref. C. 12/2.jpg",
+             "Ref. C. 12/3.png",
+             "Ref. C. 12/4.png",
+             "Ref. C. 12/5.png",
+             "Ref. C. 12/6.jpg",
+             "Ref. C. 12/7.png",
+             "Ref. C. 12/8.jpg",
+             "Ref. C. 12/9.png",
+             "Ref. C. 12/10.png",],
     precio: "$565.000.000",
     ubicacion: "Barbosa, Santander",
     area: "677 m²",
@@ -1326,6 +1260,77 @@ Te ofrecemos una casa de un piso en un condominio Campestre.
 ✔el condominio cuenta con alcantarillado y acueducto propio. 
 ¡Se entrega totalmente terminada!
 Pago de administración: $90.000 pesos`,
+    videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 013",
+    imagenes: ["Ref. C. 13/1.jpeg",
+             "Ref. C. 13/2.jpeg",
+             "Ref. C. 13/3.jpeg",
+             "Ref. C. 13/4.jpeg",
+             "Ref. C. 13/5.jpeg",
+             "Ref. C. 13/6.jpeg",
+             "Ref. C. 13/7.jpeg",
+             "Ref. C. 13/8.jpeg",
+             "Ref. C. 13/9.jpeg",
+             "Ref. C. 13/10.jpeg",
+             "Ref. C. 13/11.jpeg",
+             "Ref. C. 13/12.jpeg",],
+    precio: "$570.000.000",
+    ubicacion: "Tunja, Boyacá",
+    area: "270 m²",
+    areaPrivada:"270 m²",
+    areaConstruida:"270 m²",
+    habitaciones: "6",
+    banos: "4",
+    descripcion: `🏡 CASA EN VENTA TUNJA – BOYACÁ
+
+📍 Ubicada en la Urbanización Balcones del Norte, Tunja, en un sector 
+residencial ideal para quienes buscan una propiedad amplia, funcional y 
+con excelentes posibilidades de inversión.
+
+✨ Esta hermosa casa de 3 niveles cuenta además con un apartamento totalmente 
+independiente, ofreciendo espacios cómodos para toda la familia y una excelente
+ alternativa para generar ingresos adicionales.
+
+📐 Área: 270 m²
+
+🏠 Apartamento independiente:
+
+El apartamento cuenta con acceso y espacios completamente independientes, distribuidos de la siguiente manera:
+
+🛋️ Sala-comedor
+🍳 Cocina integral
+🛏️ 3 habitaciones
+🚿 1 habitación con baño privado
+🚽 1 baño social
+🧺 Patio de ropas
+🚗 Garaje amplio
+
+🏡 Segundo Nivel:
+
+🛏️ 2 habitaciones
+🚿 1 habitación con baño privado y closet
+🚽 Baño social
+🍳 Cocina integral
+🛋️ Sala-comedor con chimenea
+🧺 Patio de ropas
+
+✨ Tercer Nivel:
+
+Disfruta de un espacio más privado y especial:
+🛏️ Habitación principal
+🚿 Baño privado
+👗 Walking closet
+🖥️ Estudio
+🌿 Balcón
+☀️ Terraza
+
+📑 Documentación:
+
+✅ Documentos totalmente al día, lista para realizar el proceso de compra.`,
     videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
   },
 {
@@ -1434,73 +1439,25 @@ Documentos al día.`,
   },
 {
     tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 016",
-    imagenes: ["Ref. C. 16/1.jpeg",
-             "Ref. C. 16/2.jpeg",
-             "Ref. C. 16/3.jpeg",
-             "Ref. C. 16/4.jpeg",
-             "Ref. C. 16/5.jpeg",
-             "Ref. C. 16/6.jpeg",
-             "Ref. C. 16/7.jpeg",
-             "Ref. C. 16/8.jpeg",
-             "Ref. C. 16/9.jpeg",
-             "Ref. C. 16/10.jpeg",
-             "Ref. C. 16/11.jpeg",
-             "Ref. C. 16/12.jpeg",
-             "Ref. C. 16/13.jpeg",],
-    precio: "$620.000.000",
-    ubicacion: "Simijaca, Cundinamarca",
-    area: "240 m²",
-    areaPrivada:"240 m²",
-    areaConstruida:"240 m²",
-    habitaciones: "4",
-    banos: "3",
-    descripcion: `🏡 casa en venta – Simijaca, Cundinamarca!
-📍 Ubicación: Calle 8 #9-69, Barrio Orquídea, Simijaca
-
-📐 Área construida: 240 m²
-🏠 Distribución:
-✨ Primer piso:
-🛋️ Sala amplia
-🍽️ Comedor y cocina integral abiertas
-🧰 Cuarto pequeño para herramientas
-🧺 Cuarto de ropa
-🚻 Baño social
-🚗 Dos garajes
-✨ Segundo piso:
-🛏️ Cuatro alcobas con chifonier
-💻 Estudio pequeño
-🚿 Dos baños completos
-🌅 Dos miradores
-⚡ Características adicionales:
-💡 Luz trifásica
-🔆 Iluminación interior y exterior (control desde la entrada y el final de la casa)
-📹 Sistema de cámaras de seguridad
-🔥 Calentador a gas`,
-    videoYoutube: "https://youtu.be/6lFXeePrJhI",
-  },
-{
-    tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 017",
-    imagenes: ["Ref. C. 17/1.jpg",
-             "Ref. C. 17/2.jpg",
-             "Ref. C. 17/3.jpg",
-             "Ref. C. 17/4.jpg",
-             "Ref. C. 17/5.jpg",
-             "Ref. C. 17/6.jpg",
-             "Ref. C. 17/7.jpg",
-             "Ref. C. 17/8.jpg",
-             "Ref. C. 17/9.jpg",
-             "Ref. C. 17/10.jpg",
-             "Ref. C. 17/11.jpg",
-             "Ref. C. 17/12.jpg",
-             "Ref. C. 17/13.jpg",
-             "Ref. C. 17/14.jpg",
-             "Ref. C. 17/15.jpg",
-             "Ref. C. 17/16.jpg",
-             "Ref. C. 17/17.jpg",],
+    referencia: "C. 016",
+    imagenes: ["Ref. C. 16/1.jpg",
+             "Ref. C. 16/2.jpg",
+             "Ref. C. 16/3.jpg",
+             "Ref. C. 16/4.jpg",
+             "Ref. C. 16/5.jpg",
+             "Ref. C. 16/6.jpg",
+             "Ref. C. 16/7.jpg",
+             "Ref. C. 16/8.jpg",
+             "Ref. C. 16/9.jpg",
+             "Ref. C. 16/10.jpg",
+             "Ref. C. 16/11.jpg",
+             "Ref. C. 16/12.jpg",
+             "Ref. C. 16/13.jpg",
+             "Ref. C. 16/14.jpg",
+             "Ref. C. 16/15.jpg",
+             "Ref. C. 16/16.jpg",
+             "Ref. C. 16/17.jpg",],
     precio: "$600.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "187 m²",
@@ -1537,18 +1494,132 @@ PISO 2:
   },
 {
     tipo: "Casa",
+    nombre: "Casa Urbana",
+    referencia: "C. 017",
+    imagenes: ["Ref. C. 17/1.jpeg",
+             "Ref. C. 17/2.jpeg",
+             "Ref. C. 17/3.jpeg",
+             "Ref. C. 17/4.jpeg",
+             "Ref. C. 17/5.jpeg",
+             "Ref. C. 17/6.jpeg",
+             "Ref. C. 17/7.jpeg",
+             "Ref. C. 17/8.jpeg",
+             "Ref. C. 17/9.jpeg",
+             "Ref. C. 17/10.jpeg",
+             "Ref. C. 17/11.jpeg",
+             "Ref. C. 17/12.jpeg",
+             "Ref. C. 17/13.jpeg",],
+    precio: "$620.000.000",
+    ubicacion: "Simijaca, Cundinamarca",
+    area: "240 m²",
+    areaPrivada:"240 m²",
+    areaConstruida:"240 m²",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `🏡 casa en venta – Simijaca, Cundinamarca!
+📍 Ubicación: Calle 8 #9-69, Barrio Orquídea, Simijaca
+
+📐 Área construida: 240 m²
+🏠 Distribución:
+✨ Primer piso:
+🛋️ Sala amplia
+🍽️ Comedor y cocina integral abiertas
+🧰 Cuarto pequeño para herramientas
+🧺 Cuarto de ropa
+🚻 Baño social
+🚗 Dos garajes
+✨ Segundo piso:
+🛏️ Cuatro alcobas con chifonier
+💻 Estudio pequeño
+🚿 Dos baños completos
+🌅 Dos miradores
+⚡ Características adicionales:
+💡 Luz trifásica
+🔆 Iluminación interior y exterior (control desde la entrada y el final de la casa)
+📹 Sistema de cámaras de seguridad
+🔥 Calentador a gas`,
+    videoYoutube: "https://youtu.be/6lFXeePrJhI",
+  },
+{
+    tipo: "Casa",
     nombre: "Casa en Condominio",
     referencia: "C. 018",
-    imagenes: ["Ref. C. 18/1.png",
-             "Ref. C. 18/2.jpg",
-             "Ref. C. 18/3.png",
-             "Ref. C. 18/4.png",
-             "Ref. C. 18/5.png",
-             "Ref. C. 18/6.png",
-             "Ref. C. 18/7.png",
-             "Ref. C. 18/8.png",
-             "Ref. C. 18/9.png",
-             "Ref. C. 18/10.png",],
+    imagenes: ["Ref. C. 18/1.jpeg",
+             "Ref. C. 18/2.jpeg",
+             "Ref. C. 18/3.jpeg",
+             "Ref. C. 18/4.jpeg",
+             "Ref. C. 18/5.jpeg",
+             "Ref. C. 18/6.jpeg",
+             "Ref. C. 18/7.jpeg",
+             "Ref. C. 18/8.jpeg",
+             "Ref. C. 18/9.jpeg",
+             "Ref. C. 18/10.jpeg",],
+    precio: "$650.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "1,335 m²",
+    areaPrivada:"1.335 m²",
+    areaConstruida:"- m²",
+    habitaciones: "4",
+    banos: "3",
+    descripcion: `🏡 CASA EN VENTA EN CONDOMINIO – MONIQUIRÁ, BOYACÁ 🌿
+
+✨ Vive rodeado de naturaleza, tranquilidad y excelentes espacios 
+sociales en esta hermosa propiedad ubicada en condominio en Moniquirá, Boyacá.
+
+📐 Área del terreno: 1.335 m²
+
+La propiedad cuenta con dos construcciones, amplias zonas verdes, 
+árboles frutales y espacios ideales para disfrutar en familia.
+
+🏠 PRIMERA CONSTRUCCIÓN
+* Cocina integral con barra americana
+* Sala-comedor
+* 4 habitaciones con clóset
+* 3 Baños
+* Balcón
+* Parqueadero
+
+🏡 SEGUNDA CONSTRUCCIÓN – APARTAESTUDIO INDEPENDIENTE
+* Cocina integral
+* Espacio independiente
+* Bodega
+
+🌳 ZONAS EXTERIORES
+* Amplias zonas verdes
+* Árboles frutales
+* Zona BBQ
+* Garaje cubierto
+* Garaje abierto
+* Espacios ideales para descansar y compartir en familia
+
+🏊 ZONAS COMUNES DEL CONDOMINIO
+* Piscina 🏊‍♂️
+* Cancha de baloncesto 🏀
+* Cancha de fútbol ⚽
+* Salas de uso común
+* Salón social o de eventos 🎉
+* Portería con control de acceso 🔐
+
+💡 SERVICIOS PÚBLICOS
+* Energía eléctrica ⚡
+* Agua de acueducto 💧
+* Gas natural 🔥`,
+    videoYoutube: "https://youtu.be/ph7EkW_keFg?si=c5lu7mQxtfivklJ3",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 019",
+    imagenes: ["Ref. C. 19/1.png",
+             "Ref. C. 19/2.jpg",
+             "Ref. C. 19/3.png",
+             "Ref. C. 19/4.png",
+             "Ref. C. 19/5.png",
+             "Ref. C. 19/6.png",
+             "Ref. C. 19/7.png",
+             "Ref. C. 19/8.png",
+             "Ref. C. 19/9.png",
+             "Ref. C. 19/10.png",],
     precio: "$700.000.000",
     ubicacion: "Barbosa, Santander",
     area: "696 m²",
@@ -1594,22 +1665,22 @@ Pago de administración: $90.000 pesos`,
 {
     tipo: "Casa",
     nombre: "Casa Rural",
-    referencia: "C. 019",
-    imagenes: ["Ref. C. 19/1.jpeg",
-             "Ref. C. 19/2.jpeg",
-             "Ref. C. 19/3.jpeg",
-             "Ref. C. 19/4.jpeg",
-             "Ref. C. 19/5.jpeg",
-             "Ref. C. 19/6.jpeg",
-             "Ref. C. 19/7.jpeg",
-             "Ref. C. 19/8.jpeg",
-             "Ref. C. 19/9.jpeg",
-             "Ref. C. 19/10.jpeg",
-             "Ref. C. 19/11.jpeg",
-             "Ref. C. 19/12.jpeg",
-             "Ref. C. 19/13.jpeg",
-             "Ref. C. 19/14.jpeg",
-             "Ref. C. 19/15.jpeg",],
+    referencia: "C. 020",
+    imagenes: ["Ref. C. 20/1.jpeg",
+             "Ref. C. 20/2.jpeg",
+             "Ref. C. 20/3.jpeg",
+             "Ref. C. 20/4.jpeg",
+             "Ref. C. 20/5.jpeg",
+             "Ref. C. 20/6.jpeg",
+             "Ref. C. 20/7.jpeg",
+             "Ref. C. 20/8.jpeg",
+             "Ref. C. 20/9.jpeg",
+             "Ref. C. 20/10.jpeg",
+             "Ref. C. 20/11.jpeg",
+             "Ref. C. 20/12.jpeg",
+             "Ref. C. 20/13.jpeg",
+             "Ref. C. 20/14.jpeg",
+             "Ref. C. 20/15.jpeg",],
     precio: "$735.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "2,064 m²",
@@ -1660,14 +1731,14 @@ Espacio para aproximadamente 3 vehículos`,
 {
     tipo: "Casa",
     nombre: "Casa Rural",
-    referencia: "C. 020",
-    imagenes: ["Ref. C. 20/1.jpeg",
-             "Ref. C. 20/2.jpeg",
-             "Ref. C. 20/3.jpeg",
-             "Ref. C. 20/4.jpeg",
-             "Ref. C. 20/5.jpeg",
-             "Ref. C. 20/6.jpeg",
-             "Ref. C. 20/7.jpeg",],
+    referencia: "C. 021",
+    imagenes: ["Ref. C. 21/1.jpeg",
+             "Ref. C. 21/2.jpeg",
+             "Ref. C. 21/3.jpeg",
+             "Ref. C. 21/4.jpeg",
+             "Ref. C. 21/5.jpeg",
+             "Ref. C. 21/6.jpeg",
+             "Ref. C. 21/7.jpeg",],
     precio: "$750.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1.000 m²",
@@ -1722,22 +1793,22 @@ Espacio para aproximadamente 3 vehículos`,
 {
     tipo: "Casa",
     nombre: "Casa Campestre",
-    referencia: "C. 021",
-    imagenes: ["Ref. C. 21/1.jpg",
-             "Ref. C. 21/2.jpg",
-             "Ref. C. 21/3.jpg",
-             "Ref. C. 21/4.jpg",
-             "Ref. C. 21/5.jpg",
-             "Ref. C. 21/6.jpg",
-             "Ref. C. 21/7.jpg",
-             "Ref. C. 21/8.jpg",
-             "Ref. C. 21/9.jpg",
-             "Ref. C. 21/10.jpg",
-             "Ref. C. 21/11.jpg",
-             "Ref. C. 21/12.jpg",
-             "Ref. C. 21/13.jpg",
-             "Ref. C. 21/14.jpg",
-             "Ref. C. 21/15.jpg",],
+    referencia: "C. 022",
+    imagenes: ["Ref. C. 22/1.jpg",
+             "Ref. C. 22/2.jpg",
+             "Ref. C. 22/3.jpg",
+             "Ref. C. 22/4.jpg",
+             "Ref. C. 22/5.jpg",
+             "Ref. C. 22/6.jpg",
+             "Ref. C. 22/7.jpg",
+             "Ref. C. 22/8.jpg",
+             "Ref. C. 22/9.jpg",
+             "Ref. C. 22/10.jpg",
+             "Ref. C. 22/11.jpg",
+             "Ref. C. 22/12.jpg",
+             "Ref. C. 22/13.jpg",
+             "Ref. C. 22/14.jpg",
+             "Ref. C. 22/15.jpg",],
     precio: "$790.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "2,400 m²",
@@ -1774,22 +1845,22 @@ Espacio para aproximadamente 3 vehículos`,
 {
     tipo: "Casa",
     nombre: "Casa Quinta en Condominio",
-    referencia: "C. 022",
-    imagenes: ["Ref. C. 22/1.jpeg",
-             "Ref. C. 22/2.jpeg",
-             "Ref. C. 22/3.jpeg",
-             "Ref. C. 22/4.jpeg",
-             "Ref. C. 22/5.jpeg",
-             "Ref. C. 22/6.jpeg",
-             "Ref. C. 22/7.jpeg",
-             "Ref. C. 22/8.jpeg",
-             "Ref. C. 22/9.jpeg",
-             "Ref. C. 22/10.jpeg",
-             "Ref. C. 22/11.jpeg",
-             "Ref. C. 22/12.jpeg",
-             "Ref. C. 22/13.jpeg",
-             "Ref. C. 22/14.jpeg",
-             "Ref. C. 22/15.jpeg",],
+    referencia: "C. 023",
+    imagenes: ["Ref. C. 23/1.jpeg",
+             "Ref. C. 23/2.jpeg",
+             "Ref. C. 23/3.jpeg",
+             "Ref. C. 23/4.jpeg",
+             "Ref. C. 23/5.jpeg",
+             "Ref. C. 23/6.jpeg",
+             "Ref. C. 23/7.jpeg",
+             "Ref. C. 23/8.jpeg",
+             "Ref. C. 23/9.jpeg",
+             "Ref. C. 23/10.jpeg",
+             "Ref. C. 23/11.jpeg",
+             "Ref. C. 23/12.jpeg",
+             "Ref. C. 23/13.jpeg",
+             "Ref. C. 23/14.jpeg",
+             "Ref. C. 23/15.jpeg",],
     precio: "$820.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,600 m²",
@@ -1835,21 +1906,21 @@ Espacio para aproximadamente 3 vehículos`,
 {
     tipo: "Casa",
     nombre: "Casa en Condominios",
-    referencia: "C. 023",
-    imagenes: ["Ref. C. 23/1.jpeg",
-             "Ref. C. 23/2.jpeg",
-             "Ref. C. 23/3.jpeg",
-             "Ref. C. 23/4.jpeg",
-             "Ref. C. 23/5.jpeg",
-             "Ref. C. 23/6.jpeg",
-             "Ref. C. 23/7.jpeg",
-             "Ref. C. 23/8.jpeg",
-             "Ref. C. 23/9.jpeg",
-             "Ref. C. 23/10.jpeg",
-             "Ref. C. 23/11.jpeg",
-             "Ref. C. 23/12.jpeg",
-             "Ref. C. 23/13.jpeg",
-             "Ref. C. 23/14.jpeg",],
+    referencia: "C. 024",
+    imagenes: ["Ref. C. 24/1.jpeg",
+             "Ref. C. 24/2.jpeg",
+             "Ref. C. 24/3.jpeg",
+             "Ref. C. 24/4.jpeg",
+             "Ref. C. 24/5.jpeg",
+             "Ref. C. 24/6.jpeg",
+             "Ref. C. 24/7.jpeg",
+             "Ref. C. 24/8.jpeg",
+             "Ref. C. 24/9.jpeg",
+             "Ref. C. 24/10.jpeg",
+             "Ref. C. 24/11.jpeg",
+             "Ref. C. 24/12.jpeg",
+             "Ref. C. 24/13.jpeg",
+             "Ref. C. 24/14.jpeg",],
     precio: "$850.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,045 m²",
@@ -1883,26 +1954,26 @@ portón automático se abre desde el celular
 {
     tipo: "Casa",
     nombre: "Casa Campestre",
-    referencia: "C. 024",
-    imagenes: ["Ref. C. 24/1.jpeg",
-             "Ref. C. 24/2.jpeg",
-             "Ref. C. 24/3.jpeg",
-             "Ref. C. 24/4.jpeg",
-             "Ref. C. 24/5.jpeg",
-             "Ref. C. 24/6.jpeg",
-             "Ref. C. 24/7.jpeg",
-             "Ref. C. 24/8.jpeg",
-             "Ref. C. 24/9.jpeg",
-             "Ref. C. 24/10.jpeg",
-             "Ref. C. 24/11.jpeg",
-             "Ref. C. 24/12.jpeg",
-             "Ref. C. 24/13.jpeg",
-             "Ref. C. 24/14.jpeg",
-             "Ref. C. 24/15.jpeg",
-             "Ref. C. 24/16.jpeg",
-             "Ref. C. 24/17.jpeg",
-             "Ref. C. 24/18.jpeg",
-             "Ref. C. 24/19.jpeg",],
+    referencia: "C. 025",
+    imagenes: ["Ref. C. 25/1.jpeg",
+             "Ref. C. 25/2.jpeg",
+             "Ref. C. 25/3.jpeg",
+             "Ref. C. 25/4.jpeg",
+             "Ref. C. 25/5.jpeg",
+             "Ref. C. 25/6.jpeg",
+             "Ref. C. 25/7.jpeg",
+             "Ref. C. 25/8.jpeg",
+             "Ref. C. 25/9.jpeg",
+             "Ref. C. 25/10.jpeg",
+             "Ref. C. 25/11.jpeg",
+             "Ref. C. 25/12.jpeg",
+             "Ref. C. 25/13.jpeg",
+             "Ref. C. 25/14.jpeg",
+             "Ref. C. 25/15.jpeg",
+             "Ref. C. 25/16.jpeg",
+             "Ref. C. 25/17.jpeg",
+             "Ref. C. 25/18.jpeg",
+             "Ref. C. 25/19.jpeg",],
     precio: "$950.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,500 m²",
@@ -1949,22 +2020,22 @@ Características:
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 025",
-    imagenes: ["Ref. C. 25/1.jpg",
-             "Ref. C. 25/52.jpg",
-             "Ref. C. 25/3.jpg",
-             "Ref. C. 25/4.jpg",
-             "Ref. C. 25/5.jpg",
-             "Ref. C. 25/6.jpg",
-             "Ref. C. 25/7.jpg",
-             "Ref. C. 25/8.jpg",
-             "Ref. C. 25/9.jpg",
-             "Ref. C. 25/10.jpg",
-             "Ref. C. 25/11.jpg",
-             "Ref. C. 25/12.jpg",
-             "Ref. C. 25/13.jpg",
-             "Ref. C. 25/14.jpg",
-             "Ref. C. 25/15.jpg",],
+    referencia: "C. 026",
+    imagenes: ["Ref. C. 26/1.jpg",
+             "Ref. C. 26/52.jpg",
+             "Ref. C. 26/3.jpg",
+             "Ref. C. 26/4.jpg",
+             "Ref. C. 26/5.jpg",
+             "Ref. C. 26/6.jpg",
+             "Ref. C. 26/7.jpg",
+             "Ref. C. 26/8.jpg",
+             "Ref. C. 26/9.jpg",
+             "Ref. C. 26/10.jpg",
+             "Ref. C. 26/11.jpg",
+             "Ref. C. 26/12.jpg",
+             "Ref. C. 26/13.jpg",
+             "Ref. C. 26/14.jpg",
+             "Ref. C. 26/15.jpg",],
     precio: "$950.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,000 m²",
@@ -2021,16 +2092,16 @@ Características:
 {
     tipo: "Casa",
     nombre: "Casa Quinta",
-    referencia: "C. 026",
-    imagenes: ["Ref. C. 26/1.jpg",
-             "Ref. C. 26/2.jpg",
-             "Ref. C. 26/3.jpg",
-             "Ref. C. 26/4.jpg",
-             "Ref. C. 26/5.jpg",
-             "Ref. C. 26/6.jpg",
-             "Ref. C. 26/7.jpg",
-             "Ref. C. 26/8.jpg",
-             "Ref. C. 26/9.jpg",],
+    referencia: "C. 027",
+    imagenes: ["Ref. C. 27/1.jpg",
+             "Ref. C. 27/2.jpg",
+             "Ref. C. 27/3.jpg",
+             "Ref. C. 27/4.jpg",
+             "Ref. C. 27/5.jpg",
+             "Ref. C. 27/6.jpg",
+             "Ref. C. 27/7.jpg",
+             "Ref. C. 27/8.jpg",
+             "Ref. C. 27/9.jpg",],
     precio: "$950.000.000",
     ubicacion: "Cite, Santander",
     area: "1,000 m²",
@@ -2082,18 +2153,18 @@ Alcantarillado Pluvial y de aguas grises `,
 {
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
-    referencia: "C. 027",
-    imagenes: ["Ref. C. 27/1.jpg",
-             "Ref. C. 27/2.jpg",
-             "Ref. C. 27/3.jpg",
-             "Ref. C. 27/4.jpg",
-             "Ref. C. 27/5.jpg",
-             "Ref. C. 27/6.jpg",
-             "Ref. C. 27/7.jpg",
-             "Ref. C. 27/8.jpg",
-             "Ref. C. 27/9.jpg",
-             "Ref. C. 27/10.jpg",
-             "Ref. C. 27/11.jpg",],
+    referencia: "C. 028",
+    imagenes: ["Ref. C. 28/1.jpg",
+             "Ref. C. 28/2.jpg",
+             "Ref. C. 28/3.jpg",
+             "Ref. C. 28/4.jpg",
+             "Ref. C. 28/5.jpg",
+             "Ref. C. 28/6.jpg",
+             "Ref. C. 28/7.jpg",
+             "Ref. C. 28/8.jpg",
+             "Ref. C. 28/9.jpg",
+             "Ref. C. 28/10.jpg",
+             "Ref. C. 28/11.jpg",],
     precio: "$995.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,420 m²",
@@ -2112,15 +2183,15 @@ Alcantarillado Pluvial y de aguas grises `,
 {
     tipo: "Casa",
     nombre: "Casa Lote Urbano",
-    referencia: "C. 028",
-    imagenes: ["Ref. C. 28/1.jpeg",
-             "Ref. C. 28/2.jpeg",
-             "Ref. C. 28/3.jpeg",
-             "Ref. C. 28/4.jpeg",
-             "Ref. C. 28/5.jpeg",
-             "Ref. C. 28/6.jpeg",
-             "Ref. C. 28/7.jpeg",
-             "Ref. C. 28/8.jpeg",],
+    referencia: "C. 029",
+    imagenes: ["Ref. C. 29/1.jpeg",
+             "Ref. C. 29/2.jpeg",
+             "Ref. C. 29/3.jpeg",
+             "Ref. C. 29/4.jpeg",
+             "Ref. C. 29/5.jpeg",
+             "Ref. C. 29/6.jpeg",
+             "Ref. C. 29/7.jpeg",
+             "Ref. C. 29/8.jpeg",],
     precio: "$1.150.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "520 m²",
@@ -2143,16 +2214,16 @@ Alcantarillado Pluvial y de aguas grises `,
 {
     tipo: "Casa",
     nombre: "Casa en Condominio",
-    referencia: "C. 029",
-    imagenes: ["Ref. C. 29/1.jpg",
-             "Ref. C. 29/2.jpg",
-             "Ref. C. 29/3.jpg",
-             "Ref. C. 29/4.jpg",
-             "Ref. C. 29/5.jpg",
-             "Ref. C. 29/6.jpg",
-             "Ref. C. 29/7.jpg",
-             "Ref. C. 29/8.jpg",
-             "Ref. C. 29/9.jpg",],
+    referencia: "C. 030",
+    imagenes: ["Ref. C. 30/1.jpg",
+             "Ref. C. 30/2.jpg",
+             "Ref. C. 30/3.jpg",
+             "Ref. C. 30/4.jpg",
+             "Ref. C. 30/5.jpg",
+             "Ref. C. 30/6.jpg",
+             "Ref. C. 30/7.jpg",
+             "Ref. C. 30/8.jpg",
+             "Ref. C. 30/9.jpg",],
     precio: "$1.200.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,170 m²",
@@ -2205,22 +2276,22 @@ Alcantarillado Pluvial y de aguas grises `,
 {
     tipo: "Casa",
     nombre: "Casa en Condominio Cerrado",
-    referencia: "C. 030",
-    imagenes: ["Ref. C. 30/1.jpg",
-             "Ref. C. 30/2.jpg",
-             "Ref. C. 30/3.jpg",
-             "Ref. C. 30/4.jpeg",
-             "Ref. C. 30/5.jpeg",
-             "Ref. C. 30/6.jpeg",
-             "Ref. C. 30/7.jpeg",
-             "Ref. C. 30/8.jpeg",
-             "Ref. C. 30/9.jpeg",
-             "Ref. C. 30/10.jpeg",
-             "Ref. C. 30/11.jpeg",
-             "Ref. C. 30/12.jpeg",
-             "Ref. C. 30/13.jpeg",
-             "Ref. C. 30/14.jpeg",
-             "Ref. C. 30/15.jpeg",],
+    referencia: "C. 031",
+    imagenes: ["Ref. C. 31/1.jpg",
+             "Ref. C. 31/2.jpg",
+             "Ref. C. 31/3.jpg",
+             "Ref. C. 31/4.jpeg",
+             "Ref. C. 31/5.jpeg",
+             "Ref. C. 31/6.jpeg",
+             "Ref. C. 31/7.jpeg",
+             "Ref. C. 31/8.jpeg",
+             "Ref. C. 31/9.jpeg",
+             "Ref. C. 31/10.jpeg",
+             "Ref. C. 31/11.jpeg",
+             "Ref. C. 31/12.jpeg",
+             "Ref. C. 31/13.jpeg",
+             "Ref. C. 31/14.jpeg",
+             "Ref. C. 31/15.jpeg",],
     precio: "$3.000.000.000",
     ubicacion: "La Calera, Cundinamarca",
     area: "1,398 m²",

@@ -23,7 +23,7 @@ const propiedades = [
              "Ref. C. 07/12.jpg",
              "Ref. C. 07/13.jpg",
              "Ref. C. 07/14.jpg",],
-    precio: "$399.000.000",
+    precio: "$385.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
     areaPrivada:"1,238 m²",
@@ -50,72 +50,6 @@ const propiedades = [
 • 🔥🍖 Terraza con zona BBQ ideal para reuniones
 🚗 Parqueadero para aprox. 5 vehículos`,
     videoYoutube: "https://youtu.be/HNnFpE8Mn-Y",
-  },
-{
-    tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 008",
-    imagenes: ["Ref. C. 08/1.jpeg",
-             "Ref. C. 08/2.jpeg",
-             "Ref. C. 08/3.jpeg",
-             "Ref. C. 08/4.jpeg",
-             "Ref. C. 08/5.jpeg",
-             "Ref. C. 08/6.jpeg",
-             "Ref. C. 08/7.jpeg",
-             "Ref. C. 08/8.jpeg",
-             "Ref. C. 08/9.jpeg",
-             "Ref. C. 08/10.jpeg",
-             "Ref. C. 08/11.jpeg",
-             "Ref. C. 08/12.jpeg",
-             "Ref. C. 08/13.jpeg",
-             "Ref. C. 08/14.jpeg",],
-    precio: "$440.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "558 m²",
-    areaPrivada:"558 m²",
-    areaConstruida:"181 m²",
-    habitaciones: "3",
-    banos: "2",
-    descripcion: `🏡¡CASA EN CONDOMINIO EN VENTA EN MONIQUIRÁ - BOYACÁ!
-
-✨ Comodidad, seguridad y excelente ubicación
-
-📍 Ubicación
-🚗 A solo 5 minutos del parque principal
-
-📐 Áreas
-🌳 Lote: 558 m²
-🏠 Construida: 181 m²
-
-
-🏠 Casa de dos pisos
-
-🔹 Primer piso:
-🍳 Cocina integral
-🛋️ Sala comedor
-🛏️ 1 habitación con baño privado
-🚿 1 baño social
-🚶 Corredores
-
-🔹 Segundo piso:
-🛋️ Sala de estar
-🌅 Balcón con vista panorámica
-🛏️ 2 habitaciones
-🚿 1 baño social
-
-🧺 Zona de lavandería
-🚗 Parqueadero para 3 carros
-
-🌳 Zona para cultivo de árboles cítricos
-
-💡 Cuenta con todos los servicios
-
-🔹 Zonas sociales:
-🎉 Salón social
-🚗 Parqueadero comunal
-🏊 Piscina
-🔥 Zona BBQ`,
-    videoYoutube: "https://youtu.be/6H4QTncNsSQ",
   },
 {
     tipo: "Lote",
@@ -209,26 +143,26 @@ const propiedades = [
 {
     tipo: "Casa",
     nombre: "Casa Campestre",
-    referencia: "C. 024",
-    imagenes: ["Ref. C. 24/1.jpeg",
-             "Ref. C. 24/2.jpeg",
-             "Ref. C. 24/3.jpeg",
-             "Ref. C. 24/4.jpeg",
-             "Ref. C. 24/5.jpeg",
-             "Ref. C. 24/6.jpeg",
-             "Ref. C. 24/7.jpeg",
-             "Ref. C. 24/8.jpeg",
-             "Ref. C. 24/9.jpeg",
-             "Ref. C. 24/10.jpeg",
-             "Ref. C. 24/11.jpeg",
-             "Ref. C. 24/12.jpeg",
-             "Ref. C. 24/13.jpeg",
-             "Ref. C. 24/14.jpeg",
-             "Ref. C. 24/15.jpeg",
-             "Ref. C. 24/16.jpeg",
-             "Ref. C. 24/17.jpeg",
-             "Ref. C. 24/18.jpeg",
-             "Ref. C. 24/19.jpeg",],
+    referencia: "C. 025",
+    imagenes: ["Ref. C. 25/1.jpeg",
+             "Ref. C. 25/2.jpeg",
+             "Ref. C. 25/3.jpeg",
+             "Ref. C. 25/4.jpeg",
+             "Ref. C. 25/5.jpeg",
+             "Ref. C. 25/6.jpeg",
+             "Ref. C. 25/7.jpeg",
+             "Ref. C. 25/8.jpeg",
+             "Ref. C. 25/9.jpeg",
+             "Ref. C. 25/10.jpeg",
+             "Ref. C. 25/11.jpeg",
+             "Ref. C. 25/12.jpeg",
+             "Ref. C. 25/13.jpeg",
+             "Ref. C. 25/14.jpeg",
+             "Ref. C. 25/15.jpeg",
+             "Ref. C. 25/16.jpeg",
+             "Ref. C. 25/17.jpeg",
+             "Ref. C. 25/18.jpeg",
+             "Ref. C. 25/19.jpeg",],
     precio: "$950.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,500 m²",
