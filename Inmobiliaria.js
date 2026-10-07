@@ -521,6 +521,65 @@ visibilidad al espacio, ideales para exhibición de productos o adecuación de o
 iluminación natural, visibilidad y servicios públicos disponibles.`,
     videoYoutube: "-",
   },
+{
+    tipo: "Apartamento",
+    nombre: "Penthouse",
+    referencia: "Apt. 005",
+    imagenes: ["Ref. Apt. 05/1.jpg",
+             "Ref. Apt. 05/2.jpg",
+             "Ref. Apt. 05/3.jpg",
+             "Ref. Apt. 05/4.jpg",
+             "Ref. Apt. 05/5.jpg",
+             "Ref. Apt. 05/6.jpg",
+             "Ref. Apt. 05/7.jpg",
+             "Ref. Apt. 05/8.jpg",
+             "Ref. Apt. 05/9.jpg",
+             "Ref. Apt. 05/10.jpg",
+             "Ref. Apt. 05/11.jpg",
+             "Ref. Apt. 05/12.jpg",
+             "Ref. Apt. 05/13.jpeg",
+             "Ref. Apt. 05/14.jpeg",
+             "Ref. Apt. 05/15.jpeg",
+             "Ref. Apt. 05/16.jpeg",],
+    precio: "$500.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "148 m²",
+    areaPrivada:"-",
+    areaConstruida:"148 m²",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `📌 Venta de Apartamento PentHouse en Moniquirá – Boyacá
+
+📏 Área 148 mt2
+
+Características
+El apartamento cuenta con:
+✔3 Habitaciones
+✔Sala Comedor
+✔2 Balcónes
+✔Cocina integral (horno, campana extractora)
+✔Amplio Hall de acceso a las habitaciones
+✔Zona de lavandería
+✔2 baños (1. Social. 1. Privado)
+✔Balcón en habitaciones principal
+✔Ultimo piso de la torre (10)
+✔Excelente vista
+✔Cuenta con Ascensor panoramico
+Incluye Parqueadero
+
+☘️ AREAS SOCIALES
+👉 PISCINAS PARA NIÑOS Y ADULTOS
+👉 PARQUE INFANTIL
+👉 MURO DE ESCALAR
+👉 SENDEROS PEATONALES
+👉 PORTERIA VIGILADA
+👉 LOBBY POR TORRE
+👉 GIMNASIO
+👉 SAUNA
+👉 TURCO
+👉 JACUZZI`,
+    videoYoutube: "https://www.youtube.com/watch?v=GQDtOe1y39o",
+  },
 ];
 
 
