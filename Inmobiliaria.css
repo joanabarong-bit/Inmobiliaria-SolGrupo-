@@ -1057,6 +1057,10 @@ team-section + .videos-section {
     margin-top: 20px;
 }
 
+.team-grid > .team-member:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+}
+
 .team-member {
     background-color: #fff;
     border-radius: 14px;
@@ -1168,6 +1172,10 @@ team-section + .videos-section {
     .team-section h2,
     .videos-section h2 {
         font-size: 2rem;
+    }
+
+    .team-grid > .team-member:last-child:nth-child(3n + 1) {
+        grid-column: auto;
     }
 }
 
@@ -2506,5 +2514,10 @@ body.detalle-modal-open .top-header {
 
     .footer-atos .footer-socials.icons {
         justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .team-grid > .team-member:last-child:nth-child(3n + 1) {
+        grid-column: auto;
     }
 }
