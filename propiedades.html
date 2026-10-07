@@ -7,6 +7,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propiedades - Inmobiliaria Solgrupo</title>
     <link rel="stylesheet" href="Inmobiliaria.css">
+<style>
+        .home-page { --page-blue: #063b82; --page-deep: #052b61; --page-yellow: #f6bd32; background: #f4f7fc; }
+        .home-page .top-header, .properties-page .top-header { background: linear-gradient(110deg, #052b61, #063b82 75%, #1458a5); border-bottom: 3px solid #f6bd32; box-shadow: 0 8px 24px rgba(5,35,78,.2); }
+        .home-page .menu a, .properties-page .menu a, .properties-page .menu .dropdown-trigger { border-radius: 999px; transition: color .2s ease, background-color .2s ease; }
+        .home-page .menu a:hover, .home-page .menu a:focus-visible, .properties-page .menu a:hover, .properties-page .menu a:focus-visible, .properties-page .menu .dropdown-trigger:hover { color: #f6bd32; background: rgba(255,255,255,.1); }
+        .home-page .menu a[href="index.html"] { color: #052b61; background: #f6bd32; }
+        .properties-page .menu .dropdown-trigger { color: #052b61; background: #f6bd32; }
+        .home-page .hero { position: relative; display: flex; align-items: center; min-height: 430px; margin: 0; padding: 76px 24px; overflow: hidden; color: #fff; background: linear-gradient(115deg, #041f49, #052b61 48%, #1458a5); border-bottom: 6px solid #f6bd32; }
+        .home-page .hero::after { content: ""; position: absolute; width: 380px; height: 380px; right: max(4vw, calc((100vw - 1160px) / 2)); top: 24px; border: 1px solid rgba(255,255,255,.13); border-radius: 50%; box-shadow: 0 0 0 36px rgba(255,255,255,.025), 0 0 0 76px rgba(255,255,255,.02); pointer-events: none; }
+        .home-page .hero-text { position: relative; z-index: 1; width: min(1160px, 100%); margin: 0 auto; padding: 0; text-align: left; }
+        .home-page .hero-text::before { content: "INMOBILIARIA SOLGRUPO · BOYACÁ"; display: block; margin-bottom: 16px; color: #f6bd32; font-size: .78rem; font-weight: 800; letter-spacing: .16em; }
+        .home-page .hero-text h2 { max-width: 760px; margin-bottom: 18px; color: #fff; font-size: clamp(2.6rem, 6vw, 4.8rem); line-height: 1.04; letter-spacing: -.045em; }
+        .home-page .hero-text p { max-width: 660px; margin: 0; color: #d8e5f5; font-size: 1.08rem; line-height: 1.8; }
+        .home-page .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+        .home-page .hero-actions a { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 20px; border: 1px solid #f6bd32; border-radius: 999px; color: #052b61; background: #f6bd32; font-weight: 750; text-decoration: none; transition: transform .2s ease, background .2s ease; }
+        .home-page .hero-actions a.secondary { color: #fff; background: transparent; border-color: rgba(255,255,255,.5); }
+        .home-page .hero-actions a:hover { transform: translateY(-2px); background: #ffd45f; }
+        .home-page .hero-actions a.secondary:hover { color: #052b61; border-color: #ffd45f; }
+        .home-page .home-container { max-width: 1200px; padding: 48px 24px 72px; }
+        .home-page #destacadas.featured-properties { margin-top: 0; padding: 30px 0 54px; }
+        .home-page .featured-properties h2, .properties-page .featured-properties h2, .home-page .contact-section h2, .properties-page .contact-section h2 { color: #063b82; font-size: clamp(2rem, 4vw, 2.7rem); letter-spacing: -.03em; }
+        .home-page .featured-properties h2::after, .properties-page .featured-properties h2::after, .home-page .contact-section h2::after, .properties-page .contact-section h2::after { content: ""; display: block; width: 54px; height: 4px; margin: 12px auto 0; border-radius: 6px; background: #f6bd32; }
+        .home-page .featured-desc, .properties-page .featured-desc { color: #58677a; line-height: 1.7; }
+        .home-page .btn-mostrar-todo { min-height: 46px; margin: 8px 0 30px; padding: 0 22px; border-radius: 999px; color: #052b61; background: #f6bd32; font-weight: 750; box-shadow: 0 8px 20px rgba(246,189,50,.2); }
+        .home-page .btn-mostrar-todo:hover { background: #ffd45f; transform: translateY(-2px); }
+        .home-page .featured-grid, .properties-page .featured-grid { gap: 24px; }
+        .home-page .property-card, .properties-page .property-card { border: 1px solid #e2eaf4; border-radius: 18px; box-shadow: 0 12px 28px rgba(11,43,84,.09); }
+        .home-page .property-card:hover, .properties-page .property-card:hover { transform: translateY(-5px); box-shadow: 0 18px 36px rgba(11,43,84,.16); }
+        .home-page .property-card img, .properties-page .property-card img { height: 230px; }
+        .home-page .property-body, .properties-page .property-body { padding: 22px; }
+        .home-page .property-body h3, .properties-page .property-body h3 { color: #063b82; }
+        .home-page .property-card .badge, .properties-page .property-card .badge { color: #052b61; background: #f6bd32; font-weight: 800; }
+        .home-page .property-body button, .properties-page .property-body button { color: #fff; background: linear-gradient(135deg,#063b82,#052b61); border: 0; border-radius: 999px; box-shadow: 0 7px 16px rgba(6,59,130,.2); }
+        .home-page .property-body button:hover, .properties-page .property-body button:hover { background: #041f49; transform: translateY(-1px); }
+        .home-page .contact-section, .properties-page .contact-section { max-width: 1160px; margin: 12px auto 0; padding: 52px 28px; border: 1px solid #dce7f5; border-radius: 24px; background: #eaf1fb; }
+        .home-page .contact-container, .properties-page .contact-container { gap: 24px; margin-top: 28px; }
+        .home-page .contact-section form, .properties-page .contact-section form { max-width: none; border: 1px solid #dce7f5; border-top: 5px solid #f6bd32; border-radius: 18px; box-shadow: 0 14px 30px rgba(11,43,84,.08); }
+        .home-page .contact-section input, .home-page .contact-section select, .home-page .contact-section textarea, .properties-page .contact-section input, .properties-page .contact-section select, .properties-page .contact-section textarea { border-color: #d7e1ef; border-radius: 10px; }
+        .home-page .contact-section input:focus, .home-page .contact-section select:focus, .home-page .contact-section textarea:focus, .properties-page .contact-section input:focus, .properties-page .contact-section select:focus, .properties-page .contact-section textarea:focus { outline: 2px solid rgba(6,59,130,.22); border-color: #063b82; }
+        .home-page .contact-section button, .properties-page .contact-section button { color: #052b61; background: #f6bd32; }
+        .home-page .contact-section button:hover, .properties-page .contact-section button:hover { background: #ffd45f; opacity: 1; }
+        .home-page .mapa, .properties-page .mapa { border: 1px solid #dce7f5; box-shadow: 0 14px 30px rgba(11,43,84,.08); }
+        .home-page .aliados-section, .properties-page .aliados-section { padding: 52px 24px; border-top: 1px solid #dce7f5; background: #eaf1fb; }
+        .home-page .aliados-container h2, .properties-page .aliados-container h2 { color: #063b82; }
+        .home-page .aliados-container h2::after, .properties-page .aliados-container h2::after { content: ""; display: block; width: 48px; height: 4px; margin: 12px auto 0; border-radius: 8px; background: #f6bd32; }
+        .home-page .aliados-grid a, .properties-page .aliados-grid a { border: 1px solid #e2eaf4; border-radius: 14px; background: #fff; box-shadow: 0 8px 18px rgba(11,43,84,.06); }
+        .home-page .footer.footer-atos, .properties-page .footer.footer-atos { border-top: 4px solid #f6bd32; background: linear-gradient(125deg, #041f49, #052b61 48%, #063b82); }
+        .home-page .footer-atos .footer-top-line, .properties-page .footer-atos .footer-top-line { background: linear-gradient(90deg, #f6bd32, #ffe59a 48%, #f6bd32); }
+        .home-page .footer-cta, .properties-page .footer-cta { color: #052b61; background: #f6bd32; }
+        .home-page .footer-cta:hover, .properties-page .footer-cta:hover { background: #ffd45f; }
+        @media (max-width: 768px) {
+            .home-page .hero { min-height: 390px; padding: 56px 22px; }
+            .home-page .hero::after { width: 220px; height: 220px; right: -90px; top: 30px; }
+            .home-page .hero-text h2 { font-size: clamp(2.35rem, 11vw, 3.6rem); }
+            .home-page .home-container { padding: 30px 18px 50px; }
+            .home-page .contact-section, .properties-page .contact-section { margin-inline: 14px; padding: 36px 18px; border-radius: 18px; }
+            .home-page .contact-container, .properties-page .contact-container { grid-template-columns: 1fr; }
+        }
+            .properties-page { --page-blue: #063b82; --page-deep: #052b61; --page-yellow: #f6bd32; background: #f4f7fc; }
+        .properties-page > .container { max-width: none; padding: 0; }
+        .properties-page .hero { display: flex; flex-direction: column; justify-content: center; gap: 24px; min-height: 410px; margin: 0; padding: 56px 24px 64px; color: #fff; background: linear-gradient(115deg, #041f49, #052b61 48%, #1458a5); border-bottom: 6px solid #f6bd32; }
+        .properties-page .menu-search { display: flex; width: min(720px, 100%); min-height: 56px; margin: 0 auto; padding: 7px 12px; border: 1px solid rgba(255,255,255,.45); border-radius: 16px; background: #fff; box-shadow: 0 14px 32px rgba(0,0,0,.18); }
+        .properties-page .menu-search .search-icon { display: grid; width: 40px; height: 40px; flex: 0 0 40px; place-items: center; border-radius: 12px; color: #052b61; background: #fff5d8; }
+        .properties-page .menu-search input { width: 100%; padding: 0 12px; color: #17324f; font-size: 1rem; }
+        .properties-page .menu-search input::placeholder { color: #74839a; }
+        .properties-page .menu-search:focus-within { border-color: #f6bd32; box-shadow: 0 0 0 4px rgba(246,189,50,.2), 0 14px 32px rgba(0,0,0,.18); }
+        .properties-page .hero-text { width: min(900px, 100%); margin: 0 auto; padding: 0; text-align: center; }
+        .properties-page .hero-text::before { content: "VENTA · ARRIENDO · ASESORÍA"; display: block; margin-bottom: 12px; color: #f6bd32; font-size: .76rem; font-weight: 800; letter-spacing: .16em; }
+        .properties-page .hero-text h2 { margin-bottom: 14px; color: #fff; font-size: clamp(2.3rem, 5vw, 3.8rem); line-height: 1.08; letter-spacing: -.04em; }
+        .properties-page .hero-text p { max-width: 700px; color: #d8e5f5; font-size: 1.05rem; line-height: 1.75; }
+        .properties-page #propiedades.featured-properties { max-width: 1200px; margin: 0 auto; padding: 56px 24px 68px; }
+        .properties-page #tituloPropiedades::after { content: ""; display: block; width: 54px; height: 4px; margin: 12px auto 0; border-radius: 6px; background: #f6bd32; }
+        .properties-page #contenedorPropiedades { scroll-margin-top: 120px; }
+        .properties-page .dropdown-content { border: 1px solid #dce7f5; border-radius: 14px; background: #fff; box-shadow: 0 16px 32px rgba(5,35,78,.18); }
+        .properties-page .dropdown-content a { color: #17324f; }
+        .properties-page .dropdown-content a:hover { color: #052b61; background: #fff5d8; }
+        .properties-page .modal { background: rgba(4,31,73,.76); backdrop-filter: blur(5px); }
+        .properties-page .modal-box { border: 1px solid rgba(246,189,50,.65); border-radius: 22px; box-shadow: 0 24px 70px rgba(0,0,0,.3); }
+        .properties-page .detalle-content-panel { background: #f4f7fc; }
+        .properties-page .detalle-header h2 { color: #063b82; }
+        .properties-page .detalle-precio { color: #063b82; }
+        .properties-page .detalle-info-grid li { border-color: #dce7f5; border-radius: 12px; background: #fff; }
+        .properties-page .close { color: #052b61; background: #f6bd32; }
+        @media (max-width: 768px) {
+            .properties-page .hero { min-height: 370px; padding: 42px 18px 48px; }
+            .properties-page .hero-text h2 { font-size: clamp(2.1rem, 9vw, 3rem); }
+            .properties-page #propiedades.featured-properties { padding: 40px 18px 50px; }
+        }        .home-page .footer.footer-atos, .properties-page .footer.footer-atos { padding: 0 28px 20px; }
+        .home-page .footer-top-line, .properties-page .footer-top-line { height: 5px; width: min(1160px,100%); margin: 0 auto; background: linear-gradient(90deg,#f6bd32,#ffe59a 48%,#f6bd32); }
+        .home-page .footer-container, .properties-page .footer-container { max-width: 1160px; grid-template-columns: 1.3fr .72fr .9fr 1.35fr; gap: 36px; padding: 48px 0 38px; }
+        .home-page .footer-brand, .properties-page .footer-brand { align-items: flex-start; text-align: left; }
+        .home-page .footer-logo img, .properties-page .footer-logo img { width: auto; max-width: 260px; height: 76px; object-fit: contain; transform: none; }
+        .home-page .footer-brand p, .properties-page .footer-brand p { max-width: 330px; margin: 0 0 20px; color: #c7d6eb; line-height: 1.75; }
+        .home-page .footer-cta, .properties-page .footer-cta { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 20px; border-radius: 999px; font-weight: 750; box-shadow: 0 8px 20px rgba(246,189,50,.22); transition: transform .2s ease,background .2s ease; }
+        .home-page .footer-cta:hover, .properties-page .footer-cta:hover { transform: translateY(-2px); }
+        .home-page .footer-col h4, .properties-page .footer-col h4 { margin: 8px 0 18px; color: #f6bd32; font-size: .9rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+        .home-page .footer-col h4::after, .properties-page .footer-col h4::after { content: ""; display: block; width: 34px; height: 3px; margin-top: 10px; border-radius: 5px; background: #f6bd32; }
+        .home-page .footer-col ul, .properties-page .footer-col ul { gap: 10px; }
+        .home-page .footer-col li, .home-page .footer-col a, .properties-page .footer-col li, .properties-page .footer-col a { color: #d3def0; font-size: .92rem; line-height: 1.6; }
+        .home-page .footer-col a:hover, .properties-page .footer-col a:hover { color: #f6bd32; }
+        .home-page .footer-contact-list, .properties-page .footer-contact-list { gap: 8px; }
+        .home-page .footer-contact-list li, .properties-page .footer-contact-list li { margin: 0; padding: 8px 10px; border-left: 2px solid rgba(246,189,50,.85); border-radius: 0 8px 8px 0; background: rgba(255,255,255,.055); overflow-wrap: anywhere; }
+        .home-page .footer-socials.icons, .properties-page .footer-socials.icons { justify-content: flex-start; gap: 9px; margin-top: 16px; }
+        .home-page .footer-socials.icons a, .properties-page .footer-socials.icons a { display: grid; width: 38px; height: 38px; margin: 0; place-items: center; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; background: rgba(255,255,255,.08); transition: transform .2s ease,background .2s ease; }
+        .home-page .footer-socials.icons a:hover, .properties-page .footer-socials.icons a:hover { transform: translateY(-3px); background: #063b82; }
+        .home-page .footer-socials.icons img, .properties-page .footer-socials.icons img { width: 18px; height: 18px; filter: brightness(0) invert(1); }
+        .home-page .footer-bottom, .properties-page .footer-bottom { max-width: 1160px; margin: 0 auto; padding: 18px 0 4px; border-top-color: rgba(255,255,255,.22); color: #9fb1cb; font-size: .84rem; }
+        @media (max-width: 900px) { .home-page .footer-container, .properties-page .footer-container { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 32px 24px; } }
+        @media (max-width: 600px) {
+            .home-page .footer.footer-atos, .properties-page .footer.footer-atos { padding: 0 20px 18px; }
+            .home-page .footer-container, .properties-page .footer-container { grid-template-columns: 1fr; gap: 26px; padding: 34px 0 28px; }
+            .home-page .footer-brand, .home-page .footer-col, .home-page .footer-col h4, .properties-page .footer-brand, .properties-page .footer-col, .properties-page .footer-col h4 { text-align: center; }
+            .home-page .footer-brand, .properties-page .footer-brand { align-items: center; }
+            .home-page .footer-col h4::after, .properties-page .footer-col h4::after { margin-inline: auto; }
+            .home-page .footer-socials.icons, .properties-page .footer-socials.icons { justify-content: center; }
+        }
+
+        .home-page .modal-detalle-box, .properties-page .modal-detalle-box { width: min(1240px,96vw); max-width: 1240px; max-height: 92vh; border: 1px solid rgba(246,189,50,.65); border-radius: 24px; background: #fff; box-shadow: 0 30px 80px rgba(4,31,73,.38); }
+        .home-page .detalle-media-panel, .properties-page .detalle-media-panel { padding: 28px; background: linear-gradient(145deg,#041f49,#063b82); border-bottom: 5px solid #f6bd32; }
+        .home-page .detalle-slider, .properties-page .detalle-slider { border: 1px solid rgba(255,255,255,.22); border-radius: 18px; box-shadow: 0 16px 32px rgba(0,0,0,.2); }
+        .home-page .slider-btn, .properties-page .slider-btn { color: #052b61; background: #f6bd32; box-shadow: 0 6px 16px rgba(0,0,0,.2); }
+        .home-page .detalle-video-card, .properties-page .detalle-video-card { border: 1px solid #dce7f5; border-radius: 16px; box-shadow: 0 12px 24px rgba(4,31,73,.16); }
+        .home-page .detalle-content-panel, .properties-page .detalle-content-panel { justify-content: flex-start; gap: 18px; padding: 34px 26px 28px; background: #f8faff; }
+        .home-page .detalle-header, .properties-page .detalle-header { margin: 12px 22px 0; padding-bottom: 16px; border-bottom: 1px solid #dce7f5; text-align: left; }
+        .home-page .detalle-header h2, .properties-page .detalle-header h2 { color: #063b82; font-size: clamp(1.6rem,3vw,2.15rem); }
+        .home-page .detalle-precio, .properties-page .detalle-precio { display: inline-block; margin: 4px 0 8px; padding: 7px 12px; border-radius: 10px; color: #052b61; background: #fff0bd; font-size: 1.2rem; }
+        .home-page .detalle-referencia, .properties-page .detalle-referencia { color: #718096; font-size: .88rem; letter-spacing: .04em; }
+        .home-page .detalle-info-grid, .properties-page .detalle-info-grid { gap: 10px; margin-top: 0; }
+        .home-page .detalle-info-grid li, .properties-page .detalle-info-grid li { border-left: 3px solid #f6bd32; border-radius: 12px; background: #fff; box-shadow: 0 5px 14px rgba(11,43,84,.04); }
+        .home-page .detalle-info-grid li span, .properties-page .detalle-info-grid li span { color: #66778e; font-weight: 700; }
+        .home-page .detalle-info-grid li strong, .properties-page .detalle-info-grid li strong { color: #063b82; }
+        .home-page .detalle-descripcion, .properties-page .detalle-descripcion { margin-top: 0; padding: 14px 16px; border-radius: 12px; color: #40536b; background: #edf3fb; line-height: 1.7; }
+        .home-page .modal-detalle-box .close, .properties-page .modal-detalle-box .close { top: 14px; right: 14px; color: #052b61; background: #f6bd32; box-shadow: 0 4px 12px rgba(0,0,0,.2); }
+        .home-page .btn-whatsapp-detalle, .properties-page .btn-whatsapp-detalle { min-height: 50px; margin-top: auto; border-radius: 13px; box-shadow: 0 9px 20px rgba(37,211,102,.2); }
+        @media (max-width: 768px) { .home-page .detalle-media-panel, .properties-page .detalle-media-panel { padding: 18px; } .home-page .detalle-content-panel, .properties-page .detalle-content-panel { padding: 22px 18px; } }
+            @media (max-width: 768px) {
+            .home-page .footer-cta, .properties-page .footer-cta, .nosotros-page .footer-cta {
+                align-self: center;
+                min-width: 210px;
+                margin-inline: auto;
+            }
+        }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { width: 100%; margin-top: 24px; padding: 18px; border: 1px solid rgba(246,189,50,.48); border-radius: 16px; background: rgba(255,255,255,.07); text-align: left; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1rem; letter-spacing: .01em; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0 0 10px; color: #d3def0; font-size: .9rem; line-height: 1.6; }
+        .home-page .donation-card span, .properties-page .donation-card span, .nosotros-page .donation-card span { display: block; color: #fff; font-size: .82rem; font-weight: 700; }
+        .home-page .donation-link, .properties-page .donation-link, .nosotros-page .donation-link { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; margin-top: 12px; padding: 0 14px; border-radius: 999px; color: #052b61; background: #f6bd32; font-size: .84rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,background .2s ease; }
+        .home-page .donation-link:hover, .properties-page .donation-link:hover, .nosotros-page .donation-link:hover { transform: translateY(-2px); color: #052b61; background: #ffd45f; }
+        @media (max-width: 600px) { .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { text-align: center; } }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { width: 100%; margin-top: 24px; padding: 18px; border: 1px solid rgba(246,189,50,.55); border-radius: 16px; background: rgba(255,255,255,.07); text-align: left; scroll-margin-top: 110px; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1rem; letter-spacing: .01em; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0 0 12px; color: #d3def0; font-size: .9rem; line-height: 1.6; }
+        .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { display: grid; gap: 4px; margin-top: 9px; padding: 11px 12px; border-left: 3px solid #f6bd32; border-radius: 0 10px 10px 0; background: rgba(255,255,255,.08); }
+        .home-page .donation-payment span, .properties-page .donation-payment span, .nosotros-page .donation-payment span { color: #f6d982; font-size: .77rem; font-weight: 750; }
+        .home-page .donation-payment strong, .properties-page .donation-payment strong, .nosotros-page .donation-payment strong { color: #fff; font-size: 1.16rem; letter-spacing: .07em; }
+        .home-page .donation-payment small, .properties-page .donation-payment small, .nosotros-page .donation-payment small { color: #c7d6eb; font-size: .75rem; line-height: 1.45; }
+        .home-page .donation-link, .properties-page .donation-link, .nosotros-page .donation-link { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; margin-top: 12px; padding: 0 14px; border-radius: 999px; color: #052b61; background: #f6bd32; font-size: .84rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,background .2s ease; }
+        .home-page .donation-link:hover, .properties-page .donation-link:hover, .nosotros-page .donation-link:hover { transform: translateY(-2px); color: #052b61; background: #ffd45f; }
+        .floating-donation { position: fixed; left: 22px; bottom: 24px; z-index: 998; display: inline-flex; align-items: center; gap: 9px; min-height: 54px; padding: 6px 17px 6px 7px; border: 1px solid rgba(255,255,255,.75); border-radius: 999px; color: #052b61; background: #f6bd32; box-shadow: 0 10px 26px rgba(5,35,78,.25); font-size: .9rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,box-shadow .2s ease; }
+        .floating-donation:hover { transform: translateY(-3px); color: #052b61; box-shadow: 0 14px 30px rgba(5,35,78,.32); }
+        .floating-donation-emoji { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; background: #fff; font-size: 1.25rem; }
+        @media (max-width: 600px) { .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { text-align: center; } .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { text-align: left; } .floating-donation { left: 12px; bottom: 18px; min-height: 50px; padding-right: 13px; font-size: .82rem; } .floating-donation-emoji { width: 36px; height: 36px; } }
+        .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: 1.15fr .72fr .92fr 1.45fr; gap: 32px; align-items: start; }
+        .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-column: 1 / -1; display: grid; grid-template-columns: 1.1fr 1fr 1fr; align-items: center; gap: 16px; margin: 8px 0 0; padding: 20px 24px; border: 1px solid rgba(246,189,50,.4); border-radius: 18px; background: rgba(255,255,255,.045); text-align: left; }
+        .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { padding-right: 14px; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1.05rem; letter-spacing: 0; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0; color: #c7d6eb; font-size: .88rem; line-height: 1.6; }
+        .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { min-height: 86px; display: grid; align-content: center; gap: 4px; margin: 0; padding: 12px 14px; border-left: 3px solid #f6bd32; border-radius: 0 10px 10px 0; background: rgba(255,255,255,.08); text-align: left; }
+        .home-page .donation-payment strong, .properties-page .donation-payment strong, .nosotros-page .donation-payment strong { font-size: 1.08rem; letter-spacing: .04em; overflow-wrap: anywhere; }
+        @media (max-width: 1100px) {
+            .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 24px; }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-template-columns: repeat(2,minmax(0,1fr)); }
+            .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { grid-column: 1 / -1; }
+        }
+        @media (max-width: 600px) {
+            .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: 1fr; gap: 24px; }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-template-columns: 1fr; gap: 10px; padding: 18px; }
+            .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { grid-column: auto; padding-right: 0; text-align: center; }
+        }</style>
         <link rel="icon" href="img/solgrupo.jpg" type="image/png" sizes="512x512">
     <link rel="apple-touch-icon" href="img/logo 2.png">
 
@@ -32,7 +211,7 @@
 </script>
 
 </head>
-<body>
+<body class="properties-page">
 
 <!-- ===== NAVBAR SUPERIOR ===== -->
 <header class="top-header">
@@ -153,8 +332,7 @@
 <!--propiedades-->
     <section id="propiedades" class="featured-properties">
     <h2 id="tituloPropiedades">Propiedades</h2>
-    <br>
-    <br>
+    <p class="featured-desc">Encuentra casas, apartamentos, lotes y fincas con asesoría cercana y respaldo en cada paso.</p>
 
     <div id="contenedorPropiedades" class="featured-grid"></div>
 </section>
@@ -216,6 +394,10 @@
 
 </main>
 
+<a class="floating-donation" href="#donar" aria-label="Apoya a Solgrupo; ver datos para donar">
+    <span class="floating-donation-emoji" aria-hidden="true">💛</span>
+    <span>Apoyar a Solgrupo</span>
+</a>
 <!--whatsapp flotante-->
 <a
   href="https://wa.me/573161498625?text=Hola%2C%20buen%20día.%20Estoy%20interesado%20en%20recibir%20información%20sobre%20una%20propiedad%20de%20Inmobiliaria%20Solgrupo.%20¿Podrían%20brindarme%20más%20detalles,%20por%20favor?"
@@ -336,7 +518,22 @@
         </div>
 
 
-    </div>
+            <aside class="donation-card" id="donar" aria-label="Apoya el crecimiento de Inmobiliaria Solgrupo">
+            <div class="donation-copy">
+                <h4>¿Nos ayudas a llegar más lejos?</h4>
+                <p>Tu aporte impulsa el crecimiento de Solgrupo y nos ayuda a llevar nuestros servicios a más lugares y comunidades.</p>
+            </div>
+            <div class="donation-payment">
+                <span>Bancolombia · Cuenta de ahorros</span>
+                <strong>55500002278</strong>
+                <small>Solgrupo Servicios y Asesorías S.A.S. · NIT 901624674</small>
+            </div>
+            <div class="donation-payment">
+                <span>Llave Bre-B · inmobiliariaSolgrupo</span>
+                <strong>0090377284</strong>
+            </div>
+        </aside>
+</div>
 
     <!-- PARTE INFERIOR -->
     <div class="footer-bottom">

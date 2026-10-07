@@ -10,6 +10,673 @@
       <link rel="icon" href="img/solgrupo.jpg" type="image/png" sizes="512x512">
     <link rel="apple-touch-icon" href="img/logo.png">
 
+    <style>
+        /* Prueba visual exclusiva de la página Nosotros */
+        .nosotros-page {
+            --nosotros-blue: #063b82;
+            --nosotros-blue-deep: #052b61;
+            --nosotros-yellow: #f6bd32;
+            background: #f4f7fc;
+        }
+
+        .nosotros-page .nosotros-container {
+            max-width: none;
+            padding: 0;
+        }
+
+        .nosotros-page .team-section {
+            max-width: none;
+            margin: 0;
+            padding: 54px max(24px, calc((100vw - 1160px) / 2)) 64px;
+            color: #fff;
+            text-align: left;
+            background: linear-gradient(120deg, var(--nosotros-blue-deep), var(--nosotros-blue) 72%, #1458a5);
+            border-bottom: 6px solid var(--nosotros-yellow);
+        }
+
+        .nosotros-page .team-section h2,
+        .nosotros-page .videos-section h2,
+        .nosotros-page .about-section h1,
+        .nosotros-page .services-section h2,
+        .nosotros-page .values-section h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 750;
+            letter-spacing: -0.035em;
+        }
+
+        .nosotros-page .team-section h2 {
+            color: #fff;
+            margin-bottom: 28px;
+        }
+
+        .nosotros-page .team-section h2::after,
+        .nosotros-page .videos-section h2::after,
+        .nosotros-page .about-section h1::after,
+        .nosotros-page .services-section h2::after,
+        .nosotros-page .values-section h2::after {
+            content: "";
+            display: block;
+            width: 58px;
+            height: 4px;
+            margin-top: 13px;
+            border-radius: 9px;
+            background: var(--nosotros-yellow);
+        }
+
+        .nosotros-page .team-grid {
+            max-width: 1160px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
+        .nosotros-page .team-member {
+            text-align: center;
+            padding: 24px 18px;
+            border: 1px solid rgba(255, 255, 255, .65);
+            border-radius: 18px;
+            box-shadow: 0 16px 34px rgba(0, 20, 55, .2);
+        }
+
+        .nosotros-page .team-member img {
+            width: 150px;
+            height: 150px;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0 4px var(--nosotros-yellow);
+        }
+
+        .nosotros-page .team-member h3,
+        .nosotros-page .service-card h3,
+        .nosotros-page .value-card h3 {
+            color: var(--nosotros-blue);
+        }
+
+        .nosotros-page .team-member p {
+            color: #526174;
+        }
+
+        .nosotros-page .videos-section,
+        .nosotros-page .about-section,
+        .nosotros-page .values-section {
+            max-width: 1160px;
+            padding: 64px 24px;
+        }
+
+        .nosotros-page .videos-section h2,
+        .nosotros-page .about-section h1,
+        .nosotros-page .values-section h2 {
+            color: var(--nosotros-blue);
+            text-align: left;
+        }
+
+        .nosotros-page .videos-section > p {
+            max-width: 650px;
+            margin: 0;
+            color: #58677a;
+            text-align: left;
+            line-height: 1.7;
+        }
+
+        .nosotros-page .videos-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .nosotros-page .video-card,
+        .nosotros-page .service-card,
+        .nosotros-page .value-card {
+            border: 1px solid #e2eaf4;
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 12px 28px rgba(11, 43, 84, .08);
+        }
+
+        .nosotros-page .video-card iframe {
+            display: block;
+            aspect-ratio: 16 / 9;
+            height: auto;
+        }
+
+        .nosotros-page .video-card h4 {
+            padding: 16px 18px;
+            color: var(--nosotros-blue);
+        }
+
+        .nosotros-page .about-section {
+            margin: 8px auto 0;
+            padding: 48px clamp(24px, 6vw, 72px);
+            border-left: 6px solid var(--nosotros-yellow);
+            border-radius: 0 22px 22px 0;
+            background: #eaf1fb;
+            text-align: left;
+        }
+
+        .nosotros-page .about-section p {
+            max-width: 900px;
+            color: #34445a;
+            line-height: 1.85;
+        }
+
+        .nosotros-page .why-cards {
+            max-width: 1160px;
+            margin: 24px auto 0;
+            padding: 0 24px;
+            gap: 18px;
+        }
+
+        .nosotros-page .why-card {
+            border-radius: 16px;
+            box-shadow: 0 10px 24px rgba(11, 43, 84, .07);
+        }
+
+        .nosotros-page .services-section {
+            margin-top: 54px;
+            padding: 64px 24px 72px;
+            color: #fff;
+            background: linear-gradient(120deg, var(--nosotros-blue-deep), var(--nosotros-blue));
+            border-top: 5px solid var(--nosotros-yellow);
+        }
+
+        .nosotros-page .services-section h2 {
+            color: #fff;
+        }
+
+        .nosotros-page .services-desc {
+            color: #dce8f8;
+        }
+
+        .nosotros-page .service-card {
+            padding: 30px 24px;
+            border-top: 4px solid var(--nosotros-yellow);
+            text-align: left;
+        }
+
+        .nosotros-page .service-card p,
+        .nosotros-page .value-card p {
+            color: #58677a;
+            line-height: 1.7;
+        }
+
+        .nosotros-page .service-icon {
+            color: var(--nosotros-yellow);
+        }
+
+        .nosotros-page .values-section {
+            padding-top: 64px;
+            padding-bottom: 76px;
+        }
+
+        .nosotros-page .values-grid {
+            margin-top: 30px;
+            gap: 18px;
+        }
+
+        .nosotros-page .value-card {
+            border-bottom: 4px solid var(--nosotros-yellow);
+        }
+
+        @media (max-width: 768px) {
+            .nosotros-page .team-section {
+                padding: 40px 20px 46px;
+            }
+
+            .nosotros-page .videos-section,
+            .nosotros-page .about-section,
+            .nosotros-page .values-section {
+                padding: 44px 20px;
+            }
+
+            .nosotros-page .videos-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nosotros-page .about-section {
+                margin-inline: 12px;
+            }
+
+            .nosotros-page .services-section {
+                padding: 46px 20px 52px;
+            }
+
+            .nosotros-page .team-grid > .team-member:last-child:nth-child(3n + 1) {
+                grid-column: auto;
+            }
+        }
+            .nosotros-page .top-header {
+            background: linear-gradient(110deg, #052b61, #063b82 75%, #1458a5);
+            border-bottom: 3px solid #f6bd32;
+            box-shadow: 0 8px 24px rgba(5, 35, 78, .22);
+        }
+
+        .nosotros-page .menu a {
+            color: #fff;
+            transition: color .2s ease, background-color .2s ease;
+        }
+
+        .nosotros-page .menu a:hover,
+        .nosotros-page .menu a:focus-visible {
+            color: #f6bd32;
+            background: rgba(255, 255, 255, .1);
+        }
+
+        .nosotros-page .menu a.active {
+            color: #052b61;
+            background: #f6bd32;
+        }
+
+        .nosotros-page .menu a.active:hover,
+        .nosotros-page .menu a.active:focus-visible {
+            color: #052b61;
+            background: #ffd45f;
+        }
+
+        .nosotros-page .team-section::before {
+            content: "SOLGRUPO · PERSONAS QUE TE ACOMPAÑAN";
+            display: block;
+            max-width: 1160px;
+            margin: 0 auto 12px;
+            color: #f6bd32;
+            font-size: .76rem;
+            font-weight: 800;
+            letter-spacing: .16em;
+        }
+
+        .nosotros-page .team-section h2 {
+            max-width: 1160px;
+            margin: 0 auto 28px;
+        }
+
+        .nosotros-page .videos-section {
+            padding-top: 72px;
+            padding-bottom: 72px;
+        }
+
+        .nosotros-page .videos-grid {
+            align-items: stretch;
+        }
+
+        .nosotros-page .video-card:hover,
+        .nosotros-page .service-card:hover,
+        .nosotros-page .value-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(246, 189, 50, .8);
+            box-shadow: 0 18px 34px rgba(11, 43, 84, .14);
+        }
+
+        .nosotros-page .about-section {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #dce7f5;
+            border-left: 6px solid #f6bd32;
+            box-shadow: 0 18px 40px rgba(11, 43, 84, .08);
+        }
+
+        .nosotros-page .about-section h1 {
+            margin-bottom: 24px;
+        }
+
+        .nosotros-page .about-section strong {
+            color: #063b82;
+        }
+
+        .nosotros-page .why-card {
+            border-bottom: 3px solid #f6bd32;
+        }
+
+        .nosotros-page .services-section {
+            position: relative;
+            overflow: hidden;
+            border-bottom: 6px solid #f6bd32;
+        }
+
+        .nosotros-page .services-section h2::after {
+            margin-inline: auto;
+        }
+
+        .nosotros-page .service-card {
+            min-height: 205px;
+            border-top: 0;
+            border-bottom: 4px solid #f6bd32;
+        }
+
+        .nosotros-page .service-icon {
+            width: 54px;
+            height: 54px;
+            display: grid;
+            place-items: center;
+            border-radius: 16px;
+            background: #fff5d8;
+        }
+
+        .nosotros-page .values-section {
+            margin-top: 10px;
+        }
+
+        .nosotros-page .value-card {
+            min-height: 165px;
+            padding: 28px 24px;
+            text-align: left;
+        }
+
+        .nosotros-page .value-card h3 {
+            margin-bottom: 12px;
+        }
+
+        .nosotros-page .aliados-section {
+            padding: 54px 24px;
+            border-top: 1px solid #dce7f5;
+            background: #eaf1fb;
+        }
+
+        .nosotros-page .aliados-section h2 {
+            color: #063b82;
+        }
+
+        .nosotros-page .aliados-section h2::after {
+            content: "";
+            display: block;
+            width: 48px;
+            height: 4px;
+            margin: 12px auto 0;
+            border-radius: 9px;
+            background: #f6bd32;
+        }
+
+        .nosotros-page .aliados-grid a {
+            border: 1px solid #e2eaf4;
+            border-radius: 14px;
+            background: #fff;
+            box-shadow: 0 8px 18px rgba(11, 43, 84, .06);
+            transition: transform .2s ease, box-shadow .2s ease;
+        }
+
+        .nosotros-page .aliados-grid a:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 24px rgba(11, 43, 84, .12);
+        }
+
+        .nosotros-page .footer.footer-atos {
+            margin-top: 0;
+            border-top: 4px solid #f6bd32;
+            background: linear-gradient(120deg, #052b61, #063b82 72%, #1458a5);
+        }
+
+        .nosotros-page .footer-bottom {
+            border-top-color: rgba(255, 255, 255, .22);
+        }
+
+        .nosotros-page .footer-cta {
+            color: #052b61;
+            background: #f6bd32;
+        }
+
+        .nosotros-page .footer-cta:hover {
+            background: #ffd45f;
+        }
+        @media (max-width: 768px) {
+            .nosotros-page .team-section {
+                padding: 40px 20px 46px;
+            }
+
+            .nosotros-page .videos-section,
+            .nosotros-page .about-section,
+            .nosotros-page .values-section {
+                padding: 44px 20px;
+            }
+
+            .nosotros-page .about-section {
+                margin-inline: 12px;
+            }
+
+            .nosotros-page .services-section {
+                padding: 46px 20px 52px;
+            }
+
+            .nosotros-page .values-section {
+                margin-top: 0;
+            }
+
+            .nosotros-page .aliados-section {
+                padding: 40px 18px;
+            }
+        }
+
+        /* Rediseño del pie de página, exclusivo de Nosotros */
+        .nosotros-page .footer.footer-atos {
+            padding: 0 28px 20px;
+            background: linear-gradient(125deg, #041f49 0%, #052b61 48%, #063b82 100%);
+            color: #eaf1fb;
+        }
+
+        .nosotros-page .footer-top-line {
+            height: 5px;
+            width: min(1160px, 100%);
+            margin: 0 auto;
+            background: linear-gradient(90deg, #f6bd32, #ffe59a 48%, #f6bd32);
+        }
+
+        .nosotros-page .footer-container {
+            max-width: 1160px;
+            grid-template-columns: 1.3fr .72fr .9fr 1.35fr;
+            gap: 36px;
+            padding: 48px 0 38px;
+        }
+
+        .nosotros-page .footer-brand {
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .nosotros-page .footer-logo {
+            display: inline-flex;
+            align-items: center;
+            margin: -10px 0 10px;
+        }
+
+        .nosotros-page .footer-logo img {
+            width: auto;
+            max-width: 260px;
+            height: 76px;
+            object-fit: contain;
+            transform: none;
+        }
+
+        .nosotros-page .footer-brand p {
+            max-width: 330px;
+            margin: 0 0 20px;
+            color: #c7d6eb;
+            line-height: 1.75;
+        }
+
+        .nosotros-page .footer-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            padding: 0 20px;
+            border-radius: 999px;
+            font-weight: 750;
+            box-shadow: 0 8px 20px rgba(246, 189, 50, .22);
+            transition: transform .2s ease, background .2s ease;
+        }
+
+        .nosotros-page .footer-cta:hover {
+            transform: translateY(-2px);
+        }
+
+        .nosotros-page .footer-col h4 {
+            margin: 8px 0 18px;
+            color: #f6bd32;
+            font-size: .9rem;
+            font-weight: 800;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+        }
+
+        .nosotros-page .footer-col h4::after {
+            content: "";
+            display: block;
+            width: 34px;
+            height: 3px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background: #f6bd32;
+        }
+
+        .nosotros-page .footer-col ul {
+            gap: 10px;
+        }
+
+        .nosotros-page .footer-col li,
+        .nosotros-page .footer-col a {
+            color: #d3def0;
+            font-size: .92rem;
+            line-height: 1.6;
+        }
+
+        .nosotros-page .footer-col a {
+            transition: color .2s ease;
+        }
+
+        .nosotros-page .footer-col a:hover {
+            color: #f6bd32;
+        }
+
+        .nosotros-page .footer-col-contact .footer-contact-list {
+            gap: 8px;
+        }
+
+        .nosotros-page .footer-contact-list li {
+            margin: 0;
+            padding: 8px 10px;
+            border-left: 2px solid rgba(246, 189, 50, .85);
+            border-radius: 0 8px 8px 0;
+            background: rgba(255, 255, 255, .055);
+            overflow-wrap: anywhere;
+        }
+
+        .nosotros-page .footer-socials.icons {
+            justify-content: flex-start;
+            gap: 9px;
+            margin-top: 16px;
+        }
+
+        .nosotros-page .footer-socials.icons a {
+            display: grid;
+            width: 38px;
+            height: 38px;
+            margin: 0;
+            place-items: center;
+            border: 1px solid rgba(255, 255, 255, .2);
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .08);
+            transition: transform .2s ease, background .2s ease;
+        }
+
+        .nosotros-page .footer-socials.icons a:hover {
+            transform: translateY(-3px);
+            background: #063b82;
+        }
+
+        .nosotros-page .footer-socials.icons img {
+            width: 18px;
+            height: 18px;
+            filter: brightness(0) invert(1);
+        }
+
+        .nosotros-page .footer-bottom {
+            max-width: 1160px;
+            margin: 0 auto;
+            padding: 18px 0 4px;
+            color: #9fb1cb;
+            font-size: .84rem;
+        }
+
+        .nosotros-page .footer-bottom p {
+            line-height: 1.6;
+        }
+
+        @media (max-width: 900px) {
+            .nosotros-page .footer-container {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 32px 24px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nosotros-page .footer.footer-atos {
+                padding: 0 20px 18px;
+            }
+
+            .nosotros-page .footer-container {
+                grid-template-columns: 1fr;
+                gap: 26px;
+                padding: 34px 0 28px;
+            }
+
+            .nosotros-page .footer-brand,
+            .nosotros-page .footer-col,
+            .nosotros-page .footer-col h4 {
+                text-align: center;
+            }
+
+            .nosotros-page .footer-brand {
+                align-items: center;
+            }
+
+            .nosotros-page .footer-col h4::after {
+                margin-inline: auto;
+            }
+
+            .nosotros-page .footer-socials.icons {
+                justify-content: center;
+            }
+        }
+            @media (max-width: 768px) {
+            .home-page .footer-cta, .properties-page .footer-cta, .nosotros-page .footer-cta {
+                align-self: center;
+                min-width: 210px;
+                margin-inline: auto;
+            }
+        }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { width: 100%; margin-top: 24px; padding: 18px; border: 1px solid rgba(246,189,50,.48); border-radius: 16px; background: rgba(255,255,255,.07); text-align: left; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1rem; letter-spacing: .01em; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0 0 10px; color: #d3def0; font-size: .9rem; line-height: 1.6; }
+        .home-page .donation-card span, .properties-page .donation-card span, .nosotros-page .donation-card span { display: block; color: #fff; font-size: .82rem; font-weight: 700; }
+        .home-page .donation-link, .properties-page .donation-link, .nosotros-page .donation-link { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; margin-top: 12px; padding: 0 14px; border-radius: 999px; color: #052b61; background: #f6bd32; font-size: .84rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,background .2s ease; }
+        .home-page .donation-link:hover, .properties-page .donation-link:hover, .nosotros-page .donation-link:hover { transform: translateY(-2px); color: #052b61; background: #ffd45f; }
+        @media (max-width: 600px) { .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { text-align: center; } }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { width: 100%; margin-top: 24px; padding: 18px; border: 1px solid rgba(246,189,50,.55); border-radius: 16px; background: rgba(255,255,255,.07); text-align: left; scroll-margin-top: 110px; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1rem; letter-spacing: .01em; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0 0 12px; color: #d3def0; font-size: .9rem; line-height: 1.6; }
+        .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { display: grid; gap: 4px; margin-top: 9px; padding: 11px 12px; border-left: 3px solid #f6bd32; border-radius: 0 10px 10px 0; background: rgba(255,255,255,.08); }
+        .home-page .donation-payment span, .properties-page .donation-payment span, .nosotros-page .donation-payment span { color: #f6d982; font-size: .77rem; font-weight: 750; }
+        .home-page .donation-payment strong, .properties-page .donation-payment strong, .nosotros-page .donation-payment strong { color: #fff; font-size: 1.16rem; letter-spacing: .07em; }
+        .home-page .donation-payment small, .properties-page .donation-payment small, .nosotros-page .donation-payment small { color: #c7d6eb; font-size: .75rem; line-height: 1.45; }
+        .home-page .donation-link, .properties-page .donation-link, .nosotros-page .donation-link { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; margin-top: 12px; padding: 0 14px; border-radius: 999px; color: #052b61; background: #f6bd32; font-size: .84rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,background .2s ease; }
+        .home-page .donation-link:hover, .properties-page .donation-link:hover, .nosotros-page .donation-link:hover { transform: translateY(-2px); color: #052b61; background: #ffd45f; }
+        .floating-donation { position: fixed; left: 22px; bottom: 24px; z-index: 998; display: inline-flex; align-items: center; gap: 9px; min-height: 54px; padding: 6px 17px 6px 7px; border: 1px solid rgba(255,255,255,.75); border-radius: 999px; color: #052b61; background: #f6bd32; box-shadow: 0 10px 26px rgba(5,35,78,.25); font-size: .9rem; font-weight: 800; text-decoration: none; transition: transform .2s ease,box-shadow .2s ease; }
+        .floating-donation:hover { transform: translateY(-3px); color: #052b61; box-shadow: 0 14px 30px rgba(5,35,78,.32); }
+        .floating-donation-emoji { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; background: #fff; font-size: 1.25rem; }
+        @media (max-width: 600px) { .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { text-align: center; } .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { text-align: left; } .floating-donation { left: 12px; bottom: 18px; min-height: 50px; padding-right: 13px; font-size: .82rem; } .floating-donation-emoji { width: 36px; height: 36px; } }
+        .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: 1.15fr .72fr .92fr 1.45fr; gap: 32px; align-items: start; }
+        .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-column: 1 / -1; display: grid; grid-template-columns: 1.1fr 1fr 1fr; align-items: center; gap: 16px; margin: 8px 0 0; padding: 20px 24px; border: 1px solid rgba(246,189,50,.4); border-radius: 18px; background: rgba(255,255,255,.045); text-align: left; }
+        .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { padding-right: 14px; }
+        .home-page .donation-card h4, .properties-page .donation-card h4, .nosotros-page .donation-card h4 { margin: 0 0 8px; color: #f6bd32; font-size: 1.05rem; letter-spacing: 0; text-transform: none; }
+        .home-page .donation-card p, .properties-page .donation-card p, .nosotros-page .donation-card p { margin: 0; color: #c7d6eb; font-size: .88rem; line-height: 1.6; }
+        .home-page .donation-payment, .properties-page .donation-payment, .nosotros-page .donation-payment { min-height: 86px; display: grid; align-content: center; gap: 4px; margin: 0; padding: 12px 14px; border-left: 3px solid #f6bd32; border-radius: 0 10px 10px 0; background: rgba(255,255,255,.08); text-align: left; }
+        .home-page .donation-payment strong, .properties-page .donation-payment strong, .nosotros-page .donation-payment strong { font-size: 1.08rem; letter-spacing: .04em; overflow-wrap: anywhere; }
+        @media (max-width: 1100px) {
+            .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 24px; }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-template-columns: repeat(2,minmax(0,1fr)); }
+            .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { grid-column: 1 / -1; }
+        }
+        @media (max-width: 600px) {
+            .home-page .footer-container, .properties-page .footer-container, .nosotros-page .footer-container { grid-template-columns: 1fr; gap: 24px; }
+            .home-page .donation-card, .properties-page .donation-card, .nosotros-page .donation-card { grid-template-columns: 1fr; gap: 10px; padding: 18px; }
+            .home-page .donation-copy, .properties-page .donation-copy, .nosotros-page .donation-copy { grid-column: auto; padding-right: 0; text-align: center; }
+        }</style>
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z16WLJKMRE"></script>
 <script>
@@ -252,6 +919,10 @@ y una experiencia satisfactoria para nuestros clientes.
     
 
 </main>
+<a class="floating-donation" href="#donar" aria-label="Apoya a Solgrupo; ver datos para donar">
+    <span class="floating-donation-emoji" aria-hidden="true">💛</span>
+    <span>Apoyar a Solgrupo</span>
+</a>
 <!--whatsapp flotante-->
 <a
   href="https://wa.me/573161498625?text=Hola%2C%20buen%20día.%20Estoy%20interesado%20en%20recibir%20información%20sobre%20una%20propiedad%20de%20Inmobiliaria%20Solgrupo.%20¿Podrían%20brindarme%20más%20detalles,%20por%20favor?"
@@ -372,7 +1043,22 @@ y una experiencia satisfactoria para nuestros clientes.
         </div>
 
 
-    </div>
+            <aside class="donation-card" id="donar" aria-label="Apoya el crecimiento de Inmobiliaria Solgrupo">
+            <div class="donation-copy">
+                <h4>¿Nos ayudas a llegar más lejos?</h4>
+                <p>Tu aporte impulsa el crecimiento de Solgrupo y nos ayuda a llevar nuestros servicios a más lugares y comunidades.</p>
+            </div>
+            <div class="donation-payment">
+                <span>Bancolombia · Cuenta de ahorros</span>
+                <strong>55500002278</strong>
+                <small>Solgrupo Servicios y Asesorías S.A.S. · NIT 901624674</small>
+            </div>
+            <div class="donation-payment">
+                <span>Llave Bre-B · inmobiliariaSolgrupo</span>
+                <strong>0090377284</strong>
+            </div>
+        </aside>
+</div>
 
     <!-- PARTE INFERIOR -->
     <div class="footer-bottom">
