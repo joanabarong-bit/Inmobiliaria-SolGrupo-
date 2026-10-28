@@ -8,21 +8,21 @@ const propiedades = [
 {
     tipo: "Casa",
     nombre: "Casa Urbana",
-    referencia: "C. 007",
-    imagenes: ["Ref. C. 07/1.png",
-             "Ref. C. 07/2.jpg",
-             "Ref. C. 07/3.jpg",
-             "Ref. C. 07/4.jpg",
-             "Ref. C. 07/5.jpg",
-             "Ref. C. 07/6.jpg",
-             "Ref. C. 07/7.jpg",
-             "Ref. C. 07/8.jpg",
-             "Ref. C. 07/9.jpg",
-             "Ref. C. 07/10.jpeg",
-             "Ref. C. 07/11.png",
-             "Ref. C. 07/12.jpg",
-             "Ref. C. 07/13.jpg",
-             "Ref. C. 07/14.jpg",],
+    referencia: "C. 006",
+    imagenes: ["Ref. C. 06/1.png",
+             "Ref. C. 06/2.jpg",
+             "Ref. C. 06/3.jpg",
+             "Ref. C. 06/4.jpg",
+             "Ref. C. 06/5.jpg",
+             "Ref. C. 06/6.jpg",
+             "Ref. C. 06/7.jpg",
+             "Ref. C. 06/8.jpg",
+             "Ref. C. 06/9.jpg",
+             "Ref. C. 06/10.jpeg",
+             "Ref. C. 06/11.png",
+             "Ref. C. 06/12.jpg",
+             "Ref. C. 06/13.jpg",
+             "Ref. C. 06/14.jpg",],
     precio: "$385.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,238 m²",
@@ -289,51 +289,68 @@ Cuenta con casa de un nivel con:
   },
 {
     tipo: "Casa",
-    nombre: "Casa Urbana",
-    referencia: "C. 006",
-    imagenes: ["Ref. C. 06/1.jpeg",
-             "Ref. C. 06/2.jpeg",
-             "Ref. C. 06/3.jpeg",
-             "Ref. C. 06/4.jpeg",
-             "Ref. C. 06/5.jpeg",],
-    precio: "$350.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "146 m²",
-    areaPrivada:"146 m²",
-    areaConstruida:"146 m²",
-    habitaciones: "4",
-    banos: "3",
-    descripcion: `🏡 HERMOSA CASA EN VENTA – BARRIO RICAURTE
+    nombre: "Casa Rural",
+    referencia: "C. 004",
+    imagenes: ["Ref. C. 04/1.jpeg",
+             "Ref. C. 04/2.jpeg",
+             "Ref. C. 04/3.jpeg",
+             "Ref. C. 04/4.jpeg",
+             "Ref. C. 04/5.jpeg",
+             "Ref. C. 04/6.jpeg",
+             "Ref. C. 04/7.jpeg",
+             "Ref. C. 04/8.jpeg",
+             "Ref. C. 04/9.jpeg",
+             "Ref. C. 04/10.jpeg",
+             "Ref. C. 04/11.jpeg",
+             "Ref. C. 04/12.jpeg",
+             "Ref. C. 04/13.jpeg",
+             "Ref. C. 04/14.jpeg",
+             "Ref. C. 04/15.jpeg",
+             "Ref. C. 04/16.jpeg",
+             "Ref. C. 04/17.jpeg",
+             "Ref. C. 04/18.jpeg",
+             "Ref. C. 04/19.jpeg",
+             "Ref. C. 04/20.jpeg",],
+    precio: "$250.000.000",
+    ubicacion: "Duitama, Boyacá",
+    area: "69 m²",
+    areaPrivada:"69 m²",
+    areaConstruida:"- m²",
+    habitaciones: "3",
+    banos: "2",
+    descripcion: `🏡✨ ¡CASA EN VENTA EN DUITAMA, BOYACÁ! ✨🏡
 
-✨ Excelente oportunidad de inversión en una de las zonas con mayor proyección y fácil acceso. 
-Esta propiedad se encuentra muy bien ubicada, cerca de vías principales y zonas comerciales. 
-Su distribución la convierte en una excelente opción tanto para vivienda familiar como para
- obtener ingresos por arrendamiento.
+📍 Conjunto Illimani, sector La Gruta
 
-📍 Ubicación: Barrio Ricaurte
-📐 Área: 146 m²
-✨ Distribución del inmueble
+Hermosa casa de 3 pisos en conjunto cerrado, ideal para tu familia 👨‍👩‍👧‍👦
 
-🏠 Casa primer piso:
-🛏️ 2 habitaciones
-🚿 1 baño
+📐 69 m²
+🏗️ Construcción tradicional, 10 años de construida
+🏙️ Predio urbano
+
+🔹 Primer Piso:
 🛋️ Sala comedor
-🍽️ Cocina
-🌿 Patio
+🍳 Cocina integral
+🧺 Zona de lavandería
+🌿 Antejardín
+🚘 Parqueadero
 
-🏘️ 2 apartaestudios segundo piso:
-🛏️ 1 habitación
-🚿 1 baño cada uno
+🔹 Segundo Piso:
+🛏️ Alcoba amplia con clóset
+📚 Habitación pequeña con clóset, perfecta como estudio
+🚿 Baño social con ducha eléctrica
+🪟 Persianas instaladas
 
-🔧 Servicios
-💧 Agua
-⚡ Energía eléctrica
-🔥 Gas domiciliario
+🔹 Tercer Piso:
+👑 Habitación principal con baño privado, clóset y persianas
+☀️ Excelente iluminación natural
+👕 Terraza o patio de ropas
 
-📋 Documentación
-✅ Documentos totalmente al día
-✅ Propiedad urbana`,
-    videoYoutube: "https://youtu.be/roUAGcg7LGo?si=Q0gXQdPvFRutFmUV",
+Servicios:
+✅ Gas natural
+✅ Energía eléctrica
+✅ Agua municipal`,
+    videoYoutube: "https://youtu.be/CREtn1rBUxk?si=tl5LQZONXQ9ZleFJ",
   },
 {
     tipo: "Casa",
