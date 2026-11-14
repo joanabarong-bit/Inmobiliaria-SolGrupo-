@@ -3353,6 +3353,46 @@ Cuentan con todos los servicios públicos (agua, luz, gas y alcantarillado), esc
 👉Pasa la red de gas natural `,
     videoYoutube: "https://youtu.be/H4JFyabHQow",
   },
+{
+    tipo: "Lote",
+    nombre: "Lote Urbano",
+    referencia: "LT. 029",
+    imagenes: ["Ref. LT. 29/1.jpeg",
+             "Ref. LT. 29/2.jpeg",
+             "Ref. LT. 29/3.jpeg",
+             "Ref. LT. 29/4.jpeg",
+             "Ref. LT. 29/5.jpeg",
+             "Ref. LT. 29/6.jpeg",
+             "Ref. LT. 29/7.jpeg",
+             "Ref. LT. 29/8.jpeg",],
+    precio: "$2.100.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "4.600 m²",
+    areaPrivada:"4.600 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🏗️ SE VENDE LOTE URBANO – MONIQUIRÁ, BOYACÁ 🏗️
+
+🚨 Moniquirá está creciendo hacia arriba, y este es el lote donde 
+puede empezar tu historia. 🚨
+Las mejores oportunidades no esperan… y esta es una de ellas. ✨
+Mientras otros siguen buscando, tú puedes tener en tus manos el 
+espacio perfecto para desarrollar un proyecto de vivienda, 
+comercial o de inversión que marque la diferencia. 💼📈
+
+📐 Área total: 4.600 m²
+✅ Terreno plano con leve pendiente
+✅ Medidas perfectas de frente y fondo
+✅ Apto para construir edificios de hasta 10 pisos
+✅ Documentos al día
+✅ Disponibilidad de servicios públicos:
+
+⚡ Energía eléctrica
+💧 Acueducto
+🔥 Gas natural `,
+    videoYoutube: "https://youtu.be/LOZj2cHzB60?si=9QA3M7wFNb7KU9Bl",
+  },
   
    /* ================= finca ================= */
 
