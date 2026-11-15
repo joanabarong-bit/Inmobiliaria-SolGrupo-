@@ -716,7 +716,7 @@ A tan solo 2 kilómetros del casco urbano, sobre la vía que conduce de Barbosa 
              "Ref. C. 02/6.jpeg",
              "Ref. C. 02/7.jpeg",
              "Ref. C. 02/8.jpeg",],
-    precio: "$129.000.000",
+    precio: "$119.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "650 m²",
     areaPrivada:"650 m²",
@@ -3398,35 +3398,40 @@ comercial o de inversión que marque la diferencia. 💼📈
 
 {
     tipo: "Finca",
-    nombre: "Finca",
+    nombre: "Finca Rural",
     referencia: "FC. 001",
-    imagenes: ["Ref. FC. 01/1.jpg",
-             "Ref. FC. 01/2.jpg",
-             "Ref. FC. 01/3.jpg",
-             "Ref. FC. 01/4.jpg",
-             "Ref. FC. 01/5.jpg",
-             "Ref. FC. 01/6.jpg",
-             "Ref. FC. 01/7.jpg",
-             "Ref. FC. 01/8.jpg",
-             "Ref. FC. 01/9.jpg",
-             "Ref. FC. 01/10.jpg",],
-    precio: "$65.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "1,890 m²",
-    areaPrivada:"1,890 m²",
-    areaConstruida:"20 m²",
+    imagenes: ["Ref. FC. 01/1.jpeg",
+             "Ref. FC. 01/2.jpeg",
+             "Ref. FC. 01/3.jpeg",
+             "Ref. FC. 01/4.jpeg",],
+    precio: "$125.000.000",
+    ubicacion: "Puente Nacional, Santander",
+    area: "4.861 m²",
+    areaPrivada:"4.861 m²",
+    areaConstruida:"-",
     habitaciones: "-",
     banos: "-",
-    descripcion: `📌VENTA DE LOTE EN MONIQUIRÁ- BOYACÁ
+    descripcion: `🌿 ¡SE VENDE FINCA SOÑADA EN PUENTE NACIONAL! 🌿
 
-👉Lote ubicado en vereda monjas
-📏Área: 1.890 mt2 
-📏Área Cuarto de Herramientas: 20 mt2 
-✔ Punto de Agua del acueducto Veredal
-✔ Punto de luz
-✔ Terreno Semiplano 
-✔ Vía de Acceso Hasta el Lote `,
-    videoYoutube: "https://youtu.be/5OZRUQm98Bk",
+¿Cansado del ruido, el tráfico y la rutina? 😮‍💨 Es hora de cambiar 
+el paisaje… y de invertir en algo que de verdad vale la pena. 🌿
+🏞️ Te presentamos una finca con todo listo para empezar tu nueva historia:
+
+Características:
+
+📐 Área: 4.861 m²
+
+🏗️ Zonas planas perfectas para construir sin complicaciones.
+
+🌄 Áreas onduladas con vistas que no te vas a cansar de mirar.
+
+🔒 Entrada privada, porque tu tranquilidad no se negocia.
+
+✅ Servicios disponibles:
+agua 💧
+luz ⚡
+gas 🔥`,
+    videoYoutube: "-",
   },
 {
     tipo: "Finca",
@@ -3482,15 +3487,52 @@ comercial o de inversión que marque la diferencia. 💼📈
   },
 {
     tipo: "Finca",
-    nombre: "Finca",
+    nombre: "Finca Rural",
     referencia: "FC. 003",
-    imagenes: ["Ref. FC. 03/1.JPG",
-             "Ref. FC. 03/2.JPG",
-             "Ref. FC. 03/3.JPG",
-             "Ref. FC. 03/4.JPG",
-             "Ref. FC. 03/5.JPG",
-             "Ref. FC. 03/6.JPG",],
-    precio: "$225.000.000",
+    imagenes: ["Ref. FC. 03/1.jpeg",
+             "Ref. FC. 03/2.jpeg",
+             "Ref. FC. 03/3.jpeg",
+             "Ref. FC. 03/4.jpeg",
+             "Ref. FC. 03/5.jpeg",
+             "Ref. FC. 03/6.jpeg",
+             "Ref. FC. 03/7.jpeg",
+             "Ref. FC. 03/8.jpeg",],
+    precio: "$195.000.000",
+    ubicacion: "Puente Nacional, Santander",
+    area: "7.635 m²",
+    areaPrivada:"7.635 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🌿 ¡SE VENDE HERMOSA FINCA EN PUENTE NACIONAL! 🌿
+
+¿Buscas un espacio para descansar, invertir o hacer realidad tu proyecto en el campo? Esta finca es para ti.
+
+Características:
+
+📐 Área: 7.635 m²
+
+⛰️ Topografía mixta: zonas planas ideales para construir y áreas onduladas con vistas que enamoran
+
+🚪 Entrada privada, para mayor comodidad y tranquilidad
+
+💡 Disponibilidad de servicios públicos:
+💧 Agua
+⚡ Energía eléctrica
+🔥 Gas`,
+    videoYoutube: "https://youtu.be/Y_JrYyTMwm8?si=jRN0XH-OxdgA3-O_",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 004",
+    imagenes: ["Ref. FC. 04/1.JPG",
+             "Ref. FC. 04/2.JPG",
+             "Ref. FC. 04/3.JPG",
+             "Ref. FC. 04/4.JPG",
+             "Ref. FC. 04/5.JPG",
+             "Ref. FC. 04/6.JPG",],
+    precio: "$215.000.000",
     ubicacion: "Vélez, Santander",
     area: "20,000 m²",
     areaPrivada:"20,000 m²",
@@ -3511,46 +3553,6 @@ Municipio de Barbosa a Vélez santander .
     videoYoutube: "https://youtu.be/j7MCWWhJDbM",
   },
 {
-    tipo: "Finca",
-    nombre: "Finca Rural",
-    referencia: "FC. 004",
-    imagenes: ["Ref. FC. 04/1.jpeg",
-             "Ref. FC. 04/2.jpeg",
-             "Ref. FC. 04/3.jpeg",
-             "Ref. FC. 04/4.jpeg",],
-    precio: "$240.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "1,850 m²",
-    areaPrivada:"1,850 m²",
-    areaConstruida:"170 m²",
-    habitaciones: "4",
-    banos: "3",
-    descripcion: `📌Venta de casa campestre en Moniquirá – Boyacá - Colombia
-
-📐Área total: 1.850 metros cuadrados 
-📐Área Construida: 170 metros cuadrados
-
-✅Distancia: a 12.3 km, 30 minutos del Parque principal, el 60% de la vía es pavimentada y el otro 40% es destapado se recomienda tener un carro campero, para acceder a la propiedad. 
-
-🟡Primer piso
-✅2 habitaciones
-✅1 baños
-✅Sala – Comedor
-✅2 Cocinas, una de gas y otra de leña
-✅parquedero
-✅Amplio Corredor
-✅Excelente vista
-✅2 niveles
-✅Punto de Agua, luz eléctrica, y gas natural 
-
-🟡Segundo piso
-✅2 habitaciones 
-✅1 baño
-✅ Sauna 
-✅ sala de estar `,
-    videoYoutube: "https://youtu.be/C0sbg68cJwg",
-  },
-  {
     tipo: "Finca",
     nombre: "Finca Rural",
     referencia: "FC. 005",
@@ -3654,7 +3656,7 @@ Ubicada en Neval y Cruces
   },
 {
     tipo: "Finca",
-    nombre: "Finca",
+    nombre: "Finca Rural",
     referencia: "FC. 007",
     imagenes: ["Ref. FC. 07/1.jpeg",
              "Ref. FC. 07/2.jpeg",
@@ -3664,7 +3666,64 @@ Ubicada en Neval y Cruces
              "Ref. FC. 07/6.jpeg",
              "Ref. FC. 07/7.jpeg",
              "Ref. FC. 07/8.jpeg",
-             "Ref. FC. 07/9.jpeg",],
+             "Ref. FC. 07/9.jpeg",
+             "Ref. FC. 07/10.jpeg",
+             "Ref. FC. 07/11.jpeg",
+             "Ref. FC. 07/12.jpeg",
+             "Ref. FC. 07/13.jpeg",
+             "Ref. FC. 07/14.jpeg",],
+    precio: "$270.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "3.588 m²",
+    areaPrivada:"3.588 m²",
+    areaConstruida:"140 m²",
+    habitaciones: "4",
+    banos: "1",
+    descripcion: `🌿🏡 FINCA EN VENTA – MONIQUIRÁ, BOYACÁ 🏡🌿
+
+✨ Una excelente oportunidad para vivir, producir y disfrutar 
+de la tranquilidad del campo.
+
+📐 Área del terreno: 3.588 m²
+🏠 Área construida de la casa: 140 m²
+
+🏡 CARACTERÍSTICAS DE LA VIVIENDA
+
+🛏️ 4 habitaciones
+🚿 1 baño
+🛋️ Sala y comedor amplios
+🍳 2 cocinas: una a gas y otra tradicional a leña
+🌿 Amplios corredores, ideales para disfrutar del entorno 
+y compartir en familia.
+
+🌾 ÁREAS PRODUCTIVAS Y DE TRABAJO
+
+🐔 Galpón de 10 x 22 m
+🧰 Área de trabajo con baño y duchas
+📦 Bodega de almacenamiento
+☕ Cultivo de café
+🍌 Cultivo de plátano
+🌽 Cultivo de mazorca
+🍊🌳 Árboles frutales
+
+🌱 Una propiedad con excelente potencial productivo, amplios 
+espacios y un entorno natural ideal para quienes buscan tranquilidad, 
+naturaleza y la posibilidad de desarrollar actividades agrícolas y productivas.`,
+    videoYoutube: "https://youtu.be/oxeSXCEZ8K8?si=SJWIXiDk-6xGrn8V",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 008",
+    imagenes: ["Ref. FC. 08/1.jpeg",
+             "Ref. FC. 08/2.jpeg",
+             "Ref. FC. 08/3.jpeg",
+             "Ref. FC. 08/4.jpeg",
+             "Ref. FC. 08/5.jpeg",
+             "Ref. FC. 08/6.jpeg",
+             "Ref. FC. 08/7.jpeg",
+             "Ref. FC. 08/8.jpeg",
+             "Ref. FC. 08/9.jpeg",],
     precio: "$290.000.000",
     ubicacion: "Jesús María, Santander",
     area: "20,000 m²",
@@ -3718,19 +3777,19 @@ Ubicada en Neval y Cruces
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 008",
-    imagenes: ["Ref. FC. 08/1.png",
-             "Ref. FC. 08/2.png",
-             "Ref. FC. 08/3.png",
-             "Ref. FC. 08/4.png",
-             "Ref. FC. 08/5.png",
-             "Ref. FC. 08/6.png",
-             "Ref. FC. 08/7.png",
-             "Ref. FC. 08/8.jpeg",
-             "Ref. FC. 08/9.jpeg",
-             "Ref. FC. 08/10.jpeg",
-             "Ref. FC. 08/11.jpeg",
-             "Ref. FC. 08/12.png",],
+    referencia: "FC. 009",
+    imagenes: ["Ref. FC. 09/1.png",
+             "Ref. FC. 09/2.png",
+             "Ref. FC. 09/3.png",
+             "Ref. FC. 09/4.png",
+             "Ref. FC. 09/5.png",
+             "Ref. FC. 09/6.png",
+             "Ref. FC. 09/7.png",
+             "Ref. FC. 09/8.jpeg",
+             "Ref. FC. 09/9.jpeg",
+             "Ref. FC. 09/10.jpeg",
+             "Ref. FC. 09/11.jpeg",
+             "Ref. FC. 09/12.png",],
     precio: "$320.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "19,000 m²",
@@ -3756,22 +3815,22 @@ Escritura pública y matrícula inmobiliaria independiente.`,
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 009",
-    imagenes: ["Ref. FC. 09/1.png",
-             "Ref. FC. 09/2.jpg",
-             "Ref. FC. 09/3.jpg",
-             "Ref. FC. 09/4.jpg",
-             "Ref. FC. 09/5.jpg",
-             "Ref. FC. 09/6.jpg",
-             "Ref. FC. 09/7.jpg",
-             "Ref. FC. 09/8.jpg",
-             "Ref. FC. 09/9.jpg",
-             "Ref. FC. 09/10.jpg",
-             "Ref. FC. 09/11.jpg",
-             "Ref. FC. 09/12.jpg",
-             "Ref. FC. 09/13.jpg",
-             "Ref. FC. 09/14.jpg",
-             "Ref. FC. 09/15.jpg",],
+    referencia: "FC. 010",
+    imagenes: ["Ref. FC. 10/1.png",
+             "Ref. FC. 10/2.jpg",
+             "Ref. FC. 10/3.jpg",
+             "Ref. FC. 10/4.jpg",
+             "Ref. FC. 10/5.jpg",
+             "Ref. FC. 10/6.jpg",
+             "Ref. FC. 10/7.jpg",
+             "Ref. FC. 10/8.jpg",
+             "Ref. FC. 10/9.jpg",
+             "Ref. FC. 10/10.jpg",
+             "Ref. FC. 10/11.jpg",
+             "Ref. FC. 10/12.jpg",
+             "Ref. FC. 10/13.jpg",
+             "Ref. FC. 10/14.jpg",
+             "Ref. FC. 10/15.jpg",],
     precio: "$330.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "7,300 m²",
@@ -3799,18 +3858,18 @@ La casa cuenta con:
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 010",
-    imagenes: ["Ref. FC. 10/1.jpeg",
-             "Ref. FC. 10/2.jpeg",
-             "Ref. FC. 10/3.jpeg",
-             "Ref. FC. 10/4.jpeg",
-             "Ref. FC. 10/5.jpeg",
-             "Ref. FC. 10/6.jpeg",
-             "Ref. FC. 10/7.jpeg",
-             "Ref. FC. 10/8.jpeg",
-             "Ref. FC. 10/9.jpeg",
-             "Ref. FC. 10/10.jpeg",
-             "Ref. FC. 10/11.jpeg",],
+    referencia: "FC. 011",
+    imagenes: ["Ref. FC. 11/1.jpeg",
+             "Ref. FC. 11/2.jpeg",
+             "Ref. FC. 11/3.jpeg",
+             "Ref. FC. 11/4.jpeg",
+             "Ref. FC. 11/5.jpeg",
+             "Ref. FC. 11/6.jpeg",
+             "Ref. FC. 11/7.jpeg",
+             "Ref. FC. 11/8.jpeg",
+             "Ref. FC. 11/9.jpeg",
+             "Ref. FC. 11/10.jpeg",
+             "Ref. FC. 11/11.jpeg",],
     precio: "$340.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "80,000 m²",
@@ -3837,19 +3896,70 @@ La casa cuenta con:
 {
     tipo: "Finca",
     nombre: "Finca Rural",
-    referencia: "FC. 011",
-    imagenes: ["Ref. FC. 11/1.jpg",
-             "Ref. FC. 11/2.jpg",
-             "Ref. FC. 11/3.jpg",
-             "Ref. FC. 11/4.jpg",
-             "Ref. FC. 11/5.jpg",
-             "Ref. FC. 11/6.jpg",
-             "Ref. FC. 11/7.jpg",
-             "Ref. FC. 11/8.jpg",
-             "Ref. FC. 11/9.jpg",
-             "Ref. FC. 11/10.jpg",
-             "Ref. FC. 11/11.jpg",
-             "Ref. FC. 11/12.jpg",],
+    referencia: "FC. 012",
+    imagenes: ["Ref. FC. 12/1.jpeg",
+             "Ref. FC. 12/2.jpeg",
+             "Ref. FC. 12/3.jpeg",
+             "Ref. FC. 12/4.jpeg",
+             "Ref. FC. 12/5.jpeg",
+             "Ref. FC. 12/6.jpeg",
+             "Ref. FC. 12/7.jpeg",
+             "Ref. FC. 12/8.jpeg",
+             "Ref. FC. 12/9.jpeg",
+             "Ref. FC. 12/10.jpeg",
+             "Ref. FC. 12/11.jpeg",
+             "Ref. FC. 12/12.jpeg",],
+    precio: "$350.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "739 m²",
+    areaPrivada:"739 m²",
+    areaConstruida:"131 m²",
+    habitaciones: "4",
+    banos: "2",
+    descripcion: `🏡✨ ¡VENTA DE CASA CAMPESTRE EN MONIQUIRÁ, BOYACÁ! ✨🏡
+
+¿Sueñas con vivir rodeado de naturaleza, tranquilidad y aire puro? 
+🌿☀️ ¡Esta es tu oportunidad!
+
+📍 Ubicación: Vereda Monjas, Moniquirá – Boyacá, muy cerca de la vía 
+principal Moniquirá – Villa de Leyva 🛣️
+
+📐 Área del lote: 739 m²
+🏠 Área construida: 131 m²
+
+🛏️ Características de la casa:
+✅ 4 habitaciones
+✅ 2 baños
+✅ Sala-comedor
+✅ Cocina
+✅ Corredores
+✅ Zona de lavandería exterior
+✅ Amplias zonas verdes 🌳
+
+💡 Servicios:
+💧 Punto de agua
+⚡ Punto de luz
+
+🌄 Entorno tranquilo y natural
+📑 Documentos al día, listos para una transacción segura y exitosa`,
+    videoYoutube: "https://youtu.be/cI5HFnyKZf8?si=BJtps87ZZXDjzedF",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca Rural",
+    referencia: "FC. 013",
+    imagenes: ["Ref. FC. 13/1.jpg",
+             "Ref. FC. 13/2.jpg",
+             "Ref. FC. 13/3.jpg",
+             "Ref. FC. 13/4.jpg",
+             "Ref. FC. 13/5.jpg",
+             "Ref. FC. 13/6.jpg",
+             "Ref. FC. 13/7.jpg",
+             "Ref. FC. 13/8.jpg",
+             "Ref. FC. 13/9.jpg",
+             "Ref. FC. 13/10.jpg",
+             "Ref. FC. 13/11.jpg",
+             "Ref. FC. 13/12.jpg",],
     precio: "$420.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "32,000 m²",
@@ -3882,68 +3992,22 @@ Características Casa
   },
 {
     tipo: "Finca",
-    nombre: "Finca Rural",
-    referencia: "FC. 012",
-    imagenes: ["Ref. FC. 12/1.jpeg",
-             "Ref. FC. 12/2.jpeg",
-             "Ref. FC. 12/3.jpeg",
-             "Ref. FC. 12/4.jpeg",],
-    precio: "$445.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "6,000 m²",
-    areaPrivada:"6,000 m²",
-    areaConstruida:"159 m²",
-    habitaciones: "4",
-    banos: "4",
-    descripcion: `👉Venta de Finca campestre
-📍 Ubicación: Moniquirá – Boyacá
-
-Cuenta con un área total de: 6.000 Mt2
-Área construida de la casa: 159 metros cuadrados
-
-Además, tiene dos vías de acceso:
-1. A una distancia aproximada de 8 Km – 16 Minutos sobre vía pavimentada que de Moniquirá conduce a Togui.
-2. A una distancia de 6 km por via al Gaque en Moniquirá – Boyacá (vía no pavimentada)
-
-Cuenta con casa de un nivel con:
-
-✔️4 habitaciones
-✔️4 baños (3 baños privados y 1 social)️
-✔️Cocina
-✔️Sala Comedor
-✔️Dos puertas de ingreso a la casa
-✔️Parqueadero
-✔️Kiosco cerca a la quebrada con camino en piedra
-✔️BBQ
-✔️Linda a quebrada
-✔️Tanques de reserva
-✔️Sistema hidro Flow
-✔️Cuarto de herramientas
-✔️Piscina con cascadas
-✔️Zona de regaderas externas
-✔️los servicios, excepto gas natural, la red avanza, está a más o menos 1 km de la propiedad.
-✔️Terreno plano – ondulado
-✔️La propiedad pertenece a la vereda de Neval y Cruces de Moniquirá- Boyacá`,
-    videoYoutube: "https://youtu.be/AJa1UqjWiE8",
-  },
-{
-    tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 013",
-    imagenes: ["Ref. FC. 13/1.jpg",
-             "Ref. FC. 13/2.jpg",
-             "Ref. FC. 13/3.jpg",
-             "Ref. FC. 13/4.jpg",
-             "Ref. FC. 13/5.jpg",
-             "Ref. FC. 13/6.jpg",
-             "Ref. FC. 13/7.jpg",
-             "Ref. FC. 13/8.jpg",
-             "Ref. FC. 13/9.jpg",
-             "Ref. FC. 13/10.jpg",
-             "Ref. FC. 13/11.jpg",
-             "Ref. FC. 13/12.jpg",
-             "Ref. FC. 13/13.jpg",
-             "Ref. FC. 13/14.jpg",],
+    referencia: "FC. 014",
+    imagenes: ["Ref. FC. 14/1.jpg",
+             "Ref. FC. 14/2.jpg",
+             "Ref. FC. 14/3.jpg",
+             "Ref. FC. 14/4.jpg",
+             "Ref. FC. 14/5.jpg",
+             "Ref. FC. 14/6.jpg",
+             "Ref. FC. 14/7.jpg",
+             "Ref. FC. 14/8.jpg",
+             "Ref. FC. 14/9.jpg",
+             "Ref. FC. 14/10.jpg",
+             "Ref. FC. 14/11.jpg",
+             "Ref. FC. 14/12.jpg",
+             "Ref. FC. 14/13.jpg",
+             "Ref. FC. 14/14.jpg",],
     precio: "$530.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "10,700 m²",
@@ -3971,21 +4035,21 @@ Cuenta con casa de un nivel con:
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 014",
-    imagenes: ["Ref. FC. 14/1.jpeg",
-             "Ref. FC. 14/2.jpeg",
-             "Ref. FC. 14/3.jpeg",
-             "Ref. FC. 14/4.jpeg",
-             "Ref. FC. 14/5.jpg",
-             "Ref. FC. 14/6.jpg",
-             "Ref. FC. 14/7.jpg",
-             "Ref. FC. 14/8.jpg",
-             "Ref. FC. 14/9.jpg",
-             "Ref. FC. 14/10.jpg",
-             "Ref. FC. 14/11.jpg",
-             "Ref. FC. 14/12.jpeg",
-             "Ref. FC. 14/13.jpg",
-             "Ref. FC. 14/14.jpg",],
+    referencia: "FC. 015",
+    imagenes: ["Ref. FC. 15/1.jpeg",
+             "Ref. FC. 15/2.jpeg",
+             "Ref. FC. 15/3.jpeg",
+             "Ref. FC. 15/4.jpeg",
+             "Ref. FC. 15/5.jpg",
+             "Ref. FC. 15/6.jpg",
+             "Ref. FC. 15/7.jpg",
+             "Ref. FC. 15/8.jpg",
+             "Ref. FC. 15/9.jpg",
+             "Ref. FC. 15/10.jpg",
+             "Ref. FC. 15/11.jpg",
+             "Ref. FC. 15/12.jpeg",
+             "Ref. FC. 15/13.jpg",
+             "Ref. FC. 15/14.jpg",],
     precio: "$690.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "21,760 m²",
@@ -4021,18 +4085,18 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
 {
     tipo: "Finca",
     nombre: "Finca",
-    referencia: "FC. 015",
-    imagenes: ["Ref. FC. 15/1.jpg",
-             "Ref. FC. 15/2.jpg",
-             "Ref. FC. 15/3.jpg",
-             "Ref. FC. 15/4.jpg",
-             "Ref. FC. 15/5.jpg",
-             "Ref. FC. 15/6.jpg",
-             "Ref. FC. 15/7.jpg",
-             "Ref. FC. 15/8.jpg",
-             "Ref. FC. 15/9.jpg",
-             "Ref. FC. 15/10.jpg",
-             "Ref. FC. 15/11.jpg",],
+    referencia: "FC. 016",
+    imagenes: ["Ref. FC. 16/1.jpg",
+             "Ref. FC. 16/2.jpg",
+             "Ref. FC. 16/3.jpg",
+             "Ref. FC. 16/4.jpg",
+             "Ref. FC. 16/5.jpg",
+             "Ref. FC. 16/6.jpg",
+             "Ref. FC. 16/7.jpg",
+             "Ref. FC. 16/8.jpg",
+             "Ref. FC. 16/9.jpg",
+             "Ref. FC. 16/10.jpg",
+             "Ref. FC. 16/11.jpg",],
     precio: "$715.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "80,000 m²",
@@ -4057,45 +4121,6 @@ La finca es de terreno plano, con buena vista y vías de acceso, sin embargo, se
 🍀Buena Vegetación 
 🍀Tranquilo`,
     videoYoutube: "https://youtu.be/SZsVw5NdoH0",
-  },
-{
-    tipo: "Finca",
-    nombre: "Finca",
-    referencia: "FC. 016",
-    imagenes: ["Ref. FC. 16/1.jpg",
-             "Ref. FC. 16/2.jpg",
-             "Ref. FC. 16/3.jpg",
-             "Ref. FC. 16/4.jpg",
-             "Ref. FC. 16/5.jpg",
-             "Ref. FC. 16/6.jpg",
-             "Ref. FC. 16/7.jpg",
-             "Ref. FC. 16/8.jpg",
-             "Ref. FC. 16/9.jpg",
-             "Ref. FC. 16/10.jpg",
-             "Ref. FC. 16/11.jpg",
-             "Ref. FC. 16/12.jpg",],
-    precio: "$830.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "130,000 m²",
-    areaPrivada:"130,000 m²",
-    areaConstruida:"-",
-    habitaciones: "-",
-    banos: "-",
-    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ 
-
-Ubicada en Perímetro Rural
-📐Área: 13 Hectáreas
-✅Características 
-✅Sembrada plátano y cítricos 
-✅Punto de luz 
-✅2 Aljibe (Nacimiento de agua)
-✅Excelente vista 
-✅Linda a una quebrada
-✅Topografía mixta
-✅Bosque natural
-✅Queda a tan solo 5 kilómetros del parque principal de Moniquirá. Esta finca goza de abundante agua, vegetación, cuenta con servicio de luz, tiene la disponibilidad de instalar un punto de agua veredal. 
-Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
-    videoYoutube: "https://youtu.be/_zFwDW1L4Ho",
   },
 {
     tipo: "Finca",
@@ -4163,7 +4188,46 @@ Características de la casa 2:
              "Ref. FC. 18/5.jpg",
              "Ref. FC. 18/6.jpg",
              "Ref. FC. 18/7.jpg",
-             "Ref. FC. 18/8.jpg",],
+             "Ref. FC. 18/8.jpg",
+             "Ref. FC. 18/9.jpg",
+             "Ref. FC. 18/10.jpg",
+             "Ref. FC. 18/11.jpg",
+             "Ref. FC. 18/12.jpg",],
+    precio: "$900.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "130,000 m²",
+    areaPrivada:"130,000 m²",
+    areaConstruida:"-",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `📌 VENTA DE FINCA EN MONIQUIRÁ – BOYACÁ 
+
+Ubicada en Perímetro Rural
+📐Área: 13 Hectáreas
+✅Características 
+✅Sembrada plátano y cítricos 
+✅Punto de luz 
+✅2 Aljibe (Nacimiento de agua)
+✅Excelente vista 
+✅Linda a una quebrada
+✅Topografía mixta
+✅Bosque natural
+✅Queda a tan solo 5 kilómetros del parque principal de Moniquirá. Esta finca goza de abundante agua, vegetación, cuenta con servicio de luz, tiene la disponibilidad de instalar un punto de agua veredal. 
+Distancia: 10 minutos Minutos del parque principal de Moniquirá `,
+    videoYoutube: "https://youtu.be/_zFwDW1L4Ho",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca",
+    referencia: "FC. 019",
+    imagenes: ["Ref. FC. 19/1.jpg",
+             "Ref. FC. 19/2.jpg",
+             "Ref. FC. 19/3.jpg",
+             "Ref. FC. 19/4.jpg",
+             "Ref. FC. 19/5.jpg",
+             "Ref. FC. 19/6.jpg",
+             "Ref. FC. 19/7.jpg",
+             "Ref. FC. 19/8.jpg",],
     precio: "$1.050.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "50,000 m²",
@@ -4231,21 +4295,21 @@ Comprar toda la propiedad
 {
     tipo: "Finca",
     nombre: "Finca Productiva",
-    referencia: "FC. 019",
-    imagenes: ["Ref. FC. 19/1.jpg",
-             "Ref. FC. 19/2.jpg",
-             "Ref. FC. 19/3.jpg",
-             "Ref. FC. 19/4.jpg",
-             "Ref. FC. 19/5.jpg",
-             "Ref. FC. 19/6.jpg",
-             "Ref. FC. 19/7.jpg",
-             "Ref. FC. 19/8.jpg",
-             "Ref. FC. 19/9.jpg",
-             "Ref. FC. 19/10.jpg",
-             "Ref. FC. 19/11.jpg",
-             "Ref. FC. 19/12.jpg",
-             "Ref. FC. 19/13.jpg",
-             "Ref. FC. 19/14.jpg",],
+    referencia: "FC. 020",
+    imagenes: ["Ref. FC. 20/1.jpg",
+             "Ref. FC. 20/2.jpg",
+             "Ref. FC. 20/3.jpg",
+             "Ref. FC. 20/4.jpg",
+             "Ref. FC. 20/5.jpg",
+             "Ref. FC. 20/6.jpg",
+             "Ref. FC. 20/7.jpg",
+             "Ref. FC. 20/8.jpg",
+             "Ref. FC. 20/9.jpg",
+             "Ref. FC. 20/10.jpg",
+             "Ref. FC. 20/11.jpg",
+             "Ref. FC. 20/12.jpg",
+             "Ref. FC. 20/13.jpg",
+             "Ref. FC. 20/14.jpg",],
     precio: "$1.700.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "100,000 m²",
@@ -4264,6 +4328,51 @@ Comprar toda la propiedad
 ✅Hasta el mes de marzo de 2024 tiene agendado Maquila.
 ✅ Incluye casa Sencilla`,
     videoYoutube: "https://youtu.be/KRf_whScWk4",
+  },
+{
+    tipo: "Finca",
+    nombre: "Finca Productiva",
+    referencia: "FC. 021",
+    imagenes: ["Ref. FC. 21/1.jpeg",
+             "Ref. FC. 21/2.jpeg",
+             "Ref. FC. 21/3.jpeg",
+             "Ref. FC. 21/4.jpeg",
+             "Ref. FC. 21/5.jpeg",
+             "Ref. FC. 21/6.jpeg",
+             "Ref. FC. 21/7.jpeg",],
+    precio: "$2.600.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "340,000 m²",
+    areaPrivada:"340,000 m²",
+    areaConstruida:"791,64 m²",
+    habitaciones: "-",
+    banos: "-",
+    descripcion: `🌿🏡 FINCA RURAL PRODUCTIVA EN VENTA – MONIQUIRÁ, BOYACÁ
+
+✨ Gran oportunidad de inversión y desarrollo agropecuario
+
+📍 Ubicación: San Esteban
+📐 Área: 34 hectáreas
+🏭 Molino construido: 700 m²
+🏠 Casa: 91,64 m²
+🛣️ Ubicación estratégica: Sobre carretera vereda
+
+🌿 Características:
+
+🌱 Topografía: Ligera
+🏡 Tipo de inmueble: Finca rural
+🌾 Zona: Agropecuaria
+📋 Uso de suelo: Agropecuario
+
+💧 Recurso hídrico: Dispone de 2 aljibes de agua y 2 quebradas
+🚗 Transporte: Público, taxis y vehículos particulares
+
+💧 Servicios: Acueducto veredal, gas natural y energía eléctrica
+
+🌱 Propiedad con gran extensión, acceso sobre carretera veredal, 
+topografía favorable, disponibilidad de agua e infraestructura existente,
+ideal para actividades agropecuarias, proyectos productivos e inversión rural.`,
+    videoYoutube: "https://youtu.be/taKch6gYFH8?si=6m8cJQ04iw5SFeS4",
   },
 ];
 
