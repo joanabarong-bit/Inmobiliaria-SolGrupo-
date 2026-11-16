@@ -4401,16 +4401,23 @@ function esVistaMobile() {
   return window.matchMedia(`(max-width: ${MOBILE_MAX_WIDTH}px)`).matches;
 }
 
+function obtenerMiniaturaTarjeta(src) {
+  const ruta = String(src || "").replace(/\\/g, "/");
+  if (!ruta || /^(?:https?:|data:|\/)/i.test(ruta)) return ruta;
+  return `thumbnails/${ruta.replace(/\.[^/.]+$/, ".jpg")}`;
+}
+
 function crearCardPropiedad(p, index, cargaPrioritaria = false) {
   const card = document.createElement("div");
   card.className = "property-card";
 
   const imagenPrincipal = p.imagenes?.[0] || "";
+  const imagenTarjeta = obtenerMiniaturaTarjeta(imagenPrincipal);
   const loadingMode = cargaPrioritaria ? "eager" : "lazy";
   const fetchPriority = cargaPrioritaria ? "high" : "low";
 
   card.innerHTML = `
-      <img src="${imagenPrincipal}" alt="${p.nombre}" loading="${loadingMode}" decoding="async" fetchpriority="${fetchPriority}">
+      <img src="${imagenTarjeta}" alt="${p.nombre}" loading="${loadingMode}" decoding="async" fetchpriority="${fetchPriority}" width="640" height="480">
       <div class="property-body">
         <h3>${p.nombre}</h3>
            <p class="property-ref">📌 Ref: ${p.referencia}</p>
@@ -4420,8 +4427,9 @@ function crearCardPropiedad(p, index, cargaPrioritaria = false) {
       </div>
     `;
 
-  if (index < MOBILE_BATCH_SIZE) {
-    precargarImagen(imagenPrincipal);
+  const imagen = card.querySelector("img");
+  if (imagenPrincipal) {
+    imagen.addEventListener("error", () => { imagen.src = imagenPrincipal; }, { once: true });
   }
 
   return card;
@@ -4431,10 +4439,11 @@ function renderizarCardsEnLotes(lista, contenedor) {
   const primerLote = lista.slice(0, MOBILE_BATCH_SIZE);
   const restantes = lista.slice(MOBILE_BATCH_SIZE);
 
+  const fragmentoInicial = document.createDocumentFragment();
   primerLote.forEach((propiedad, index) => {
-    const card = crearCardPropiedad(propiedad, index, true);
-    contenedor.appendChild(card);
+    fragmentoInicial.appendChild(crearCardPropiedad(propiedad, index, index < 2));
   });
+  contenedor.appendChild(fragmentoInicial);
 
   if (!restantes.length) return;
 
@@ -4490,10 +4499,11 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
     return;
   }
 
+  const fragmento = document.createDocumentFragment();
   listaOrdenada.forEach((p, index) => {
-    const card = crearCardPropiedad(p, index, index < 4);
-    contenedor.appendChild(card);
+    fragmento.appendChild(crearCardPropiedad(p, index, index < 2));
   });
+  contenedor.appendChild(fragmento);
 }
 
 function precargarImagen(src) {
@@ -4508,10 +4518,7 @@ function precargarImagenesCercanas() {
   if (!imagenesActuales.length) return;
 
   const siguiente = (imagenActual + 1) % imagenesActuales.length;
-  const anterior = (imagenActual - 1 + imagenesActuales.length) % imagenesActuales.length;
-
   precargarImagen(imagenesActuales[siguiente]);
-  precargarImagen(imagenesActuales[anterior]);
 }
 
 function iniciarAnimacionesScroll() {
@@ -4631,7 +4638,6 @@ function verDetalle(referencia) {
   detalleImg.fetchPriority = "high";
   detalleImg.src = imagenesActuales[0];
   detalleImg.alt = p.nombre;
-  precargarImagenesCercanas();
 
   // Información
   document.getElementById("detalleTitulo").textContent = p.nombre;

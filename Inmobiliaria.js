@@ -553,6 +553,12 @@ Incluye Parqueadero
 
 /* ================= MOSTRAR PROPIEDADES ================= */
 
+function obtenerMiniaturaTarjeta(src) {
+    const ruta = String(src || "").replace(/\\/g, "/");
+    if (!ruta || /^(?:https?:|data:|\/)/i.test(ruta)) return ruta;
+    return `thumbnails/${ruta.replace(/\.[^/.]+$/, ".jpg")}`;
+}
+
 function mostrarPropiedades(lista, titulo = "Propiedades") {
     const contenedor = document.getElementById("contenedorPropiedades");
     const tituloProp = document.getElementById("tituloPropiedades");
@@ -572,21 +578,29 @@ function mostrarPropiedades(lista, titulo = "Propiedades") {
         return;
     }
 
+    const fragmento = document.createDocumentFragment();
     lista.forEach(p => {
-        contenedor.innerHTML += `
-            <div class="property-card">
-             <span class="badge">Destacada</span>
-                <img src="${p.imagenes[0]}" alt="${p.nombre}" loading="lazy" decoding="async">
-                <div class="property-body">
-                    <h3>${p.nombre}</h3>
-                     <p class="property-ref">📌 Ref: ${p.referencia || "Sin referencia"}</p>
-                    <p class="location">📍 ${p.ubicacion}</p>
-                    <p class="price">${p.precio}</p>
-                    <button onclick="verDetalle('${p.referencia || p.nombre}')">Ver detalles</button>
-                </div>
+        const tarjeta = document.createElement("div");
+        tarjeta.className = "property-card";
+        tarjeta.innerHTML = `
+            <span class="badge">Destacada</span>
+            <img src="${obtenerMiniaturaTarjeta(p.imagenes[0])}" alt="${p.nombre}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="480">
+            <div class="property-body">
+                <h3>${p.nombre}</h3>
+                <p class="property-ref">📌 Ref: ${p.referencia || "Sin referencia"}</p>
+                <p class="location">📍 ${p.ubicacion}</p>
+                <p class="price">${p.precio}</p>
+                <button onclick="verDetalle('${p.referencia || p.nombre}')">Ver detalles</button>
             </div>
         `;
+        const imagen = tarjeta.querySelector("img");
+        const imagenOriginal = p.imagenes?.[0] || "";
+        if (imagenOriginal) {
+            imagen.addEventListener("error", () => { imagen.src = imagenOriginal; }, { once: true });
+        }
+        fragmento.appendChild(tarjeta);
     });
+    contenedor.appendChild(fragmento);
 }
 
 function precargarImagen(src) {
@@ -601,10 +615,7 @@ function precargarImagenesCercanas() {
     if (!imagenesActuales.length) return;
 
     const siguiente = (imagenActual + 1) % imagenesActuales.length;
-    const anterior = (imagenActual - 1 + imagenesActuales.length) % imagenesActuales.length;
-
     precargarImagen(imagenesActuales[siguiente]);
-    precargarImagen(imagenesActuales[anterior]);
 }
 
 function iniciarAnimacionesScroll() {
@@ -705,7 +716,6 @@ function verDetalle(identificador) {
     detalleImg.fetchPriority = "high";
     detalleImg.src = imagenesActuales[0];
     detalleImg.alt = p.nombre;
-    precargarImagenesCercanas();
 
 
     // info

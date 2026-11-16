@@ -750,41 +750,51 @@ footer {
     text-decoration: none;
 }
 
-.whatsapp-float {
+.social-floats {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: #25D366;
+    right: max(20px, env(safe-area-inset-right));
+    top: 50%;
+    bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: 1000;
+    transform: translateY(-50%);
+}
+
+.social-float {
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    z-index: 1000;
     transition: transform 0.3s ease;
 }
 
-.whatsapp-float img {
-    width: 32px;
-    height: 32px;
+.social-float img {
+    width: 27px;
+    height: 27px;
+    filter: brightness(0) invert(1);
 }
 
-.whatsapp-float:hover {
+.social-float:hover {
     transform: scale(1.1);
 }
 
-.whatsapp-tooltip {
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-    background: #25D366;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+.social-float-whatsapp {
+    background-color: #25D366;
+}
+
+.social-float-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-float-facebook {
+    background-color: #1877F2;
 }
 
 .aliados-section {
@@ -1946,15 +1956,22 @@ body.detalle-modal-open .top-header {
         width: min(260px, 82vw);
     }
 
-    .whatsapp-float {
-        width: 56px;
-        height: 56px;
-        right: 20px;
-        bottom: 14px;
+    .social-floats {
+        right: max(14px, env(safe-area-inset-right));
+        top: auto;
+        bottom: max(14px, env(safe-area-inset-bottom));
+        gap: 10px;
+        transform: none;
     }
 
-    .whatsapp-tooltip {
-        display: none;
+    .social-float {
+        width: 48px;
+        height: 48px;
+    }
+
+    .social-float img {
+        width: 25px;
+        height: 25px;
     }
 
     .modal {
@@ -2136,10 +2153,22 @@ body.detalle-modal-open .top-header {
     .dropdown-content {
          left: 50%;
         right: auto;
-        width: min(280px, calc(100vw - 56px));
+        width: min(220px, calc(100vw - 36px));
         min-width: 0;
         transform: translateX(-50%);
         border-radius: 14px;
+    }
+
+    .dropdown-content a {
+        padding: 9px 12px;
+        line-height: 1.25;
+    }
+
+    .dropdown.open .dropdown-content {
+        max-height: min(360px, calc(100vh - var(--mobile-dropdown-top, 76px) - 16px));
+        overflow-y: auto;
+        transform: translateX(-50%);
+        -webkit-overflow-scrolling: touch;
     }
 }
 
@@ -2357,16 +2386,22 @@ body.detalle-modal-open .top-header {
         max-width: 100%;
     }
 
-    .whatsapp-float {
-        width: 68px;
-        height: 68px;
+    .social-floats {
         right: max(14px, env(safe-area-inset-right));
+        top: auto;
         bottom: max(14px, env(safe-area-inset-bottom));
+        gap: 10px;
+        transform: none;
     }
 
-    .whatsapp-float img {
-        width: 36px;
-        height: 36px;
+    .social-float {
+        width: 48px;
+        height: 48px;
+    }
+
+    .social-float img {
+        width: 25px;
+        height: 25px;
     }
 }
 @media (max-width: 768px) {
