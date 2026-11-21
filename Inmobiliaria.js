@@ -547,6 +547,77 @@ Incluye Parqueadero
 👉 JACUZZI`,
     videoYoutube: "https://www.youtube.com/watch?v=GQDtOe1y39o",
   },
+{
+    tipo: "Casa",
+    nombre: "Casa en Condominio",
+    referencia: "C. 013",
+    imagenes: ["Ref. C. 13/1.jpeg",
+             "Ref. C. 13/2.jpeg",
+             "Ref. C. 13/3.jpeg",
+             "Ref. C. 13/4.jpeg",
+             "Ref. C. 13/5.jpeg",
+             "Ref. C. 13/6.jpeg",
+             "Ref. C. 13/7.jpeg",
+             "Ref. C. 13/8.jpeg",
+             "Ref. C. 13/9.jpeg",
+             "Ref. C. 13/10.jpeg",
+             "Ref. C. 13/11.jpeg",
+             "Ref. C. 13/12.jpeg",],
+    precio: "$565.000.000",
+    ubicacion: "Tunja, Boyacá",
+    area: "270 m²",
+    areaPrivada:"270 m²",
+    areaConstruida:"270 m²",
+    habitaciones: "6",
+    banos: "4",
+    descripcion: `🏡 CASA EN VENTA TUNJA – BOYACÁ
+
+📍 Ubicada en la Urbanización Balcones del Norte, Tunja, en un sector 
+residencial ideal para quienes buscan una propiedad amplia, funcional y 
+con excelentes posibilidades de inversión.
+
+✨ Esta hermosa casa de 3 niveles cuenta además con un apartamento totalmente 
+independiente, ofreciendo espacios cómodos para toda la familia y una excelente
+ alternativa para generar ingresos adicionales.
+
+📐 Área: 270 m²
+
+🏠 Apartamento independiente:
+
+El apartamento cuenta con acceso y espacios completamente independientes, distribuidos de la siguiente manera:
+
+🛋️ Sala-comedor
+🍳 Cocina integral
+🛏️ 3 habitaciones
+🚿 1 habitación con baño privado
+🚽 1 baño social
+🧺 Patio de ropas
+🚗 Garaje amplio
+
+🏡 Segundo Nivel:
+
+🛏️ 2 habitaciones
+🚿 1 habitación con baño privado y closet
+🚽 Baño social
+🍳 Cocina integral
+🛋️ Sala-comedor con chimenea
+🧺 Patio de ropas
+
+✨ Tercer Nivel:
+
+Disfruta de un espacio más privado y especial:
+🛏️ Habitación principal
+🚿 Baño privado
+👗 Walking closet
+🖥️ Estudio
+🌿 Balcón
+☀️ Terraza
+
+📑 Documentación:
+
+✅ Documentos totalmente al día, lista para realizar el proceso de compra.`,
+    videoYoutube: "https://youtu.be/w9lbCLF2ScQ",
+  },
 ];
 
 

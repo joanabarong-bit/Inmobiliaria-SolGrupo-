@@ -243,14 +243,14 @@ Ubicado Cerca al Centro
              "Ref. Apt. 04/14.jpeg",],
     precio: "$390.000.000",
     ubicacion: "Barbosa, Santander",
-    area: "222 m²",
-    areaPrivada:"222 m²",
-    areaConstruida:"222 m²",
+    area: "195 m²",
+    areaPrivada:"195 m²",
+    areaConstruida:"195 m²",
     habitaciones: "3",
     banos: "3",
     descripcion: `📍 VENTA DE APARTAMENTO PH- ZONA BBQ- 
 📌 UBICACIÓN: BARBOSA SANTANDER
-📏 Área 222 mt2
+📏 Área 195 mt2
 
 🏢 Propiedad compuesta de 3 niveles, ultimo nivel zona BBQ
 
@@ -1829,76 +1829,24 @@ Espacio para aproximadamente 3 vehículos`,
   },
 {
     tipo: "Casa",
-    nombre: "Casa Campestre",
-    referencia: "C. 022",
-    imagenes: ["Ref. C. 22/1.jpg",
-             "Ref. C. 22/2.jpg",
-             "Ref. C. 22/3.jpg",
-             "Ref. C. 22/4.jpg",
-             "Ref. C. 22/5.jpg",
-             "Ref. C. 22/6.jpg",
-             "Ref. C. 22/7.jpg",
-             "Ref. C. 22/8.jpg",
-             "Ref. C. 22/9.jpg",
-             "Ref. C. 22/10.jpg",
-             "Ref. C. 22/11.jpg",
-             "Ref. C. 22/12.jpg",
-             "Ref. C. 22/13.jpg",
-             "Ref. C. 22/14.jpg",
-             "Ref. C. 22/15.jpg",],
-    precio: "$790.000.000",
-    ubicacion: "Moniquirá, Boyacá",
-    area: "2,400 m²",
-    areaPrivada:"2,400 m²",
-    areaConstruida:"180 m²",
-    habitaciones: "4",
-    banos: "5",
-    descripcion: `Venta de Casa Campestre en Moniquirá - Boyacá
-
-📍 Lugar: Moniquirá – Boyacá
-✔️ A un 1Km del parque principal de Moniquirá
-✔️ Punto de agua Municipal
-📏 Área Total: 2.400 Mt2
-📏 Área Construida: 180 Mt2
-
-👉 Características Casa
-
-🛌🏻 No. de Habitaciones: 4
-🛀 No. de Baños: 5
-✔️ Parqueadero
-✔️ Cocina Integral
-✔️ Sala - comedor
-✔️Cuarto de lavandería
-👉 Características Generales
-
-✔️Senderos Peatonales
-✔️Hermoso pozo natural con pescados
-✔️2 niveles
-✔️Dentro de condominio
-
-❌ NO PERMUTA`,
-    videoYoutube: "https://youtu.be/ILXghX1kTbI",
-  },
-{
-    tipo: "Casa",
     nombre: "Casa Quinta en Condominio",
-    referencia: "C. 023",
-    imagenes: ["Ref. C. 23/1.jpeg",
-             "Ref. C. 23/2.jpeg",
-             "Ref. C. 23/3.jpeg",
-             "Ref. C. 23/4.jpeg",
-             "Ref. C. 23/5.jpeg",
-             "Ref. C. 23/6.jpeg",
-             "Ref. C. 23/7.jpeg",
-             "Ref. C. 23/8.jpeg",
-             "Ref. C. 23/9.jpeg",
-             "Ref. C. 23/10.jpeg",
-             "Ref. C. 23/11.jpeg",
-             "Ref. C. 23/12.jpeg",
-             "Ref. C. 23/13.jpeg",
-             "Ref. C. 23/14.jpeg",
-             "Ref. C. 23/15.jpeg",],
-    precio: "$820.000.000",
+    referencia: "C. 022",
+    imagenes: ["Ref. C. 22/1.jpeg",
+             "Ref. C. 22/2.jpeg",
+             "Ref. C. 22/3.jpeg",
+             "Ref. C. 22/4.jpeg",
+             "Ref. C. 22/5.jpeg",
+             "Ref. C. 22/6.jpeg",
+             "Ref. C. 22/7.jpeg",
+             "Ref. C. 22/8.jpeg",
+             "Ref. C. 22/9.jpeg",
+             "Ref. C. 22/10.jpeg",
+             "Ref. C. 22/11.jpeg",
+             "Ref. C. 22/12.jpeg",
+             "Ref. C. 22/13.jpeg",
+             "Ref. C. 22/14.jpeg",
+             "Ref. C. 22/15.jpeg",],
+    precio: "$780.000.000",
     ubicacion: "Moniquirá, Boyacá",
     area: "1,600 m²",
     areaPrivada:"1,600 m²",
@@ -1939,6 +1887,58 @@ Espacio para aproximadamente 3 vehículos`,
 ➡ Alcantarillado del municipio
 ➡ Pago de administración mensual : 150.000 pesos `,
     videoYoutube: "https://youtu.be/M7qr_Q6sFcg",
+  },
+{
+    tipo: "Casa",
+    nombre: "Casa Campestre",
+    referencia: "C. 023",
+    imagenes: ["Ref. C. 23/1.jpg",
+             "Ref. C. 23/2.jpg",
+             "Ref. C. 23/3.jpg",
+             "Ref. C. 23/4.jpg",
+             "Ref. C. 23/5.jpg",
+             "Ref. C. 23/6.jpg",
+             "Ref. C. 232/7.jpg",
+             "Ref. C. 23/8.jpg",
+             "Ref. C. 23/9.jpg",
+             "Ref. C. 23/10.jpg",
+             "Ref. C. 23/11.jpg",
+             "Ref. C. 23/12.jpg",
+             "Ref. C. 23/13.jpg",
+             "Ref. C. 23/14.jpg",
+             "Ref. C. 23/15.jpg",],
+    precio: "$790.000.000",
+    ubicacion: "Moniquirá, Boyacá",
+    area: "2,400 m²",
+    areaPrivada:"2,400 m²",
+    areaConstruida:"180 m²",
+    habitaciones: "4",
+    banos: "5",
+    descripcion: `Venta de Casa Campestre en Moniquirá - Boyacá
+
+📍 Lugar: Moniquirá – Boyacá
+✔️ A un 1Km del parque principal de Moniquirá
+✔️ Punto de agua Municipal
+📏 Área Total: 2.400 Mt2
+📏 Área Construida: 180 Mt2
+
+👉 Características Casa
+
+🛌🏻 No. de Habitaciones: 4
+🛀 No. de Baños: 5
+✔️ Parqueadero
+✔️ Cocina Integral
+✔️ Sala - comedor
+✔️Cuarto de lavandería
+👉 Características Generales
+
+✔️Senderos Peatonales
+✔️Hermoso pozo natural con pescados
+✔️2 niveles
+✔️Dentro de condominio
+
+❌ NO PERMUTA`,
+    videoYoutube: "https://youtu.be/ILXghX1kTbI",
   },
 {
     tipo: "Casa",
